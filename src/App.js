@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useLayoutEffect, useRef } from "react";
+import { gsap } from "gsap";
+import Home from "./components/Home";
 
-function App() {
+export default function App() {
+  const root = useRef();
+
+  useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      // all your animations go in here...
+      gsap.to(".box", {
+        rotation: "+=360",
+        duration: 1,
+        transition: "ease-out",
+      });
+    }, root); // <- scopes all selector text to the root element
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div ref={root} className="app">
+      <Home />
     </div>
   );
 }
-
-export default App;
