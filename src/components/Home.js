@@ -1,11 +1,14 @@
 import React from "react";
+import SceneOne from "./SceneOne";
 
 export default function Home() {
   const [activepage, setactivepage] = React.useState(1);
   return (
     <div>
       <h1>CAMIKARRA</h1>
-      <div className="box">Scroll</div>
+      {/* <div className="box">Scroll</div> */}
+
+      {activepage ? <SceneOne /> : <p>Page 2</p>}
       <button
         variant="contained"
         color="primary"
@@ -13,9 +16,8 @@ export default function Home() {
           setactivepage(!activepage);
         }}
       >
-        Change active page
+        Next
       </button>
-      {activepage ? <p>Page 1</p> : <p>Page 2</p>}
     </div>
   );
 }
