@@ -1,8 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import Home from "./components/Home";
-import SceneOne from "./components/SceneOne";
-
 export default function App() {
   const root = useRef();
 
