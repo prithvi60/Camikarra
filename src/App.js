@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
-import Home from "./components/Home";
+// import Home from "./components/Home";
+import SceneOne from "./components/SceneOne";
 
 export default function App() {
   const root = useRef();
@@ -20,7 +21,8 @@ export default function App() {
 
   return (
     <div ref={root} className="app">
-      <Home />
+      {/* <Home /> */}
+      <SceneOne/>
     </div>
   );
 }

@@ -1,14 +1,14 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -45,4 +45,75 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+/* Setting the animation */
+@keyframes handMovement {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-0.25%);
+    transform: rotate(1.5deg);
+  }
+}
+
+@keyframes textShow {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes textScaleAndShow {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes plantMovement {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(5%);
+    transform: translateY(10%);
+    transform: rotateY(19deg);
+  }
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+svg {
+  width: 85%;
+  margin: auto;
+}
+#extendedArm {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running handMovement;
+}
+#primaryText {
+  transform-origin: center;
+  animation: 4s ease-in-out infinite alternate textScaleAndShow;
+}
+#secondaryText {
+  animation: 3s linear infinite alternate textShow;
+}
+#tertiaryText {
+  animation: 7s linear infinite alternate textShow;
+}
+#green-terrain,
+#haystack-3{
+  transform-origin: top right;
+  animation: 1.2s ease-in-out infinite alternate plantMovement;
 }
