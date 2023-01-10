@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
-// import Home from "./components/Home";
+import Home from "./components/Home";
 import SceneOne from "./components/SceneOne";
 
 export default function App() {
@@ -9,10 +9,12 @@ export default function App() {
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       // all your animations go in here...
-      gsap.to(".box", {
-        rotation: "+=360",
-        duration: 1,
-        transition: "ease-out",
+ 
+      gsap.from(".scrollText", {
+        duration: 2,
+        xPercent: -300,
+        ease: "power4",
+        stagger: 0.1
       });
     }, root); // <- scopes all selector text to the root element
 
@@ -21,8 +23,8 @@ export default function App() {
 
   return (
     <div ref={root} className="app">
-      {/* <Home /> */}
-      <SceneOne/>
+      <Home />
+      {/* <SceneOne/> */}
     </div>
   );
 }

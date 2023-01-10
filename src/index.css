@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #e0c98e !important;
 }
 
 code {
@@ -94,10 +95,7 @@ main {
   justify-content: center;
   align-items: center;
 }
-svg {
-  width: 85%;
-  margin: auto;
-}
+
 #extendedArm {
   transform-origin: 85% 11%;
   animation: 1.5s ease-in-out infinite alternate running handMovement;
@@ -113,7 +111,7 @@ svg {
   animation: 7s linear infinite alternate textShow;
 }
 #green-terrain,
-#haystack-3{
+#haystack-3 {
   transform-origin: top right;
   animation: 1.2s ease-in-out infinite alternate plantMovement;
 }
