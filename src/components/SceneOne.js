@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as FirstScene } from "../assets/first.svg";
+import { ReactComponent as FirstScene } from "../assets/scene1/first.svg";
 import Button from "react-bootstrap/Button";
 import useSound from "use-sound";
 import line1 from "../assets/scene1line1.mp3";
@@ -8,11 +8,12 @@ import line3 from "../assets/scene1line3.mp3";
 import music from "../assets/music.mp3";
 
 import {
-  // MouseParallaxChild,
+  MouseParallaxChild,
   MouseParallaxContainer,
 } from "react-parallax-mouse";
 import { BsSoundwave } from "react-icons/bs";
 import Captions from "./Captions";
+// import { BackLayer, MidLayer, TopLayer } from "./vectors";
 
 export default function SceneOne({ setactivepage }) {
   const [playline1, { stop: stopline1, duration: durationline1 }] =
@@ -22,12 +23,9 @@ export default function SceneOne({ setactivepage }) {
 
   const [playline3, { stop: stopline3, duration: durationline3 }] =
     useSound(line3);
-  const [playmusic] = useSound(
-    music,
-    {
-      volume: 0.4,
-    }
-  );
+  const [playmusic] = useSound(music, {
+    volume: 0.4,
+  });
 
   const [on, setOn] = React.useState(false);
   const [next, setNext] = React.useState(false);
@@ -84,16 +82,26 @@ export default function SceneOne({ setactivepage }) {
       containerStyle={{
         height: "100vh",
         width: "100vw",
+        zIndex: "2",
       }}
       globalFactorX={0.3}
       globalFactorY={0.3}
       resetOnLeave
     >
-      {/* <MouseParallaxChild
-          factorX={0.6}
-          factorY={0.1}
-        > */}
-      <FirstScene />
+      <MouseParallaxChild
+        factorX={0.05}
+        factorY={0.1}
+        containerStyle={{
+          height: "100vh",
+          width: "100vw",
+          zIndex: "3",
+        }}
+      >
+        <FirstScene />
+        {/* <BackLayer /> */}
+        {/* <MidLayer /> */}
+        {/* <TopLayer /> */}
+      </MouseParallaxChild>
       <Captions lineCount={lineCount} />
       <div
         style={{

@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { ReactComponent as Parchment } from "../assets/parchment.svg";
-import gsap from "gsap";
-import { Flip } from "gsap/Flip";
+// import gsap from "gsap";
+// import { Flip } from "gsap/Flip";
 export default function LandingPage({ setactivepage }) {
   const ref = React.useRef();
   // const q = gsap.utils.selector(ref);
