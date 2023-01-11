@@ -7,6 +7,7 @@ import line1 from "../assets/scene1line1.mp3";
 import line2 from "../assets/scene1line2.mp3";
 import line3 from "../assets/scene1line3.mp3";
 import music from "../assets/music.mp3";
+import { Link } from "react-router-dom";
 
 import {
   MouseParallaxChild,
@@ -152,17 +153,19 @@ export default function SceneOne({ setactivepage }) {
           <BsSoundwave />
         </button>
         {next && (
-          <button
-            className="btn btn-three"
-            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-            onClick={() => {
-              setactivepage((count) => count + 1);
-              setLineCount(1);
-              StopScene();
-            }}
-          >
-            Next...
-          </button>
+          <Link to="/two">
+            <button
+              className="btn btn-three"
+              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+              onClick={() => {
+                setactivepage((count) => count + 1);
+                setLineCount(1);
+                StopScene();
+              }}
+            >
+              Next...
+            </button>
+          </Link>
         )}
       </div>
       {/* </MouseParallaxChild> */}

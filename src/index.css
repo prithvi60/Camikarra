@@ -282,3 +282,47 @@ main {
   border-radius: 12px;
   padding: 0.2em;
 }
+/* Page  Transition*/
+.container {
+  position: relative;
+}
+
+/* .page {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+} */
+
+@keyframes animate-pop {
+  0% {
+    transform: translateX(-300);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+.page-enter {
+  opacity: 0;
+  transform: scale(1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition:opacity 300ms transform 500ms;
+  /* animation-name: animate-pop;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-duration: 1s; */
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
