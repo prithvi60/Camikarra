@@ -40,17 +40,22 @@ export default function LandingPage({ setactivepage }) {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        alignItems:"center"
       }}
       ref={ref}
       onClick={() => {
         setactivepage((count) => count + 1);
       }}
     >
+      <div className={"scrolled"}>
       <Parchment className="underline" />
+      </div>
       <h2
         className="scrollText "
         style={{
           marginRight: "28px",
+          position:"absolute",
+          color:"#2e261d"
         }}
       >
         {" "}

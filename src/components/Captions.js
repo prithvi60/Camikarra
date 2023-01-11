@@ -13,7 +13,7 @@ export default function Captions({ lineCount }) {
         >
           <Card body style={{fontSize:"small"}}>
             {" "}
-            Jin JiJi is a dry gin specially designed and crafted in India.{" "}
+            Jin JiJi is a dry gin specially designed and crafted in India...{" "}
           </Card>
         </div>
       ) : lineCount === 2 ? (
@@ -26,7 +26,7 @@ export default function Captions({ lineCount }) {
         >
           <Card body>
             The distillers wanted to create a spirit that would pack the
-            richness and diversity of Indian botanicals in each sip.
+            richness and diversity of Indian botanicals in each sip...
           </Card>
         </div>
       ) : (
@@ -39,7 +39,7 @@ export default function Captions({ lineCount }) {
         >
           <Card body>
             The design for the label was inspired by the intricate motifs and
-            flavourful botanicals found in this magical country.
+            flavourful botanicals found in this magical country...
           </Card>
         </div>
       )}

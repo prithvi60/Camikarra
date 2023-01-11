@@ -1,6 +1,7 @@
 import React from "react";
+// import { gsap } from "gsap";
+
 import { ReactComponent as FirstScene } from "../assets/scene1/first.svg";
-import Button from "react-bootstrap/Button";
 import useSound from "use-sound";
 import line1 from "../assets/scene1line1.mp3";
 import line2 from "../assets/scene1line2.mp3";
@@ -30,7 +31,24 @@ export default function SceneOne({ setactivepage }) {
   const [on, setOn] = React.useState(false);
   const [next, setNext] = React.useState(false);
   const [lineCount, setLineCount] = React.useState(1);
+  // const el = useRef();
+  // const tl = useRef();
+  // useLayoutEffect(() => {
+  //   let ctx = gsap.context(() => {
+  //     // all your animations go in here...
+  //     console.log("scnene ani")
+  //     tl.current = gsap
+  //       .timeline()
+  //       .to("#sun", {
+  //         rotate: 360,
+  //       })
+  //       .to("#cloud", {
+  //         x: 100,
+  //       });
+  //   }, el);
 
+  //   return () => ctx.revert();
+  // }, []);
   const PlayScene = () => {
     setLineCount(1);
     playmusic();
@@ -89,8 +107,10 @@ export default function SceneOne({ setactivepage }) {
       resetOnLeave
     >
       <MouseParallaxChild
-        factorX={0.05}
-        factorY={0.1}
+        // factorX={0.05}
+        // factorY={0.1}
+        factorX={0}
+        factorY={0.2}
         containerStyle={{
           height: "100vh",
           width: "100vw",
@@ -111,31 +131,38 @@ export default function SceneOne({ setactivepage }) {
           justifyContent: "center",
           width: "100%",
         }}
+        className={"play"}
       >
-        <Button
-          variant="dark"
+        <button
           onClick={() => setOn((o) => !o)}
           style={{
             position: "absolute",
-            bottom: "12px",
+            bottom: "0px",
             right: "32px",
             borderRadius: "50%",
+            borderColor: "transparent",
+            background: "#44391f",
             textAlign: "center",
+            color: "white",
+            display: "flex",
+            padding: "0.8em",
+            fontWeight: "bold",
           }}
         >
           <BsSoundwave />
-        </Button>
+        </button>
         {next && (
-          <Button
-            variant="dark"
+          <button
+            className="btn btn-three"
+            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
             onClick={() => {
               setactivepage((count) => count + 1);
               setLineCount(1);
               StopScene();
             }}
           >
-            Next
-          </Button>
+            Next...
+          </button>
         )}
       </div>
       {/* </MouseParallaxChild> */}

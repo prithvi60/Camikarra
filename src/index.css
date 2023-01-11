@@ -19,6 +19,10 @@ code {
   --dark: #1d1d1d;
   --light: #fff;
   --green: #28a92b;
+  --text-color: hsla(210, 50%, 85%, 1);
+  --shadow-color: hsla(210, 40%, 52%, 0.4);
+  --btn-color: hsl(210, 80%, 42%);
+  --bg-color: #141218;
 }
 
 body {
@@ -49,13 +53,22 @@ body {
 }
 
 /* Setting the animation */
-@keyframes handMovement {
+@keyframes manMovement {
   from {
     transform: translateX(0);
   }
   to {
     transform: translateX(-0.25%);
-    transform: rotate(1.5deg);
+    transform: rotate(1deg);
+  }
+}
+@keyframes oldmanMovement {
+  from {
+    transform: translateX(0.5%);
+  }
+  to {
+    transform: translateX(0);
+    transform: rotate(1.2deg);
   }
 }
 
@@ -69,8 +82,8 @@ body {
 }
 @keyframes textScaleAndShow {
   from {
-    opacity: 0;
-    transform: scale(0);
+    opacity: 1;
+    transform: scale(0.95);
   }
   to {
     opacity: 1;
@@ -88,7 +101,35 @@ body {
     transform: rotateY(19deg);
   }
 }
-
+@keyframes caneScale {
+  from {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  to {
+    transform: scaleY(1.25);
+  }
+}
+@keyframes glide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(5%);
+    transform: translateY(40%);
+    transform: rotateY(19deg);
+  }
+}
+@keyframes subtleMovement {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(0);
+    /* transform: translateY(10%); */
+    transform: rotateY(6deg);
+  }
+}
 main {
   height: 100vh;
   display: flex;
@@ -96,13 +137,18 @@ main {
   align-items: center;
 }
 
-#extendedArm {
+#owner {
   transform-origin: 85% 11%;
-  animation: 1.5s ease-in-out infinite alternate running handMovement;
+  animation: 1.5s ease-in-out infinite alternate running manMovement;
 }
-#primaryText {
-  transform-origin: center;
-  animation: 4s ease-in-out infinite alternate textScaleAndShow;
+#old-man {
+  transform-origin: 85% 11%;
+  animation: 1.5s ease-in-out infinite alternate running oldmanMovement;
+}
+#sugarcane :hover {
+  /* display: none; */
+  opacity: 0;
+  transition: opacity 0.4s ease;
 }
 #secondaryText {
   animation: 3s linear infinite alternate textShow;
@@ -110,8 +156,129 @@ main {
 #tertiaryText {
   animation: 7s linear infinite alternate textShow;
 }
-#green-terrain,
+
 #haystack-3 {
   transform-origin: top right;
   animation: 1.2s ease-in-out infinite alternate plantMovement;
+}
+#cloud {
+  animation: 1.2s ease-in-out infinite alternate glide;
+}
+
+#owner-glass,
+#old-man-glass {
+  animation: 1.2s ease-in-out infinite alternate 0.5s subtleMovement;
+}
+#jug {
+  /* display: none; */
+  animation: 1.2s ease-in-out infinite alternate subtleMovement;
+}
+#owner-cane {
+  animation: 1.2s ease-in-out infinite alternate subtleMovement;
+}
+#green-terrain {
+  animation: 1.2s ease-in-out infinite alternate 1s subtleMovement;
+}
+#peacock:hover {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Cool button */
+/* bubbles */
+/* button::before {
+  content: "";
+  pointer-events: none;
+  opacity: 0.6;
+  background: radial-gradient(
+      circle at 20% 35%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 75% 44%,
+      transparent 0,
+      transparent 2px,
+      var(--text-color) 3px,
+      var(--text-color) 4px,
+      transparent 4px
+    ),
+    radial-gradient(
+      circle at 46% 52%,
+      transparent 0,
+      transparent 4px,
+      var(--text-color) 5px,
+      var(--text-color) 6px,
+      transparent 6px
+    );
+
+  width: 100%;
+  height: 300%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  animation: bubbles 5s linear infinite both;
+} */
+
+/* @keyframes bubbles {
+  from {
+    transform: translate();
+  }
+  to {
+    transform: translate(0, -66.666%);
+  }
+} */
+
+/* 
+========================
+      BUTTON THREE
+========================
+*/
+.btn-three {
+  color: #fff;
+  transition: all 0.5s;
+  position: relative;
+}
+.btn-three::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+  z-index: 1;
+  background-color: rgba(224, 201, 142, 0.317);
+  transition: all 0.3s;
+}
+.btn-three:hover::before {
+  opacity: 0;
+  transform: scale(0.5, 0.5);
+}
+.btn-three::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s;
+  border: 2px dashed #100d07;
+  border-radius: 6px;
+  transform: scale(1.2, 1.2);
+}
+.btn-three:hover::after {
+  opacity: 1;
+  transform: scale(1, 1);
+}
+
+.play :first-child :hover {
+  box-shadow: 0 0 0 3px #e0c98e;
+  border-radius: 12px;
+  padding: 0.2em;
 }
