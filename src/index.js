@@ -1,7 +1,7 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "./index.css";
-
+import { isMobile } from "react-device-detect";
 import { createRoot } from "react-dom/client";
 import { createRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,6 +16,7 @@ import {
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import SceneOne from "./components/SceneOne";
 import SceneTwo from "./components/SceneTwo";
+import { FcRotateToLandscape } from "react-icons/fc";
 
 import LandingPage from "./components/LandingPage";
 const routes = [
@@ -47,7 +48,9 @@ const router = createBrowserRouter([
 ]);
 export default function App() {
   const root = useRef();
-  const tl = useRef();
+  let scene1 = useRef();
+  const location = useLocation();
+
   useLayoutEffect(() => {
     let ctx = gsap.context(() => {
       // all your animations go in here...
@@ -61,25 +64,43 @@ export default function App() {
         ease: "power4",
         stagger: 0.1,
       });
-      tl.current = gsap
-        .timeline()
-        .to("#sun", {
-          rotate: 360,
-        })
-        .fromTo(
-          "#cloud",
-          1,
-          { x: -200 },
-          { x: 400, duration: "1s", repeat: -1 }
-        );
+
+      // tl.current = gsap
+      //   .timeline()
+      //   .fromTo(
+      //     "#cloud",
+      //     1,
+      //     { x: -200 },
+      //     { x: 400, duration: "4s", repeat: -1 }
+      //   );
     }, root); // <- scopes all selector text to the root element
 
     return () => ctx.revert();
-  }, []);
-  const location = useLocation();
+  }, [location]);
+  console.log("loc", location);
   const currentOutlet = useOutlet();
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};
+  if (isMobile && window.matchMedia("(orientation: portrait)").matches) {
+    return (
+      <div
+        style={{
+          height: "100vh",
+          width: "100%",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        {" "}
+        <div className="scrolled">
+          <FcRotateToLandscape />
+        </div>
+        Rotate to Landscape!
+      </div>
+    );
+  }
   return (
     <>
       <div ref={root} className="app">
@@ -99,6 +120,7 @@ export default function App() {
           </CSSTransition>
         </SwitchTransition>
       </div>
+      {/* eslint-disable-next-line */}
       <CustomCursor
         component={svg}
         isDisabled={false}

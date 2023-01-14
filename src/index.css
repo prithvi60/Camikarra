@@ -145,10 +145,22 @@ main {
   transform-origin: 85% 11%;
   animation: 1.5s ease-in-out infinite alternate running oldmanMovement;
 }
-#sugarcane :hover {
+/* #sugarcane :hover {
   /* display: none; */
-  opacity: 0;
+/* opacity: 0;
   transition: opacity 0.4s ease;
+} */
+
+#sugarcane:hover {
+  transition: all 3s;
+  position: fixed;
+  transform: scaleY(1.4) translateY(240px);
+}
+#sugarcane {
+  transition: all 6s;
+  transform-origin: bottom;
+  z-index: 1000;
+
 }
 #secondaryText {
   animation: 3s linear infinite alternate textShow;
@@ -161,9 +173,9 @@ main {
   transform-origin: top right;
   animation: 1.2s ease-in-out infinite alternate plantMovement;
 }
-#cloud {
+/* #cloud {
   animation: 1.2s ease-in-out infinite alternate glide;
-}
+} */
 
 #owner-glass,
 #old-man-glass {
@@ -295,11 +307,11 @@ main {
 
 @keyframes animate-pop {
   0% {
-    transform: translateX(-300);
+    transform: translateX(-300px);
   }
 
   100% {
-    transform: translateX(0);
+    transform: translateX(0px);
   }
 }
 .page-enter {
@@ -310,10 +322,9 @@ main {
 .page-enter-active {
   opacity: 1;
   transform: scale(1);
-  transition:opacity 300ms transform 500ms;
-  /* animation-name: animate-pop;
-  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
-  animation-duration: 1s; */
+  transition: opacity 400ms transform 500ms;
+  /* Slide animation */
+  /* animation: 1s ease-out animate-pop; */
 }
 
 .page-exit {
@@ -324,5 +335,21 @@ main {
 .page-exit-active {
   opacity: 0;
   transform: scale(0.9);
-  transition: opacity 300ms, transform 300ms;
+  transition: opacity 400ms, transform 300ms;
+}
+/* Scroll Rod */
+.scroll-container svg:first-child {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  top: -20px;
+}
+.scroll-container svg:last-child {
+  width: 100%;
+  position: absolute;
+  z-index: 100;
+  bottom: -20px;
+}
+.quill svg {
+  height: 15%;
 }

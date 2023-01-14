@@ -1,7 +1,7 @@
 import React from "react";
 // import Button from "react-bootstrap/Button";
-import { ReactComponent as Parchment } from "../assets/parchment.svg";
 import { Link } from "react-router-dom";
+import { BrandLogo } from "./vectors";
 // import gsap from "gsap";
 // import { Flip } from "gsap/Flip";
 export default function LandingPage({ setactivepage }) {
@@ -55,18 +55,22 @@ export default function LandingPage({ setactivepage }) {
         }}
       >
         <div className={"scrolled"}>
-          <Parchment className="underline" />
+          {/* <Parchment className="underline" /> */}
+          <BrandLogo />
         </div>
         <h2
           className="scrollText "
           style={{
-            marginRight: "28px",
+            // marginTop: "12px",
+            // marginLeft: "20px",
             // position: "absolute",
-            color: "#2e261d",
+            fontSize:"30px",
+            color: "#65542b",
+            fontStyle: "italic",
           }}
         >
           {" "}
-          Click the scroll...
+          Click to start the journey
         </h2>
       </Link>
     </div>

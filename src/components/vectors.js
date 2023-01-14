@@ -19031,3 +19031,8013 @@ export const BackLayer = (props) => (
     </defs>
   </svg>
 );
+export const ScrollRod = (props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={480}
+    height={32}
+    viewBox="0 0 480 32"
+    fill="none"
+    {...props}
+  >
+    <g filter="url(#filter0_f_12_3)">
+      <path
+        d="M399.513 3.76984C401.121 3.76984 401.121 11.2278 401.121 14.9567C401.121 21.6689 398.573 26.8894 395.358 26.8894C371.244 26.1437 122.073 27.6352 89.9222 26.8894C86.707 26.8894 85.0995 20.1773 85.0995 15.7025C85.0995 8.2446 89.9222 3.02405 94.7448 3.02405C97.4648 3.02405 383.43 3.76984 399.505 3.76984H399.513Z"
+        fill="#E3CD9D"
+      />
+      <path
+        d="M399.513 3.76984C401.121 3.76984 401.121 11.2278 401.121 14.9567C401.121 21.6689 398.573 26.8894 395.358 26.8894C371.244 26.1437 122.073 27.6352 89.9222 26.8894C86.707 26.8894 85.0995 20.1773 85.0995 15.7025C85.0995 8.2446 89.9222 3.02405 94.7448 3.02405C97.4648 3.02405 383.43 3.76984 399.505 3.76984H399.513Z"
+        stroke="#583C1F"
+        strokeWidth={0.243473}
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </g>
+    <path
+      d="M51.8343 18.6255C43.3809 21.6091 44.7898 17.8797 15.317 18.0742C13.9053 19.2059 11.5307 19.9492 8.84097 19.9492C4.51465 19.9492 1.00337 18.0262 1.00337 15.6568C1.00337 13.2875 4.51465 11.3645 8.84097 11.3645C11.5555 11.3645 13.9491 12.1215 15.3559 13.2708C44.7892 13.4043 43.3803 9.67493 51.8337 12.6585C53.2426 13.4043 57.4693 13.4043 60.7487 13.2394C60.749 13.9101 60.7493 17.3474 60.7496 18.0181C57.4693 17.8797 53.2432 17.8796 51.8343 18.6255Z"
+      fill="#B06D46"
+    />
+    <path
+      d="M71.9564 15.6635C71.9564 19.8178 71.3626 23.8019 70.3057 26.7394C69.2489 29.6768 67.8154 31.3271 66.3208 31.3271C64.8261 31.3271 63.3927 29.6768 62.3358 26.7394C61.2789 23.8019 60.6852 19.8178 60.6852 15.6635C60.6852 11.5093 61.2789 7.52523 62.3358 4.58775C63.3927 1.65026 64.8261 0 66.3208 0C67.8154 0 69.2489 1.65026 70.3057 4.58775C71.3626 7.52523 71.9564 11.5093 71.9564 15.6635Z"
+      fill="#B06D46"
+    />
+    <g filter="url(#filter1_f_12_3)">
+      <path
+        d="M71.8112 15.6611C71.8112 19.4967 71.4008 23.1751 70.6702 25.8873C69.9397 28.5994 68.9488 30.1231 67.9157 30.1231C66.8825 30.1231 65.8916 28.5994 65.1611 25.8873C64.4305 23.1751 64.0201 19.4967 64.0201 15.6611C64.0201 11.8255 64.4305 8.14707 65.1611 5.43492C65.8916 2.72277 66.8825 1.1991 67.9157 1.1991C68.9488 1.1991 69.9397 2.72277 70.6702 5.43492C71.4008 8.14707 71.8112 11.8255 71.8112 15.6611Z"
+        fill="url(#paint0_radial_12_3)"
+      />
+    </g>
+    <g filter="url(#filter2_f_12_3)">
+      <path
+        d="M51.8372 18.6251C43.3838 21.6087 44.7927 17.8793 15.3199 18.0739C27.9309 15.1078 58.3759 23.0534 51.8372 12.6581C53.2461 13.404 57.4728 13.4039 60.7522 13.239C60.7525 13.9097 60.7527 17.347 60.753 18.0177C57.4728 17.8793 53.2461 17.8793 51.8372 18.6251Z"
+        fill="url(#paint1_radial_12_3)"
+      />
+    </g>
+    <path
+      d="M60.7415 13.2463H59.311V18.0057H60.7415C60.5698 16.4483 60.5126 14.8522 60.7415 13.2463Z"
+      fill="url(#paint2_linear_12_3)"
+    />
+    <g filter="url(#filter3_f_12_3)">
+      <path
+        d="M8.83759 19.9518C4.51128 19.9518 1 18.0288 1 15.6594C3.46079 18.9664 15.654 18.7232 15.3525 13.2735C15.6221 16.5429 17.8757 18.7268 8.83759 19.9518Z"
+        fill="url(#paint3_radial_12_3)"
+      />
+    </g>
+    <path
+      opacity={0.23221}
+      d="M51.2853 15.0245C51.2853 15.6631 50.8061 16.2755 49.9532 16.7271C49.1002 17.1786 47.9434 17.4323 46.7372 17.4323C45.5309 17.4323 44.3741 17.1786 43.5212 16.7271C42.6682 16.2755 42.1891 15.6631 42.1891 15.0245C42.1891 14.3859 42.6682 13.7735 43.5212 13.3219C44.3741 12.8704 45.5309 12.6167 46.7372 12.6167C47.9434 12.6167 49.1002 12.8704 49.9532 13.3219C50.8061 13.7735 51.2853 14.3859 51.2853 15.0245Z"
+      fill="url(#paint4_radial_12_3)"
+    />
+    <path
+      opacity={0.71161}
+      d="M13.8056 14.6715C13.8056 15.4262 13.2393 16.15 12.2313 16.6837C11.2233 17.2173 9.85616 17.5171 8.43063 17.5171C7.00509 17.5171 5.63794 17.2173 4.62993 16.6837C3.62193 16.15 3.05563 15.4262 3.05563 14.6715C3.05563 13.9169 3.62193 13.1931 4.62993 12.6594C5.63794 12.1258 7.00509 11.826 8.43063 11.826C9.85616 11.826 11.2233 12.1258 12.2313 12.6594C13.2393 13.1931 13.8056 13.9169 13.8056 14.6715Z"
+      fill="url(#paint5_radial_12_3)"
+    />
+    <path
+      d="M84.8332 18.2216V13.0947H68.654C67.3119 14.9123 67.3119 16.4041 68.654 18.2216H84.8332Z"
+      fill="#B06D46"
+    />
+    <g filter="url(#filter4_f_12_3)">
+      <path
+        d="M67.0057 18.2361C81.2584 17.24 82.3356 15.7735 82.0511 13.3676C83.7702 14.1135 80.6035 13.5115 84.6051 13.3466C84.6054 14.0173 84.6058 17.4546 84.6062 18.1253C72.5517 18.0362 80.6937 18.0662 67.0057 18.2361Z"
+        fill="url(#paint6_radial_12_3)"
+      />
+    </g>
+    <path
+      d="M85.045 13.0823H82.6279V18.17H85.045C84.755 16.5051 84.6583 14.7989 85.045 13.0823Z"
+      fill="url(#paint7_linear_12_3)"
+    />
+    <path
+      d="M428.169 18.6255C436.623 21.6091 435.214 17.8797 464.686 18.0742C466.098 19.2059 468.473 19.9492 471.162 19.9492C475.489 19.9492 479 18.0262 479 15.6568C479 13.2875 475.489 11.3645 471.162 11.3645C468.448 11.3645 466.054 12.1215 464.648 13.2708C435.214 13.4043 436.623 9.67493 428.17 12.6585C426.761 13.4043 422.534 13.4043 419.255 13.2394C419.254 13.9101 419.254 17.3474 419.254 18.0181C422.534 17.8797 426.76 17.8796 428.169 18.6255Z"
+      fill="#B06D46"
+    />
+    <path
+      d="M408.05 15.6635C408.05 19.8178 408.643 23.8019 409.7 26.7394C410.757 29.6768 412.19 31.3271 413.685 31.3271C415.18 31.3271 416.613 29.6768 417.67 26.7394C418.727 23.8019 419.321 19.8178 419.321 15.6635C419.321 11.5093 418.727 7.52523 417.67 4.58775C416.613 1.65026 415.18 0 413.685 0C412.19 0 410.757 1.65026 409.7 4.58775C408.643 7.52523 408.05 11.5093 408.05 15.6635Z"
+      fill="#B06D46"
+    />
+    <g filter="url(#filter5_f_12_3)">
+      <path
+        d="M408.339 15.6198C408.339 23.6028 410.377 30.1204 412.527 30.1204C414.678 30.1204 416.423 23.6414 416.423 15.6584C416.423 7.67533 414.678 1.19635 412.527 1.19635C410.377 1.19635 408.339 7.63662 408.339 15.6198Z"
+        fill="#4A2D07"
+      />
+    </g>
+    <g opacity={0.75} filter="url(#filter6_f_12_3)">
+      <path
+        d="M427.731 18.6258C435.634 21.415 434.317 17.9285 461.87 18.1104C450.08 15.3376 421.618 22.7656 427.731 13.0474C426.414 13.7447 422.462 13.7447 419.397 13.5905C419.396 14.2175 419.396 17.4309 419.396 18.0579C422.462 17.9285 426.414 17.9285 427.731 18.6258Z"
+        fill="#4A2D07"
+      />
+    </g>
+    <path
+      d="M419.264 13.2463H420.695V18.0057H419.264C419.436 16.4483 419.493 14.8522 419.264 13.2463Z"
+      fill="url(#paint8_linear_12_3)"
+    />
+    <g filter="url(#filter7_f_12_3)">
+      <path
+        d="M471.154 19.9448C475.481 19.9448 478.992 18.0218 478.992 15.6525C476.531 18.9594 464.338 18.7163 464.64 13.2665C464.37 16.5359 462.116 18.7198 471.154 19.9448Z"
+        fill="url(#paint9_radial_12_3)"
+      />
+    </g>
+    <path
+      opacity={0.23221}
+      d="M428.721 15.0245C428.721 15.6631 429.2 16.2755 430.053 16.7271C430.906 17.1786 432.063 17.4323 433.269 17.4323C434.475 17.4323 435.632 17.1786 436.485 16.7271C437.338 16.2755 437.817 15.6631 437.817 15.0245C437.817 14.3859 437.338 13.7735 436.485 13.3219C435.632 12.8704 434.475 12.6167 433.269 12.6167C432.063 12.6167 430.906 12.8704 430.053 13.3219C429.2 13.7735 428.721 14.3859 428.721 15.0245Z"
+      fill="url(#paint10_radial_12_3)"
+    />
+    <path
+      opacity={0.71161}
+      d="M466.186 14.6715C466.186 15.4262 466.753 16.15 467.761 16.6837C468.769 17.2173 470.136 17.5171 471.561 17.5171C472.987 17.5171 474.354 17.2173 475.362 16.6837C476.37 16.15 476.936 15.4262 476.936 14.6715C476.936 13.9169 476.37 13.1931 475.362 12.6594C474.354 12.1258 472.987 11.826 471.561 11.826C470.136 11.826 468.769 12.1258 467.761 12.6594C466.753 13.1931 466.186 13.9169 466.186 14.6715Z"
+      fill="url(#paint11_radial_12_3)"
+    />
+    <path
+      d="M401.144 18.2212V13.0942H411.893C412.785 14.9118 412.785 16.4036 411.893 18.2212H401.144Z"
+      fill="#B06D46"
+    />
+    <g filter="url(#filter8_f_12_3)">
+      <path
+        d="M412.978 18.2362C403.509 17.24 402.793 15.7736 402.983 13.3676C401.84 14.1135 403.944 13.5116 401.286 13.3466C401.285 14.0173 401.285 17.4546 401.285 18.1253C409.294 18.0362 403.884 18.0663 412.978 18.2362Z"
+        fill="url(#paint12_radial_12_3)"
+      />
+    </g>
+    <path
+      d="M401.089 13.0823H402.248V18.17H401.089C401.228 16.5051 401.274 14.7989 401.089 13.0823Z"
+      fill="url(#paint13_linear_12_3)"
+    />
+    <defs>
+      <filter
+        id="filter0_f_12_3"
+        x={83.7681}
+        y={1.69266}
+        width={318.684}
+        height={26.7435}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.60481}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter1_f_12_3"
+        x={63.7038}
+        y={0.882783}
+        width={8.42374}
+        height={29.5566}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.158157}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter2_f_12_3"
+        x={14.922}
+        y={12.2602}
+        width={46.2289}
+        height={7.92437}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.198958}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter3_f_12_3"
+        x={0.490736}
+        y={12.7642}
+        width={15.8143}
+        height={7.69681}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.254632}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter4_f_12_3"
+        x={66.5662}
+        y={12.907}
+        width={18.4795}
+        height={5.76868}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.219774}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter5_f_12_3"
+        x={407.916}
+        y={0.772626}
+        width={8.93094}
+        height={29.7715}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.211862}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter6_f_12_3"
+        x={418.931}
+        y={12.5824}
+        width={43.4036}
+        height={7.59417}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.232497}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter7_f_12_3"
+        x={463.687}
+        y={12.7573}
+        width={15.8144}
+        height={7.69681}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.254632}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <filter
+        id="filter8_f_12_3"
+        x={400.927}
+        y={12.9883}
+        width={12.41}
+        height={5.60614}
+        filterUnits="userSpaceOnUse"
+        colorInterpolationFilters="sRGB"
+      >
+        <feFlood floodOpacity={0} result="BackgroundImageFix" />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="BackgroundImageFix"
+          result="shape"
+        />
+        <feGaussianBlur
+          stdDeviation={0.179137}
+          result="effect1_foregroundBlur_12_3"
+        />
+      </filter>
+      <radialGradient
+        id="paint0_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(67.9165 15.6725) scale(9.27532 17.7453)"
+      >
+        <stop stopColor="#3B280F" />
+        <stop offset={1} stopColor="#7A532B" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint1_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(38.0178 16.2281) rotate(-1.28292) scale(28.508 9.21173)"
+      >
+        <stop stopColor="#3E1F0A" />
+        <stop offset={1} stopColor="#B06D46" stopOpacity={0} />
+      </radialGradient>
+      <linearGradient
+        id="paint2_linear_12_3"
+        x1={60.7415}
+        y1={-316.785}
+        x2={59.3044}
+        y2={-316.785}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#7A532B" />
+        <stop offset={1} stopColor="#7A532B" stopOpacity={0} />
+      </linearGradient>
+      <radialGradient
+        id="paint3_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(8.1547 15.6593) scale(15.0873 5.21586)"
+      >
+        <stop stopColor="#402110" />
+        <stop offset={1} stopColor="#B06D46" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint4_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(46.7363 15.0245) scale(4.54802 2.40775)"
+      >
+        <stop stopColor="white" />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint5_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(8.42959 14.6715) scale(5.37489 2.84551)"
+      >
+        <stop stopColor="#EBEBEB" stopOpacity={0.37255} />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint6_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(68.9019 15.7358) scale(33.6847 6.56764)"
+      >
+        <stop stopColor="#3E1F0A" />
+        <stop offset={1} stopColor="#B06D46" stopOpacity={0} />
+      </radialGradient>
+      <linearGradient
+        id="paint7_linear_12_3"
+        x1={85.045}
+        y1={-316.785}
+        x2={82.6358}
+        y2={-316.785}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#7A532B" />
+        <stop offset={1} stopColor="#7A532B" stopOpacity={0} />
+      </linearGradient>
+      <linearGradient
+        id="paint8_linear_12_3"
+        x1={419.264}
+        y1={-316.785}
+        x2={420.687}
+        y2={-316.785}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#7A532B" />
+        <stop offset={1} stopColor="#7A532B" stopOpacity={0} />
+      </linearGradient>
+      <radialGradient
+        id="paint9_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(471.837 15.6531) rotate(180) scale(15.0873 5.21586)"
+      >
+        <stop stopColor="#402110" />
+        <stop offset={1} stopColor="#B06D46" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint10_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(433.27 15.0245) rotate(180) scale(4.54802 2.40775)"
+      >
+        <stop stopColor="white" />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint11_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(471.563 14.6715) rotate(180) scale(5.37489 2.84551)"
+      >
+        <stop stopColor="#EBEBEB" stopOpacity={0.37255} />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </radialGradient>
+      <radialGradient
+        id="paint12_radial_12_3"
+        cx={0}
+        cy={0}
+        r={1}
+        gradientUnits="userSpaceOnUse"
+        gradientTransform="translate(411.719 15.7336) rotate(180) scale(22.3795 6.56763)"
+      >
+        <stop stopColor="#3E1F0A" />
+        <stop offset={1} stopColor="#B06D46" stopOpacity={0} />
+      </radialGradient>
+      <linearGradient
+        id="paint13_linear_12_3"
+        x1={401.089}
+        y1={-316.785}
+        x2={402.254}
+        y2={-316.785}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="#7A532B" />
+        <stop offset={1} stopColor="#7A532B" stopOpacity={0} />
+      </linearGradient>
+    </defs>
+  </svg>
+);
+
+export const Quill = (props) => (
+  <svg
+    xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsDc="http://purl.org/dc/elements/1.1/"
+    xmlnsNs1="http://sozi.baierouge.fr"
+    xmlnsCc="http://web.resource.org/cc/"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    id="Layer_1"
+    enableBackground="new 0 0 332 463"
+    xmlSpace="preserve"
+    viewBox="0 0 332 463"
+    y="0px"
+    x="0px"
+    {...props}
+  >
+    <g>
+      <g>
+        <path d="m7.147 431.36c-0.689 0.21-1.032 0.324-1.714 0.531 0.682-0.2 1.025-0.32 1.714-0.53z" />
+      </g>
+      <g>
+        <path d="m315.4 15.794c-0.235-0.348-0.353-0.525-0.587-0.874-5.023 15.826-10.899 30.214-22.369 40.773 0.291 1.21 0.439 1.812 0.734 3.011-0.877-0.488-1.314-0.729-2.188-1.197-19.173 21.603-109.01 94.241-129.25 115.03 0.179 1.038-0.525 1.933-0.776 2.888-0.583-0.411-0.593-1.396-1.303-1.485-3.146 4.515-7.041 8.902-10.607 12.39 0.015 0.997-0.505 2.522-1.055 3.852-0.701-0.485-2.252-0.925-3.046 0.557-5.016 6.318-9.932 12.993-15.72 18.985-5.896 25.988-14.631 51.523-28.556 74.96-11.897 20.668-26.076 40.65-38.778 63.41-8.924 14.135-13.314 21.557-21.951 36.966-11.518 26.499-17.097 40.393-27.807 68.995 0.117 0.587-0.669 1.763-0.244 2.031 3.147-2.832 6.366-6.648 9.597-9.976 7.41-17.438 17.135-39.746 27.374-47.469 16.589-35.5 33.472-70.72 56.896-103.09 7.507-9.667 16.337-16.383 24.061-17.88 8.612-11.457 18.146-21.036 26.851-30.317 0.108-0.845 0.037-2.06-0.645-2.292 0.655-0.798 1.471-0.344 2.246-0.55 7.133-6.687 13.483-13.624 19.979-19.676-0.067-0.632-0.104-0.95-0.167-1.588 0.916-0.293 1.611 0.03 2.52-0.246 22.528-22.338 120.5-95.342 134.81-123.2 3.522-7.208 4.707-16.55 5.853-26.663 1.075-4.026 2.565-7.578 3.17-12.289-3.26-13.853-5.51-28.676-9.01-45.044z" />
+      </g>
+      <g>
+        <g>
+          <defs>
+            <path
+              id="SVGID_1_"
+              d="m315.8 28.216c-4.695 12.364-10.531 23.126-19.839 32.516 1.567 6.34 3.015 12.062 3.573 17.23-1.975-2.291-1.539-4.959-3.033-7.499-1.244-2.323-2.062-4.799-3.092-7.249-20.22 19.738-109.4 91.807-128.95 112.07-1.674 6.842-2.748 13.631-4.524 20.443-0.536 0.279-0.802 0.42-1.343 0.709-2.101 6.982-4.033 14.842-7.605 22.222-0.829-1.091 0.318-3.421 0.693-5.181 2.646-10.306 5.294-21.046 6.826-31.209-2.792 2.938-4.187 4.467-6.972 7.616-1.072 5.656-3.682 12.018-4.253 17.076-0.083-0.069-0.127-0.1-0.212-0.175-2.383 9.049-7.214 20.961-11.41 30.733-0.195-0.056-0.287-0.081-0.481-0.132 3.856-12.099 7.757-24.66 10.018-35.982-0.189-0.075-0.271-0.102-0.461-0.171 0.815-1.297 0.814-3.26 1.211-4.934-4.215 5.846-9.519 10.78-13.716 16.757-5.944 20.525-12.76 41.286-24.772 63.046 38.679-49.639 165.68-139.34 201.5-189.37 6.141-8.057 9.809-17.633 12.061-29.311-1.72-8.897-3.17-18.414-5.24-29.213z"
+            />
+          </defs>
+          <linearGradient
+            id="SVGID_2_"
+            y2={152.16}
+            gradientUnits="userSpaceOnUse"
+            x2={321.01}
+            y1={152.16}
+            x1={107.45}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <use overflow="visible" xlinkHref="#SVGID_1_" fill="url(#SVGID_2_)" />
+          <clipPath id="SVGID_3_">
+            <use overflow="visible" xlinkHref="#SVGID_1_" />
+          </clipPath>
+          <linearGradient
+            id="SVGID_4_"
+            y2={268.15}
+            gradientUnits="userSpaceOnUse"
+            x2={294.46}
+            y1={268.15}
+            x1={104.67}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_4_)"
+            points="294.46 214.04 104.81 276.98 104.67 277.74 274.4 322.26"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_5_"
+            y2={244.58}
+            gradientUnits="userSpaceOnUse"
+            x2={294.8}
+            y1={244.58}
+            x1={104.81}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_5_)"
+            points="294.8 212.17 105.16 275.11 104.81 276.98 294.46 214.04"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_6_"
+            y2={242.71}
+            gradientUnits="userSpaceOnUse"
+            x2={295.15}
+            y1={242.71}
+            x1={105.16}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_6_)"
+            points="295.15 210.3 105.51 273.24 105.16 275.11 294.8 212.17"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_7_"
+            y2={240.84}
+            gradientUnits="userSpaceOnUse"
+            x2={295.5}
+            y1={240.84}
+            x1={105.51}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_7_)"
+            points="295.5 208.44 105.85 271.38 105.51 273.24 295.15 210.3"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_8_"
+            y2={238.97}
+            gradientUnits="userSpaceOnUse"
+            x2={295.84}
+            y1={238.97}
+            x1={105.85}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_8_)"
+            points="295.84 206.57 106.2 269.51 105.85 271.38 295.5 208.44"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_9_"
+            y2={237.11}
+            gradientUnits="userSpaceOnUse"
+            x2={296.19}
+            y1={237.11}
+            x1={106.2}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_9_)"
+            points="296.19 204.7 106.55 267.65 106.2 269.51 295.84 206.57"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_10_"
+            y2={235.24}
+            gradientUnits="userSpaceOnUse"
+            x2={296.54}
+            y1={235.24}
+            x1={106.55}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_10_)"
+            points="296.54 202.84 106.89 265.77 106.55 267.65 296.19 204.7"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_11_"
+            y2={233.37}
+            gradientUnits="userSpaceOnUse"
+            x2={296.88}
+            y1={233.37}
+            x1={106.89}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_11_)"
+            points="296.88 200.97 107.24 263.9 106.89 265.77 296.54 202.84"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_12_"
+            y2={231.5}
+            gradientUnits="userSpaceOnUse"
+            x2={297.23}
+            y1={231.5}
+            x1={107.24}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_12_)"
+            points="297.23 199.1 107.58 262.04 107.24 263.9 296.88 200.97"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_13_"
+            y2={229.64}
+            gradientUnits="userSpaceOnUse"
+            x2={297.58}
+            y1={229.64}
+            x1={107.58}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_13_)"
+            points="297.58 197.24 107.93 260.17 107.58 262.04 297.23 199.1"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_14_"
+            y2={227.77}
+            gradientUnits="userSpaceOnUse"
+            x2={297.92}
+            y1={227.77}
+            x1={107.93}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_14_)"
+            points="297.92 195.37 108.28 258.31 107.93 260.17 297.58 197.24"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_15_"
+            y2={225.9}
+            gradientUnits="userSpaceOnUse"
+            x2={298.27}
+            y1={225.9}
+            x1={108.28}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_15_)"
+            points="298.27 193.5 108.62 256.43 108.28 258.31 297.92 195.37"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_16_"
+            y2={224.03}
+            gradientUnits="userSpaceOnUse"
+            x2={298.61}
+            y1={224.03}
+            x1={108.62}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_16_)"
+            points="298.61 191.63 108.97 254.58 108.62 256.43 298.27 193.5"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_17_"
+            y2={222.17}
+            gradientUnits="userSpaceOnUse"
+            x2={298.96}
+            y1={222.17}
+            x1={108.97}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_17_)"
+            points="298.96 189.76 109.31 252.7 108.97 254.58 298.61 191.63"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_18_"
+            y2={220.3}
+            gradientUnits="userSpaceOnUse"
+            x2={299.3}
+            y1={220.3}
+            x1={109.31}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_18_)"
+            points="299.3 187.9 109.66 250.84 109.31 252.7 298.96 189.76"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_19_"
+            y2={218.43}
+            gradientUnits="userSpaceOnUse"
+            x2={299.65}
+            y1={218.43}
+            x1={109.66}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_19_)"
+            points="299.65 186.03 110.01 248.97 109.66 250.84 299.3 187.9"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_20_"
+            y2={216.57}
+            gradientUnits="userSpaceOnUse"
+            x2={300}
+            y1={216.57}
+            x1={110.01}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_20_)"
+            points="300 184.17 110.35 247.11 110.01 248.97 299.65 186.03"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_21_"
+            y2={214.7}
+            gradientUnits="userSpaceOnUse"
+            x2={300.34}
+            y1={214.7}
+            x1={110.35}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_21_)"
+            points="300.34 182.29 110.7 245.24 110.35 247.11 300 184.17"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_22_"
+            y2={212.84}
+            gradientUnits="userSpaceOnUse"
+            x2={300.69}
+            y1={212.84}
+            x1={110.7}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_22_)"
+            points="300.69 180.43 111.04 243.38 110.7 245.24 300.34 182.29"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_23_"
+            y2={210.97}
+            gradientUnits="userSpaceOnUse"
+            x2={301.04}
+            y1={210.97}
+            x1={111.04}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_23_)"
+            points="301.04 178.56 111.39 241.51 111.04 243.38 300.69 180.43"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_24_"
+            y2={209.1}
+            gradientUnits="userSpaceOnUse"
+            x2={301.38}
+            y1={209.1}
+            x1={111.39}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_24_)"
+            points="301.38 176.69 111.74 239.63 111.39 241.51 301.04 178.56"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_25_"
+            y2={207.23}
+            gradientUnits="userSpaceOnUse"
+            x2={301.73}
+            y1={207.23}
+            x1={111.74}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_25_)"
+            points="301.73 174.83 112.08 237.77 111.74 239.63 301.38 176.69"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_26_"
+            y2={205.37}
+            gradientUnits="userSpaceOnUse"
+            x2={302.07}
+            y1={205.37}
+            x1={112.08}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_26_)"
+            points="302.07 172.96 112.43 235.9 112.08 237.77 301.73 174.83"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_27_"
+            y2={203.5}
+            gradientUnits="userSpaceOnUse"
+            x2={302.42}
+            y1={203.5}
+            x1={112.43}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_27_)"
+            points="302.42 171.1 112.78 234.03 112.43 235.9 302.07 172.96"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_28_"
+            y2={201.63}
+            gradientUnits="userSpaceOnUse"
+            x2={302.77}
+            y1={201.63}
+            x1={112.78}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_28_)"
+            points="302.77 169.22 113.12 232.16 112.78 234.03 302.42 171.1"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_29_"
+            y2={199.76}
+            gradientUnits="userSpaceOnUse"
+            x2={303.11}
+            y1={199.76}
+            x1={113.12}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_29_)"
+            points="303.11 167.36 113.47 230.3 113.12 232.16 302.77 169.22"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_30_"
+            y2={197.89}
+            gradientUnits="userSpaceOnUse"
+            x2={303.45}
+            y1={197.89}
+            x1={113.47}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_30_)"
+            points="303.45 165.49 113.81 228.43 113.47 230.3 303.11 167.36"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_31_"
+            y2={196.03}
+            gradientUnits="userSpaceOnUse"
+            x2={303.8}
+            y1={196.03}
+            x1={113.81}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_31_)"
+            points="303.8 163.63 114.16 226.56 113.81 228.43 303.45 165.49"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_32_"
+            y2={194.16}
+            gradientUnits="userSpaceOnUse"
+            x2={304.15}
+            y1={194.16}
+            x1={114.16}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_32_)"
+            points="304.15 161.75 114.51 224.7 114.16 226.56 303.8 163.63"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_33_"
+            y2={192.29}
+            gradientUnits="userSpaceOnUse"
+            x2={304.5}
+            y1={192.29}
+            x1={114.51}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_33_)"
+            points="304.5 159.89 114.85 222.83 114.51 224.7 304.15 161.75"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_34_"
+            y2={190.43}
+            gradientUnits="userSpaceOnUse"
+            x2={304.84}
+            y1={190.43}
+            x1={114.85}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_34_)"
+            points="304.84 158.02 115.2 220.96 114.85 222.83 304.5 159.89"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_35_"
+            y2={188.56}
+            gradientUnits="userSpaceOnUse"
+            x2={305.19}
+            y1={188.56}
+            x1={115.2}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_35_)"
+            points="305.19 156.15 115.55 219.1 115.2 220.96 304.84 158.02"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_36_"
+            y2={186.69}
+            gradientUnits="userSpaceOnUse"
+            x2={305.54}
+            y1={186.69}
+            x1={115.55}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_36_)"
+            points="305.54 154.29 115.89 217.23 115.55 219.1 305.19 156.15"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_37_"
+            y2={184.83}
+            gradientUnits="userSpaceOnUse"
+            x2={305.88}
+            y1={184.83}
+            x1={115.89}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_37_)"
+            points="305.88 152.42 116.24 215.36 115.89 217.23 305.54 154.29"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_38_"
+            y2={182.96}
+            gradientUnits="userSpaceOnUse"
+            x2={306.22}
+            y1={182.96}
+            x1={116.24}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_38_)"
+            points="306.22 150.56 116.58 213.5 116.24 215.36 305.88 152.42"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_39_"
+            y2={181.09}
+            gradientUnits="userSpaceOnUse"
+            x2={306.57}
+            y1={181.09}
+            x1={116.58}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_39_)"
+            points="306.57 148.69 116.93 211.63 116.58 213.5 306.22 150.56"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_40_"
+            y2={179.22}
+            gradientUnits="userSpaceOnUse"
+            x2={306.92}
+            y1={179.22}
+            x1={116.93}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_40_)"
+            points="306.92 146.82 117.28 209.76 116.93 211.63 306.57 148.69"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_41_"
+            y2={177.36}
+            gradientUnits="userSpaceOnUse"
+            x2={307.26}
+            y1={177.36}
+            x1={117.28}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_41_)"
+            points="307.26 144.95 117.62 207.89 117.28 209.76 306.92 146.82"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_42_"
+            y2={175.49}
+            gradientUnits="userSpaceOnUse"
+            x2={307.61}
+            y1={175.49}
+            x1={117.62}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_42_)"
+            points="307.61 143.08 117.96 206.02 117.62 207.89 307.26 144.95"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_43_"
+            y2={173.62}
+            gradientUnits="userSpaceOnUse"
+            x2={307.96}
+            y1={173.62}
+            x1={117.96}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_43_)"
+            points="307.96 141.22 118.31 204.16 117.96 206.02 307.61 143.08"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_44_"
+            y2={171.75}
+            gradientUnits="userSpaceOnUse"
+            x2={308.31}
+            y1={171.75}
+            x1={118.31}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_44_)"
+            points="308.31 139.35 118.66 202.29 118.31 204.16 307.96 141.22"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_45_"
+            y2={169.89}
+            gradientUnits="userSpaceOnUse"
+            x2={308.65}
+            y1={169.89}
+            x1={118.66}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_45_)"
+            points="308.65 137.49 119.01 200.43 118.66 202.29 308.31 139.35"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_46_"
+            y2={168.02}
+            gradientUnits="userSpaceOnUse"
+            x2={309}
+            y1={168.02}
+            x1={119.01}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_46_)"
+            points="309 135.62 119.35 198.55 119.01 200.43 308.65 137.49"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_47_"
+            y2={166.15}
+            gradientUnits="userSpaceOnUse"
+            x2={309.34}
+            y1={166.15}
+            x1={119.35}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_47_)"
+            points="309.34 133.75 119.69 196.69 119.35 198.55 309 135.62"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_48_"
+            y2={164.28}
+            gradientUnits="userSpaceOnUse"
+            x2={309.69}
+            y1={164.28}
+            x1={119.69}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_48_)"
+            points="309.69 131.88 120.04 194.83 119.69 196.69 309.34 133.75"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_49_"
+            y2={162.42}
+            gradientUnits="userSpaceOnUse"
+            x2={310.03}
+            y1={162.42}
+            x1={120.04}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_49_)"
+            points="310.03 130.02 120.39 192.95 120.04 194.83 309.69 131.88"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_50_"
+            y2={160.55}
+            gradientUnits="userSpaceOnUse"
+            x2={310.38}
+            y1={160.55}
+            x1={120.39}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_50_)"
+            points="310.38 128.14 120.74 191.09 120.39 192.95 310.03 130.02"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_51_"
+            y2={158.68}
+            gradientUnits="userSpaceOnUse"
+            x2={310.73}
+            y1={158.68}
+            x1={120.74}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_51_)"
+            points="310.73 126.27 121.08 189.22 120.74 191.09 310.38 128.14"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_52_"
+            y2={156.81}
+            gradientUnits="userSpaceOnUse"
+            x2={311.07}
+            y1={156.81}
+            x1={121.08}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_52_)"
+            points="311.07 124.41 121.42 187.36 121.08 189.22 310.73 126.27"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_53_"
+            y2={154.95}
+            gradientUnits="userSpaceOnUse"
+            x2={311.42}
+            y1={154.95}
+            x1={121.42}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_53_)"
+            points="311.42 122.54 121.77 185.49 121.42 187.36 311.07 124.41"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_54_"
+            y2={153.08}
+            gradientUnits="userSpaceOnUse"
+            x2={311.76}
+            y1={153.08}
+            x1={121.77}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_54_)"
+            points="311.76 120.68 122.12 183.62 121.77 185.49 311.42 122.54"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_55_"
+            y2={151.21}
+            gradientUnits="userSpaceOnUse"
+            x2={312.11}
+            y1={151.21}
+            x1={122.12}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_55_)"
+            points="312.11 118.81 122.47 181.75 122.12 183.62 311.76 120.68"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_56_"
+            y2={149.35}
+            gradientUnits="userSpaceOnUse"
+            x2={312.46}
+            y1={149.35}
+            x1={122.47}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_56_)"
+            points="312.46 116.94 122.81 179.88 122.47 181.75 312.11 118.81"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_57_"
+            y2={147.48}
+            gradientUnits="userSpaceOnUse"
+            x2={312.8}
+            y1={147.48}
+            x1={122.81}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_57_)"
+            points="312.8 115.07 123.16 178.02 122.81 179.88 312.46 116.94"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_58_"
+            y2={145.61}
+            gradientUnits="userSpaceOnUse"
+            x2={313.14}
+            y1={145.61}
+            x1={123.16}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_58_)"
+            points="313.14 113.2 123.5 176.15 123.16 178.02 312.8 115.07"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_59_"
+            y2={143.75}
+            gradientUnits="userSpaceOnUse"
+            x2={313.49}
+            y1={143.75}
+            x1={123.5}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_59_)"
+            points="313.49 111.34 123.85 174.29 123.5 176.15 313.14 113.2"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_60_"
+            y2={141.88}
+            gradientUnits="userSpaceOnUse"
+            x2={313.84}
+            y1={141.88}
+            x1={123.85}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_60_)"
+            points="313.84 109.47 124.2 172.41 123.85 174.29 313.49 111.34"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_61_"
+            y2={140.01}
+            gradientUnits="userSpaceOnUse"
+            x2={314.18}
+            y1={140.01}
+            x1={124.2}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_61_)"
+            points="314.18 107.61 124.54 170.55 124.2 172.41 313.84 109.47"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_62_"
+            y2={138.15}
+            gradientUnits="userSpaceOnUse"
+            x2={314.53}
+            y1={138.15}
+            x1={124.54}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_62_)"
+            points="314.53 105.74 124.89 168.68 124.54 170.55 314.18 107.61"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_63_"
+            y2={136.28}
+            gradientUnits="userSpaceOnUse"
+            x2={314.88}
+            y1={136.28}
+            x1={124.89}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_63_)"
+            points="314.88 103.87 125.23 166.82 124.89 168.68 314.53 105.74"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_64_"
+            y2={134.41}
+            gradientUnits="userSpaceOnUse"
+            x2={315.23}
+            y1={134.41}
+            x1={125.23}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_64_)"
+            points="315.23 102.01 125.58 164.95 125.23 166.82 314.88 103.87"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_65_"
+            y2={132.54}
+            gradientUnits="userSpaceOnUse"
+            x2={315.57}
+            y1={132.54}
+            x1={125.58}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_65_)"
+            points="315.57 100.14 125.93 163.08 125.58 164.95 315.23 102.01"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_66_"
+            y2={130.67}
+            gradientUnits="userSpaceOnUse"
+            x2={315.91}
+            y1={130.67}
+            x1={125.93}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_66_)"
+            points="315.91 98.27 126.28 161.21 125.93 163.08 315.57 100.14"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_67_"
+            y2={128.81}
+            gradientUnits="userSpaceOnUse"
+            x2={316.26}
+            y1={128.81}
+            x1={126.28}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_67_)"
+            points="316.26 96.403 126.62 159.34 126.28 161.21 315.91 98.27"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_68_"
+            y2={126.94}
+            gradientUnits="userSpaceOnUse"
+            x2={316.61}
+            y1={126.94}
+            x1={126.62}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_68_)"
+            points="316.61 94.537 126.96 157.48 126.62 159.34 316.26 96.403"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_69_"
+            y2={125.07}
+            gradientUnits="userSpaceOnUse"
+            x2={316.95}
+            y1={125.07}
+            x1={126.96}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_69_)"
+            points="316.95 92.663 127.31 155.61 126.96 157.48 316.61 94.537"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_70_"
+            y2={123.21}
+            gradientUnits="userSpaceOnUse"
+            x2={317.3}
+            y1={123.21}
+            x1={127.31}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_70_)"
+            points="317.3 90.804 127.65 153.74 127.31 155.61 316.95 92.663"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_71_"
+            y2={121.34}
+            gradientUnits="userSpaceOnUse"
+            x2={317.64}
+            y1={121.34}
+            x1={127.65}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_71_)"
+            points="317.64 88.932 128 151.88 127.65 153.74 317.3 90.804"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_72_"
+            y2={119.47}
+            gradientUnits="userSpaceOnUse"
+            x2={317.99}
+            y1={119.47}
+            x1={128}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_72_)"
+            points="317.99 87.068 128.34 150.02 128 151.88 317.64 88.932"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_73_"
+            y2={117.61}
+            gradientUnits="userSpaceOnUse"
+            x2={318.34}
+            y1={117.61}
+            x1={128.34}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_73_)"
+            points="318.34 85.199 128.69 148.14 128.34 150.02 317.99 87.068"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_74_"
+            y2={115.73}
+            gradientUnits="userSpaceOnUse"
+            x2={318.69}
+            y1={115.73}
+            x1={128.69}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_74_)"
+            points="318.69 83.322 129.04 146.27 128.69 148.14 318.34 85.199"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_75_"
+            y2={113.87}
+            gradientUnits="userSpaceOnUse"
+            x2={319.03}
+            y1={113.87}
+            x1={129.04}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_75_)"
+            points="319.03 81.463 129.38 144.41 129.04 146.27 318.69 83.322"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_76_"
+            y2={112}
+            gradientUnits="userSpaceOnUse"
+            x2={319.37}
+            y1={112}
+            x1={129.38}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_76_)"
+            points="319.37 79.598 129.74 142.54 129.38 144.41 319.03 81.463"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_77_"
+            y2={110.14}
+            gradientUnits="userSpaceOnUse"
+            x2={319.72}
+            y1={110.14}
+            x1={129.74}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_77_)"
+            points="319.72 77.735 130.08 140.67 129.74 142.54 319.37 79.598"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_78_"
+            y2={108.27}
+            gradientUnits="userSpaceOnUse"
+            x2={320.07}
+            y1={108.27}
+            x1={130.08}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_78_)"
+            points="320.07 75.861 130.42 138.8 130.08 140.67 319.72 77.735"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_79_"
+            y2={106.4}
+            gradientUnits="userSpaceOnUse"
+            x2={320.42}
+            y1={106.4}
+            x1={130.42}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_79_)"
+            points="320.42 73.999 130.77 136.94 130.42 138.8 320.07 75.861"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_80_"
+            y2={104.54}
+            gradientUnits="userSpaceOnUse"
+            x2={320.76}
+            y1={104.54}
+            x1={130.77}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_80_)"
+            points="320.76 72.127 131.12 135.07 130.77 136.94 320.42 73.999"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_81_"
+            y2={102.67}
+            gradientUnits="userSpaceOnUse"
+            x2={321.11}
+            y1={102.67}
+            x1={131.12}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_81_)"
+            points="321.11 70.267 131.46 133.21 131.12 135.07 320.76 72.127"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_82_"
+            y2={100.8}
+            gradientUnits="userSpaceOnUse"
+            x2={321.45}
+            y1={100.8}
+            x1={131.46}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_82_)"
+            points="321.45 68.395 131.81 131.34 131.46 133.21 321.11 70.267"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_83_"
+            y2={98.933}
+            gradientUnits="userSpaceOnUse"
+            x2={321.8}
+            y1={98.933}
+            x1={131.81}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_83_)"
+            points="321.8 66.525 132.16 129.47 131.81 131.34 321.45 68.395"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_84_"
+            y2={97.062}
+            gradientUnits="userSpaceOnUse"
+            x2={322.15}
+            y1={97.062}
+            x1={132.16}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_84_)"
+            points="322.15 64.657 132.5 127.6 132.16 129.47 321.8 66.525"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_85_"
+            y2={95.198}
+            gradientUnits="userSpaceOnUse"
+            x2={322.49}
+            y1={95.198}
+            x1={132.5}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_85_)"
+            points="322.49 62.79 132.84 125.73 132.5 127.6 322.15 64.657"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_86_"
+            y2={93.33}
+            gradientUnits="userSpaceOnUse"
+            x2={322.84}
+            y1={93.33}
+            x1={132.84}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_86_)"
+            points="322.84 60.929 133.19 123.88 132.84 125.73 322.49 62.79"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_87_"
+            y2={91.465}
+            gradientUnits="userSpaceOnUse"
+            x2={323.18}
+            y1={91.465}
+            x1={133.19}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_87_)"
+            points="323.18 59.055 133.54 122 133.19 123.88 322.84 60.929"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_88_"
+            y2={89.595}
+            gradientUnits="userSpaceOnUse"
+            x2={323.53}
+            y1={89.595}
+            x1={133.54}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_88_)"
+            points="323.52 57.191 133.89 120.13 133.54 122 323.18 59.055"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_89_"
+            y2={87.725}
+            gradientUnits="userSpaceOnUse"
+            x2={323.88}
+            y1={87.725}
+            x1={133.89}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_89_)"
+            points="323.88 55.321 134.23 118.27 133.89 120.13 323.52 57.191"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_90_"
+            y2={85.863}
+            gradientUnits="userSpaceOnUse"
+            x2={324.22}
+            y1={85.863}
+            x1={134.23}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_90_)"
+            points="324.22 53.459 134.58 116.4 134.23 118.27 323.88 55.321"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_91_"
+            y2={83.997}
+            gradientUnits="userSpaceOnUse"
+            x2={324.57}
+            y1={83.997}
+            x1={134.58}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_91_)"
+            points="324.57 51.591 134.93 114.53 134.58 116.4 324.22 53.459"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_92_"
+            y2={82.126}
+            gradientUnits="userSpaceOnUse"
+            x2={324.92}
+            y1={82.126}
+            x1={134.93}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_92_)"
+            points="324.92 49.719 135.27 112.66 134.93 114.53 324.57 51.591"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_93_"
+            y2={80.258}
+            gradientUnits="userSpaceOnUse"
+            x2={325.26}
+            y1={80.258}
+            x1={135.27}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_93_)"
+            points="325.26 47.855 135.61 110.8 135.27 112.66 324.92 49.719"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_94_"
+            y2={78.39}
+            gradientUnits="userSpaceOnUse"
+            x2={325.61}
+            y1={78.39}
+            x1={135.61}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_94_)"
+            points="325.61 45.982 135.96 108.93 135.61 110.8 325.26 47.855"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_95_"
+            y2={76.527}
+            gradientUnits="userSpaceOnUse"
+            x2={325.95}
+            y1={76.527}
+            x1={135.96}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_95_)"
+            points="325.95 44.124 136.31 107.06 135.96 108.93 325.61 45.982"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_96_"
+            y2={74.658}
+            gradientUnits="userSpaceOnUse"
+            x2={326.3}
+            y1={74.658}
+            x1={136.31}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_96_)"
+            points="326.3 42.25 136.65 105.19 136.31 107.06 325.95 44.124"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_97_"
+            y2={72.791}
+            gradientUnits="userSpaceOnUse"
+            x2={326.64}
+            y1={72.791}
+            x1={136.65}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_97_)"
+            points="326.64 40.388 137 103.34 136.65 105.19 326.3 42.25"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_98_"
+            y2={70.926}
+            gradientUnits="userSpaceOnUse"
+            x2={326.99}
+            y1={70.926}
+            x1={137}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_98_)"
+            points="326.99 38.514 326.99 38.514 326.99 38.514 137.35 101.46 137 103.34 326.64 40.388"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_99_"
+            y2={69.222}
+            gradientUnits="userSpaceOnUse"
+            x2={326.99}
+            y1={69.222}
+            x1={137.35}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_99_)"
+            points="326.99 38.514 326.34 36.986 137.69 99.603 137.35 101.46"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_100_"
+            y2={67.528}
+            gradientUnits="userSpaceOnUse"
+            x2={326.34}
+            y1={67.528}
+            x1={137.69}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_100_)"
+            points="326.34 36.986 325.69 35.454 138.04 97.73 137.69 99.603"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_101_"
+            y2={65.819}
+            gradientUnits="userSpaceOnUse"
+            x2={325.69}
+            y1={65.819}
+            x1={138.04}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_101_)"
+            points="325.69 35.454 325.02 33.909 138.38 95.856 138.04 97.73"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_102_"
+            y2={64.117}
+            gradientUnits="userSpaceOnUse"
+            x2={325.02}
+            y1={64.117}
+            x1={138.38}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_102_)"
+            points="325.02 33.909 324.37 32.377 138.73 93.994 138.38 95.856"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_103_"
+            y2={62.421}
+            gradientUnits="userSpaceOnUse"
+            x2={324.37}
+            y1={62.421}
+            x1={138.73}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_103_)"
+            points="324.37 32.377 323.72 30.848 139.07 92.124 138.73 93.994"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_104_"
+            y2={60.719}
+            gradientUnits="userSpaceOnUse"
+            x2={323.72}
+            y1={60.719}
+            x1={139.07}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_104_)"
+            points="323.72 30.848 323.06 29.314 139.42 90.261 139.07 92.124"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_105_"
+            y2={59.016}
+            gradientUnits="userSpaceOnUse"
+            x2={323.06}
+            y1={59.016}
+            x1={139.42}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_105_)"
+            points="323.06 29.314 322.4 27.77 139.76 88.396 139.42 90.261"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_106_"
+            y2={57.644}
+            gradientUnits="userSpaceOnUse"
+            x2={322.4}
+            y1={57.644}
+            x1={139.76}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_106_)"
+            points="322.4 27.77 322.31 27.551 319.78 26.893 140.11 86.52 139.76 88.396"
+            clipPath="url(#SVGID_3_)"
+          />
+          <linearGradient
+            id="SVGID_107_"
+            y2={35.619}
+            gradientUnits="userSpaceOnUse"
+            x2={319.79}
+            y1={35.619}
+            x1={140.11}
+          >
+            <stop
+              style={{
+                stopColor: "#FFFFFF",
+              }}
+              offset={0}
+            />
+            <stop
+              style={{
+                stopColor: "#A7A9AC",
+              }}
+              offset={1}
+            />
+          </linearGradient>
+          <polygon
+            fill="url(#SVGID_107_)"
+            points="140.11 86.525 319.78 26.893 158.98 -15.287"
+            clipPath="url(#SVGID_3_)"
+          />
+        </g>
+      </g>
+      <g>
+        <defs>
+          <path
+            id="SVGID_108_"
+            d="m156.79 227.38c-14.441 16.396-29.701 34.83-44.09 56.623 5.12-4.167 11.163-9.532 16.134-10.459 8.025-9.239 15.603-19.048 23.454-27.307-1.975-0.821-2.969-1.243-4.956-2.12-0.29-0.569 0.711-1.468 1.262-1.39 3.043-1.493 6.061 0.866 8.961-2.589 6.395-6.894 9.603-10.093 16.047-15.943-1.233-0.792-2.853-0.473-3.899-1.685 0.096-0.204 0.146-0.305 0.25-0.504 3.089-0.661 4.635-0.959 7.732-1.499 16.184-17.012 100.85-82.106 113.38-93.902 15.35-15.263 24.85-27.72 27.204-50.014-17.59 37.824-132.26 120.25-161.46 150.79z"
+          />
+        </defs>
+        <linearGradient
+          id="SVGID_109_"
+          y2={180.3}
+          gradientUnits="userSpaceOnUse"
+          x2={318.26}
+          y1={180.3}
+          x1={112.7}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <use
+          overflow="visible"
+          xlinkHref="#SVGID_108_"
+          fill="url(#SVGID_109_)"
+        />
+        <clipPath id="SVGID_110_">
+          <use overflow="visible" xlinkHref="#SVGID_108_" />
+        </clipPath>
+        <linearGradient
+          id="SVGID_111_"
+          y2={275.85}
+          gradientUnits="userSpaceOnUse"
+          x2={295.45}
+          y1={275.85}
+          x1={109.93}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_111_)"
+          points="295.45 222.58 110.22 284.04 109.93 285.64 275.7 329.13"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_112_"
+          y2={252.59}
+          gradientUnits="userSpaceOnUse"
+          x2={295.72}
+          y1={252.59}
+          x1={110.22}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_112_)"
+          points="295.72 221.13 110.49 282.6 110.22 284.04 295.45 222.58"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_113_"
+          y2={251.14}
+          gradientUnits="userSpaceOnUse"
+          x2={295.98}
+          y1={251.14}
+          x1={110.49}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_113_)"
+          points="295.98 219.68 110.75 281.15 110.49 282.6 295.72 221.13"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_114_"
+          y2={249.69}
+          gradientUnits="userSpaceOnUse"
+          x2={296.25}
+          y1={249.69}
+          x1={110.75}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_114_)"
+          points="296.25 218.23 111.02 279.7 110.75 281.15 295.98 219.68"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_115_"
+          y2={248.25}
+          gradientUnits="userSpaceOnUse"
+          x2={296.52}
+          y1={248.25}
+          x1={111.03}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_115_)"
+          points="296.52 216.79 111.29 278.27 111.02 279.7 296.25 218.23"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_116_"
+          y2={246.8}
+          gradientUnits="userSpaceOnUse"
+          x2={296.79}
+          y1={246.8}
+          x1={111.29}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_116_)"
+          points="296.79 215.34 111.56 276.82 111.29 278.27 296.52 216.79"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_117_"
+          y2={245.36}
+          gradientUnits="userSpaceOnUse"
+          x2={297.06}
+          y1={245.36}
+          x1={111.56}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_117_)"
+          points="297.06 213.9 111.83 275.37 111.56 276.82 296.79 215.34"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_118_"
+          y2={243.91}
+          gradientUnits="userSpaceOnUse"
+          x2={297.33}
+          y1={243.91}
+          x1={111.83}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_118_)"
+          points="297.33 212.45 112.1 273.92 111.83 275.37 297.06 213.9"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_119_"
+          y2={242.46}
+          gradientUnits="userSpaceOnUse"
+          x2={297.59}
+          y1={242.46}
+          x1={112.09}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_119_)"
+          points="297.59 211 112.37 272.47 112.1 273.92 297.33 212.45"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_120_"
+          y2={241.01}
+          gradientUnits="userSpaceOnUse"
+          x2={297.86}
+          y1={241.01}
+          x1={112.37}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_120_)"
+          points="297.86 209.56 112.63 271.03 112.37 272.47 297.59 211"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_121_"
+          y2={239.58}
+          gradientUnits="userSpaceOnUse"
+          x2={298.13}
+          y1={239.58}
+          x1={112.63}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_121_)"
+          points="298.13 208.12 112.9 269.59 112.63 271.03 297.86 209.56"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_122_"
+          y2={238.13}
+          gradientUnits="userSpaceOnUse"
+          x2={298.39}
+          y1={238.13}
+          x1={112.9}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_122_)"
+          points="298.39 206.67 113.17 268.14 112.9 269.59 298.13 208.12"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_123_"
+          y2={236.68}
+          gradientUnits="userSpaceOnUse"
+          x2={298.66}
+          y1={236.68}
+          x1={113.17}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_123_)"
+          points="298.66 205.22 113.44 266.69 113.17 268.14 298.39 206.67"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_124_"
+          y2={235.23}
+          gradientUnits="userSpaceOnUse"
+          x2={298.93}
+          y1={235.23}
+          x1={113.44}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_124_)"
+          points="298.93 203.78 113.7 265.25 113.44 266.69 298.66 205.22"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_125_"
+          y2={233.79}
+          gradientUnits="userSpaceOnUse"
+          x2={299.2}
+          y1={233.79}
+          x1={113.7}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_125_)"
+          points="299.2 202.33 113.97 263.8 113.7 265.25 298.93 203.78"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_126_"
+          y2={232.34}
+          gradientUnits="userSpaceOnUse"
+          x2={299.47}
+          y1={232.34}
+          x1={113.97}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_126_)"
+          points="299.47 200.88 114.24 262.36 113.97 263.8 299.2 202.33"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_127_"
+          y2={230.89}
+          gradientUnits="userSpaceOnUse"
+          x2={299.74}
+          y1={230.89}
+          x1={114.24}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_127_)"
+          points="299.74 199.43 114.51 260.92 114.24 262.36 299.47 200.88"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_128_"
+          y2={229.45}
+          gradientUnits="userSpaceOnUse"
+          x2={300}
+          y1={229.45}
+          x1={114.51}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_128_)"
+          points="300 197.99 114.78 259.47 114.51 260.92 299.74 199.43"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_129_"
+          y2={228.01}
+          gradientUnits="userSpaceOnUse"
+          x2={300.27}
+          y1={228.01}
+          x1={114.78}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_129_)"
+          points="300.27 196.55 115.05 258.02 114.78 259.47 300 197.99"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_130_"
+          y2={226.56}
+          gradientUnits="userSpaceOnUse"
+          x2={300.54}
+          y1={226.56}
+          x1={115.05}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_130_)"
+          points="300.54 195.1 115.31 256.58 115.05 258.02 300.27 196.55"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_131_"
+          y2={225.12}
+          gradientUnits="userSpaceOnUse"
+          x2={300.81}
+          y1={225.12}
+          x1={115.31}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_131_)"
+          points="300.81 193.65 115.58 255.13 115.31 256.58 300.54 195.1"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_132_"
+          y2={223.67}
+          gradientUnits="userSpaceOnUse"
+          x2={301.08}
+          y1={223.67}
+          x1={115.58}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_132_)"
+          points="301.08 192.21 115.84 253.68 115.58 255.13 300.81 193.65"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_133_"
+          y2={222.22}
+          gradientUnits="userSpaceOnUse"
+          x2={301.34}
+          y1={222.22}
+          x1={115.84}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_133_)"
+          points="301.34 190.77 116.11 252.24 115.84 253.68 301.08 192.21"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_134_"
+          y2={220.78}
+          gradientUnits="userSpaceOnUse"
+          x2={301.61}
+          y1={220.78}
+          x1={116.11}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_134_)"
+          points="301.61 189.32 116.38 250.79 116.11 252.24 301.34 190.77"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_135_"
+          y2={219.33}
+          gradientUnits="userSpaceOnUse"
+          x2={301.88}
+          y1={219.33}
+          x1={116.38}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_135_)"
+          points="301.88 187.87 116.65 249.34 116.38 250.79 301.61 189.32"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_136_"
+          y2={217.88}
+          gradientUnits="userSpaceOnUse"
+          x2={302.14}
+          y1={217.88}
+          x1={116.65}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_136_)"
+          points="302.14 186.42 116.92 247.9 116.65 249.34 301.88 187.87"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_137_"
+          y2={216.44}
+          gradientUnits="userSpaceOnUse"
+          x2={302.41}
+          y1={216.44}
+          x1={116.92}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_137_)"
+          points="302.41 184.97 117.19 246.46 116.92 247.9 302.14 186.42"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_138_"
+          y2={215}
+          gradientUnits="userSpaceOnUse"
+          x2={302.68}
+          y1={215}
+          x1={117.19}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_138_)"
+          points="302.68 183.54 117.46 245.01 117.19 246.46 302.41 184.97"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_139_"
+          y2={213.55}
+          gradientUnits="userSpaceOnUse"
+          x2={302.95}
+          y1={213.55}
+          x1={117.46}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_139_)"
+          points="302.95 182.09 117.72 243.56 117.46 245.01 302.68 183.54"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_140_"
+          y2={212.1}
+          gradientUnits="userSpaceOnUse"
+          x2={303.22}
+          y1={212.1}
+          x1={117.72}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_140_)"
+          points="303.22 180.64 117.99 242.12 117.72 243.56 302.95 182.09"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_141_"
+          y2={210.65}
+          gradientUnits="userSpaceOnUse"
+          x2={303.49}
+          y1={210.65}
+          x1={117.99}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_141_)"
+          points="303.49 179.19 118.26 240.68 117.99 242.12 303.22 180.64"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_142_"
+          y2={209.21}
+          gradientUnits="userSpaceOnUse"
+          x2={303.76}
+          y1={209.21}
+          x1={118.25}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_142_)"
+          points="303.76 177.75 118.53 239.23 118.26 240.68 303.49 179.19"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_143_"
+          y2={207.77}
+          gradientUnits="userSpaceOnUse"
+          x2={304.02}
+          y1={207.77}
+          x1={118.53}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_143_)"
+          points="304.02 176.31 118.8 237.78 118.53 239.23 303.76 177.75"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_144_"
+          y2={206.32}
+          gradientUnits="userSpaceOnUse"
+          x2={304.29}
+          y1={206.32}
+          x1={118.79}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_144_)"
+          points="304.29 174.86 119.06 236.33 118.8 237.78 304.02 176.31"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_145_"
+          y2={204.87}
+          gradientUnits="userSpaceOnUse"
+          x2={304.56}
+          y1={204.87}
+          x1={119.06}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_145_)"
+          points="304.56 173.41 119.33 234.89 119.06 236.33 304.29 174.86"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_146_"
+          y2={203.43}
+          gradientUnits="userSpaceOnUse"
+          x2={304.83}
+          y1={203.43}
+          x1={119.33}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_146_)"
+          points="304.83 171.96 119.6 233.44 119.33 234.89 304.56 173.41"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_147_"
+          y2={201.98}
+          gradientUnits="userSpaceOnUse"
+          x2={305.1}
+          y1={201.98}
+          x1={119.6}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_147_)"
+          points="305.1 170.52 119.86 232 119.6 233.44 304.83 171.96"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_148_"
+          y2={200.54}
+          gradientUnits="userSpaceOnUse"
+          x2={305.36}
+          y1={200.54}
+          x1={119.87}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_148_)"
+          points="305.36 169.07 120.14 230.55 119.86 232 305.1 170.52"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_149_"
+          y2={199.09}
+          gradientUnits="userSpaceOnUse"
+          x2={305.63}
+          y1={199.09}
+          x1={120.13}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_149_)"
+          points="305.63 167.63 120.4 229.1 120.14 230.55 305.36 169.07"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_150_"
+          y2={197.64}
+          gradientUnits="userSpaceOnUse"
+          x2={305.9}
+          y1={197.64}
+          x1={120.4}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_150_)"
+          points="305.9 166.18 120.67 227.66 120.4 229.1 305.63 167.63"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_151_"
+          y2={196.2}
+          gradientUnits="userSpaceOnUse"
+          x2={306.17}
+          y1={196.2}
+          x1={120.67}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_151_)"
+          points="306.17 164.74 120.94 226.21 120.67 227.66 305.9 166.18"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_152_"
+          y2={194.75}
+          gradientUnits="userSpaceOnUse"
+          x2={306.43}
+          y1={194.75}
+          x1={120.94}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_152_)"
+          points="306.43 163.29 121.21 224.77 120.94 226.21 306.17 164.74"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_153_"
+          y2={193.31}
+          gradientUnits="userSpaceOnUse"
+          x2={306.71}
+          y1={193.31}
+          x1={121.21}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_153_)"
+          points="306.7 161.84 121.48 223.33 121.21 224.77 306.43 163.29"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_154_"
+          y2={191.87}
+          gradientUnits="userSpaceOnUse"
+          x2={306.97}
+          y1={191.87}
+          x1={121.47}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_154_)"
+          points="306.97 160.4 121.74 221.88 121.48 223.33 306.7 161.84"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_155_"
+          y2={190.42}
+          gradientUnits="userSpaceOnUse"
+          x2={307.24}
+          y1={190.42}
+          x1={121.74}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_155_)"
+          points="307.24 158.96 122.01 220.43 121.74 221.88 306.97 160.4"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_156_"
+          y2={188.97}
+          gradientUnits="userSpaceOnUse"
+          x2={307.51}
+          y1={188.97}
+          x1={122.01}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_156_)"
+          points="307.51 157.51 122.28 218.98 122.01 220.43 307.24 158.96"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_157_"
+          y2={187.52}
+          gradientUnits="userSpaceOnUse"
+          x2={307.77}
+          y1={187.52}
+          x1={122.28}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_157_)"
+          points="307.77 156.06 122.54 217.54 122.28 218.98 307.51 157.51"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_158_"
+          y2={186.07}
+          gradientUnits="userSpaceOnUse"
+          x2={308.04}
+          y1={186.07}
+          x1={122.54}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_158_)"
+          points="308.04 154.61 122.82 216.1 122.54 217.54 307.77 156.06"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_159_"
+          y2={184.63}
+          gradientUnits="userSpaceOnUse"
+          x2={308.31}
+          y1={184.63}
+          x1={122.82}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_159_)"
+          points="308.31 153.16 123.08 214.65 122.82 216.1 308.04 154.61"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_160_"
+          y2={183.19}
+          gradientUnits="userSpaceOnUse"
+          x2={308.58}
+          y1={183.19}
+          x1={123.08}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_160_)"
+          points="308.58 151.73 123.35 213.2 123.08 214.65 308.31 153.16"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_161_"
+          y2={181.74}
+          gradientUnits="userSpaceOnUse"
+          x2={308.85}
+          y1={181.74}
+          x1={123.35}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_161_)"
+          points="308.85 150.28 123.62 211.75 123.35 213.2 308.58 151.73"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_162_"
+          y2={180.29}
+          gradientUnits="userSpaceOnUse"
+          x2={309.11}
+          y1={180.29}
+          x1={123.62}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_162_)"
+          points="309.11 148.83 123.88 210.31 123.62 211.75 308.85 150.28"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_163_"
+          y2={178.85}
+          gradientUnits="userSpaceOnUse"
+          x2={309.38}
+          y1={178.85}
+          x1={123.88}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_163_)"
+          points="309.38 147.38 124.16 208.87 123.88 210.31 309.11 148.83"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_164_"
+          y2={177.4}
+          gradientUnits="userSpaceOnUse"
+          x2={309.65}
+          y1={177.4}
+          x1={124.16}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_164_)"
+          points="309.65 145.94 124.42 207.42 124.16 208.87 309.38 147.38"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_165_"
+          y2={175.96}
+          gradientUnits="userSpaceOnUse"
+          x2={309.92}
+          y1={175.96}
+          x1={124.42}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_165_)"
+          points="309.92 144.5 124.69 205.97 124.42 207.42 309.65 145.94"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_166_"
+          y2={174.51}
+          gradientUnits="userSpaceOnUse"
+          x2={310.18}
+          y1={174.51}
+          x1={124.69}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_166_)"
+          points="310.18 143.05 124.96 204.53 124.69 205.97 309.92 144.5"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_167_"
+          y2={173.06}
+          gradientUnits="userSpaceOnUse"
+          x2={310.46}
+          y1={173.06}
+          x1={124.96}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_167_)"
+          points="310.46 141.6 125.23 203.08 124.96 204.53 310.18 143.05"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_168_"
+          y2={171.62}
+          gradientUnits="userSpaceOnUse"
+          x2={310.72}
+          y1={171.62}
+          x1={125.23}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_168_)"
+          points="310.72 140.16 125.5 201.64 125.23 203.08 310.46 141.6"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_169_"
+          y2={170.17}
+          gradientUnits="userSpaceOnUse"
+          x2={310.99}
+          y1={170.17}
+          x1={125.5}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_169_)"
+          points="310.99 138.71 125.76 200.19 125.5 201.64 310.72 140.16"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_170_"
+          y2={168.73}
+          gradientUnits="userSpaceOnUse"
+          x2={311.26}
+          y1={168.73}
+          x1={125.76}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_170_)"
+          points="311.26 137.26 126.03 198.75 125.76 200.19 310.99 138.71"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_171_"
+          y2={167.29}
+          gradientUnits="userSpaceOnUse"
+          x2={311.52}
+          y1={167.29}
+          x1={126.03}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_171_)"
+          points="311.52 135.83 126.29 197.3 126.03 198.75 311.26 137.26"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_172_"
+          y2={165.84}
+          gradientUnits="userSpaceOnUse"
+          x2={311.79}
+          y1={165.84}
+          x1={126.29}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_172_)"
+          points="311.8 134.38 126.56 195.85 126.29 197.3 311.52 135.83"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_173_"
+          y2={164.39}
+          gradientUnits="userSpaceOnUse"
+          x2={312.07}
+          y1={164.39}
+          x1={126.57}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_173_)"
+          points="312.07 132.93 126.83 194.41 126.56 195.85 311.8 134.38"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_174_"
+          y2={162.95}
+          gradientUnits="userSpaceOnUse"
+          x2={312.33}
+          y1={162.95}
+          x1={126.83}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_174_)"
+          points="312.33 131.48 127.1 192.97 126.83 194.41 312.07 132.93"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_175_"
+          y2={161.5}
+          gradientUnits="userSpaceOnUse"
+          x2={312.6}
+          y1={161.5}
+          x1={127.1}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_175_)"
+          points="312.6 130.04 127.37 191.52 127.1 192.97 312.33 131.48"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_176_"
+          y2={160.06}
+          gradientUnits="userSpaceOnUse"
+          x2={312.87}
+          y1={160.06}
+          x1={127.37}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_176_)"
+          points="312.86 128.6 127.64 190.07 127.37 191.52 312.6 130.04"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_177_"
+          y2={158.61}
+          gradientUnits="userSpaceOnUse"
+          x2={313.13}
+          y1={158.61}
+          x1={127.64}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_177_)"
+          points="313.14 127.15 127.9 188.62 127.64 190.07 312.86 128.6"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_178_"
+          y2={157.16}
+          gradientUnits="userSpaceOnUse"
+          x2={313.4}
+          y1={157.16}
+          x1={127.91}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_178_)"
+          points="313.4 125.7 128.17 187.17 127.9 188.62 313.14 127.15"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_179_"
+          y2={155.71}
+          gradientUnits="userSpaceOnUse"
+          x2={313.67}
+          y1={155.71}
+          x1={128.17}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_179_)"
+          points="313.67 124.25 128.44 185.72 128.17 187.17 313.4 125.7"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_180_"
+          y2={154.27}
+          gradientUnits="userSpaceOnUse"
+          x2={313.94}
+          y1={154.27}
+          x1={128.45}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_180_)"
+          points="313.94 122.81 128.71 184.29 128.44 185.72 313.67 124.25"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_181_"
+          y2={152.82}
+          gradientUnits="userSpaceOnUse"
+          x2={314.21}
+          y1={152.82}
+          x1={128.71}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_181_)"
+          points="314.21 121.36 128.98 182.84 128.71 184.29 313.94 122.81"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_182_"
+          y2={151.38}
+          gradientUnits="userSpaceOnUse"
+          x2={314.47}
+          y1={151.38}
+          x1={128.98}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_182_)"
+          points="314.47 119.92 129.24 181.4 128.98 182.84 314.21 121.36"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_183_"
+          y2={149.93}
+          gradientUnits="userSpaceOnUse"
+          x2={314.74}
+          y1={149.93}
+          x1={129.24}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_183_)"
+          points="314.74 118.47 129.51 179.94 129.24 181.4 314.47 119.92"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_184_"
+          y2={148.48}
+          gradientUnits="userSpaceOnUse"
+          x2={315.01}
+          y1={148.48}
+          x1={129.51}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_184_)"
+          points="315.01 117.03 129.78 178.5 129.51 179.94 314.74 118.47"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_185_"
+          y2={147.04}
+          gradientUnits="userSpaceOnUse"
+          x2={315.28}
+          y1={147.04}
+          x1={129.78}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_185_)"
+          points="315.28 115.57 130.05 177.06 129.78 178.5 315.01 117.03"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_186_"
+          y2={145.59}
+          gradientUnits="userSpaceOnUse"
+          x2={315.54}
+          y1={145.59}
+          x1={130.05}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_186_)"
+          points="315.54 114.13 130.32 175.61 130.05 177.06 315.28 115.57"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_187_"
+          y2={144.15}
+          gradientUnits="userSpaceOnUse"
+          x2={315.81}
+          y1={144.15}
+          x1={130.32}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_187_)"
+          points="315.81 112.69 130.58 174.16 130.32 175.61 315.54 114.13"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_188_"
+          y2={142.7}
+          gradientUnits="userSpaceOnUse"
+          x2={316.08}
+          y1={142.7}
+          x1={130.58}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_188_)"
+          points="316.08 111.24 130.85 172.72 130.58 174.16 315.81 112.69"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_189_"
+          y2={141.26}
+          gradientUnits="userSpaceOnUse"
+          x2={316.35}
+          y1={141.26}
+          x1={130.85}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_189_)"
+          points="316.35 109.8 131.12 171.27 130.85 172.72 316.08 111.24"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_190_"
+          y2={139.81}
+          gradientUnits="userSpaceOnUse"
+          x2={316.62}
+          y1={139.81}
+          x1={131.12}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_190_)"
+          points="316.62 108.35 131.39 169.82 131.12 171.27 316.35 109.8"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_191_"
+          y2={138.36}
+          gradientUnits="userSpaceOnUse"
+          x2={316.88}
+          y1={138.36}
+          x1={131.39}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_191_)"
+          points="316.88 106.9 131.66 168.38 131.39 169.82 316.62 108.35"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_192_"
+          y2={136.92}
+          gradientUnits="userSpaceOnUse"
+          x2={317.15}
+          y1={136.92}
+          x1={131.66}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_192_)"
+          points="317.15 105.45 131.92 166.94 131.66 168.38 316.88 106.9"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_193_"
+          y2={135.48}
+          gradientUnits="userSpaceOnUse"
+          x2={317.42}
+          y1={135.48}
+          x1={131.92}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_193_)"
+          points="317.42 104.01 132.19 165.48 131.92 166.94 317.15 105.45"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_194_"
+          y2={134.03}
+          gradientUnits="userSpaceOnUse"
+          x2={317.68}
+          y1={134.03}
+          x1={132.19}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_194_)"
+          points="317.68 102.57 132.46 164.04 132.19 165.48 317.42 104.01"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_195_"
+          y2={132.58}
+          gradientUnits="userSpaceOnUse"
+          x2={317.96}
+          y1={132.58}
+          x1={132.46}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_195_)"
+          points="317.96 101.12 132.73 162.59 132.46 164.04 317.68 102.57"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_196_"
+          y2={131.13}
+          gradientUnits="userSpaceOnUse"
+          x2={318.22}
+          y1={131.13}
+          x1={132.73}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_196_)"
+          points="318.22 99.673 133 161.16 132.73 162.59 317.96 101.12"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_197_"
+          y2={129.7}
+          gradientUnits="userSpaceOnUse"
+          x2={318.49}
+          y1={129.7}
+          x1={133}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_197_)"
+          points="318.49 98.235 133.26 159.71 133 161.16 318.22 99.673"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_198_"
+          y2={128.25}
+          gradientUnits="userSpaceOnUse"
+          x2={318.76}
+          y1={128.25}
+          x1={133.26}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_198_)"
+          points="318.76 96.791 133.53 158.26 133.26 159.71 318.49 98.235"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_199_"
+          y2={126.8}
+          gradientUnits="userSpaceOnUse"
+          x2={319.03}
+          y1={126.8}
+          x1={133.53}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_199_)"
+          points="319.03 95.342 133.8 156.81 133.53 158.26 318.76 96.791"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_200_"
+          y2={125.35}
+          gradientUnits="userSpaceOnUse"
+          x2={319.29}
+          y1={125.35}
+          x1={133.8}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_200_)"
+          points="319.29 93.893 134.06 155.36 133.8 156.81 319.03 95.342"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_201_"
+          y2={123.9}
+          gradientUnits="userSpaceOnUse"
+          x2={319.56}
+          y1={123.9}
+          x1={134.06}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_201_)"
+          points="319.56 92.443 134.33 153.92 134.06 155.36 319.29 93.893"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_202_"
+          y2={122.46}
+          gradientUnits="userSpaceOnUse"
+          x2={319.83}
+          y1={122.46}
+          x1={134.33}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_202_)"
+          points="319.83 91 134.6 152.48 134.33 153.92 319.56 92.443"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_203_"
+          y2={121.02}
+          gradientUnits="userSpaceOnUse"
+          x2={320.1}
+          y1={121.02}
+          x1={134.6}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_203_)"
+          points="320.1 89.558 134.87 151.03 134.6 152.48 319.83 91"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_204_"
+          y2={119.57}
+          gradientUnits="userSpaceOnUse"
+          x2={320.37}
+          y1={119.57}
+          x1={134.87}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_204_)"
+          points="320.37 88.108 135.14 149.59 134.87 151.03 320.1 89.558"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_205_"
+          y2={118.12}
+          gradientUnits="userSpaceOnUse"
+          x2={320.64}
+          y1={118.12}
+          x1={135.14}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_205_)"
+          points="320.64 86.662 135.41 148.14 135.14 149.59 320.37 88.108"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_206_"
+          y2={116.68}
+          gradientUnits="userSpaceOnUse"
+          x2={320.91}
+          y1={116.68}
+          x1={135.41}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_206_)"
+          points="320.91 85.214 135.67 146.7 135.41 148.14 320.64 86.662"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_207_"
+          y2={115.23}
+          gradientUnits="userSpaceOnUse"
+          x2={321.17}
+          y1={115.23}
+          x1={135.67}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_207_)"
+          points="321.17 83.769 135.94 145.25 135.67 146.7 320.91 85.214"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_208_"
+          y2={113.79}
+          gradientUnits="userSpaceOnUse"
+          x2={321.44}
+          y1={113.79}
+          x1={135.95}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_208_)"
+          points="321.44 82.332 136.21 143.8 135.94 145.25 321.17 83.769"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_209_"
+          y2={112.34}
+          gradientUnits="userSpaceOnUse"
+          x2={321.71}
+          y1={112.34}
+          x1={136.21}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_209_)"
+          points="321.71 80.882 136.48 142.35 136.21 143.8 321.44 82.332"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_210_"
+          y2={110.9}
+          gradientUnits="userSpaceOnUse"
+          x2={321.98}
+          y1={110.9}
+          x1={136.48}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_210_)"
+          points="321.98 79.437 136.75 140.91 136.48 142.35 321.71 80.882"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_211_"
+          y2={109.45}
+          gradientUnits="userSpaceOnUse"
+          x2={322.25}
+          y1={109.45}
+          x1={136.75}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_211_)"
+          points="322.25 77.986 137.02 139.46 136.75 140.91 321.98 79.437"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_212_"
+          y2={108}
+          gradientUnits="userSpaceOnUse"
+          x2={322.51}
+          y1={108}
+          x1={137.01}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_212_)"
+          points="322.52 76.542 137.28 138.02 137.02 139.46 322.25 77.986"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_213_"
+          y2={106.65}
+          gradientUnits="userSpaceOnUse"
+          x2={322.72}
+          y1={106.65}
+          x1={137.28}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_213_)"
+          points="322.25 75.271 137.55 136.57 137.28 138.02 322.52 76.542 322.72 75.393"
+          clipPath="url(#SVGID_110_)"
+        />
+        <linearGradient
+          id="SVGID_214_"
+          y2={84.237}
+          gradientUnits="userSpaceOnUse"
+          x2={322.25}
+          y1={84.237}
+          x1={137.55}
+        >
+          <stop
+            style={{
+              stopColor: "#FFFFFF",
+            }}
+            offset={0}
+          />
+          <stop
+            style={{
+              stopColor: "#A7A9AC",
+            }}
+            offset={1}
+          />
+        </linearGradient>
+        <polygon
+          fill="url(#SVGID_214_)"
+          points="137.55 136.57 322.25 75.271 156.95 31.906"
+          clipPath="url(#SVGID_110_)"
+        />
+      </g>
+      <g>
+        <path
+          d="m95.451 297.23c0.096 0.499-0.565 1.377-0.89 2.107-0.044-0.227-0.065-0.341-0.109-0.572-0.339 0.64-0.84 1.377-1.012 1.946-0.48 0.623-0.722 0.929-1.198 1.558 0.035-0.342 0.28-0.494 0.498-0.822 0.08 0.039 0.124 0.056 0.201 0.087 0.112 0.584-0.618 1.154-0.967 1.717-0.259 0.174-0.309-0.065-0.354-0.316 0.647 0.906-0.92 1.478-1.271 2.552-0.026-0.1-0.023-0.154-0.045-0.256-0.568 0.735-0.859 1.105-1.432 1.842 0.034 0.162 0.056 0.245 0.088 0.4-0.719 1.104-2.585 3.03-3.542 4.812 0.667 0.154-0.233 1.259-0.735 2.014 0.003-0.358 0.009-0.545 0.019-0.914-1.706 2.76-2.561 4.142-4.26 6.955 0.116-0.006 0.166-0.005 0.278-0.01-0.262 0.589-0.39 0.881-0.65 1.474-0.117-0.078-0.28 0.018-0.229-0.255 0.047-0.137 0.069-0.207 0.117-0.341 0.031-0.336-0.791 1.245-0.77 1.822-0.123-0.676-0.907 0.548-1.098 1.081-1.708 3.221-2.896 5.775-5.121 8.278-0.093 1.548-0.819 1.522-1.537 2.695-0.305 0.793-1.028 2.425-1.693 2.841-1.336 2.78-3.731 6.335-5.024 8.835-0.509 0.646-0.764 0.983-1.266 1.644 0.099-0.044 0.148-0.069 0.254-0.121-0.228 0.812-0.791 1.228-1.219 1.895-0.19 0.991-1.932 3.061-2.639 4.742-8.566 15.57-19.424 32.269-26.534 51.396-5.114 12.813-10.448 25.639-15.664 38.743 1.586-1.369 3.625-4.18 5.098-7.857 7.187-14.586 15.105-31.53 23.645-40.721 17.271-35.43 35.374-70.209 57.825-103.26 21.411-30.457 42.997-60.646 70.486-87.081 20.361-21.779 110.38-88.861 123.9-104.57-47.92 47.55-164.46 140.81-203.16 195.66z"
+          fill="#B2804C"
+        />
+      </g>
+      <g>
+        <path d="m161.73 189.48c0.037-0.13 0.067-0.194 0.107-0.327-0.029-0.176-0.045-0.264-0.082-0.443-0.01 0.31-0.02 0.46-0.03 0.77z" />
+      </g>
+    </g>
+    <metadata>
+      {/* <rdfRDF>
+        <ccWork>
+          <dc:format>{"image/svg+xml"}</dc:format>
+          <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+          <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+          <dc:publisher>
+            <cc:Agent rdf:about="http://openclipart.org/">
+              <dc:title>{"Openclipart"}</dc:title>
+            </cc:Agent>
+          </dc:publisher>
+        </ccWork>
+        <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+          <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction" />
+          <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution" />
+          <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        </cc:License>
+      </rdfRDF> */}
+    </metadata>
+  </svg>
+);
+export const BrandLogo = (props) => (
+  <svg
+    xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsSvg="http://www.w3.org/2000/svg"
+    id="svg2"
+    xmlSpace="preserve"
+    width={300}
+    height={300}
+    viewBox="0 0 1440 1440"
+    sodipodiDocname="72aaf650b7fe6f0c9209b484dda038ff.ai"
+    {...props}
+  >
+    <defs id="defs6">
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath18">
+        <path
+          d="m 260.194,438.686 4.042,-4.812 -16.055,-152.516 -4.784,-5.566 h 30.847 l -4.204,4.958 3.681,37.503 18.315,-8.835 17.103,8.228 3.686,-36.896 -4.21,-4.958 h 29.888 l -4.73,5.471 -16.306,152.51 4.234,4.913 z m 15.453,-100.975 8.028,81.612 h 15.319 l 8.19,-82.218 -15.148,-7.247 z"
+          id="path16"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
+        <path
+          d="m 486.737,438.686 4.883,-5.799 V 281.59 l -4.883,-5.798 h 31.1 l -4.882,5.798 v 151.297 l 4.882,5.799 z"
+          id="path28"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath42">
+        <path
+          d="m 655.91,438.686 4.043,-4.812 -16.056,-152.516 -4.758,-5.566 h 30.852 l -4.235,4.958 3.71,37.503 18.31,-8.835 17.08,8.228 3.682,-36.896 -4.206,-4.958 h 29.916 l -4.759,5.471 -16.306,152.51 4.235,4.913 z m 15.453,-100.975 8.057,81.612 h 15.286 l 8.225,-82.218 -15.155,-7.247 z"
+          id="path40"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath54">
+        <path
+          d="m 428.133,438.686 -17.021,-66.924 -19.118,66.924 h -25.788 l 4.05,-4.863 -16.076,-152.465 -4.75,-5.566 h 30.822 l -4.193,4.958 9.679,111.727 25.166,-78.708 23.485,81.657 10.482,-114.676 -4.23,-4.958 h 29.92 l -4.755,5.471 -16.285,152.51 4.227,4.913 z"
+          id="path52"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath66">
+        <path
+          d="m 854.509,438.686 4.073,-4.812 -16.061,-152.516 -4.783,-5.566 h 30.852 l -4.206,4.958 3.682,37.503 18.34,-8.835 17.074,8.228 3.686,-36.896 -4.205,-4.958 h 29.886 l -4.729,5.471 -16.306,152.51 4.234,4.913 z m 15.482,-100.975 8.028,81.612 h 15.288 l 8.222,-82.218 -15.123,-7.247 z"
+          id="path64"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
+        <path
+          d="m 147.128,438.873 v -0.374 c 3.689,-1.544 4.305,-5.334 4.542,-6.689 v 0 c 0.212,-1.402 0.212,-2.803 0.212,-4.393 v 0 -69.923 -70.056 c 0,-1.455 0,-2.994 -0.237,-4.491 v 0 c -0.545,-3.37 -2.059,-5.616 -4.517,-6.689 v 0 -0.424 h 81.848 c 0,0.749 -0.308,0.89 -0.899,1.173 v 0 c -1.701,0.794 -2.624,2.899 -3.094,4.534 v 0 c -0.52,1.921 -0.595,3.835 -0.595,5.524 v 0 c -0.021,10.382 -0.021,20.806 -0.021,31.238 v 0 14.217 11.926 l -20.12,-3.182 v -38.019 c 0,-5.756 -1.676,-7.437 -7.516,-7.437 v 0 H 179.59 c -6.099,0 -7.755,1.681 -7.755,7.67 v 0 c 0,0 -0.024,37.087 -0.024,67.956 v 0 0.187 2.246 0.183 2.2 0.188 0.42 0.141 0.47 0.138 1.027 0.141 0.425 0.136 0.471 0.141 0.982 0.183 0.424 0.141 0.417 0.141 0.424 0.141 0.417 0.141 0.42 0.141 0.42 0.143 0.419 0.141 0.421 0.091 0.142 0.187 0.095 0.142 0.416 0.142 0.141 0.092 0.141 0.141 0.421 0.141 0.137 0.096 0.141 0.137 0.425 0.091 0.141 0.142 0.142 0.137 0.374 0.141 0.138 0.095 0.138 0.141 0.142 0.091 0.142 0.141 0.141 0.092 0.141 0.142 0.374 0.092 0.141 0.141 0.142 0.092 0.141 0.092 0.141 0.141 0.092 0.141 0.142 0.091 0.142 0.141 0.092 0.374 0.091 0.142 0.142 0.091 0.141 0.328 0.138 0.095 0.142 0.095 0.138 0.328 0.142 0.091 0.142 0.092 0.141 0.328 0.092 0.141 0.096 0.092 0.141 0.325 0.095 0.329 0.137 0.328 0.092 0.096 0.137 0.096 0.096 0.324 0.092 0.333 0.09 0.325 0.1 0.275 0.141 0.657 0.092 0.703 0.095 0.653 0.096 0.653 0.046 c 0.024,4.725 0.024,7.762 0.024,8.328 v 0 c 0.022,4.72 1.939,6.684 6.619,6.684 v 0 h 18.772 c 5.179,0 7.021,-1.822 7.021,-6.968 v 0 -26.892 l 20.12,3.132 v 0.937 17.773 0.092 0.749 0.092 0.748 0.096 0.096 0.137 0.096 0.09 0.325 0.1 0.092 0.141 0.091 0.092 0.329 0.096 0.091 0.092 0.141 0.092 0.1 0.09 0.143 0.091 0.091 0.096 0.138 0.099 0.091 0.092 0.141 0.284 0.137 0.278 0.096 0.329 0.091 0.329 0.095 15.291 c 0,2.388 0,6.83 3.761,8.935 v 0 c 0.611,0.374 0.802,0.558 0.828,1.073 v 0 z"
+          id="path76"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath90">
+        <path
+          d="m 746.852,438.686 v -0.187 c 3.506,-1.777 4.229,-5.283 4.463,-7.853 v 0 c 0.07,-0.708 0.07,-1.452 0.07,-2.434 v 0 -53.131 c 0,-29.512 0,-59.024 -0.025,-88.532 v 0 l 0.025,-0.704 c 0.025,-0.278 0.025,-0.56 0.025,-0.839 v 0 c 0,-0.845 -0.07,-1.685 -0.4,-2.525 v 0 l -0.232,-0.612 c -0.632,-1.726 -1.427,-3.881 -3.158,-4.912 v 0 c -0.586,-0.325 -0.84,-0.512 -0.865,-0.982 v 0 h 29.513 c -0.025,0.566 -0.212,0.657 -0.724,0.798 v 0 c -1.381,0.516 -2.363,1.964 -2.737,3.229 v 0 c -0.516,1.73 -1.123,3.739 -1.123,5.748 v 0 c -0.046,9.775 -0.071,22.121 -0.071,31.804 v 0 0.142 0.324 0.096 0.328 0.092 0.141 0.092 0.096 0.095 0.141 0.092 0.092 0.328 0.096 0.325 0.091 c 0.025,7.063 0.025,12.213 0.025,13.099 v 0 0.045 0.046 0.046 1.872 l 1.847,0.049 c 0.046,0 4.443,0.092 10.473,1.498 v 0 l 1.801,0.416 13.707,-51.82 c 0.279,-1.124 0.445,-2.146 0.445,-3.132 v 0 c 0,-2.196 -0.774,-3.931 -2.292,-5.192 v 0 c -0.424,-0.328 -0.562,-0.561 -0.587,-0.982 v 0 h 30.262 l -0.096,0.238 c -3.998,2.055 -6.664,5.424 -7.929,10.008 v 0 c -3.435,12.67 -10.943,40.032 -12.182,44.524 v 0 l -12.837,9.68 2.62,1.402 c 0.092,0.045 9.143,4.866 13.211,9.683 v 0 c 7.387,8.697 10.969,19.5 10.969,32.969 v 0 44.383 c 0,2.154 0,6.597 3.719,8.747 v 0 c 0.607,0.375 0.936,0.611 1.027,0.982 v 0 z m 24.877,-19.783 h 29.326 l 0.021,-35.918 c 0,-26.006 -27.054,-28.153 -27.333,-28.202 v 0 l -2.014,-0.142 z"
+          id="path88"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath102">
+        <path
+          d="m 590.584,438.732 c 0.025,-0.608 0.228,-0.749 0.686,-0.982 v 0 c 1.219,-0.653 1.731,-1.589 1.934,-2.246 v 0 c 0.1,-0.37 0.15,-0.745 0.15,-1.119 v 0 c 0,-0.845 -0.254,-1.777 -0.786,-2.758 v 0 c -7.509,-13.843 -23.585,-43.264 -23.585,-43.264 v 0 l -3.535,-6.452 v 7.388 c 0,0 -0.026,8.465 -0.026,18.194 v 0 0.092 0.095 0.138 0.095 0.096 0.091 0.092 0.096 0.328 0.092 0.324 0.1 c 0,7.104 0,14.683 0.026,20.016 v 0 c 0.025,4.625 1.626,7.761 4.758,9.351 v 0 0.187 h -29.234 v -0.279 c 2.775,-1.452 4.252,-4.16 4.455,-8.469 v 0 c 0.025,-0.79 0.075,-1.634 0.075,-2.429 v 0 -52.519 c 0,-29.184 0,-58.367 -0.025,-87.552 v 0 l 0.025,-0.889 v -0.89 c 0,-0.982 -0.05,-2.013 -0.458,-3.133 v 0 c -0.661,-1.967 -1.451,-4.35 -3.306,-5.519 v 0 c -0.562,-0.375 -0.841,-0.607 -0.89,-1.032 v 0 h 29.532 c -0.049,0.566 -0.328,0.707 -0.89,0.94 v 0 c -1.984,0.886 -2.948,3.411 -3.178,4.205 v 0 c -0.561,1.777 -0.864,3.744 -0.864,5.707 v 0 13.004 0.187 0.187 0.187 0.233 c 0,28.622 0.099,69.124 0.099,70.06 v 0 1.867 l 8.523,0.192 0.432,-1.406 c 0,0 17.379,-58.226 25.669,-85.962 v 0 c 0.259,-0.89 0.383,-1.73 0.383,-2.571 v 0 c 0.025,-2.479 -1.119,-4.584 -3.232,-5.753 v 0 c -0.532,-0.328 -0.761,-0.511 -0.786,-1.027 v 0 h 32.308 v 0.142 h -0.026 c -4.276,1.122 -7.15,3.976 -8.522,8.51 v 0 C 610.474,317.23 589.132,387.71 589.132,387.71 v 0 l -0.229,0.749 0.358,0.653 c 0.15,0.278 13.327,24.787 19.712,37.042 v 0 c 2.65,5.099 3.307,10.614 10.154,12.486 v 0 l 0.84,0.092 z"
+          id="path100"
+        />
+      </clipPath>
+      <clipPath clipPathUnits="userSpaceOnUse" id="clipPath134">
+        <path d="M 0,1080 H 1080 V 0 H 0 Z" id="path132" />
+      </clipPath>
+    </defs>
+    <sodipodiNamedview
+      id="namedview4"
+      pagecolor="#dcca95"
+      bordercolor="#666666"
+      borderopacity={1}
+      inkscapePageshadow={2}
+      inkscapePageopacity={0}
+      inkscapePagecheckerboard={0}
+    />
+    <g
+      id="g8"
+      inkscapeGroupmode="layer"
+      inkscapeLabel="72aaf650b7fe6f0c9209b484dda038ff"
+      transform="matrix(1.3333333,0,0,-1.3333333,0,1440)"
+    >
+      <path
+        d="M 0,0 H 1080 V 1080 H 0 Z"
+        style={{
+          fill: "#e0c98e",
+          fillOpacity: 1,
+          fillRule: "nonzero",
+          stroke: "none",
+        }}
+        id="path10"
+      />
+      <g id="g12">
+        <g id="g14" clipPath="url(#clipPath18)">
+          <g
+            id="g20"
+            transform="matrix(97.030856,0,0,165.04314,242.24078,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAC2CAYAAADeH3P9AAAABHNCSVQICAgIfAhkiAAAAbtJREFUeJzt0cEJwCAAwMBaH+4/sa7gTwJ3EwQy5lz7I+F/HcA9s0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKyQA2rXAngk7e4JAAAAAElFTkSuQmCC"
+              id="image22"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g24">
+        <g id="g26" clipPath="url(#clipPath30)">
+          <g
+            id="g32"
+            transform="matrix(32.645896,0,0,165.04314,486.11774,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAC2CAYAAACxri/QAAAABHNCSVQICAgIfAhkiAAAALdJREFUeJztzqEBwCAAwDAGYv9fPDymcojkgjxrvd+4yPw7cBIqQkWoCBWhIlSEilARKkJFqAgVoSJUhIpQESpCRagIFaEiVISKUBEqQkWoCBWhIlSEilARKkJFqAgVoSJUhIpQESpCRagIFaEiVISKUBEqQkWoCBWhIlSEilARKkJFqAgVoSJUhIpQESpCRagIFaEiVISKUBEqQkWoCBWhIlSEilARKkJFqAgVoSJUhIpQESpCZQOiQwJ4znV2WwAAAABJRU5ErkJggg=="
+              id="image34"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g36">
+        <g id="g38" clipPath="url(#clipPath42)">
+          <g
+            id="g44"
+            transform="matrix(97.030856,0,0,165.04314,638.42303,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAC2CAYAAADeH3P9AAAABHNCSVQICAgIfAhkiAAAAbtJREFUeJzt0cEJwCAAwMBaH+4/sa7gTwJ3EwQy5lz7I+F/HcA9s0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKyQA2rXAngk7e4JAAAAAElFTkSuQmCC"
+              id="image46"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g48">
+        <g id="g50" clipPath="url(#clipPath54)">
+          <g
+            id="g56"
+            transform="matrix(123.32894,0,0,165.04314,348.31055,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIgAAAC2CAYAAAACysWPAAAABHNCSVQICAgIfAhkiAAAAbtJREFUeJzt0rEBgCAAwDCEwf8vlgvoKkNyQYc+a73fgIP5dwB3MwjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxCMgjJICSDkAxC2ry+Anjfo0+FAAAAAElFTkSuQmCC"
+              id="image58"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g60">
+        <g id="g62" clipPath="url(#clipPath66)">
+          <g
+            id="g68"
+            transform="matrix(97.030856,0,0,165.04314,836.96863,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGsAAAC2CAYAAADeH3P9AAAABHNCSVQICAgIfAhkiAAAAbtJREFUeJzt0cEJwCAAwMBaH+4/sa7gTwJ3EwQy5lz7I+F/HcA9s0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKwQs0LMCjErxKyQA2rXAngk7e4JAAAAAElFTkSuQmCC"
+              id="image70"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g72">
+        <g id="g74" clipPath="url(#clipPath78)">
+          <g
+            id="g80"
+            transform="matrix(83.4284,0,0,165.04314,146.13763,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAAC2CAYAAABUMOq8AAAABHNCSVQICAgIfAhkiAAAAaVJREFUeJzt0EERwCAAwDDAx44H/jVuLspjiYJe53n2O8is2wF/Y3jM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2OGxwyPGR4zPGZ4zPCY4THDY4bHDI8ZHjM8ZnjM8JjhMcNjhscMjxkeMzxmeMzwmOExw2MfTFYCyoPyZocAAAAASUVORK5CYII="
+              id="image82"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g84">
+        <g id="g86" clipPath="url(#clipPath90)">
+          <g
+            id="g92"
+            transform="matrix(82.521569,0,0,165.04314,745.39966,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAC2CAYAAAC27PHFAAAABHNCSVQICAgIfAhkiAAAAaVJREFUeJzt0EERwCAAwDDAx44H/jVuLspjiYJe53n2O0is2wF/YnbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0Nmh8wOmR0yO2R2yOyQ2SGzQ2aHzA6ZHTI7ZHbI7JDZIbNDZofMDpkdMjtkdsjskNkhs0MfYEQCyuTQxwsAAAAASUVORK5CYII="
+              id="image94"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g96">
+        <g id="g98" clipPath="url(#clipPath102)">
+          <g
+            id="g104"
+            transform="matrix(89.776213,0,0,165.04314,539.59979,274.90718)"
+          >
+            <image
+              width={1}
+              height={1}
+              style={{
+                imageRendering: "optimizeSpeed",
+              }}
+              preserveAspectRatio="none"
+              transform="matrix(1,0,0,-1,0,1)"
+              xlinkHref="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGMAAAC2CAYAAADNyDMJAAAABHNCSVQICAgIfAhkiAAAAb1JREFUeJzt0bENwCAAwLDSPxAD/99Ix55ABvuCSBl7rvOQ8N4O4GdGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEWJGiBkhZoSYEfIBwMUCyntUQDIAAAAASUVORK5CYII="
+              id="image106"
+            />
+          </g>
+        </g>
+      </g>
+      <g id="g108" transform="translate(308.0914,275.8089)">
+        <path
+          d="M 0,0 4.21,4.925 0.524,41.829 -16.567,33.622 -34.891,42.428 -38.58,4.925 -34.362,0 h -30.856 l 4.775,5.561 16.056,152.486 -4.043,4.851 H 13.082 L 8.864,157.956 25.153,5.449 29.887,0 Z m -32.969,61.911 16.402,-7.882 15.14,7.275 -8.215,82.218 h -15.299 z"
+          style={{
+            fill: "#231f20",
+            fillOpacity: 1,
+            fillRule: "evenodd",
+            stroke: "none",
+          }}
+          id="path110"
+        />
+      </g>
+      <g id="g112" transform="translate(486.205,275.8089)">
+        <path
+          d="M 0,0 4.883,5.798 V 157.099 L 0,162.898 h 31.107 l -4.893,-5.799 V 5.798 L 31.107,0 Z"
+          style={{
+            fill: "#231f20",
+            fillOpacity: 1,
+            fillRule: "evenodd",
+            stroke: "none",
+          }}
+          id="path114"
+        />
+      </g>
+      <g id="g116" transform="translate(703.8162,275.8089)">
+        <path
+          d="M 0,0 4.209,4.925 0.524,41.829 -16.564,33.622 -34.887,42.428 -38.572,4.925 -34.362,0 h -30.857 l 4.772,5.561 16.068,152.486 -4.06,4.851 H 13.086 L 8.856,157.956 25.153,5.449 29.895,0 Z m -32.969,61.911 16.405,-7.882 15.146,7.275 -8.22,82.218 h -15.299 z"
+          style={{
+            fill: "#231f20",
+            fillOpacity: 1,
+            fillRule: "evenodd",
+            stroke: "none",
+          }}
+          id="path118"
+        />
+      </g>
+      <g id="g120" transform="translate(440.1377,275.8089)">
+        <path
+          d="M 0,0 4.201,4.917 -6.264,119.63 -29.75,37.944 -54.94,116.66 -64.607,4.917 -60.402,0 h -30.851 l 4.771,5.557 16.06,152.482 -4.051,4.859 h 25.814 L -29.55,95.97 -12.533,162.898 H 13.082 L 8.86,157.956 25.153,5.449 29.887,0 Z"
+          style={{
+            fill: "#231f20",
+            fillOpacity: 1,
+            fillRule: "evenodd",
+            stroke: "none",
+          }}
+          id="path122"
+        />
+      </g>
+      <g id="g124" transform="translate(902.4282,275.8089)">
+        <path
+          d="M 0,0 4.218,4.925 0.528,41.829 -16.559,33.622 -34.878,42.428 -38.568,4.925 -34.362,0 h -30.856 l 4.775,5.561 16.064,152.486 -4.051,4.851 H 13.094 L 8.856,157.956 25.157,5.449 29.895,0 Z m -32.965,61.911 16.406,-7.882 15.141,7.275 -8.224,82.218 h -15.29 z"
+          style={{
+            fill: "#231f20",
+            fillOpacity: 1,
+            fillRule: "evenodd",
+            stroke: "none",
+          }}
+          id="path126"
+        />
+      </g>
+      <g id="g128">
+        <g id="g130" clipPath="url(#clipPath134)">
+          <g id="g136" transform="translate(146.5994,275.8502)">
+            <path
+              d="m 0,0 v 0.4 c 2.463,1.081 3.981,3.319 4.513,6.688 0.242,1.527 0.242,3.045 0.242,4.518 0.016,46.72 0.016,93.341 0,139.978 0,1.556 0,2.961 -0.229,4.393 -0.213,1.339 -0.819,5.124 -4.526,6.663 v 0.366 h 81.823 c -0.02,-0.52 -0.216,-0.703 -0.823,-1.04 -3.748,-2.142 -3.748,-6.576 -3.752,-8.96 -0.017,-9.941 -0.009,-39.74 -0.009,-39.74 v -0.949 l -20.115,-3.128 v 26.905 c 0,5.124 -1.847,6.946 -7.038,6.946 H 31.322 c -4.684,0 -6.601,-1.947 -6.622,-6.68 -0.013,-3.494 0,-108.724 0,-108.724 0,-6.014 1.664,-7.666 7.753,-7.666 h 17.154 c 5.828,0 7.517,1.677 7.517,7.425 v 38.044 l 20.115,3.153 V 56.679 c -0.008,-15.158 -0.008,-30.332 0.017,-45.49 0,-1.655 0.075,-3.594 0.607,-5.474 C 78.338,4.077 79.244,1.964 80.958,1.153 81.553,0.882 81.852,0.732 81.861,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path138"
+            />
+          </g>
+          <g id="g140" transform="translate(746.223,275.9793)">
+            <path
+              d="m 0,0 c 0.037,0.445 0.299,0.645 0.878,0.994 1.718,1.04 2.508,3.178 3.145,4.892 l 0.236,0.616 c 0.437,1.147 0.4,2.329 0.375,3.369 l -0.017,0.707 c 0.013,47.211 0.013,94.431 0.013,141.651 0,0.998 0,1.73 -0.067,2.445 -0.229,2.58 -0.961,6.048 -4.467,7.829 v 0.212 h 78.936 c -0.091,-0.387 -0.403,-0.628 -1.011,-0.986 -3.722,-2.146 -3.722,-6.597 -3.722,-8.727 v -44.399 c 0,-13.469 -3.594,-24.259 -10.965,-32.977 -4.068,-4.809 -13.119,-9.651 -13.207,-9.7 L 47.511,64.536 60.347,54.84 C 61.566,50.385 69.087,22.998 72.527,10.345 73.774,5.769 76.441,2.392 80.451,0.32 L 80.53,0.096 H 50.277 c 0.021,0.403 0.175,0.64 0.591,0.99 2.192,1.813 2.816,4.608 1.834,8.335 L 39.009,61.225 37.212,60.801 C 31.189,59.387 26.788,59.295 26.738,59.295 l -1.843,-0.033 v -1.855 c 0,0 -0.046,-28.66 0.034,-47.628 C 24.941,7.758 25.523,5.761 26.056,4.006 26.422,2.775 27.42,1.31 28.801,0.82 29.292,0.636 29.504,0.562 29.517,0 Z m 24.983,78.679 2.013,0.133 c 0.275,0.025 27.32,2.18 27.32,28.185 l -0.008,35.914 H 24.983 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path142"
+            />
+          </g>
+          <g id="g144" transform="translate(540.3316,276.0002)">
+            <path
+              d="m 0,0 c 0.05,0.391 0.312,0.615 0.874,0.99 1.846,1.198 2.662,3.585 3.311,5.515 0.524,1.531 0.499,2.871 0.457,4.056 l -0.021,0.878 c 0.013,46.683 0.013,93.37 0.009,140.049 0,0.828 -0.029,1.651 -0.071,2.467 -0.196,4.263 -1.685,7.013 -4.451,8.469 v 0.282 h 29.25 v -0.228 c -3.136,-1.585 -4.737,-4.721 -4.762,-9.33 -0.063,-13.103 -0.017,-39.866 -0.017,-39.866 v -7.362 l 3.544,6.455 c 0,0 16.089,29.401 23.581,43.244 0.773,1.43 0.982,2.745 0.64,3.893 -0.207,0.669 -0.702,1.589 -1.93,2.238 -0.461,0.241 -0.657,0.399 -0.694,0.965 h 29.383 l -0.844,-0.092 C 71.429,160.751 70.755,155.244 68.109,150.17 61.728,137.907 48.538,113.382 48.41,113.132 l -0.371,-0.694 0.229,-0.745 c 0,0 21.351,-70.446 31.18,-103.016 1.373,-4.55 4.239,-7.412 8.523,-8.494 h 0.021 L 87.975,0.042 H 55.668 c 0.038,0.507 0.253,0.698 0.786,0.998 2.829,1.58 3.91,4.792 2.854,8.361 -8.299,27.711 -25.674,85.953 -25.674,85.953 l -0.411,1.373 -8.532,-0.183 -0.004,-1.847 c 0,0 -0.133,-56.678 -0.091,-83.865 0,-1.98 0.295,-3.952 0.852,-5.716 C 25.69,4.342 26.638,1.789 28.635,0.907 29.188,0.653 29.483,0.532 29.525,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path146"
+            />
+          </g>
+          <g id="g148" transform="translate(308.0914,275.8089)">
+            <path
+              d="M 0,0 4.21,4.925 0.524,41.829 -16.567,33.622 -34.891,42.428 -38.58,4.925 -34.362,0 h -30.856 l 4.775,5.561 16.056,152.486 -4.043,4.851 H 13.082 L 8.864,157.956 25.153,5.449 29.887,0 Z m -32.969,61.911 16.402,-7.882 15.14,7.275 -8.215,82.218 h -15.299 z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path150"
+            />
+          </g>
+          <g id="g152" transform="translate(486.205,275.8089)">
+            <path
+              d="M 0,0 4.883,5.798 V 157.099 L 0,162.898 h 31.107 l -4.893,-5.799 V 5.798 L 31.107,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path154"
+            />
+          </g>
+          <g id="g156" transform="translate(703.8162,275.8089)">
+            <path
+              d="M 0,0 4.209,4.925 0.524,41.829 -16.564,33.622 -34.887,42.428 -38.572,4.925 -34.362,0 h -30.857 l 4.772,5.561 16.068,152.486 -4.06,4.851 H 13.086 L 8.856,157.956 25.153,5.449 29.895,0 Z m -32.969,61.911 16.405,-7.882 15.146,7.275 -8.22,82.218 h -15.299 z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path158"
+            />
+          </g>
+          <g id="g160" transform="translate(440.1377,275.8089)">
+            <path
+              d="M 0,0 4.201,4.917 -6.264,119.63 -29.75,37.944 -54.94,116.66 -64.607,4.917 -60.402,0 h -30.851 l 4.771,5.557 16.06,152.482 -4.051,4.859 h 25.814 L -29.55,95.97 -12.533,162.898 H 13.082 L 8.86,157.956 25.153,5.449 29.887,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path162"
+            />
+          </g>
+          <g id="g164" transform="translate(902.4282,275.8089)">
+            <path
+              d="M 0,0 4.218,4.925 0.528,41.829 -16.559,33.622 -34.878,42.428 -38.568,4.925 -34.362,0 h -30.856 l 4.775,5.561 16.064,152.486 -4.051,4.851 H 13.094 L 8.856,157.956 25.157,5.449 29.895,0 Z m -32.965,61.911 16.406,-7.882 15.141,7.275 -8.224,82.218 h -15.29 z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path166"
+            />
+          </g>
+          <g id="g168" transform="translate(146.5994,275.8502)">
+            <path
+              d="m 0,0 v 0.4 c 2.463,1.081 3.981,3.319 4.513,6.688 0.242,1.527 0.242,3.045 0.242,4.518 0.016,46.72 0.016,93.341 0,139.978 0,1.556 0,2.961 -0.229,4.393 -0.213,1.339 -0.819,5.124 -4.526,6.663 v 0.366 h 81.823 c -0.02,-0.52 -0.216,-0.703 -0.823,-1.04 -3.748,-2.142 -3.748,-6.576 -3.752,-8.96 -0.017,-9.941 -0.009,-39.74 -0.009,-39.74 v -0.949 l -20.115,-3.128 v 26.905 c 0,5.124 -1.847,6.946 -7.038,6.946 H 31.322 c -4.684,0 -6.601,-1.947 -6.622,-6.68 -0.013,-3.494 0,-108.724 0,-108.724 0,-6.014 1.664,-7.666 7.753,-7.666 h 17.154 c 5.828,0 7.517,1.677 7.517,7.425 v 38.044 l 20.115,3.153 V 56.679 c -0.008,-15.158 -0.008,-30.332 0.017,-45.49 0,-1.655 0.075,-3.594 0.607,-5.474 C 78.338,4.077 79.244,1.964 80.958,1.153 81.553,0.882 81.852,0.732 81.861,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path170"
+            />
+          </g>
+          <g id="g172" transform="translate(746.223,275.9793)">
+            <path
+              d="m 0,0 c 0.037,0.445 0.299,0.645 0.878,0.994 1.718,1.04 2.508,3.178 3.145,4.892 l 0.236,0.616 c 0.437,1.147 0.4,2.329 0.375,3.369 l -0.017,0.707 c 0.013,47.211 0.013,94.431 0.013,141.651 0,0.998 0,1.73 -0.067,2.445 -0.229,2.58 -0.961,6.048 -4.467,7.829 v 0.212 h 78.936 c -0.091,-0.387 -0.403,-0.628 -1.011,-0.986 -3.722,-2.146 -3.722,-6.597 -3.722,-8.727 v -44.399 c 0,-13.469 -3.594,-24.259 -10.965,-32.977 -4.068,-4.809 -13.119,-9.651 -13.207,-9.7 L 47.511,64.536 60.347,54.84 C 61.566,50.385 69.087,22.998 72.527,10.345 73.774,5.769 76.441,2.392 80.451,0.32 L 80.53,0.096 H 50.277 c 0.021,0.403 0.175,0.64 0.591,0.99 2.192,1.813 2.816,4.608 1.834,8.335 L 39.009,61.225 37.212,60.801 C 31.189,59.387 26.788,59.295 26.738,59.295 l -1.843,-0.033 v -1.855 c 0,0 -0.046,-28.66 0.034,-47.628 C 24.941,7.758 25.523,5.761 26.056,4.006 26.422,2.775 27.42,1.31 28.801,0.82 29.292,0.636 29.504,0.562 29.517,0 Z m 24.983,78.679 2.013,0.133 c 0.275,0.025 27.32,2.18 27.32,28.185 l -0.008,35.914 H 24.983 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path174"
+            />
+          </g>
+          <g id="g176" transform="translate(540.3316,276.0002)">
+            <path
+              d="m 0,0 c 0.05,0.391 0.312,0.615 0.874,0.99 1.846,1.198 2.662,3.585 3.311,5.515 0.524,1.531 0.499,2.871 0.457,4.056 l -0.021,0.878 c 0.013,46.683 0.013,93.37 0.009,140.049 0,0.828 -0.029,1.651 -0.071,2.467 -0.196,4.263 -1.685,7.013 -4.451,8.469 v 0.282 h 29.25 v -0.228 c -3.136,-1.585 -4.737,-4.721 -4.762,-9.33 -0.063,-13.103 -0.017,-39.866 -0.017,-39.866 v -7.362 l 3.544,6.455 c 0,0 16.089,29.401 23.581,43.244 0.773,1.43 0.982,2.745 0.64,3.893 -0.207,0.669 -0.702,1.589 -1.93,2.238 -0.461,0.241 -0.657,0.399 -0.694,0.965 h 29.383 l -0.844,-0.092 C 71.429,160.751 70.755,155.244 68.109,150.17 61.728,137.907 48.538,113.382 48.41,113.132 l -0.371,-0.694 0.229,-0.745 c 0,0 21.351,-70.446 31.18,-103.016 1.373,-4.55 4.239,-7.412 8.523,-8.494 h 0.021 L 87.975,0.042 H 55.668 c 0.038,0.507 0.253,0.698 0.786,0.998 2.829,1.58 3.91,4.792 2.854,8.361 -8.299,27.711 -25.674,85.953 -25.674,85.953 l -0.411,1.373 -8.532,-0.183 -0.004,-1.847 c 0,0 -0.133,-56.678 -0.091,-83.865 0,-1.98 0.295,-3.952 0.852,-5.716 C 25.69,4.342 26.638,1.789 28.635,0.907 29.188,0.653 29.483,0.532 29.525,0 Z"
+              style={{
+                fill: "#231f20",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path178"
+            />
+          </g>
+          <g id="g180" transform="translate(299.0235,421.1782)">
+            <path
+              d="m 0,0 h -3.361 -11.938 -3.357 l -0.332,-3.344 -7.742,-78.642 -0.249,-2.583 2.334,-1.119 14.433,-6.938 1.606,-0.773 1.605,0.773 13.174,6.331 2.342,1.123 -0.267,2.587 -7.92,79.249 z m -8.606,-89.282 -14.434,6.93 7.741,78.642 h 11.938 l 7.924,-79.253 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path182"
+            />
+          </g>
+          <g id="g184" transform="translate(317.7709,433.166)">
+            <path
+              d="m 0,0 6.314,7.387 h -69.49 l 6.081,-7.279 -15.927,-151.134 -7.017,-8.186 h 38.913 l -6.314,7.396 3.344,34.058 16.742,-8.036 15.507,7.454 3.345,-33.497 -6.319,-7.375 h 37.985 l -7.008,8.082 z m -6.759,-155.502 1.077,1.256 1.032,1.207 -0.158,1.58 -3.349,33.485 -0.528,5.266 -4.767,-2.288 -13.902,-6.693 -15.132,7.271 -4.775,2.301 -0.516,-5.275 -3.353,-34.067 -0.154,-1.572 1.028,-1.198 1.081,-1.273 h -22.799 l 1.768,2.059 0.757,0.874 0.121,1.152 15.919,151.122 0.166,1.568 -1.01,1.198 -1.003,1.206 h 53.525 l -1.085,-1.264 -1.04,-1.215 0.17,-1.597 16.152,-151.126 0.121,-1.165 0.765,-0.865 1.689,-1.947 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path186"
+            />
+          </g>
+          <g id="g188" transform="translate(520.1952,440.5534)">
+            <path
+              d="m 0,0 h -39.081 l 7.017,-8.328 v -149.936 l -7.017,-8.332 H 0 l -7.023,8.332 V -8.328 Z m -9.852,-160.652 1.872,-2.238 h -23.124 l 1.877,2.238 0.865,1.032 v 1.356 149.936 1.357 l -0.865,1.027 -1.88,2.234 H -7.98 l -1.872,-2.234 -0.874,-1.027 v -1.357 -149.936 -1.356 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path190"
+            />
+          </g>
+          <g id="g192" transform="translate(694.7484,421.1782)">
+            <path
+              d="m 0,0 h -3.357 -11.938 -3.357 l -0.333,-3.344 -7.741,-78.642 -0.253,-2.583 2.337,-1.119 14.43,-6.938 1.61,-0.773 1.601,0.773 13.174,6.331 2.342,1.123 -0.259,2.587 -7.928,79.249 z m -8.602,-89.282 -14.43,6.93 7.737,78.642 h 11.938 l 7.92,-79.253 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path194"
+            />
+          </g>
+          <g id="g196" transform="translate(713.4953,433.166)">
+            <path
+              d="m 0,0 6.323,7.387 h -69.499 l 6.086,-7.279 -15.923,-151.134 -7.021,-8.186 h 38.908 l -6.31,7.396 3.353,34.058 16.734,-8.036 15.503,7.454 3.352,-33.497 -6.322,-7.375 h 37.985 l -7.013,8.082 z m -6.759,-155.502 1.077,1.256 1.036,1.207 -0.162,1.58 -3.345,33.485 -0.528,5.266 -4.767,-2.288 -13.901,-6.693 -15.133,7.271 -4.771,2.301 -0.524,-5.275 -3.353,-34.067 -0.153,-1.572 1.027,-1.198 1.086,-1.273 h -22.803 l 1.776,2.059 0.753,0.874 0.116,1.152 15.927,151.122 0.158,1.568 -1.006,1.198 -1.007,1.206 h 53.534 l -1.094,-1.264 -1.036,-1.215 0.167,-1.597 16.151,-151.126 0.125,-1.165 0.761,-0.865 1.689,-1.947 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path198"
+            />
+          </g>
+          <g id="g200" transform="translate(449.821,433.166)">
+            <path
+              d="m 0,0 6.314,7.387 h -31.08 L -40.448,-54.274 -58.051,7.387 h -31.164 l 6.078,-7.279 -15.915,-151.134 -7.026,-8.186 h 38.909 l -6.31,7.396 8.798,101.751 24.233,-75.729 22.446,78.067 9.5,-104.11 -6.322,-7.375 h 37.98 l -7.009,8.082 z m -6.767,-155.502 1.077,1.256 1.023,1.198 -0.141,1.556 -9.505,104.098 -1.793,19.683 -5.465,-18.993 -19.064,-66.329 -20.515,64.1 -5.628,17.595 -1.597,-18.402 -8.802,-101.773 -0.137,-1.535 1.019,-1.181 1.081,-1.273 h -22.79 l 1.768,2.059 0.749,0.874 0.124,1.152 15.915,151.122 0.166,1.568 -1.014,1.198 -1.003,1.206 h 20.453 l 16.829,-58.979 3.773,-13.206 3.39,13.319 14.97,58.866 H -1.73 l -1.09,-1.264 -1.04,-1.215 0.17,-1.597 16.152,-151.126 0.125,-1.165 0.761,-0.865 1.685,-1.947 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path202"
+            />
+          </g>
+          <g id="g204" transform="translate(270.8172,431.5273)">
+            <path
+              d="m 0,0 -14.816,-146.53 3.685,-0.362 4.563,45.09 25.341,-12.396 25.123,11.747 4.825,-44.458 3.69,0.408 L 36.484,0 Z M 18.818,-110.088 -6.173,-97.875 3.357,-3.71 H 33.16 l 10.308,-94.847 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path206"
+            />
+          </g>
+          <g id="g208" transform="translate(666.2715,431.5273)">
+            <path
+              d="m 0,0 -14.825,-146.53 3.69,-0.362 4.563,45.09 25.344,-12.396 25.116,11.747 4.829,-44.458 3.685,0.408 L 36.48,0 Z M 18.81,-110.088 -6.177,-97.875 3.348,-3.71 h 29.808 l 10.308,-94.847 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path210"
+            />
+          </g>
+          <g id="g212" transform="translate(893.3642,421.1782)">
+            <path
+              d="m 0,0 h -3.356 -11.939 -3.36 l -0.329,-3.344 -7.741,-78.642 -0.254,-2.583 2.342,-1.119 14.43,-6.938 1.605,-0.773 1.606,0.773 13.165,6.331 2.346,1.123 -0.262,2.587 -7.916,79.249 z m -8.602,-89.282 -14.434,6.93 7.741,78.642 h 11.939 l 7.923,-79.253 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path214"
+            />
+          </g>
+          <g id="g216" transform="translate(912.1116,433.166)">
+            <path
+              d="M 0,0 6.318,7.387 H -63.18 l 6.09,-7.279 -15.923,-151.134 -7.021,-8.186 h 38.912 l -6.318,7.396 3.352,34.058 16.734,-8.036 15.516,7.454 3.34,-33.497 -6.327,-7.375 h 37.994 l -7.013,8.082 z m -6.759,-155.502 1.081,1.256 1.032,1.207 -0.158,1.58 -3.353,33.485 -0.524,5.266 -4.771,-2.288 -13.902,-6.693 -15.128,7.271 -4.775,2.301 -0.516,-5.275 -3.357,-34.067 -0.153,-1.572 1.023,-1.198 1.09,-1.273 h -22.795 l 1.768,2.059 0.748,0.874 0.129,1.152 15.915,151.122 0.158,1.568 -1.002,1.198 -1.007,1.206 h 53.53 l -1.086,-1.264 -1.044,-1.215 0.175,-1.597 16.151,-151.126 0.117,-1.165 0.77,-0.865 1.68,-1.947 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path218"
+            />
+          </g>
+          <g id="g220" transform="translate(864.8836,431.5273)">
+            <path
+              d="m 0,0 -14.816,-146.53 3.681,-0.362 4.563,45.09 25.344,-12.396 25.116,11.747 4.833,-44.458 3.686,0.408 L 36.484,0 Z M 18.814,-110.088 -6.173,-97.875 3.349,-3.71 h 29.807 l 10.308,-94.847 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path222"
+            />
+          </g>
+          <g id="g224" transform="translate(432.2595,431.5273)">
+            <path
+              d="M 0,0 -22.965,-81.386 -47.935,0 h -7.874 l -15.22,-146.509 3.681,-0.391 14.887,143.19 h 1.789 l 27.861,-90.804 25.61,90.804 h 1.319 l 14.6,-143.182 3.685,0.383 L 7.466,0 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path226"
+            />
+          </g>
+          <path
+            d="m 498.804,284.823 h 3.71 v 144.841 h -3.71 z"
+            style={{
+              fill: "#c7a92f",
+              fillOpacity: 1,
+              fillRule: "evenodd",
+              stroke: "none",
+            }}
+            id="path228"
+          />
+          <g id="g230" transform="translate(221.9587,433.7818)">
+            <path
+              d="M 0,0 C 0,0 -0.012,-24.45 -0.012,-34.217 L -0.008,-44 -5.615,-44.874 -16.347,-46.55 v 5.919 c 0,6.264 -0.004,18.801 -0.004,18.801 v 8.827 h -12.604 -6.925 -16.714 l 0.046,-8.56 c 0,0 -0.008,-7.088 -0.008,-10.624 l 0.004,-4.459 v -20.49 -73.159 -9.542 h 18.227 17.974 v 9.301 l 0.004,26.654 v 9.771 l 10.083,1.577 6.256,0.981 v -10.332 c -0.004,-14.95 0.017,-50.252 0.017,-50.252 l 2.125,-3.91 h -72.905 l 2.059,4.214 V -0.524 l -2.009,3.706 H 1.947 Z m -77.248,6.963 4.759,-8.169 v -150.511 l -4.759,-8.103 H 8.165 l -4.384,9.193 c 0,0 -0.012,41.8 -0.012,60.755 v 2.737 c -8.149,-1.281 -15.948,-2.5 -23.897,-3.744 v -2.662 -36.995 -5.532 h -14.197 -14.446 v 5.773 93.649 15.074 4.792 h 12.891 15.752 v -5.058 -26.497 -2.62 c 8.086,1.265 15.881,2.471 23.897,3.715 v 2.574 c 0,13.244 0.008,44.841 0.008,44.841 l 4.43,6.788 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path232"
+            />
+          </g>
+          <g id="g234" transform="translate(818.6331,432.9206)">
+            <path
+              d="m 0,0 1.897,3.885 h -69.678 l 1.818,-4.821 c 0,0 0.071,-2.72 0.071,-3.502 v -0.275 c 0,-47.219 -0.008,-146.659 -0.008,-146.659 l -2.221,-3.668 h 20.627 l -1.872,2.949 -0.05,52.556 0.004,3.715 3.715,0.062 c 0.037,0 4.268,0.088 10.066,1.456 l 3.586,0.849 0.931,-3.561 c 2.167,-8.244 4.364,-16.497 6.547,-24.745 2.23,-8.415 7.783,-28.789 7.783,-28.789 l -1.601,-4.417 H 2.641 l -3.398,4.417 c 0,0 -11.331,41.384 -12.957,47.328 l -9.962,7.52 -4.73,3.569 5.237,2.787 c 2.438,1.298 9.467,5.491 12.645,9.243 7.08,8.377 10.516,18.76 10.516,31.763 L 0,-28.88 C 0.009,-21.759 0,0 0,0 m -49.316,-80.293 4.035,0.283 c 10.058,0.691 29.075,7.862 29.075,30.066 v 34.025 3.777 h -3.777 -5.199 -7.308 -4.326 -4.318 -4.405 -3.777 v -3.777 -60.322 z m -24.887,87.959 4.472,-8.361 c 0,0 0.058,-3.252 0.058,-4.018 0.004,-47.219 -0.009,-146.409 -0.009,-146.409 l -4.354,-7.695 h 32.86 l -4.417,8.011 -0.046,51.271 c 0,0 4.55,0.075 10.877,1.56 4.393,-16.676 14.16,-53.022 14.16,-53.022 l -3.203,-7.737 H 10.69 l -7.84,9.317 -13.261,48.43 -10.99,8.299 c 0,0 9.405,4.995 13.76,10.157 6.485,7.654 11.41,18.444 11.41,34.193 0,19.945 0.008,47.593 0.008,47.593 l 4.546,8.411 z m 28.664,-83.907 v 60.322 h 8.723 4.326 7.308 5.199 v -34.025 c 0,-24.55 -25.556,-26.297 -25.556,-26.297"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path236"
+            />
+          </g>
+          <g id="g238" transform="translate(610.5873,434.2308)">
+            <path
+              d="m 0,0 -23.51,-44.208 -0.741,-1.381 0.454,-1.497 31.975,-105.654 2.733,-3.561 h -21.01 l 2.137,4.068 -26.846,89.898 -0.827,2.753 -2.874,-0.058 -5.25,-0.117 -3.69,-0.083 -0.012,-3.677 c 0,-0.566 -0.087,-89.439 -0.087,-89.439 l 2.167,-3.386 H -66 l 2.258,4.001 0.005,150.702 -1.926,4.227 h 20.124 l -2.005,-3.877 -0.025,-43.668 0.025,-14.725 7.063,12.924 24.616,45.631 -0.545,3.731 H 3.353 Z m -22.324,6.372 2.108,-8.086 -23.576,-43.234 0.025,43.11 4.758,8.202 H -72.04 l 4.526,-8.285 -0.005,-149.987 -4.33,-8.211 h 32.753 l -4.671,7.604 0.083,88.981 5.249,0.109 26.534,-88.075 -4.442,-8.578 h 35.881 l -7.6,7.979 -32.12,106.111 23.709,44.574 9.064,7.786 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path240"
+            />
+          </g>
+          <g id="g242" transform="translate(216.1978,283.9699)">
+            <path
+              d="M 0,0 H -56.787 V 146.975 H 0 v -33.884 h -3.781 v 30.115 H -53.005 V 3.777 H -3.781 V 48.151 H 0 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path244"
+            />
+          </g>
+          <path
+            d="m 556.483,285.859 h -3.781 v 143.206 h 3.781 z"
+            style={{
+              fill: "#c7a92f",
+              fillOpacity: 1,
+              fillRule: "evenodd",
+              stroke: "none",
+            }}
+            id="path246"
+          />
+          <g id="g248" transform="translate(607.7672,285.301)">
+            <path
+              d="m 0,0 -31.53,102.209 22.25,42.428 3.348,-1.755 -21.53,-41.038 L 3.606,1.115 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path250"
+            />
+          </g>
+          <g id="g252" transform="translate(762.9987,285.8586)">
+            <path
+              d="M 0,0 H -3.773 V 145.082 H 49.516 V 100.986 C 49.516,87.414 45.352,76.703 37.137,69.128 24.479,57.448 6.16,56.761 0,56.907 Z m 0,60.697 c 5.545,-0.108 23.007,0.532 34.595,11.222 7.392,6.834 11.144,16.605 11.144,29.067 v 40.323 H 0 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path254"
+            />
+          </g>
+          <g id="g256" transform="translate(807.2319,285.3594)">
+            <path
+              d="M 0,0 -12.171,44.1 -7.309,40.689 3.648,1.007 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path258"
+            />
+          </g>
+          <g id="g260" transform="translate(713.0796,668.5657)">
+            <path
+              d="m 0,0 c 9.717,47.642 -9.991,51.47 -20.203,76.434 -10.208,24.958 0.532,35.858 16.467,32.306 15.94,-3.544 22.504,-14.968 19.11,-22.512 C 11.98,78.672 1.655,90.375 1.655,90.375 1.955,99.73 -42.956,112.473 3.344,55.137 11.077,45.58 16.43,36.18 19.745,26.954 21.688,21.528 19.533,20.049 22.89,14.573 25.918,9.639 23.892,5.73 24.625,0.699 27.328,-17.92 23.863,-24.5 16.385,-37.17 1.235,-62.843 0.711,-68.284 -9.388,-85.896 c -3.865,-6.734 -6.984,-13.552 -9.509,-20.107 5.961,9.201 15.324,21.621 30.119,41.687 41.6,56.4 39.804,103.447 40.848,142.583 1.048,39.123 18.572,52.119 32.735,53.457 14.156,1.325 18.552,-5.641 18.552,-5.641 -14.795,-0.247 -21.875,-6.006 -26.28,-13.566 -2.521,-4.309 -6.297,-9.703 -2.708,-21.74 2.001,-6.645 -2.437,-7.862 -0.52,-14.193 1.648,-5.43 4.842,-11.462 3.935,-15.713 -0.902,-4.238 -3.169,-9.746 0.42,-16.879 3.59,-7.14 5.828,-9.226 3.777,-14.312 -2.749,-6.765 1.082,-11.769 -0.187,-16.272 -0.69,-2.427 -2.346,-9.54 -3.727,-15.563 -0.491,-2.812 -1.127,-5.699 -1.963,-8.656 -0.096,-0.433 -0.158,-0.72 -0.158,-0.72 l -0.025,0.134 c -0.383,-1.319 -0.757,-2.638 -1.223,-3.989 -6.718,-19.538 -19.097,-40.344 -41.155,-59.412 -55.506,-47.952 -62.885,-75.796 -62.885,-75.796 0.009,2.521 0.012,4.825 0.029,6.963 0.013,1.215 0,2.438 0.033,3.644 0.063,3.319 0.188,6.223 0.462,8.91 C -25.54,-84.739 -8.548,-41.829 0,0 m 104.21,59.44 c -7.816,17.171 -2.608,32.138 7.429,39.758 10.037,7.612 5.204,14.972 10.678,11.913 5.474,-3.045 -0.3,-11.876 -0.3,-11.876 -4.555,-10.669 -10.457,-10.486 -8.972,-30.346 1.46,-19.85 17.483,-33.216 9.056,-64.068 -6.801,-24.933 -52.732,-54.953 -54.608,-55.826 2.084,2.471 21.206,34.753 25.998,44.52 14.01,28.595 16.534,53.13 10.719,65.925 m 135.807,-95.237 c 0,0 -25.174,-35.511 -67.544,-42.844 -33.984,-5.874 -46.125,-3.819 -56.624,-9.393 2.208,2.829 18.751,18.211 26.633,26.089 3.557,3.561 7.696,6.448 12.263,8.569 11.185,5.191 22.82,9.076 41.596,8.278 0,0 23.472,-2.297 43.676,9.301 M 108.969,-95.396 c 37.103,7.994 84.797,5.69 114.908,-40.922 0,0 -26.929,19.983 -57.294,24.067 -30.373,4.093 -77.119,-0.507 -104.272,-4.268 0,0 31.862,10.133 46.658,21.123 m 109.093,-72.394 c -7.566,2.941 -15.432,6.564 -36.571,11.655 -21.227,5.113 -79.227,12.471 -129.184,10.233 -44.849,-2.005 -77.065,-13.069 -77.065,-13.069 11.896,12.287 32.199,21.031 52.311,25.747 54.869,12.854 109.888,7.954 142.641,-2.836 19.608,-6.464 37.34,-18.219 47.868,-31.73 M 184.032,12.799 C 116.119,1.26 107.659,-54.828 27.241,-103.574 16.53,-110.063 2.932,-119.979 -7.255,-130.37 c 10.699,5.149 39.051,13.219 58.347,19.933 21.052,7.321 40.527,17.67 56.991,34.408 16.081,16.33 33.647,31.089 50.73,46.329 2.429,2.163 5.886,4.501 8.977,4.231 7.703,-0.662 12.212,1.938 14.183,9.359 0.383,1.476 2.609,3.56 3.561,3.244 12.313,-4.134 28.967,17.572 51.4,18.646 -17.075,6.607 -34.562,10.134 -52.902,7.019 M -346.151,0 c 8.544,-41.829 25.532,-84.739 28.814,-131.077 0.279,-2.687 0.395,-5.591 0.461,-8.91 0.038,-1.206 0.025,-2.429 0.038,-3.644 0.012,-2.138 0.021,-4.442 0.029,-6.963 0,0 -7.383,27.844 -62.889,75.796 -22.062,19.068 -34.437,39.874 -41.151,59.412 -0.47,1.351 -0.84,2.67 -1.227,3.989 l -0.021,-0.134 c 0,0 -0.066,0.287 -0.166,0.72 -0.836,2.957 -1.473,5.844 -1.963,8.656 -1.373,6.023 -3.037,13.136 -3.719,15.563 -1.264,4.503 2.554,9.507 -0.179,16.272 -2.071,5.086 0.179,7.172 3.765,14.312 3.581,7.133 1.322,12.641 0.42,16.879 -0.915,4.251 2.292,10.283 3.93,15.713 1.914,6.331 -2.516,7.548 -0.524,14.193 3.603,12.037 -0.183,17.431 -2.703,21.74 -4.405,7.56 -11.481,13.319 -26.281,13.566 0,0 4.393,6.966 18.56,5.641 14.156,-1.338 31.68,-14.334 32.728,-53.457 1.044,-39.136 -0.757,-86.183 40.847,-142.583 14.8,-20.066 24.168,-32.486 30.12,-41.687 -2.521,6.555 -5.641,13.373 -9.509,20.107 -10.095,17.612 -10.619,23.053 -25.769,48.726 -7.474,12.67 -10.943,19.25 -8.244,37.869 0.732,5.031 -1.29,8.94 1.739,13.874 3.361,5.476 1.198,6.955 3.145,12.381 3.311,9.226 8.664,18.626 16.397,28.183 46.312,57.336 1.389,44.593 1.684,35.238 0,0 -10.316,-11.703 -13.71,-4.147 -3.39,7.544 3.166,18.968 19.105,22.512 15.94,3.552 26.68,-7.348 16.472,-32.306 C -336.164,51.47 -355.872,47.642 -346.151,0 m -111.651,99.198 c 10.036,-7.62 15.249,-22.587 7.445,-39.758 -5.827,-12.795 -3.298,-37.33 10.711,-65.925 4.792,-9.767 23.91,-42.049 25.998,-44.52 -1.876,0.873 -47.806,30.893 -54.612,55.826 -8.427,30.852 7.6,44.218 9.068,64.068 1.473,19.86 -4.425,19.677 -8.988,30.346 0,0 -5.762,8.831 -0.292,11.876 5.47,3.059 0.645,-4.301 10.67,-11.913 m -60.822,-177.839 c -42.378,7.333 -67.552,42.844 -67.552,42.844 20.208,-11.598 43.676,-9.301 43.676,-9.301 18.781,0.798 30.415,-3.087 41.6,-8.278 4.572,-2.121 8.702,-5.008 12.267,-8.569 7.874,-7.878 24.425,-23.26 26.63,-26.089 -10.5,5.574 -22.649,3.519 -56.621,9.393 m -51.417,-57.677 c 30.12,46.612 77.81,48.916 114.926,40.922 14.791,-10.99 46.654,-21.123 46.654,-21.123 -27.163,3.761 -73.912,8.361 -104.273,4.268 -30.374,-4.084 -57.307,-24.067 -57.307,-24.067 m 42.395,-19.817 c -21.135,-5.091 -29.005,-8.714 -36.571,-11.655 10.519,13.511 28.256,25.266 47.881,31.73 32.736,10.79 87.754,15.69 142.628,2.836 20.12,-4.716 40.414,-13.46 52.311,-25.747 0,0 -32.212,11.064 -77.065,13.069 -49.956,2.238 -107.962,-5.12 -129.184,-10.233 M -583.093,5.78 c 22.432,-1.074 39.087,-22.78 51.404,-18.646 0.952,0.316 3.17,-1.768 3.56,-3.244 1.976,-7.421 6.485,-10.021 14.184,-9.359 3.083,0.27 6.548,-2.068 8.981,-4.231 17.079,-15.24 34.65,-29.999 50.722,-46.329 16.472,-16.738 35.943,-27.087 56.995,-34.408 19.296,-6.714 47.64,-14.784 58.351,-19.933 -10.195,10.391 -23.785,20.307 -34.504,26.796 -80.409,48.746 -88.87,104.834 -156.779,116.373 -18.344,3.115 -35.839,-0.412 -52.914,-7.019"
+              style={{
+                fill: "#ae986e",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path262"
+            />
+          </g>
+          <g id="g264" transform="translate(656.4008,627.6434)">
+            <path
+              d="M 0,0 C 0.865,8.893 1.277,17.82 1.252,26.767 1.24,34.612 1.048,42.469 0.549,50.306 c -0.416,6.593 -0.998,13.182 -1.697,19.756 -0.558,5.306 -1.198,10.593 -2.113,15.85 -0.308,1.795 -0.345,3.603 0.221,5.439 0.977,3.176 1.326,6.458 0.869,9.791 -0.549,3.927 -1.098,7.854 -1.489,11.799 -0.408,4.025 -1.964,7.427 -4.784,10.308 -1.568,1.609 -2.762,3.467 -3.411,5.64 -1.805,6.057 -4.031,11.959 -5.956,17.97 -3.141,9.779 -10.104,15.521 -19.309,19.073 -1.115,3.029 -2.895,4.235 -6.065,4.243 -0.699,0 -1.381,-0.15 -2.055,-0.297 -0.698,-0.167 -1.397,-0.316 -2.121,-0.308 l -0.778,0.316 c -10.948,3.386 -22.183,5.272 -33.538,6.554 -10.674,1.206 -21.389,1.79 -32.125,1.938 -14.247,0.191 -28.443,-0.716 -42.563,-2.602 -2.945,0.106 -5.682,1.171 -8.486,1.886 -4.492,1.174 -7.437,-0.374 -8.718,-4.791 l -0.391,-0.15 c -4.509,-1.057 -9.047,-2.013 -13.377,-3.671 -0.641,0.278 -1.277,0.576 -1.93,0.845 -2.742,1.073 -5.034,-0.443 -5.183,-3.397 2.304,-1.447 4.592,-2.886 6.896,-4.326 -2.304,1.44 -4.592,2.879 -6.896,4.326 -2.201,-0.838 -4.36,-1.786 -6.439,-2.895 -7.201,-3.824 -12.33,-9.351 -14.559,-17.387 -1.66,-5.99 -3.556,-11.905 -5.291,-17.878 -0.258,-0.888 -0.695,-1.473 -1.464,-1.92 -4.347,-2.564 -7.13,-6.405 -8.145,-11.274 -1.023,-4.873 -1.755,-9.831 -2.104,-14.831 -0.287,-4.068 -0.167,-8.055 2.013,-11.66 0.657,-1.064 1.002,-2.102 0.811,-3.325 -0.104,-0.699 -0.179,-1.406 -0.245,-2.113 -0.999,-9.958 -2.055,-19.908 -2.958,-29.885 -0.869,-9.523 -1.268,-19.059 -1.214,-28.605 0.05,-8.041 0.445,-16.065 1.243,-24.068 0.649,-6.538 1.431,-13.036 2.55,-19.5 0.129,-0.715 -0.079,-1.264 -0.428,-1.855 -1.727,-2.854 -2.321,-5.932 -1.897,-9.243 0.474,-3.602 0.84,-7.221 1.235,-10.831 0.495,-4.343 1.311,-8.552 3.798,-12.304 1.165,-1.756 2.167,-3.652 2.708,-5.736 2.596,-9.855 5.94,-19.455 9.908,-28.847 5.162,-12.229 13.423,-21.547 25.315,-27.582 0.737,-0.703 0.845,-1.752 1.377,-2.584 1.177,-1.838 4.442,-2.795 5.761,-0.798 17.632,-6.83 36.101,-8.611 54.78,-9.039 0.395,-0.179 0.42,-0.595 0.582,-0.919 0.553,-1.061 1.464,-1.598 2.621,-1.531 1.51,0.067 2.296,1.082 2.758,2.413 7.745,-0.092 15.477,0.241 23.202,0.807 10.374,0.748 20.623,2.217 30.743,4.633 l 0.545,-0.116 c 2.554,-1.364 3.686,-0.998 4.871,1.581 4.962,1.389 9.779,3.153 14.463,5.316 1.048,-1.148 2.205,-1.881 3.819,-1.148 1.176,0.524 2.004,1.331 2.379,2.599 0.266,0.878 0.391,1.851 1.214,2.459 1.273,0.815 2.571,1.58 3.811,2.437 6.006,4.126 11.097,9.159 14.616,15.582 5.478,10.025 9.38,20.681 12.171,31.742 0.849,3.328 1.955,6.46 4.276,9.122 1.473,1.668 2.305,3.743 2.604,6.023 0.262,2.05 0.628,4.093 1.007,6.127 1.136,6.31 1.921,12.624 -0.208,18.897 -0.171,0.533 -0.208,1.082 -0.138,1.676 C -1.543,-13.319 -0.649,-6.672 0,0"
+              style={{
+                fill: "#ae986e",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path266"
+            />
+          </g>
+          <g id="g268" transform="translate(364.3081,691.4269)">
+            <path
+              d="M 0,0 0.017,0.607 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path270"
+            />
+          </g>
+          <g id="g272" transform="translate(706.0955,722.7545)">
+            <path
+              d="M 0,0 0.553,-0.855 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path274"
+            />
+          </g>
+          <g id="g276" transform="translate(365.6434,675.7429)">
+            <path
+              d="M 0,0 C 0.066,-0.447 0.141,-0.89 0.216,-1.337 0.141,-0.89 0.066,-0.447 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path278"
+            />
+          </g>
+          <g id="g280" transform="translate(369.1583,714.4439)">
+            <path
+              d="M 0,0 -0.325,-0.682 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path282"
+            />
+          </g>
+          <g id="g284" transform="translate(364.878,681.45)">
+            <path
+              d="M 0,0 0.046,-0.435 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path286"
+            />
+          </g>
+          <g id="g288" transform="translate(709.5438,717.0413)">
+            <path
+              d="M 0,0 0.258,-0.491 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path290"
+            />
+          </g>
+          <g id="g292" transform="translate(710.8498,714.4439)">
+            <path
+              d="M 0,0 0.316,-0.682 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path294"
+            />
+          </g>
+          <g id="g296" transform="translate(366.6751,708.1379)">
+            <path
+              d="M 0,0 -0.204,-0.664 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path298"
+            />
+          </g>
+          <g id="g300" transform="translate(376.3128,582.6699)">
+            <path
+              d="M 0,0 C 3.868,-6.73 6.984,-13.552 9.509,-20.12 3.552,-10.911 -5.803,1.506 -20.59,21.539 -5.798,1.49 9.513,-20.128 16.085,-41.205 c -5.96,39.566 -19.858,66.62 -23.996,79.294 -5.99,18.319 -34.238,65.997 10.519,109.4 -1.298,-1.93 -2.599,-3.804 -3.86,-5.682 4.11,6.1 8.619,12.113 12.059,20.521 10.216,24.97 -0.524,35.847 -16.464,32.306 -15.935,-3.553 -22.495,-14.964 -19.105,-22.512 3.394,-7.552 13.722,4.162 13.722,4.162 -0.308,9.34 44.616,22.085 -1.697,-35.244 -7.728,-9.566 -13.086,-18.966 -16.397,-28.192 -1.942,-5.422 0.216,-6.913 -3.144,-12.379 -3.029,-4.932 -1.007,-8.841 -1.739,-13.887 -2.695,-18.61 0.769,-25.191 8.244,-37.861 C -10.623,23.053 -10.1,17.612 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path302"
+            />
+          </g>
+          <g id="g304" transform="translate(367.7275,711.1493)">
+            <path
+              d="M 0,0 -0.208,-0.566 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path306"
+            />
+          </g>
+          <g id="g308" transform="translate(364.999,700.7836)">
+            <path
+              d="M 0,0 -0.1,-0.647 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path310"
+            />
+          </g>
+          <g id="g312" transform="translate(365.6766,704.4109)">
+            <path
+              d="M 0,0 -0.145,-0.697 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path314"
+            />
+          </g>
+          <g id="g316" transform="translate(364.5078,696.4909)">
+            <path
+              d="M 0,0 -0.054,-0.88 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path318"
+            />
+          </g>
+          <g id="g320" transform="translate(364.4329,687.0405)">
+            <path
+              d="M 0,0 0.067,-1.081 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path322"
+            />
+          </g>
+          <g id="g324" transform="translate(707.7719,720.1008)">
+            <path
+              d="M 0,0 0.449,-0.749 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path326"
+            />
+          </g>
+          <g id="g328" transform="translate(817.2855,728.0059)">
+            <path
+              d="m 0,0 c 5.819,-12.795 3.29,-37.33 -10.715,-65.925 -4.792,-9.767 -23.909,-42.05 -25.997,-44.52 1.875,0.873 47.806,30.897 54.611,55.828 8.423,30.841 -7.6,44.216 -9.064,64.066 -1.481,19.858 4.422,19.681 8.977,30.338 0,0 5.773,8.843 0.299,11.888 C 12.637,54.722 17.47,47.369 7.437,39.749 -2.604,32.133 -7.808,17.163 0,0 m 9.06,-40.017 c 1.464,7.531 1.676,15.355 1.048,23.861 4.105,-7.847 5.407,-16.992 4.442,-25.425 -0.956,-8.534 -4.775,-15.875 -8.668,-22.684 -8.09,-13.607 -18.914,-24.638 -30.291,-34.737 l -0.245,0.278 c 5.171,5.616 10.166,11.398 14.796,17.458 4.613,6.065 8.768,12.525 12.112,19.4 3.428,6.851 5.433,14.362 6.806,21.849"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path330"
+            />
+          </g>
+          <g id="g332" transform="translate(704.9432,724.4766)">
+            <path
+              d="m 0,0 c -1.265,1.878 -2.562,3.752 -3.86,5.682 44.761,-43.395 16.509,-91.08 10.511,-109.399 -4.138,-12.675 -18.027,-39.728 -23.992,-79.294 6.584,21.093 21.904,42.714 36.7,62.785 -14.796,-20.071 -24.159,-32.483 -30.116,-41.692 2.513,6.56 5.641,13.381 9.505,20.111 10.095,17.612 10.619,23.053 25.777,48.722 7.47,12.67 10.94,19.251 8.244,37.869 -0.736,5.037 1.29,8.947 -1.743,13.878 -3.356,5.474 -1.202,6.957 -3.14,12.371 -3.307,9.234 -8.673,18.634 -16.406,28.2 -46.304,57.329 -1.393,44.584 -1.688,35.236 0,0 10.324,-11.705 13.722,-4.154 C 26.904,37.863 20.34,49.283 4.405,52.827 -11.534,56.369 -22.279,45.483 -12.067,20.521 -8.619,12.113 -4.101,6.1 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path334"
+            />
+          </g>
+          <g id="g336" transform="translate(715.6957,691.4269)">
+            <path
+              d="M 0,0 -0.012,0.607 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path338"
+            />
+          </g>
+          <g id="g340" transform="translate(713.537,707.4721)">
+            <path
+              d="M 0,0 -0.216,0.666 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path342"
+            />
+          </g>
+          <g id="g344" transform="translate(847.4966,598.7675)">
+            <path
+              d="M 0,0 0.337,0.325 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path346"
+            />
+          </g>
+          <g id="g348" transform="translate(889.9452,675.9694)">
+            <path
+              d="m 0,0 c -9.496,-5.212 -19.234,-10.544 -26.572,-18.551 -89.114,-97.302 -109.817,-83.908 -157.548,-119.214 10.699,5.141 39.059,13.211 58.351,19.924 21.039,7.321 40.522,17.674 56.994,34.408 16.073,16.331 33.639,31.089 50.722,46.325 2.429,2.163 5.894,4.505 8.977,4.235 7.703,-0.666 12.212,1.939 14.184,9.359 0.383,1.464 2.608,3.561 3.561,3.245 12.312,-4.135 28.967,17.561 51.408,18.653 C 44.903,4.241 29.417,7.652 13.29,6.169 8.652,4.482 4.21,2.303 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path350"
+            />
+          </g>
+          <g id="g352" transform="translate(715.5088,685.9506)">
+            <path
+              d="M 0,0 0.071,1.109 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path354"
+            />
+          </g>
+          <g id="g356" transform="translate(712.2809,711.1493)">
+            <path
+              d="M 0,0 0.212,-0.574 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path358"
+            />
+          </g>
+          <g id="g360" transform="translate(715.0845,681.0173)">
+            <path
+              d="M 0,0 0.033,0.435 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path362"
+            />
+          </g>
+          <g id="g364" transform="translate(714.1483,674.4037)">
+            <path
+              d="M 0,0 C 0.075,0.447 0.146,0.89 0.213,1.329 0.146,0.89 0.075,0.447 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path366"
+            />
+          </g>
+          <g id="g368" transform="translate(715.5505,695.6173)">
+            <path
+              d="M 0,0 -0.054,0.874 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path370"
+            />
+          </g>
+          <g id="g372" transform="translate(715.1092,700.1263)">
+            <path
+              d="M 0,0 -0.1,0.666 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path374"
+            />
+          </g>
+          <g id="g376" transform="translate(714.4771,703.7119)">
+            <path
+              d="M 0,0 -0.146,0.699 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path378"
+            />
+          </g>
+          <g id="g380" transform="translate(353.2187,523.3958)">
+            <path
+              d="M 0,0 C -13.402,3.045 -27.225,4.609 -41.155,5.191 -55.11,5.84 -69.228,4.992 -83.3,4.642 -97.384,4.293 -111.506,3.794 -125.694,4.135 c 14.246,3.361 28.539,5.299 42.818,6.247 14.276,0.94 28.436,0.225 42.453,-0.94 C -26.413,8.203 -12.57,5.961 0.761,2.255 13.827,-1.381 26.368,-6.489 37.89,-13.269 25.923,-1.264 5.957,7.305 -13.843,11.938 -68.721,24.8 -123.739,19.9 -156.475,9.11 c -19.617,-6.464 -37.358,-18.219 -47.886,-31.738 7.571,2.953 15.437,6.564 36.572,11.663 21.226,5.117 79.227,12.471 129.184,10.233 C 1.032,-2.504 30.764,-11.339 37.145,-13.369 25.465,-7.321 12.945,-2.928 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path382"
+            />
+          </g>
+          <g id="g384" transform="translate(822.0441,573.1696)">
+            <path
+              d="m 0,0 c -14.792,-10.99 -46.662,-21.122 -46.662,-21.122 10.162,1.406 23.044,2.928 36.791,4.068 l -0.095,-0.009 c 0,0 84.551,27.861 124.883,-23.859 C 84.806,5.69 37.112,7.995 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path386"
+            />
+          </g>
+          <g id="g388" transform="translate(883.2651,532.5054)">
+            <path
+              d="m 0,0 c -32.74,10.79 -87.759,15.69 -142.637,2.829 -19.804,-4.626 -39.765,-13.203 -51.724,-25.208 11.505,6.781 24.059,11.888 37.12,15.524 13.336,3.71 27.179,5.948 41.184,7.188 14.014,1.165 28.181,1.88 42.457,0.94 14.268,-0.948 28.568,-2.887 42.815,-6.248 -14.189,-0.341 -28.314,0.158 -42.395,0.508 -14.064,0.349 -28.19,1.194 -42.141,0.549 -13.943,-0.587 -27.761,-2.147 -41.155,-5.195 -12.953,-2.925 -25.477,-7.317 -37.145,-13.365 6.381,2.029 36.11,10.86 75.742,12.637 49.961,2.237 107.962,-5.117 129.189,-10.233 21.134,-5.1 29,-8.71 36.567,-11.655 C 37.353,-18.219 19.612,-6.468 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path390"
+            />
+          </g>
+          <g id="g392" transform="translate(870.6113,557.23)">
+            <path
+              d="M 0,0 C 0.753,-0.058 1.51,-0.108 2.242,-0.175 1.51,-0.108 0.753,-0.058 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path394"
+            />
+          </g>
+          <g id="g396" transform="translate(207.1423,557.0554)">
+            <path
+              d="M 0,0 C 0.74,0.058 1.498,0.116 2.238,0.175 1.498,0.116 0.74,0.058 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path398"
+            />
+          </g>
+          <g id="g400" transform="translate(865.5451,557.5546)">
+            <path
+              d="M 0,0 C -0.857,0.041 -1.71,0.087 -2.583,0.125 -1.71,0.087 -0.857,0.041 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path402"
+            />
+          </g>
+          <g id="g404" transform="translate(746.614,593.7678)">
+            <path
+              d="m 0,0 c 22.067,19.068 34.454,39.874 41.168,59.412 0.453,1.351 0.835,2.67 1.218,3.989 l 0.025,-0.129 c 0,0 0.063,0.282 0.158,0.715 0.836,2.957 1.473,5.844 1.964,8.656 1.385,6.023 3.04,13.136 3.727,15.572 1.256,4.494 -2.554,9.498 0.183,16.263 2.055,5.086 -0.183,7.172 -3.773,14.312 -3.59,7.133 -1.323,12.641 -0.42,16.879 0.907,4.251 -2.296,10.283 -3.931,15.713 -1.918,6.331 2.512,7.548 0.524,14.201 -3.598,12.029 0.183,17.423 2.7,21.732 4.405,7.56 11.488,13.319 26.284,13.566 0,0 -4.397,6.965 -18.556,5.641 -14.159,-1.338 -31.688,-14.326 -32.731,-53.449 0.02,0.921 0.103,1.776 0.145,2.674 4.372,-31.377 8.565,-63.379 1.938,-93.37 -5.906,-26.696 -12.67,-39.212 -42.565,-66.628 -35.369,-32.437 -40.934,-71.545 -40.934,-71.545 0,0 7.379,27.853 62.876,75.796"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path406"
+            />
+          </g>
+          <g id="g408" transform="translate(355.3318,589.5168)">
+            <path
+              d="m 0,0 c -29.895,27.416 -36.663,39.932 -42.561,66.628 -6.639,29.999 -2.433,61.992 1.939,93.37 0.041,-0.894 0.116,-1.753 0.141,-2.674 -1.044,39.114 -18.572,52.111 -32.728,53.449 -14.167,1.324 -18.555,-5.641 -18.555,-5.641 14.795,-0.248 21.875,-6.006 26.28,-13.566 2.516,-4.31 6.297,-9.703 2.699,-21.74 -1.988,-6.646 2.442,-7.862 0.524,-14.193 -1.638,-5.431 -4.833,-11.462 -3.93,-15.713 0.902,-4.238 3.173,-9.746 -0.42,-16.879 -3.582,-7.14 -5.832,-9.226 -3.765,-14.312 2.737,-6.773 -1.086,-11.769 0.179,-16.263 0.682,-2.436 2.346,-9.549 3.719,-15.572 0.49,-2.812 1.131,-5.699 1.967,-8.648 0.096,-0.441 0.162,-0.728 0.162,-0.728 l 0.017,0.133 c 0.387,-1.318 0.765,-2.637 1.231,-3.988 6.714,-19.538 19.093,-40.344 41.155,-59.412 55.502,-47.943 62.885,-75.796 62.885,-75.796 0,0 -5.566,39.108 -40.939,71.545"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path410"
+            />
+          </g>
+          <g id="g412" transform="translate(855.2624,557.8873)">
+            <path
+              d="M 0,0 C 0.786,-0.017 1.547,-0.033 2.321,-0.05 1.547,-0.033 0.786,-0.017 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path414"
+            />
+          </g>
+          <g id="g416" transform="translate(820.1388,556.7308)">
+            <path
+              d="M 0,0 C 0.774,0.05 1.547,0.087 2.321,0.15 1.543,0.087 0.774,0.05 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path418"
+            />
+          </g>
+          <g id="g420" transform="translate(909.4205,623.4674)">
+            <path
+              d="m 0,0 c -18.776,0.799 -30.411,-3.091 -41.596,-8.278 -4.567,-2.129 -8.706,-5.008 -12.263,-8.568 -0.96,-0.957 -2.046,-2.022 -3.223,-3.17 1.381,0.091 2.758,0.183 4.139,0.283 6.488,0.524 12.961,1.173 19.404,1.955 12.883,1.605 25.661,3.744 38.081,7.129 -11.834,-4.817 -24.255,-8.469 -36.833,-11.563 -6.298,-1.531 -12.645,-2.937 -19.038,-4.21 -5.05,-0.994 -10.112,-1.897 -15.237,-2.729 -6.472,-6.222 -12.641,-12.137 -13.926,-13.784 10.499,5.573 22.64,3.519 56.624,9.392 42.37,7.337 67.544,42.844 67.544,42.844 C 23.477,-2.296 0,0 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path422"
+            />
+          </g>
+          <g id="g424" transform="translate(828.3003,557.23)">
+            <path
+              d="M 0,0 C 0.923,0.05 1.855,0.096 2.778,0.141 1.855,0.096 0.923,0.05 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path426"
+            />
+          </g>
+          <g id="g428" transform="translate(836.7774,557.6125)">
+            <path
+              d="M 0,0 C 0.853,0.042 1.71,0.075 2.554,0.096 1.71,0.075 0.857,0.042 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path430"
+            />
+          </g>
+          <g id="g432" transform="translate(217.0506,557.6794)">
+            <path
+              d="M 0,0 C -0.874,-0.034 -1.739,-0.087 -2.6,-0.125 -1.739,-0.087 -0.874,-0.034 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path434"
+            />
+          </g>
+          <g id="g436" transform="translate(847.4174,557.8953)">
+            <path
+              d="M 0,0 -0.437,-0.008 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path438"
+            />
+          </g>
+          <g id="g440" transform="translate(222.4247,557.8374)">
+            <path
+              d="M 0,0 C 0.765,0.017 1.527,0.033 2.309,0.05 1.527,0.033 0.765,0.017 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path442"
+            />
+          </g>
+          <g id="g444" transform="translate(181.3861,655.7001)">
+            <path
+              d="m 0,0 c 0.957,0.324 3.174,-1.78 3.569,-3.245 1.972,-7.42 6.476,-10.02 14.184,-9.359 3.079,0.27 6.547,-2.075 8.964,-4.23 17.092,-15.241 34.666,-29.999 50.735,-46.329 16.472,-16.739 35.947,-27.088 56.99,-34.417 19.301,-6.714 47.648,-14.775 58.355,-19.916 C 145.062,-82.189 124.355,-95.583 35.236,1.722 27.911,9.725 18.169,15.06 8.677,20.269 4.472,22.574 0.017,24.754 -4.617,26.44 -20.74,27.923 -36.23,24.51 -51.4,18.645 -28.967,17.564 -12.304,-4.135 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path446"
+            />
+          </g>
+          <g id="g448" transform="translate(232.5157,598.7594)">
+            <path
+              d="M 0,0 -0.345,0.333 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path450"
+            />
+          </g>
+          <g id="g452" transform="translate(251.0842,580.532)">
+            <path
+              d="m 0,0 c -1.302,1.656 -7.525,7.629 -14.034,13.876 l 0.099,-0.095 c -5.128,0.828 -10.182,1.742 -15.236,2.741 -6.398,1.264 -12.737,2.671 -19.038,4.193 -12.575,3.103 -25,6.755 -36.834,11.58 12.421,-3.394 25.199,-5.541 38.077,-7.15 6.447,-0.77 12.92,-1.419 19.413,-1.935 1.372,-0.108 2.75,-0.191 4.135,-0.291 -1.173,1.144 -2.263,2.209 -3.22,3.178 -3.56,3.552 -7.699,6.439 -12.267,8.561 -11.184,5.187 -22.815,9.067 -41.595,8.277 0,0 -23.469,-2.296 -43.676,9.301 0,0 25.174,-35.506 67.547,-42.844 C -22.649,3.511 -10.503,5.582 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path454"
+            />
+          </g>
+          <g id="g456" transform="translate(253.8877,737.4547)">
+            <path
+              d="m 0,0 c -1.472,-19.85 -17.491,-33.229 -9.072,-64.066 6.809,-24.93 52.74,-54.955 54.611,-55.828 -2.088,2.471 -21.201,34.753 -25.993,44.52 C 5.536,-46.779 3.012,-22.244 8.835,-9.453 16.639,7.714 11.431,22.684 1.398,30.298 -8.644,37.921 -3.806,45.273 -9.28,42.228 -14.754,39.181 -8.985,30.34 -8.985,30.34 -4.426,19.681 1.472,19.858 0,0 m 6.58,-71.314 c 3.345,-6.876 7.488,-13.336 12.113,-19.401 4.63,-6.064 9.617,-11.842 14.788,-17.457 l -0.246,-0.275 c -11.372,10.096 -22.195,21.127 -30.29,34.733 -3.889,6.811 -7.704,14.151 -8.668,22.686 -0.957,8.434 0.34,17.579 4.438,25.419 -0.62,-8.502 -0.412,-16.33 1.048,-23.857 1.385,-7.487 3.382,-15 6.817,-21.848"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path458"
+            />
+          </g>
+          <g id="g460" transform="translate(372.2366,720.1008)">
+            <path
+              d="M 0,0 -0.454,-0.749 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path462"
+            />
+          </g>
+          <g id="g464" transform="translate(373.9127,722.7545)">
+            <path
+              d="M 0,0 -0.553,-0.855 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path466"
+            />
+          </g>
+          <g id="g468" transform="translate(257.544,556.8808)">
+            <path
+              d="M 0,0 C 0.774,-0.063 1.552,-0.1 2.317,-0.15 1.543,-0.1 0.774,-0.063 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path470"
+            />
+          </g>
+          <g id="g472" transform="translate(233.0149,557.8873)">
+            <path
+              d="M 0,0 -0.432,0.008 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path474"
+            />
+          </g>
+          <g id="g476" transform="translate(240.6687,557.7126)">
+            <path
+              d="M 0,0 C 0.848,-0.025 1.701,-0.063 2.554,-0.1 1.697,-0.063 0.848,-0.025 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path478"
+            />
+          </g>
+          <g id="g480" transform="translate(248.9298,557.3715)">
+            <path
+              d="M 0,0 C 0.923,-0.042 1.847,-0.092 2.774,-0.141 1.847,-0.092 0.923,-0.042 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path482"
+            />
+          </g>
+          <g id="g484" transform="translate(370.4647,717.0413)">
+            <path
+              d="M 0,0 -0.262,-0.491 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path486"
+            />
+          </g>
+          <g id="g488" transform="translate(267.9264,556.1068)">
+            <path
+              d="m 0,0 -0.092,0.009 c 13.74,-1.136 26.63,-2.663 36.78,-4.069 0,0 -31.859,10.133 -46.65,21.123 -37.12,7.994 -84.806,5.698 -114.921,-40.926 C -84.56,27.861 0,0 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path490"
+            />
+          </g>
+          <g id="g492" transform="translate(615.9031,516.0751)">
+            <path
+              d="m 0,0 c -0.823,-0.607 -0.948,-1.581 -1.214,-2.454 -0.375,-1.277 -1.199,-2.072 -2.376,-2.604 -1.614,-0.74 -2.774,0 -3.822,1.144 -0.033,0.478 0.079,0.919 0.22,1.385 1.231,3.818 2.504,7.612 3.632,11.464 3.448,11.696 6.193,23.568 8.402,35.573 1.93,10.494 3.544,21.039 4.838,31.625 0.836,6.867 1.468,13.747 2.167,20.627 0.519,5.096 0.873,10.225 1.139,15.341 0.374,6.93 0.608,13.859 0.878,20.79 0.137,3.352 0.129,6.692 0.204,10.045 0.133,6.285 0.079,12.564 -0.092,18.856 -0.241,8.543 -0.403,17.079 -0.948,25.606 -0.216,3.334 -0.283,6.688 -0.62,10.014 -0.524,5.289 -0.944,10.58 -1.626,15.858 -0.57,4.383 -1.19,8.748 -1.872,13.109 -0.553,3.536 -1.352,7.022 -1.93,10.547 -0.524,3.238 -0.641,6.582 -1.901,9.669 -0.928,2.252 -2.263,4.068 -4.962,4.52 -1.706,0.272 -3.361,0.894 -5.046,1.337 -14.858,3.851 -29.704,7.751 -44.591,11.522 -3.169,0.801 -6.248,2.296 -9.746,1.337 -2.841,-0.788 -5.79,-1.179 -8.98,-1.801 2.637,-1.106 4.991,-2.065 7.316,-3.089 1.024,-0.447 2.005,-0.74 3.137,-0.324 0.408,0.158 0.948,0.065 1.397,-0.05 7.704,-1.99 15.408,-3.983 23.107,-6.006 0.511,-0.134 1.144,-0.033 1.56,-0.639 -1.889,-0.776 -3.756,-1.541 -5.612,-2.304 3.004,-0.042 5.899,0.183 8.694,1.085 1.814,0.585 3.315,-0.289 4.929,-0.936 -1.506,-0.642 -3.007,-1.283 -4.509,-1.921 l 0.088,-0.418 c 5.045,0.775 10.137,2.672 14.945,-0.339 -6.473,-1.336 -13.095,-2.382 -19.8,-2.962 -1.065,-0.102 -2.579,0.264 -3.094,-0.451 -0.608,-0.83 0.623,-2.016 0.694,-3.126 l 0.088,-0.268 c 0.012,-0.857 0.54,-1.005 1.239,-0.916 1.215,0.173 2.417,0.375 3.627,0.549 7.92,1.196 15.761,2.729 23.402,5.183 2.774,0.891 5.911,-0.591 6.88,-3.3 0.445,-1.231 0.674,-2.548 0.949,-3.838 0.132,-0.632 0.003,-1.164 -0.699,-1.511 -3.935,-2.007 -5.441,-8.615 -3.328,-12.664 1.389,4.084 2.75,8.019 4.093,11.965 0.441,-1.475 0.541,-2.95 0.898,-4.347 0.283,-1.065 0.084,-1.92 -0.366,-2.843 -1.339,-2.768 -2.574,-5.581 -3.302,-8.575 -0.787,-3.255 -0.454,-6.381 1.123,-9.644 1.206,4.184 2.437,8.055 4.093,12.131 0.749,-2.231 0.807,-4.255 1.189,-6.206 0.312,-1.63 0.375,-3.288 0.287,-4.935 -0.054,-0.909 -0.145,-1.856 -1.106,-2.29 -1.934,-0.88 -3.906,-1.668 -5.836,-2.567 -0.732,-0.34 -0.915,-0.166 -1.086,0.587 -0.827,3.771 -1.743,7.523 -2.599,11.285 -0.932,4.074 -1.847,8.159 -2.762,12.254 -0.57,2.533 -0.553,2.533 -3.041,1.712 -0.583,-0.2 -1.161,-0.426 -1.751,-0.576 -0.79,-0.2 -0.924,-0.664 -0.732,-1.388 0.328,-1.181 0.624,-2.368 0.915,-3.552 0.541,-2.255 1.06,-4.515 1.61,-6.871 -0.687,0.141 -0.92,0.532 -1.169,0.848 -1.556,1.947 -3.078,3.935 -4.626,5.89 -1.177,1.491 -2.487,2.804 -4.592,3.047 0.042,-0.828 0.583,-1.283 0.932,-1.807 4.525,-6.764 8.793,-13.66 11.331,-21.472 0.84,-2.602 1.252,-2.224 -1.623,-3.296 -1.189,-0.44 -1.597,-0.179 -2.005,0.966 -2.683,7.577 -6.306,14.648 -11.251,21.017 -0.695,0.89 -1.452,1.738 -2.242,2.549 -0.691,0.71 -1.427,0.177 -2.08,-0.122 -0.499,-0.243 -0.183,-0.599 0.042,-0.932 5.049,-7.229 8.527,-15.216 11.272,-23.541 0.191,-0.609 0.632,-1.356 -0.304,-1.674 -0.678,-0.24 -1.322,-0.159 -1.801,0.651 -3.773,6.486 -7.587,12.944 -11.41,19.404 -0.886,1.51 -1.792,2.995 -2.766,4.453 -0.253,0.393 -1.098,1.115 -1.181,0.166 -0.129,-1.555 -0.853,-3.136 -0.117,-4.725 2.006,-4.276 3.994,-8.56 6.003,-12.828 1.023,-2.19 2.096,-4.349 3.099,-6.539 0.358,-0.784 0.89,-1.614 0.058,-2.487 -0.794,0.447 -1.248,1.114 -1.543,1.955 -1.668,4.625 -3.74,9.068 -6.069,13.4 -0.146,0.276 -0.166,0.669 -0.678,0.724 0.345,-2.794 0.661,-5.581 1.04,-8.357 0.353,-2.598 0.778,-5.2 1.161,-7.807 0.141,-0.928 -0.2,-1.619 -1.203,-1.721 -0.944,-0.081 -1.169,0.682 -1.289,1.387 -0.242,1.581 -0.403,3.175 -0.628,4.763 -0.383,2.654 -0.786,5.299 -1.211,8.209 -0.461,-4.026 -0.898,-7.761 -1.31,-11.497 -0.216,-1.913 -0.408,-3.833 -0.59,-5.759 -0.055,-0.638 -0.055,-1.269 0.94,-1.069 3.826,0.737 7.678,1.39 11.488,2.203 9.051,1.955 17.895,4.625 26.447,8.186 1.393,0.584 2.779,1.181 4.176,1.755 0.416,0.166 1.082,0.46 1.123,-0.264 0.1,-1.63 0.699,-3.28 0.291,-4.902 -0.191,-0.74 -0.765,-1.354 -0.752,-2.228 0.033,-4.068 0,-8.136 0.008,-12.212 0,-1.423 0.216,-1.577 1.568,-1.092 l 0.665,-0.148 c 0.4,-0.877 -0.087,-2.256 -0.952,-2.63 -2.28,-1.007 -4.555,-2.072 -6.867,-3.012 -10.366,-4.235 -21.023,-7.554 -32.038,-9.632 -2.637,-0.495 -5.262,-1.01 -7.911,-1.414 -0.641,-0.094 -1.468,-0.085 -1.597,-1.081 -0.458,-3.597 -0.92,-7.182 -1.427,-10.768 -0.703,-4.985 -1.494,-9.943 -2.151,-14.93 -0.266,-2.051 -0.981,-4.081 -0.657,-6.161 0.828,-5.158 1.643,-10.316 2.645,-15.432 1.373,-6.971 3.12,-13.864 4.909,-20.744 0.528,-2.026 1.044,-4.051 1.568,-6.073 -5.104,10.241 -8.623,20.998 -10.828,32.212 -0.669,-3.107 -1.214,-6.181 -1.717,-9.268 -0.3,-1.763 -0.928,-3.535 -0.516,-5.307 2.259,-9.559 5.004,-18.968 8.431,-28.169 0.807,-2.163 1.947,-4.201 2.309,-6.506 l -0.029,-0.037 c -0.483,0.229 -0.599,0.728 -0.824,1.127 -4.176,7.916 -7.911,15.99 -9.75,24.825 -0.279,1.314 -0.748,2.579 -1.231,4.222 -0.15,-0.828 -0.025,-1.223 0.087,-1.643 1.602,-5.998 3.216,-12.009 4.78,-18.02 4.5,-17.27 9.009,-34.541 13.448,-51.828 2.924,-11.347 5.64,-22.749 8.269,-34.175 0.865,-3.76 1.718,-7.525 2.579,-11.285 -1.185,-2.575 -2.309,-2.941 -4.871,-1.577 l -0.545,0.117 -0.029,0.707 c -2.234,9.384 -4.451,18.776 -6.739,28.144 -4.371,17.986 -8.943,35.914 -13.685,53.808 -1.921,7.271 -3.826,14.542 -5.815,22.071 -0.187,-0.608 -0.324,-0.948 -0.399,-1.323 -1.048,-5.257 -1.855,-10.565 -3.178,-15.748 -1.031,-4.018 -0.994,-7.749 0.782,-11.493 0.432,-0.919 0.666,-1.959 0.973,-2.949 0.117,-0.374 0.425,-0.745 0.084,-1.294 -1.228,1.86 -2.422,3.673 -3.811,5.778 -0.99,-4.343 -1.892,-8.282 -2.774,-12.204 -0.179,-0.807 0.395,-0.845 0.952,-0.791 1.361,0.113 2.713,0.267 4.077,0.391 2.379,0.238 4.767,0.466 7.146,0.732 0.957,0.109 1.377,-0.311 1.572,-1.193 0.204,-0.961 0.495,-1.914 0.732,-2.875 1.34,-5.374 3.37,-10.64 2.787,-16.338 -0.066,-0.674 -0.004,-1.232 0.928,-1.194 1.14,0.054 0.973,-0.945 1.156,-1.618 0.27,-0.965 -0.636,-0.641 -0.986,-0.749 -0.665,-0.2 -1.397,-0.158 -2.092,-0.279 -4.139,-0.636 -8.311,-1.011 -12.487,-1.285 -2.958,-0.192 -5.927,-0.466 -8.902,-0.329 -0.553,0.029 -1.01,-0.062 -1.202,-0.723 -0.457,-1.535 -0.989,-3.041 -1.119,-4.647 l -0.066,-0.137 0.071,0.121 c 2.163,0.266 3.544,-0.82 4.658,-2.546 4.493,-6.938 9.023,-13.843 13.54,-20.765 0.624,-0.965 1.277,-1.905 1.913,-2.853 -8.901,6.693 -14.521,16.031 -20.519,25.307 -0.47,-1.822 -0.753,-3.498 -1.368,-5.034 -0.733,-1.821 -0.163,-3.319 0.752,-4.783 2.6,-4.18 5.408,-8.194 8.353,-12.121 2.408,-3.211 5,-6.281 7.899,-9.06 l 0.537,-0.79 -0.704,-0.287 c -6.397,-0.387 -12.786,-0.744 -19.184,-1.16 -1.11,-0.067 -1.609,0.191 -1.655,1.405 -0.029,0.749 -0.171,1.498 -0.171,2.251 v 8.835 l -0.224,0.025 c -1.914,-6.152 -3.831,-12.3 -5.749,-18.448 -0.466,-1.339 -1.247,-2.346 -2.758,-2.412 -1.156,-0.067 -2.067,0.465 -2.616,1.539 -0.166,0.311 -0.196,0.732 -0.582,0.914 2.171,6.19 4.035,12.471 5.931,18.74 2.671,8.789 5.108,17.657 7.421,26.55 2.396,9.201 4.684,18.427 6.755,27.711 1.581,7.072 3.116,14.151 4.576,21.239 1.547,7.512 3.045,15.021 4.426,22.554 0.54,2.928 1.601,5.856 0.391,8.901 -0.45,1.123 -0.674,2.346 -0.999,3.527 -3.444,12.525 -6.867,25.058 -10.332,37.591 -2.08,7.541 -4.172,15.068 -6.31,22.59 -2.683,9.385 -5.449,18.731 -8.145,28.107 -3.307,11.565 -6.788,23.069 -10.549,34.485 -0.827,2.487 -1.855,4.808 -4.014,6.522 -5.255,4.176 -10.962,7.704 -16.553,11.381 -0.673,0.443 -1.335,0.676 -2.25,0.451 -2.042,-0.516 -4.147,-0.803 -6.219,-1.206 -9.192,-1.76 -18.36,-3.577 -27.561,-5.235 -1.522,-0.272 -2.488,-1.023 -3.336,-2.088 -0.948,-1.188 -1.597,-2.546 -1.959,-4.041 -0.861,-3.638 -0.965,-7.373 -1.464,-11.042 -0.828,-6.116 -1.336,-12.244 -1.897,-18.377 -0.528,-5.713 -0.89,-11.464 -1.127,-17.196 -0.208,-4.758 -0.391,-9.525 -0.566,-14.282 -0.191,-5.095 -0.166,-10.201 -0.262,-15.301 -0.113,-5.988 -0.162,-11.994 0.137,-18.004 0.291,-5.699 0.071,-11.419 0.337,-17.138 0.183,-3.91 0.379,-7.82 0.537,-11.726 0.262,-6.688 0.657,-13.36 1.173,-20.032 0.332,-4.181 0.511,-8.37 0.907,-12.537 0.578,-6.074 1.26,-12.155 1.946,-18.228 0.549,-4.95 1.065,-9.916 1.768,-14.841 0.824,-5.815 1.834,-11.606 2.758,-17.404 1.535,-9.575 3.502,-19.051 5.832,-28.46 1.181,-4.758 2.462,-9.484 3.868,-14.176 -1.327,-2.001 -4.588,-1.04 -5.765,0.799 -0.532,0.832 -0.641,1.872 -1.377,2.587 l 0.108,0.757 c -0.632,2.404 -1.343,4.809 -1.814,7.246 -0.365,1.897 -1.343,3.087 -2.919,4.181 -3.757,2.608 -6.855,5.848 -8.69,10.178 -1.281,3.012 -1.976,6.19 -2.812,9.318 -1.223,4.559 -1.714,9.151 -0.124,13.743 0.149,0.424 0.12,0.957 0.045,1.406 -0.141,0.798 -0.553,0.982 -1.289,0.511 -0.578,-0.365 -0.645,-1.127 -1.36,-1.551 -0.192,1.165 -0.516,2.23 -0.445,3.361 l 0.012,0.008 c 0.832,0 1.535,-0.407 2.271,-0.724 2.25,-0.973 4.497,-1.971 6.755,-2.928 0.275,-0.129 0.666,-0.557 0.882,0.117 0.333,1.031 -0.64,3.486 -1.572,3.876 -6.531,2.779 -12.762,6.148 -18.86,9.759 -3.831,2.25 -6.697,5.399 -7.878,9.783 -0.973,3.602 -1.123,7.329 -1.464,11.031 -0.192,2.064 -0.125,4.156 -0.383,6.206 -0.179,1.44 0.129,2.742 0.453,4.385 1.864,-3.748 4.53,-6.29 7.908,-8.199 5.116,-2.874 10.345,-5.515 15.665,-7.949 2.279,-1.048 2.254,-1.094 2.176,1.364 -0.021,1.049 -0.188,1.968 -1.369,2.355 -0.633,0.199 -0.674,0.67 -0.275,1.081 1.543,1.544 1.082,3.311 0.566,5.441 -0.782,-1.585 -1.568,-2.879 -2.071,-4.268 -0.4,-1.065 -0.949,-0.931 -1.697,-0.624 -1.09,0.458 -0.799,1.265 -0.483,2.022 1.123,2.654 2.238,5.308 3.415,7.928 0.953,2.13 -0.013,4.143 -0.2,6.231 -1.98,-4.268 -3.773,-8.577 -5.611,-12.857 -0.245,-0.578 -0.299,-1.51 -1.057,-1.535 -0.84,-0.017 -1.443,0.674 -1.776,1.439 -0.237,0.566 -0.387,1.152 -0.503,1.756 -0.424,2.137 -0.345,4.317 -0.508,6.472 -0.432,5.491 -0.565,11.01 -0.964,16.514 -0.146,1.929 -0.155,3.859 -0.267,5.789 -0.349,5.732 -0.894,11.452 -1.056,17.192 -0.312,10.216 0.116,20.415 0.241,30.631 l 0.017,0.427 c 0.37,5.925 0.732,11.846 1.114,17.771 0.175,2.721 0.275,5.456 0.641,8.162 0.146,1.123 -0.1,2.41 0.823,3.61 3.116,-5.06 3.977,-10.884 6.673,-15.944 -0.233,3.613 0.773,7.263 -0.604,10.803 -0.141,0.37 -0.178,0.632 0.308,0.894 1.057,0.593 0.986,3.324 -0.07,3.902 -5.782,3.222 -11.29,6.865 -16.576,10.842 -3.362,2.529 -5.137,5.915 -4.975,10.106 0.17,4.136 0.644,8.254 1.01,12.382 0.217,2.436 0.52,4.872 1.498,7.153 0.848,1.98 1.963,3.794 3.735,5.191 l 0.125,-0.264 c -0.1,-0.47 -0.171,-0.932 -0.32,-1.375 -1.257,-3.608 -0.183,-6.582 2.508,-9.09 4.301,-4.012 9.164,-7.251 14.217,-10.219 0.816,-0.48 1.14,-0.099 1.202,0.683 0.072,0.898 0.046,1.797 0.146,2.679 0.275,2.154 0.516,4.276 -0.283,6.389 -0.507,1.366 -0.798,2.818 -1.322,4.178 -0.262,0.655 -0.042,2.053 -1.02,1.81 -0.752,-0.188 -0.303,-1.496 -0.207,-2.305 0.311,-2.577 0,-5.179 0.428,-7.751 0.041,-0.306 0.066,-0.682 -0.412,-0.772 -0.894,-0.162 -2.441,1.285 -2.342,2.244 0.067,0.657 0.196,1.304 0.342,1.947 1.447,6.624 2.903,13.236 4.342,19.858 0.537,2.479 -0.029,3.344 -2.342,4.425 -1.102,0.525 -1.343,0.106 -1.552,-0.821 -1.418,-6.535 -2.828,-13.063 -4.313,-19.577 -0.279,-1.223 -0.349,-2.548 -1.102,-3.902 -1.373,1.433 -2.562,2.777 -3.873,4.01 -1.568,1.481 -1.847,3.184 -1.264,5.175 0.703,2.346 1.331,4.719 2.026,7.06 2.113,7.19 4.084,14.436 6.422,21.549 2.213,6.662 7.105,10.981 13.369,13.86 0.561,0.256 1.081,0.333 1.685,-0.131 1.46,-1.117 2.999,-2.13 4.537,-3.141 0.708,-0.464 0.795,-0.663 -0.066,-1.056 -2.209,-0.986 -4.355,-2.111 -6.206,-3.658 -1.822,-1.525 -3.585,-3.126 -3.577,-5.822 0.016,-2.629 2.508,-6.266 4.979,-7.217 l 0.786,0.044 c 0.907,0.992 2.238,0.975 3.552,1.35 -1.006,0.682 -1.764,1.381 -2.417,2.177 -0.653,0.801 -0.794,1.423 0.408,2.049 3.931,2.061 8.182,3.126 12.358,4.467 2.03,0.647 3.253,-0.235 4.717,-1.333 -1.056,-0.401 -2.001,-0.707 -2.903,-1.098 -1.223,-0.516 -2.463,-1.056 -3.083,-2.348 -0.311,-0.647 -0.985,-1.479 -0.02,-1.959 0.782,-0.391 1.83,-0.277 2.346,0.613 0.345,0.601 0.857,0.907 1.381,1.142 1.593,0.716 3.261,1.215 4.971,1.614 0.536,0.115 0.96,0.029 1.318,-0.26 1.198,-0.979 2.504,-1.098 3.972,-0.724 1.922,0.491 3.915,0.656 5.978,1.317 -0.383,0.314 -0.583,0.515 -0.812,0.655 -5.452,3.3 -10.922,6.566 -16.359,9.891 -4.622,2.846 -9.205,5.749 -13.801,8.63 0.149,2.951 2.45,4.463 5.182,3.385 0.653,-0.259 1.29,-0.557 1.926,-0.834 0.616,-0.69 1.535,-0.925 2.217,-1.503 0.749,-0.653 1.568,-0.82 2.454,-0.418 2.517,1.133 4.975,1.231 7.363,-0.35 l 0.133,-0.042 c 2.309,-0.954 4.625,-1.904 7.155,-2.942 -2.904,-0.612 -5.504,-1.169 -8.203,-1.739 l 0.349,-0.418 c 3.711,-2.346 7.425,-4.678 11.139,-7.011 0.874,-0.549 1.739,-0.659 2.821,-0.51 3.669,0.522 7.362,0.949 11.064,1.23 1.181,0.093 2.405,0.532 3.615,0.008 1.285,-0.57 2.583,-1.154 3.914,-1.635 1.629,-0.593 3.167,-1.865 4.902,-1.657 3.182,0.376 6.314,1.146 9.696,1.788 -0.998,0.899 -2.009,1.146 -2.945,1.529 -9.708,4.051 -19.415,8.099 -29.119,12.142 -4.264,1.778 -8.523,3.569 -12.783,5.349 1.282,4.418 4.227,5.963 8.719,4.8 2.804,-0.724 5.541,-1.78 8.486,-1.909 l 0.091,-0.248 c 3.361,-1.073 6.697,-2.371 10.299,-1.855 1.406,0.2 2.825,0.285 4.216,0.416 4.634,0.431 9.292,0.718 13.943,0.882 4.106,0.158 8.215,0.218 12.316,0.252 5.799,0.037 11.593,-0.252 17.392,-0.549 1.406,-0.077 2.824,-0.113 4.226,-0.269 5.599,-0.646 11.223,-1.073 16.805,-1.913 6.364,-0.95 12.778,-1.729 18.997,-3.386 3.714,-0.988 7.187,-0.647 10.719,0.472 1.427,-0.017 2.745,0.628 4.176,0.61 3.174,-0.009 4.95,-1.213 6.073,-4.241 -0.362,-0.435 -0.907,-0.483 -1.402,-0.576 -4.296,-0.797 -8.598,-1.562 -12.895,-2.373 -6.784,-1.286 -13.572,-2.602 -20.352,-3.91 -3.977,-0.77 -7.953,-1.546 -12.221,-2.376 0.819,-0.287 1.343,-0.499 1.884,-0.636 13.664,-3.533 27.353,-7.044 41.018,-10.622 2.466,-0.648 5.166,-0.831 7.079,-2.893 0.445,-0.476 0.849,-0.052 1.207,0.282 2.179,1.99 2.587,5.274 0.956,7.736 -1.651,2.477 -4.113,3.979 -6.655,5.358 -1.942,1.063 -4.01,1.84 -6.327,2.747 3.315,0.647 6.352,1.213 9.355,1.843 1.115,0.245 2.043,0.15 3.057,-0.472 2.45,-1.508 4.93,-2.931 6.814,-5.192 2.408,-2.893 3.494,-6.461 4.913,-9.831 3.647,-8.677 6.272,-17.672 8.131,-26.889 0.333,-1.641 0.03,-3.093 -1.231,-4.276 -1.451,-1.354 -2.907,-2.698 -4.355,-4.06 -0.416,-0.374 -0.82,-0.98 -1.389,-0.805 -0.499,0.148 -0.416,0.89 -0.516,1.354 -1.273,5.832 -2.496,11.664 -3.74,17.485 -0.499,2.348 -1.002,4.702 -1.559,7.042 -0.092,0.4 -0.063,1.196 -0.936,0.794 -1.644,-0.761 -2.85,-3.325 -2.517,-5.166 0.703,-3.833 1.402,-7.641 2.371,-11.428 0.907,-3.48 0.99,-7.165 1.527,-10.742 0.308,-2.045 0.374,-4.139 0.994,-6.252 3.793,2.288 7.175,4.831 10.482,7.493 2.687,2.155 4.226,4.753 4.126,8.255 -0.012,0.331 -0.153,0.73 0.221,1.106 1.976,-2.564 2.317,-5.551 2.608,-8.535 0.316,-3.288 0.462,-6.58 0.957,-9.836 0.964,-6.33 -1.048,-11.278 -6.265,-14.997 -2.962,-2.104 -5.94,-4.189 -9.059,-6.064 -0.716,-0.435 -1.015,-0.959 -0.986,-1.841 0.071,-1.828 0.253,-3.669 0.37,-5.499 0.15,-2.313 0.196,-4.617 0.241,-6.93 l 0.408,-1.015 c 0.657,2.304 0.624,4.751 1.556,6.999 0.416,-1.768 0.441,-3.53 0.628,-5.277 0.582,-5.308 0.765,-10.615 1.019,-15.931 0.299,-6.556 0.062,-13.138 0.278,-19.702 0.262,-7.183 -0.103,-14.367 -0.17,-21.547 -0.058,-7.034 -0.416,-14.046 -0.832,-21.051 -0.333,-5.558 -1.048,-11.077 -1.235,-16.63 -0.05,-1.423 -0.45,-2.829 -1.685,-3.761 -1.056,-0.782 -1.722,-0.59 -2.354,0.533 -0.3,0.532 -0.3,1.256 -0.895,1.647 -0.32,-2.458 -0.632,-4.825 -0.944,-7.196 l 0.108,-0.94 0.903,0.224 c 3.028,1.548 5.994,3.228 8.835,5.092 3.806,2.5 7.787,4.812 10.682,8.777 1.065,-2.542 0.815,-4.942 0.594,-7.296 C 35.839,75.879 35.265,72.057 34.907,68.226 34.475,63.6 32.72,59.665 28.739,57.14 23.834,54.033 18.614,51.429 13.406,48.892 c -2.129,-1.04 -2.628,-2.583 -2.907,-4.514 -0.063,-0.428 -0.042,-1.01 0.599,-0.794 1.431,0.491 1.227,-0.674 1.314,-1.322 0.2,-1.39 0.229,-2.804 0.337,-4.219 l 0.212,-0.615 0.633,0.416 c 0.457,0.828 0.736,1.705 0.877,2.662 0.254,1.839 0.187,3.818 1.768,5.216 l 0.791,0.466 c 0.461,-0.208 0.199,-0.641 0.112,-0.99 C 16.339,41.862 15.524,38.522 14.725,35.182 13.323,29.35 11.834,23.552 9.022,18.202 8.045,16.372 7.076,14.492 5.274,12.67 c 0.184,2.479 0.433,4.576 -0.07,6.764 L 5,18.943 C 3.369,12.886 1.731,6.83 -0.191,0.869 Z m -80.109,221.247 c -1.04,-0.847 -1.431,-2.197 -2.459,-3.22 -0.566,1.861 -1.094,3.685 -1.668,5.509 -0.178,0.533 0.037,0.766 0.462,0.986 0.557,0.32 1.131,0.443 1.764,0.426 1.934,-0.016 3.88,-0.074 5.823,0.027 1.185,0.054 1.51,-0.332 1.502,-1.518 -0.046,-8.606 -0.021,-17.218 -0.021,-25.827 0,-1.865 0.857,-2.514 2.574,-1.857 0.454,0.165 0.629,0.418 1.244,0.033 0.608,-0.382 1.648,-0.098 2.496,-0.072 0.424,0.02 0.47,0.378 0.491,0.727 0.765,9.661 4.417,18.461 8.078,27.267 0.699,1.678 2.096,2.119 3.802,2.086 2.379,-0.059 2.387,-0.017 1.522,-2.236 -2.508,-6.416 -5.033,-12.83 -6.664,-19.533 -0.545,-2.243 -1.106,-4.478 -1.372,-6.773 -0.05,-0.49 -0.416,-1.075 0.399,-1.241 0.736,-0.158 1.506,-0.11 1.797,0.709 0.3,0.838 0.474,1.729 0.603,2.602 1.011,6.913 3.399,13.421 5.886,19.891 0.524,1.354 1.152,2.696 1.614,4.068 0.782,2.382 2.496,3.351 4.842,3.318 1.044,-0.005 1.306,0.301 1.405,1.349 0.234,2.272 0.225,4.524 0.25,6.799 0.017,1.285 -0.324,2.5 -0.553,3.756 -0.137,0.726 -0.532,0.942 -1.186,0.899 -3.339,-0.246 -6.667,-0.498 -9.999,-0.736 l -0.84,-0.102 c -9.451,-0.391 -18.906,-0.298 -28.365,-0.29 -1.576,0.009 -2.803,0.392 -3.198,2.192 -0.175,0.812 -0.558,1.633 -1.045,2.313 -0.79,1.142 -0.228,1.242 0.728,1.15 5.762,-0.53 11.527,-0.122 17.296,-0.276 5.957,-0.156 11.901,0.368 17.853,0.312 1.027,-0.008 2.005,0.447 3.103,0.497 l -6.214,2.548 c -6.814,2.785 -13.619,5.588 -20.432,8.375 -0.799,0.323 -1.531,0.46 -2.446,0.276 -6.406,-1.291 -12.828,-2.487 -19.251,-3.71 -0.507,-0.102 -1.039,-0.149 -1.505,0.158 -1.845,1.205 -3.684,2.428 -5.847,3.867 3.503,0.674 6.608,1.283 9.719,1.88 6.231,1.191 12.466,2.371 18.693,3.585 0.591,0.11 1.09,0.086 1.648,-0.141 10.457,-4.353 20.951,-8.604 31.363,-13.067 3.373,-1.458 4.829,-4.609 5.578,-8.081 0.761,-3.51 0.42,-7.002 0.05,-10.525 -0.358,-3.415 -0.578,-6.837 -0.911,-10.258 -0.312,-3.228 -0.695,-6.451 -1.04,-9.671 -0.32,-2.995 -0.603,-5.989 -0.944,-8.981 -0.425,-3.833 -0.882,-7.661 -1.34,-11.486 -0.399,-3.403 -0.782,-6.816 -1.219,-10.222 -0.603,-4.803 -1.231,-9.603 -1.876,-14.393 -0.586,-4.336 -1.181,-8.668 -1.813,-12.986 -0.678,-4.704 -1.373,-9.392 -2.096,-14.088 -0.791,-5.062 -1.623,-10.116 -2.446,-15.17 -0.1,-0.654 -0.225,-1.294 -0.433,-2.371 -0.953,3.436 -1.797,6.489 -2.645,9.538 -1.826,6.63 -3.64,13.264 -5.483,19.882 -0.158,0.558 -0.27,1.107 -0.233,1.673 l -0.224,0.553 0.108,0.071 0.108,-0.629 c 0.657,1.519 0.308,3.151 0.483,4.713 0.266,2.373 0.282,4.784 0.632,7.165 0.083,0.558 -0.1,0.838 -0.745,0.924 -1.863,0.201 -2.067,0.018 -2.4,-1.762 -0.175,-0.934 -0.208,-1.867 -0.449,-2.847 -0.657,2.348 -1.31,4.669 -1.959,7.013 -0.179,0.642 0.254,0.68 0.719,0.713 3.94,0.279 7.879,0.585 11.814,0.836 2.129,0.142 2.404,0.317 2.662,2.463 0.69,5.707 1.439,11.401 1.177,17.177 -0.038,0.69 -0.27,1.433 0.832,1.807 0.628,0.217 0.233,1.287 0.524,1.937 l 0.07,0.981 c 0.4,1.508 -0.199,1.489 -1.489,1.298 -2.408,-0.383 -4.862,-0.585 -7.299,-0.63 -3.208,-0.069 -6.406,-0.435 -9.622,-0.358 -1.921,0.048 -3.851,-0.129 -5.781,-0.252 -0.824,-0.058 -1.153,0.3 -1.373,1.057 -2.068,7.096 -4.156,14.192 -6.273,21.272 -0.191,0.643 -0.083,1.142 0.1,1.755 0.503,1.606 1.211,3.17 1.335,4.876 z m 48.567,55.068 c -1.776,-0.359 -3.54,-0.742 -5.32,-1.083 -4.746,-0.916 -9.501,-1.806 -14.251,-2.714 -1.614,-0.306 -3.211,-0.741 -4.838,-0.916 -1.368,-0.141 -2.67,0.491 -3.98,0.832 -8.29,2.13 -16.572,4.31 -24.846,6.481 l -0.715,0.393 c 18.044,0.472 36.01,-0.233 53.95,-2.993 M -71.437,197.42 c 1.594,3.089 8.885,26.848 8.902,28.028 -1.939,-0.466 -3.931,-0.042 -5.89,-0.448 -0.741,-0.158 -1.186,-0.207 -1.236,-1.1 -0.12,-2.302 -0.349,-4.598 -0.503,-6.895 -0.137,-2.162 -0.2,-4.336 -0.341,-6.493 -0.291,-4.373 -0.62,-8.726 -0.932,-13.092 m -0.661,-187.279 -0.32,-0.142 c 0,-2.778 -0.354,-5.615 0.074,-8.335 0.991,-6.294 6.905,-9.035 12.641,-8.369 0.853,0.091 0.953,0.491 0.358,1.21 -2.699,3.265 -5.345,6.585 -8.019,9.871 -1.573,1.922 -3.158,3.843 -4.734,5.765 m 60.148,177.581 c 0,2.263 0.012,4.532 -0.005,6.793 0,0.486 0.167,1.044 -0.636,1.193 -2.65,0.473 -4.979,-1.141 -5.025,-3.71 -0.07,-4.303 -0.004,-8.604 -0.033,-12.905 -0.013,-0.755 0.229,-0.915 0.89,-0.717 1.352,0.401 2.699,0.811 4.06,1.202 0.682,0.206 0.769,0.715 0.761,1.329 -0.021,2.271 -0.012,4.536 -0.012,6.815 m 7.366,3.001 v 4.775 c 0,3.048 -0.175,3.17 -3.049,1.791 -0.911,-0.443 -1.934,-0.767 -2.084,-2.075 -0.491,-4.464 -0.166,-8.947 -0.233,-13.425 -0.016,-1.311 0.724,-1.696 1.831,-1.049 0.607,0.366 1.189,0.768 1.801,1.117 0.923,0.522 1.418,1.204 1.576,2.33 0.333,2.352 0.013,4.706 0.158,6.536 m -19.592,-5.846 v -4.396 c 0,-4.435 0.129,-4.497 4.351,-2.81 0.591,0.241 0.787,0.54 0.782,1.131 -0.016,4.732 -0.033,9.452 0.009,14.176 0.004,0.967 -0.466,1.15 -1.227,0.984 -0.928,-0.175 -1.814,-0.487 -2.745,-0.651 -0.895,-0.158 -1.236,-0.541 -1.194,-1.496 0.075,-2.313 0.024,-4.625 0.024,-6.938 m -1.979,-0.476 v 5.809 c 0,2.47 0,2.487 -2.396,2.053 -1.311,-0.227 -2.538,-1.074 -2.479,-2.881 0.124,-3.998 0.033,-8.02 0.033,-12.027 -0.004,-2.199 0,-2.199 2.084,-1.823 0.553,0.092 1.102,0.225 1.66,0.331 0.798,0.163 1.147,0.557 1.127,1.456 -0.071,2.357 -0.029,4.729 -0.029,7.082 m -7.101,-1.048 v 5.95 c 0,2.359 0,2.359 -2.267,1.606 -2.125,-0.71 -2.263,-0.882 -2.267,-3.114 -0.012,-3.544 -0.012,-7.08 -0.012,-10.632 0,-3.633 0,-3.625 3.51,-2.695 0.741,0.191 1.074,0.522 1.057,1.366 -0.063,2.504 -0.021,5.004 -0.021,7.519 m 30.935,-0.726 c 1.481,0.817 2.795,1.414 3.923,2.34 0.419,0.349 0.603,0.792 0.669,1.349 0.558,4.647 0.1,9.324 0.25,13.985 0.016,0.696 -0.283,0.871 -0.853,0.497 -1.718,-1.117 -3.781,-1.614 -3.86,-4.532 -0.117,-4.469 0.038,-8.926 -0.129,-13.639 m -98.179,94.632 -0.104,-0.297 0.99,-0.499 c 6.148,-2.556 12.275,-5.141 18.44,-7.629 1.368,-0.557 2.683,-1.541 4.28,-1.264 2.454,0.42 4.883,0.952 7.766,1.528 -10.736,2.785 -21.052,5.474 -31.372,8.161 M -51.146,40.801 c 0,-2.317 -0.008,-4.629 0.004,-6.942 0.004,-0.358 -0.141,-0.874 0.258,-1.044 0.977,-0.387 1.95,0.104 2.903,0.262 0.637,0.117 0.52,0.811 0.52,1.323 0,4.392 -0.025,8.785 0.008,13.177 0.009,0.907 -0.149,1.539 -1.227,1.298 -0.952,-0.208 -2.454,0.445 -2.462,-1.414 -0.012,-2.221 -0.004,-4.434 -0.004,-6.66 m -120.668,78.712 c 0.566,1.198 0.703,2.484 0.982,3.732 0.707,3.186 1.048,6.426 0.919,9.662 -0.112,2.941 -0.195,5.911 -0.77,8.827 -0.44,2.2 -0.865,4.413 -1.326,6.626 -0.063,0.35 -0.138,0.782 -0.679,0.732 -0.64,-0.054 -0.557,-0.561 -0.519,-0.952 0.037,-0.612 0.22,-1.207 0.237,-1.818 0.05,-4.759 0.299,-9.505 0.557,-14.251 0.208,-3.956 0.225,-7.916 0.337,-11.876 z m 116.991,61.129 c 0,2.603 0.008,5.206 -0.009,7.804 0,0.272 0.217,0.715 -0.299,0.797 -0.711,0.114 -2.77,-1.814 -2.833,-2.621 -0.366,-4.565 -0.245,-9.161 -0.27,-13.735 -0.008,-0.763 -0.008,-1.589 1.056,-1.283 0.87,0.243 2.38,-0.472 2.363,1.377 -0.025,2.551 -0.008,5.105 -0.008,7.661 m -128.642,35.291 c 0,-3.561 0.058,-7.099 -0.021,-10.616 -0.058,-2.273 0.84,-3.91 2.767,-5.008 0.341,-0.193 0.665,-0.75 1.089,-0.41 l 0.146,1.057 c 0.108,3.113 -0.1,6.215 0.237,9.32 0.291,2.743 -1.418,4.898 -4.218,5.657 m 9.962,-15.403 c 0.079,1.449 -0.05,3.313 0.212,5.209 0.391,2.773 -0.719,4.643 -2.924,5.483 -1.181,0.451 -1.422,0.293 -1.231,-1.007 0.133,-0.89 0.187,-1.764 0.241,-2.662 0.142,-2.41 -0.208,-4.8 -0.312,-7.19 -0.087,-2.304 1.011,-3.71 2.928,-4.723 0.795,-0.408 1.165,-0.447 1.103,0.63 -0.075,1.273 -0.017,2.556 -0.017,4.26 m 2.255,0.409 h -0.008 c 0,-1.888 0.049,-3.77 -0.013,-5.657 -0.041,-1.406 0.645,-2.331 1.764,-2.995 0.499,-0.289 1.073,-0.813 1.676,-0.451 0.562,0.354 0.258,1.052 0.266,1.585 0.042,3.203 -0.091,6.42 0.109,9.623 0.141,2.363 -0.487,3.752 -2.584,4.536 -0.869,0.314 -1.272,0.264 -1.227,-0.84 0.075,-1.926 0.017,-3.862 0.017,-5.801 m -8.274,-142.247 0.046,0.682 c 0.092,2.961 -0.108,5.919 0.233,8.893 0.295,2.621 -0.911,4.434 -3.099,5.516 -0.856,0.411 -1.136,0.316 -1.127,-0.699 0.038,-2.912 0.121,-5.836 -0.029,-8.735 -0.146,-2.592 0.961,-4.189 3.976,-5.657 m 2.022,1.622 c -0.208,-2.255 0.374,-4.151 2.5,-5.266 1.318,-0.682 1.456,-0.553 1.506,0.923 0.075,2.921 -0.167,5.84 0.212,8.769 0.316,2.387 -0.666,3.743 -2.879,4.8 -0.931,0.441 -1.493,0.408 -1.31,-0.782 0.462,-2.82 0.212,-5.632 -0.029,-8.444 m 9.945,-2.479 h 0.013 c 0,1.655 0.004,3.311 -0.004,4.966 -0.009,1.764 -0.711,2.737 -2.325,3.278 -0.932,0.316 -1.406,0.133 -1.39,-0.99 0.042,-3.452 0,-6.896 0.013,-10.341 0,-1.788 0.882,-2.812 2.629,-3.394 0.894,-0.283 1.09,-0.008 1.077,0.812 -0.021,1.892 -0.013,3.78 -0.013,5.669 m 184.268,0.807 h 0.004 v 5.944 c 0.005,0.391 -0.054,0.778 -0.453,0.961 -0.428,0.191 -0.695,-0.1 -1.003,-0.333 -1.26,-0.94 -1.584,-2.225 -1.846,-3.744 -0.62,-3.535 -0.279,-7.054 -0.371,-10.582 -0.024,-0.557 0.279,-1.065 0.912,-1.035 0.881,0.033 2.737,2.179 2.749,3.115 0.021,1.889 0.008,3.785 0.008,5.674 M -54.828,40.223 c 0,2.271 -0.012,4.53 0.013,6.793 0.008,0.778 -0.013,1.468 -1.086,1.302 -0.911,-0.125 -2.084,0.208 -2.075,-1.381 0.033,-4.434 0.066,-8.868 -0.013,-13.302 -0.02,-1.406 0.795,-1.182 1.635,-1.207 0.948,-0.05 1.622,0 1.556,1.294 -0.1,2.167 -0.03,4.338 -0.03,6.501 M -161.59,54.857 c 0,1.838 0,3.685 -0.008,5.532 -0.008,1.431 -0.595,2.371 -2.084,2.791 -1.069,0.304 -1.343,0.054 -1.331,-0.994 0.033,-3.694 -0.004,-7.388 0.012,-11.085 0.009,-1.589 0.841,-2.434 2.43,-2.829 0.782,-0.183 0.998,-0.029 0.99,0.761 -0.034,1.934 -0.009,3.885 -0.009,5.824 m -10.719,34.063 0.379,-0.071 0.237,0.341 c 1.36,4.026 3.09,7.907 4.625,11.863 1.751,4.501 2.063,7.271 1.227,10.515 -2.77,-7.512 -6.855,-14.454 -6.468,-22.648 m 110.389,90.589 c 0,2.41 -0.062,4.827 0.021,7.238 0.038,1.133 -0.42,1.349 -1.418,1.316 -0.882,-0.035 -1.506,-0.019 -1.489,-1.239 0.071,-4.776 0.071,-9.551 0,-14.334 -0.017,-1.236 0.603,-1.211 1.489,-1.248 0.99,-0.025 1.456,0.175 1.418,1.312 -0.087,2.321 -0.021,4.634 -0.021,6.955 m 82.614,22.578 v -5.939 c 0,-0.589 0.008,-1.257 0.848,-1.082 1.003,0.191 2.263,1.997 2.268,3.122 0.016,3.536 0.029,7.069 -0.005,10.604 -0.004,0.614 0.387,1.556 -0.287,1.808 -0.757,0.272 -1.489,-0.393 -2.071,-0.942 -0.578,-0.549 -0.778,-1.257 -0.761,-2.053 0.02,-1.84 0.008,-3.681 0.008,-5.518 M 23.81,69.744 c -2.363,-1.136 -3.561,-2.725 -3.145,-5.325 0.162,-1.01 0.029,-2.067 0.029,-3.098 0,-1.989 -0.029,-3.969 0.004,-5.953 0.021,-0.952 0.811,-1.485 1.323,-0.898 0.815,0.936 1.78,1.884 1.784,3.265 0.021,3.968 0.005,7.916 0.005,12.009 M -61.932,39.982 c 0,2.304 0.012,4.609 -0.008,6.921 -0.004,0.391 0.187,0.999 -0.408,1.028 -0.507,0.037 -1.14,-0.017 -1.294,-0.778 -0.358,-1.747 -0.973,-3.473 -1.081,-5.216 -0.183,-2.97 -0.008,-5.948 -0.075,-8.918 -0.025,-1.107 0.495,-1.219 1.381,-1.182 0.84,0.034 1.556,-0.054 1.506,1.207 -0.092,2.304 -0.021,4.617 -0.021,6.938 m 81.927,93.012 C 18.54,125.062 19.8,117.6 21.256,110.138 c 1.58,7.637 0.707,15.124 -1.261,22.856 m 10.919,76.2 h 0.004 v 5.938 c 0,0.399 -0.054,0.775 -0.49,0.932 -0.5,0.174 -0.65,-0.26 -0.862,-0.549 -0.536,-0.716 -1.156,-1.456 -1.168,-2.374 -0.059,-3.824 -0.029,-7.641 -0.038,-11.461 l 0.358,-0.716 c 0.399,-0.21 0.599,0.115 0.844,0.333 0.89,0.774 1.452,1.666 1.369,2.947 -0.088,1.635 -0.017,3.292 -0.017,4.95 m -100.188,-36.517 0.2,0.077 c 0.05,0.699 0.091,1.406 0.15,2.105 0.361,4.049 0.07,8.109 0.158,12.173 0.008,0.682 -0.466,0.788 -0.961,0.707 -0.62,-0.11 -1.677,0.463 -1.797,-0.524 -0.233,-1.955 -0.445,-4.02 -0.191,-5.89 0.403,-2.941 1.585,-5.767 2.441,-8.648 m 89.947,64.187 c -0.025,-0.183 0.142,-0.61 -0.291,-0.735 -0.574,-0.164 -0.549,0.394 -0.657,0.691 -1.215,3.328 -2.367,6.67 -3.627,9.975 -0.653,1.678 0.199,2.928 0.932,4.242 0.224,0.41 0.64,0.325 1.01,0.273 l 0.628,-0.664 c 0.657,-4.558 1.323,-9.111 2.005,-13.782 M 28.369,66.183 h -0.013 c 0,-1.66 -0.017,-3.315 0.013,-4.97 0.008,-0.458 -0.271,-1.098 0.553,-1.236 0.69,-0.112 1.044,0.27 1.289,0.845 0.774,1.763 1.131,3.668 0.895,5.515 -0.258,2.022 0.041,4.068 -0.458,6.057 -0.117,0.432 0.241,1.098 -0.229,1.297 -0.586,0.25 -1.015,-0.349 -1.41,-0.732 -0.503,-0.49 -0.661,-1.106 -0.653,-1.809 0.021,-1.652 0.013,-3.307 0.013,-4.967 m -195.491,84.103 c 0.021,3.7 0.728,7.475 -1.281,10.938 -0.379,0.646 -0.582,1.397 -0.894,2.079 -0.944,2.12 -1.884,4.233 -2.841,6.354 l -0.47,-0.175 c 1.327,-6.52 3.631,-12.786 5.486,-19.196 m -2.791,106.149 c -0.237,-0.398 -0.362,-0.57 -0.466,-0.77 -2.383,-4.444 -2.45,-9.184 -1.701,-14.009 0.054,-0.393 0.2,-0.776 0.674,-0.751 0.565,0.033 0.416,0.532 0.437,0.873 0.291,2.951 0.694,5.89 0.794,8.843 0.067,1.856 0.537,3.692 0.262,5.814 m 9.459,-216.137 c -2.592,-4.509 -2.6,-13.959 -0.67,-16.555 0.861,5.353 0.67,10.823 0.67,16.555 m -14.463,200.197 -0.241,0.069 c -0.25,-0.749 -0.532,-1.481 -0.741,-2.232 -1.031,-3.675 -1.73,-7.344 -0.233,-11.069 0.159,-0.393 0.233,-0.908 0.787,-0.823 0.628,0.081 0.411,0.646 0.411,1.031 0.017,4.339 0.017,8.685 0.017,13.024 M 19.949,144.042 c 1.694,3.382 2.596,13.488 1.415,16.292 -0.449,-5.647 -1.556,-10.909 -1.415,-16.292 m -183.073,87.071 c 0.653,1.238 0.324,2.253 0.499,3.211 0.416,2.163 0.673,4.353 0.952,6.547 0.062,0.477 -0.091,0.976 -0.657,1.082 -0.487,0.085 -0.848,-0.15 -0.923,-0.655 -0.471,-3.299 -0.808,-6.591 0.129,-10.185 m 182.366,25.19 c -1.164,-2.909 0.212,-4.993 2.088,-6.905 z M 8.748,34.026 C 8.382,32.49 7.304,31.051 7.857,29.367 7.953,29.084 7.812,28.564 8.286,28.61 c 0.47,0.05 0.454,0.532 0.462,0.907 0.004,1.505 0,3.011 0,4.509 m 9.255,64.956 c -0.811,-2.297 0.137,-4.293 1.035,-6.298 -0.345,2.105 -0.694,4.201 -1.035,6.298 M -155.812,26.38 c -0.112,-2.005 -0.229,-3.993 0.62,-6.164 0.411,2.316 -0.246,4.234 -0.62,6.164 m 115.439,151.656 -0.2,-0.035 c -0.141,-1.247 -0.283,-2.495 -0.441,-3.739 -0.033,-0.277 -0.216,-0.61 0.233,-0.643 0.383,-0.025 0.408,0.323 0.408,0.607 0.009,1.267 0,2.536 0,3.81 m 5.782,58.435 c -0.116,-1.823 0.042,-3.727 0,-5.622 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path494"
+            />
+          </g>
+          <g id="g496" transform="translate(491.4463,595.44)">
+            <path
+              d="m 0,0 c 1.789,-5.171 0.437,-9.667 -2.899,-13.685 -0.982,-1.198 -0.982,-1.323 0.549,-1.83 1.273,-0.408 2.412,-0.35 3.302,0.815 0.308,0.416 0.662,0.79 1.194,1.423 0.204,-1.024 0.37,-1.673 0.458,-2.338 0.15,-1.306 1.131,-2.146 2.429,-2.08 0.57,0.033 0.728,0.316 0.711,0.824 -0.141,3.103 -0.266,6.214 -0.42,9.325 l -0.129,0.974 c 0.1,3.868 -0.328,7.737 -0.345,11.605 -0.033,6.763 -0.32,13.51 -0.27,20.274 0.054,7.221 -0.1,14.45 0.083,21.663 0.129,5.133 0.32,10.274 0.545,15.416 0.279,6.588 0.644,13.169 1.177,19.745 0.141,1.674 -0.071,3.403 0.445,5.06 0.116,0.366 0.108,0.759 0.674,0.674 1.718,-0.264 3.44,-0.541 5.158,-0.763 0.536,-0.077 0.678,-0.241 0.64,-0.818 -0.195,-2.87 -0.395,-5.74 -0.445,-8.608 -0.074,-3.544 -0.437,-7.075 -0.308,-10.628 0.146,-4.009 0.071,-8.024 0.325,-12.029 0.857,-13.789 2.658,-27.441 6.58,-40.727 3.359,-11.372 7.868,-22.253 14.016,-32.415 0.732,-1.211 1.431,-2.434 2.142,-3.665 0.25,-0.437 0.878,-0.857 0.608,-1.331 -0.296,-0.566 -1.024,-0.249 -1.56,-0.258 -5.633,-0.017 -11.264,-0.017 -16.89,-0.017 h -1.369 c 1.015,-0.748 2.055,-0.665 2.966,-0.782 5.272,-0.665 10.559,-1.197 15.867,-1.539 4.871,-0.308 9.733,-0.133 14.591,-0.207 1.19,-0.009 1.46,-0.259 1.128,-1.465 -0.778,-2.811 -1.381,-5.673 -2.068,-8.51 -0.091,-0.391 -0.262,-0.757 -0.557,-1.09 0,0.948 -0.004,1.889 0,2.829 0.004,0.948 -0.145,2.088 -1.181,2.079 -0.891,-0.025 -1.094,-1.131 -1.094,-2.046 0.004,-3.686 -0.029,-7.379 0.004,-11.065 0.012,-1.348 -0.262,-2.612 -0.532,-3.91 -0.15,-0.682 -0.441,-0.977 -1.132,-0.986 -3.818,-0.021 -7.633,0.212 -11.439,0.504 -2.529,0.199 -5.066,0.424 -7.595,0.607 -4.366,0.337 -8.704,0.923 -13.026,1.522 -7.321,1.032 -14.55,2.546 -21.68,4.51 -4.089,1.114 -8.161,2.304 -12.158,3.751 -1.003,0.358 -1.294,0.999 -1.415,1.864 -1.01,7.021 -2.158,14.034 -2.882,21.089 -0.241,2.296 -0.283,2.313 1.922,1.547 7.454,-2.57 15.174,-4.093 22.832,-5.848 0.919,-0.2 1.801,-0.595 2.762,-0.566 l 0.474,0.292 c -0.237,0.607 -0.894,0.565 -1.385,0.736 -5.341,1.859 -10.695,3.718 -16.069,5.511 -1.148,0.375 -1.223,0.79 -0.682,1.78 5.121,9.26 8.86,19.068 11.285,29.367 1.285,5.507 2.117,11.069 2.787,16.688 0.882,7.479 0.965,14.979 0.732,22.475 -0.142,5.024 -0.641,10.037 -1.231,15.049 -0.757,6.433 -1.806,12.822 -2.945,19.403 1.751,-0.716 2.246,-2.207 2.895,-3.553 0.64,-1.354 1.131,-2.795 2.475,-3.96 0,1.647 0,3.295 0.004,4.944 0,0.553 -0.108,1.173 0.786,1.181 0.762,0 1.298,-0.252 1.464,-1.04 L 2.333,86.925 C 2.234,84.712 2.304,82.468 1.967,80.286 1.672,78.315 1.751,76.343 1.547,74.369 1.152,70.484 1.14,66.558 0.89,62.656 0.566,57.54 0.137,52.436 -0.196,47.311 -0.433,43.638 -0.57,39.965 -0.803,36.305 -1.144,30.843 -1.543,25.407 -1.91,19.958 -2.313,14.076 -3.207,8.269 -4.754,2.579 c -1.298,-4.759 -3.157,-9.293 -5.4,-13.668 -0.495,-0.966 -0.645,-1.448 0.666,-1.906 3.153,-1.098 3.165,-1.206 4.517,1.764 C -3.261,-7.512 -1.647,-3.744 0,0 m 6.867,44.878 c 0,2.092 -0.025,3.515 0.009,4.929 0,0.387 -0.216,0.994 0.341,1.094 0.682,0.129 0.636,-0.632 0.72,-0.998 0.619,-3.187 1.202,-6.373 1.751,-9.572 0.981,-5.761 2.242,-11.447 3.56,-17.129 2.126,-9.168 4.9,-18.111 8.403,-26.846 2.302,-5.748 5.143,-11.256 8.259,-16.605 0.528,-0.907 0.515,-1.148 -0.621,-1.173 -1.775,-0.033 -3.015,0.74 -3.772,2.246 -4.428,8.827 -8.95,17.612 -11.973,27.054 -2.359,7.379 -4.356,14.833 -5.736,22.445 -0.417,2.297 -0.67,4.659 -0.658,7.022 0.017,2.733 -0.495,5.453 -0.283,7.533 M 7.77,9.38 c 0.99,-2.167 2.005,-4.322 2.991,-6.493 2.749,-6.148 5.499,-12.304 8.252,-18.452 0.558,-1.248 1.14,-2.488 1.698,-3.736 0.295,-0.657 0.199,-0.969 -0.666,-0.99 -2.038,-0.058 -3.498,0.699 -4.247,2.613 -0.636,1.668 -1.223,3.369 -1.809,5.058 C 11.93,-6.705 9.879,-0.782 7.836,5.141 7.367,6.489 7.358,7.895 7.77,9.38 m -27.295,-40.51 v 0 c 0,1.946 -0.021,3.877 0.004,5.815 0.012,0.823 -0.233,1.489 -0.815,2.034 -0.362,0.345 -0.649,0.927 -1.294,0.661 -0.611,-0.258 -0.462,-0.865 -0.462,-1.377 0,-3.731 0.029,-7.466 -0.012,-11.202 -0.008,-1.048 0.37,-1.838 1.119,-2.478 0.299,-0.25 0.482,-0.774 1.036,-0.516 0.495,0.233 0.424,0.682 0.424,1.106 0.004,1.98 0,3.977 0,5.957 m 5.96,-1.473 v 1.131 c -0.004,1.698 0.08,3.403 -0.041,5.092 -0.071,0.998 -0.645,2.071 -1.726,2.063 -1.219,0 -0.745,-1.206 -0.761,-1.913 -0.046,-2.97 -0.046,-5.94 0,-8.931 0.008,-1.019 0.087,-2.067 0.282,-3.066 0.167,-0.815 0.766,-1.58 1.614,-1.535 0.932,0.071 0.608,1.028 0.616,1.635 0.033,1.839 0.012,3.686 0.016,5.524 m 54.78,-7.529 v 0 c 0,2.301 0,4.626 -0.008,6.93 -0.009,0.686 -0.292,1.281 -1.032,1.248 -0.624,-0.033 -0.915,-0.59 -0.931,-1.223 v -0.283 c 0,-4.201 -0.009,-8.394 0.008,-12.587 l 0.254,-1.089 c 0.22,-0.437 0.436,-0.995 1.131,-0.782 0.586,0.174 0.591,0.648 0.586,1.139 -0.008,2.209 -0.008,4.426 -0.008,6.647 m -51.082,6.972 h 0.005 c 0,-1.938 0.008,-3.877 -0.005,-5.807 -0.012,-0.682 0.075,-1.335 0.562,-1.839 0.249,-0.249 0.445,-0.715 0.886,-0.57 0.395,0.146 0.187,0.587 0.237,0.886 0.478,3.262 0.116,6.581 0.516,9.859 0.146,1.089 -0.084,2.233 -0.25,3.352 -0.108,0.749 -0.615,1.373 -1.422,1.298 -0.862,-0.083 -0.504,-0.89 -0.516,-1.389 -0.038,-1.934 -0.013,-3.869 -0.013,-5.79 m 6.235,6.597 c 0,-4.871 0,-9.496 0.013,-14.114 l 0.25,-1.085 c 0.249,-0.416 0.42,-1.124 1.002,-1.028 0.657,0.121 0.445,0.845 0.445,1.336 0.017,4.009 -0.05,8.019 0.038,12.037 0.025,1.323 -0.554,2.076 -1.748,2.854 m 6.24,-1.614 c 0,-5.033 -0.009,-10.083 0.008,-15.124 0,-0.425 -0.183,-1.149 0.433,-1.149 0.557,0 0.915,0.579 0.982,1.224 0.407,3.843 0.449,7.695 -0.063,11.53 -0.162,1.214 -0.374,2.479 -1.36,3.519 m 6.531,14.742 c 0,-1.132 -0.009,-2.255 0,-3.386 0,-1.215 0.811,-1.606 1.842,-1.714 0.42,-0.05 0.778,0.067 0.545,0.64 -0.644,1.535 -1.165,3.137 -2.387,4.46"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path498"
+            />
+          </g>
+          <g id="g500" transform="translate(471.0768,743.6857)">
+            <path
+              d="m 0,0 c -1.323,2.795 -2.517,5.324 -3.831,8.145 -0.404,-2.561 0.008,-4.707 0.645,-6.864 0.811,-2.704 1.717,-5.39 1.514,-8.3 -0.084,-1.202 -0.375,-2.296 -0.899,-3.552 -0.911,1.256 -1.431,2.535 -2.025,3.772 -0.774,1.614 -1.456,3.282 -2.205,4.904 -0.275,0.578 -0.366,1.171 -0.325,1.789 0.292,3.902 0.541,7.803 1.498,11.612 0.549,2.187 1.568,3.951 4.263,4.203 2.138,0.203 4.252,0.736 6.36,1.214 1.943,0.423 3.715,-0.357 5.52,-0.74 5.711,-1.206 11.439,-2.263 17.229,-2.978 4.335,-0.541 8.686,-0.968 13.028,-1.466 1.855,-0.209 3.33,-1.639 4.083,-3.359 1.805,-4.162 3.095,-8.511 4.43,-12.839 0.262,-0.849 -0.013,-1.556 -0.387,-2.296 -3.623,-7.236 -7.207,-14.482 -10.855,-21.699 -0.532,-1.054 -0.524,-1.451 0.736,-1.78 4.337,-1.119 4.857,-0.322 6.009,3.752 1.481,5.254 3.835,10.143 6.065,15.085 l 0.391,0.435 c 0.715,-2.243 1.406,-4.362 2.067,-6.502 0.179,-0.587 -0.154,-1.119 -0.387,-1.618 -1.796,-3.946 -3.635,-7.889 -5.466,-11.832 -0.557,-1.198 -1.588,-1.547 -2.795,-1.564 -1.697,-0.025 -3.396,0.008 -5.11,-0.017 -0.437,-0.008 -0.927,0.167 -1.547,-0.383 1.71,-0.255 3.232,-0.58 4.763,-0.717 4.773,-0.437 9.535,-1.127 14.344,-1.171 0.961,-0.016 1.477,-0.426 1.751,-1.456 0.483,-1.905 0.945,-3.71 0.82,-5.763 -0.258,-4.051 -0.05,-8.136 -0.092,-12.206 -0.008,-0.93 0.324,-2.153 0.945,-2.113 0.86,0.041 1.048,1.237 1.048,2.154 0.012,2.565 0.008,5.117 0.008,7.723 0.607,-0.41 0.507,-1.04 0.657,-1.55 1.077,-3.668 2.142,-7.335 3.203,-11 0.47,-1.614 0.466,-1.651 -1.206,-1.614 -5.882,0.154 -11.755,0.533 -17.616,1.074 -7.173,0.653 -14.286,1.649 -21.366,2.949 -6.938,1.264 -13.835,2.776 -20.594,4.85 -4.788,1.47 -9.455,3.234 -14.08,5.141 -0.861,0.358 -1.173,0.78 -1.115,1.662 0.308,5.174 0.395,10.359 0.782,15.525 0.171,2.297 0.387,4.618 0.358,6.922 -0.025,1.046 0.37,1.223 1.297,0.83 2.559,-1.082 5.159,-2.086 7.721,-3.168 0.798,-0.333 1.281,-0.376 1.206,0.689 C 0.291,-16.428 2.749,-9.218 4.363,-1.87 4.792,0.052 5.224,1.988 5.732,3.894 5.915,4.565 5.923,4.835 5.133,5.073 1.988,6.023 1.996,6.065 0.948,2.93 0.665,2.057 0.382,1.181 0,0 m 21.734,-16.054 c -0.005,1.772 -0.645,3.39 -1.148,5.014 -1.327,4.225 -2.55,8.501 -4.946,12.305 l -0.137,1.023 1.077,0.066 c 1.123,-0.366 2.225,-0.765 3.357,-1.089 0.881,-0.261 1.717,-0.525 2.737,-0.391 1.818,0.234 3.044,-1.098 4.139,-2.297 0.549,-0.605 -0.454,-1.512 -0.03,-2.348 0.462,0.62 0.828,1.385 1.785,1.417 0.42,0.008 0.67,0.33 0.836,0.688 0.229,0.495 0.087,1.458 0.703,1.377 1.173,-0.166 2.379,0.148 3.502,-0.324 0.416,-0.175 0.308,-0.477 0.246,-0.826 -0.35,-2.321 -0.662,-4.642 -0.986,-6.974 -0.458,-3.292 -0.903,-6.576 -1.36,-9.881 -0.545,-3.858 -1.044,-7.718 -1.652,-11.572 -0.441,-2.727 -0.507,-2.743 -3.232,-2.315 -1.244,0.21 -2.479,0.568 -3.718,0.793 -1.173,0.193 -1.706,0.973 -1.893,2.007 -1.88,10.43 -5.99,20.005 -11.272,29.125 C 9.3,0.516 8.993,1.373 8.647,2.19 8.452,2.654 8.352,3.178 8.897,3.438 9.409,3.667 9.675,3.161 9.904,2.853 c 2.25,-2.978 4.384,-6.021 6.389,-9.165 2.022,-3.132 3.673,-6.458 5.441,-9.742 M 5.648,-8.469 c 2.114,-2.179 3.561,-4.334 4.963,-6.491 2.687,-4.139 4.634,-8.625 5.674,-13.483 0.108,-0.456 0.374,-0.98 -0.038,-1.323 -0.416,-0.331 -0.994,-0.198 -1.489,-0.008 -0.919,0.343 -1.626,0.884 -1.98,1.863 -1.88,5.2 -4.122,10.243 -6.273,15.324 -0.503,1.182 -0.748,2.413 -0.857,4.118 m 33.527,-32.653 c 0.012,1.633 -0.433,2.047 -2.238,2.349 -1.843,0.307 -3.336,-0.679 -3.128,-2.057 0.349,-2.369 0.653,-4.732 1.115,-7.08 0.407,-2.036 0.478,-4.101 0.836,-6.138 0.116,-0.667 0.503,-1.223 1.115,-1.289 0.603,-0.096 0.694,0.664 0.994,1.065 0.299,0.399 0.162,0.915 0.162,1.379 -0.021,3.71 -0.212,7.445 1.082,11.041 z m 5.389,-7.768 v 5.807 c -0.009,1.945 -0.541,2.654 -2.457,3.228 -1.618,0.491 -1.813,0.357 -1.801,-1.275 0.009,-0.655 0.029,-1.298 0.15,-1.963 0.47,-2.671 0.765,-5.383 1.314,-8.037 0.312,-1.495 -0.162,-3.159 0.903,-4.498 0.302,-0.383 0.551,-1.017 1.159,-0.861 0.627,0.168 0.74,0.759 0.736,1.376 -0.021,2.078 -0.004,4.141 -0.004,6.223 m -16.753,8.251 c 0.091,-0.724 0.241,-2.122 0.441,-3.519 0.374,-2.556 0.957,-5.081 0.973,-7.687 0.004,-0.996 0.196,-2.271 1.111,-2.263 0.852,0.008 0.882,1.346 0.882,2.263 0,3.629 -0.171,7.223 1.343,10.715 0.898,2.072 0.632,2.194 -1.456,3.161 -2.129,0.996 -3.307,0.291 -3.294,-2.67 m -35.777,5.316 c 0,-2.13 0.013,-4.26 -0.004,-6.381 -0.004,-1.187 0.516,-2.015 1.664,-2.355 0.657,-0.201 1.202,-0.132 1.206,0.818 0.017,4.157 -0.108,8.309 0.217,12.454 0.103,1.32 -0.521,2.36 -1.972,2.726 -0.84,0.208 -1.128,-0.043 -1.119,-0.873 0.025,-2.138 0.008,-4.26 0.008,-6.389 m 44.541,16.973 c 1.452,2.629 2.916,5.258 4.355,7.885 1.335,2.437 2.643,4.889 3.974,7.348 0.238,0.42 0.417,0.919 0.117,1.329 -0.383,0.523 -0.873,0.024 -1.281,-0.073 -0.774,-0.167 -1.292,-0.724 -1.732,-1.377 -1.452,-2.095 -2.812,-4.249 -3.723,-6.643 -1.032,-2.706 -1.897,-5.453 -1.71,-8.469 M -1.731,-37.686 c 0,-1.795 -0.004,-3.592 0.009,-5.389 0,-0.653 -0.029,-1.324 0.079,-1.971 0.199,-1.023 1.094,-1.342 1.942,-1.284 0.944,0.059 0.529,0.959 0.533,1.483 0.033,3.965 -0.004,7.943 0.02,11.914 0.013,0.962 -0.224,1.763 -0.96,2.393 -0.341,0.298 -0.628,0.785 -1.19,0.489 -0.458,-0.22 -0.424,-0.68 -0.424,-1.11 0,-2.174 0,-4.354 -0.009,-6.525 m 8.532,-2.637 c 0,2.269 -0.029,4.544 0.012,6.815 0.025,1.115 -0.586,1.529 -1.547,1.571 -1.098,0.06 -1.007,-0.741 -1.007,-1.464 0,-3.553 -0.037,-7.107 0.017,-10.651 0.02,-1.196 0.033,-2.452 0.828,-3.501 0.274,-0.349 0.461,-0.89 1.073,-0.696 0.636,0.183 0.636,0.715 0.636,1.256 -0.016,2.219 -0.008,4.451 -0.012,6.67 m 5.94,-2.413 c 0,2.182 -0.017,4.349 0.008,6.514 0.016,0.741 -0.183,1.388 -0.549,2.015 -0.262,0.446 -0.557,0.932 -1.186,0.822 -0.782,-0.133 -0.499,-0.796 -0.499,-1.264 -0.025,-4.243 0.021,-8.486 -0.025,-12.737 -0.012,-1.098 0.325,-1.903 1.29,-2.454 l 0.698,-0.399 c 0.408,0.124 0.263,0.549 0.263,0.856 0.008,2.224 0.008,4.435 0,6.647 m 4.35,8.136 -0.311,-0.856 c 0.008,-3.062 -0.591,-6.125 -0.275,-9.172 0.216,-1.999 0.225,-4.07 1.106,-5.953 0.184,-0.382 0.35,-0.873 0.862,-0.751 0.399,0.096 0.228,0.568 0.228,0.876 0.013,4.068 0.067,8.138 -0.033,12.198 -0.033,1.285 0.1,2.818 -1.577,3.658 m 6.71,-17.927 c 1.523,2.679 0.961,14.635 -0.745,16.655 -0.407,-5.614 -0.915,-11.023 0.745,-16.655 M 8.743,-28.202 c 0.466,0 1.09,-0.098 0.62,0.796 -1.61,3.029 -3.215,6.084 -4.834,9.12 l -0.624,0.419 -0.062,-0.751 c 0.632,-2.061 1.082,-4.17 1.315,-6.329 0.208,-1.988 1.447,-3.037 3.585,-3.255"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path502"
+            />
+          </g>
+          <g id="g504" transform="translate(479.5748,632.269)">
+            <path
+              d="m 0,0 c 1.497,2.462 1.872,5.174 2.255,7.862 0.711,5.012 0.74,10.07 0.553,15.115 -0.192,5.263 -0.633,10.512 -1.311,15.749 -0.674,5.28 -1.593,10.498 -2.754,15.686 -0.195,0.89 0.146,0.958 0.829,0.969 1.331,0.008 2.033,-0.892 2.329,-1.938 C 3.282,48.598 4.887,43.798 5.645,38.807 6.689,31.916 7.158,24.978 7.5,18.011 7.728,13.369 7.583,8.76 7.304,4.168 6.659,-6.801 5.041,-17.637 1.718,-28.144 c -2.034,-6.439 -4.967,-12.454 -9.209,-17.753 -0.587,-0.732 -1.174,-1.481 -1.847,-2.138 -1.273,-1.231 -3.919,-0.166 -4.534,1.764 -0.449,1.364 -0.371,2.803 -0.529,4.201 -0.349,3.124 -0.445,6.289 -0.645,9.442 -0.482,7.388 -0.681,14.792 -0.935,22.179 -0.225,6.581 -0.254,13.144 -0.125,19.708 0.104,5.183 0.187,10.37 0.532,15.544 0.4,5.916 0.666,11.843 1.336,17.739 0.337,2.947 0.403,5.915 0.619,8.877 0.171,2.294 0.404,4.592 0.57,6.886 0.059,0.901 0.674,0.819 1.215,0.726 3.702,-0.674 6.547,-2.511 7.799,-6.19 C -2.25,47.619 -1.048,42.262 -0.258,36.796 0.79,29.483 1.032,22.133 0.828,14.775 0.69,10.203 0.283,5.653 0,1.098 Z m -8.789,-30.398 c 3.893,5.615 7.961,17.42 7.449,21.738 l -0.378,-0.466 c -2.712,-3.944 -4.155,-8.444 -5.324,-13.003 -0.708,-2.72 -1.597,-5.416 -1.756,-8.253 l -0.208,-0.316 0.096,-0.079 z m -3.511,14.217 c 2.367,13.07 4.75,26.139 7.121,39.196 C -3.498,9.243 -5.333,-3.902 -12.3,-16.181 m 5.878,51.691 c -1.053,5.774 -3.723,11.073 -4.634,16.859 -0.204,1.281 -0.47,2.569 -0.204,3.9 2.899,-2.171 5.449,-12.872 4.838,-20.759 m -6.294,-20.606 c 2.554,7.341 2.516,20.295 0,24.188 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path506"
+            />
+          </g>
+          <g id="g508" transform="translate(479.6289,522.4808)">
+            <path
+              d="m 0,0 c 6.963,5.886 11.58,13.157 16.214,20.64 0.794,-1.452 0.765,-2.879 1.015,-4.218 1.456,-8.145 2.837,-16.289 4.238,-24.45 0.229,-1.29 0.433,-2.6 0.62,-3.893 0.096,-0.633 -0.042,-0.882 -0.848,-0.758 -3.652,0.575 -7.092,1.914 -10.645,2.837 -1.959,0.516 -3.931,0.982 -5.869,1.556 -3.315,0.981 -5.436,3.278 -6.335,6.522 -2.758,10.025 -5.395,20.095 -7.466,30.299 -0.267,1.318 -0.029,1.547 1.235,1.16 1.448,-0.42 2.887,-0.861 4.343,-1.243 0.711,-0.196 0.91,-0.475 0.619,-1.19 -0.332,-0.84 -0.624,-1.685 -1.081,-2.462 -1.198,-2.03 -1.239,-3.869 -0.075,-5.899 1.202,1.398 1.963,3.02 2.933,4.476 0.578,0.857 1.119,1.747 1.626,2.654 0.445,0.794 1.048,0.94 1.905,0.732 C 6.123,25.889 6.143,25.889 4.193,22.612 2.084,19.076 -0.242,15.681 -2.051,11.996 -2.4,11.289 -3.507,10.357 -2.288,9.584 c 1.215,-0.757 1.464,0.624 1.938,1.231 3.403,4.334 6.772,8.71 10.154,13.061 0.607,0.782 2.375,0.965 3.007,0.279 0.462,-0.487 0.092,-0.986 -0.183,-1.414 C 10.553,19.371 8.452,16.002 6.352,12.633 4.584,9.796 2.832,6.938 1.056,4.101 0.328,2.945 0.129,1.68 0,0 M 16.967,12.728 C 17.645,8.161 15.777,4.409 13.281,0.907 12.084,-0.782 10.744,-2.363 9.484,-4.002 8.772,-4.937 7.728,-4.966 6.264,-5.295 9.958,0.932 13.464,6.83 16.967,12.728 M 17.608,1.531 c -1.723,-2.654 -3.27,-5.038 -4.851,-7.471 2.783,-0.046 5.47,3.943 4.851,7.471"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path510"
+            />
+          </g>
+          <g id="g512" transform="translate(507.989,661.5981)">
+            <path
+              d="m 0,0 c -0.162,5.125 0.391,10.353 0.574,15.576 0.041,1.081 0.22,2.154 0.366,3.228 0.108,0.898 0.474,1.499 1.551,1.291 C 2.899,20.018 3.34,20.043 3.76,20.078 4.555,20.145 4.879,19.81 4.825,19.005 4.547,14.638 4.23,10.268 4.039,5.89 3.914,2.928 3.802,-0.058 4.126,-3.028 c 0.058,-0.558 0.1,-1.131 0.104,-1.685 0.063,-5.619 0.678,-11.181 1.361,-16.742 1.05,-8.515 2.834,-16.876 5.176,-25.12 2.28,-8.003 5.083,-15.814 8.398,-23.435 2.683,-6.156 5.628,-12.171 8.897,-18.036 l 0.442,-0.89 -0.054,-0.907 -0.883,0.192 c -1.185,0.956 -2.167,2.096 -3.049,3.323 -6.567,9.218 -11.584,19.221 -15.382,29.87 -3.367,9.442 -5.542,19.167 -7.11,29.042 -0.737,4.638 -1.219,9.313 -1.514,14.018 C 0.237,-8.972 -0.071,-4.547 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path514"
+            />
+          </g>
+          <g id="g516" transform="translate(549.2249,599.2833)">
+            <path
+              d="m 0,0 c -1.838,3.494 -3.282,7.046 -4.705,10.632 0.454,-2.795 -0.287,-5.524 -0.253,-8.277 0.041,-3.794 0.728,-7.397 2.18,-10.874 0.773,-1.872 0.698,-2.87 -0.383,-5.806 -0.641,0.266 -0.724,1.056 -1.285,1.456 -0.342,-0.55 -0.495,-1.074 -0.446,-1.639 0.213,-2.488 -0.428,-4.95 -0.054,-7.463 0.238,-1.605 -0.528,-3.144 -0.84,-4.7 -0.187,-0.919 -0.994,-0.466 -1.535,-0.524 -0.582,-0.067 -0.707,0.341 -0.699,0.823 v 0.57 93.25 l 0.246,0.482 c 0.753,-2.687 1.481,-5.395 2.284,-8.065 0.711,-2.383 0.798,-4.738 0.665,-7.242 C -5.441,41.263 -4.434,30.032 -1.098,19.076 -0.183,16.06 0.624,13.003 1.477,9.967 1.772,8.926 1.581,7.916 1.364,6.897 0.874,4.601 0.449,2.296 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path518"
+            />
+          </g>
+          <g id="g520" transform="translate(521.3056,675.5933)">
+            <path
+              d="m 0,0 c -0.071,-1.737 -0.253,-3.65 -0.175,-5.499 0.171,-4.336 0.034,-8.679 0.396,-13.005 0.22,-2.67 0.391,-5.358 0.611,-8.028 0.374,-4.647 1.015,-9.255 1.789,-13.843 1.51,-8.877 3.556,-17.624 6.493,-26.143 1.817,-5.27 3.91,-10.433 6.256,-15.474 1.073,-2.304 1.165,-4.742 1.111,-7.204 l -0.379,-0.662 c -0.474,-0.054 -0.653,0.312 -0.82,0.662 -1.197,2.404 -2.47,4.791 -3.602,7.229 -2.891,6.223 -5.428,12.57 -7.545,19.08 -2.704,8.336 -4.817,16.826 -6.144,25.503 -0.769,5.124 -1.402,10.245 -1.709,15.415 -0.288,4.809 -0.62,9.609 -0.5,14.417 0.1,3.86 0.354,7.718 0.558,11.576 0.054,1.057 0.374,1.544 1.668,1.267 C -0.029,4.877 0,5.01 0,2.986 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path522"
+            />
+          </g>
+          <g id="g524" transform="translate(502.6148,539.3852)">
+            <path
+              d="m 0,0 c 0.74,-3.602 0.715,-7.171 2.196,-10.457 1.652,-3.648 4.06,-6.789 6.427,-9.958 2.814,-3.752 6.108,-7.071 9.469,-10.324 l 1.098,-1.102 0.191,-0.745 -0.732,-0.145 c -1.859,0.881 -3.685,1.605 -5.153,3.306 -2.49,2.891 -5.136,5.666 -7.752,8.444 -0.732,0.774 -1.189,1.83 -2.317,2.413 -0.245,-2.521 0.737,-4.58 1.939,-6.543 1.031,-1.693 2.341,-3.195 3.298,-4.937 0.395,-0.704 0.358,-1.007 -0.457,-1.157 -2.634,-0.47 -4.081,0.507 -4.543,3.128 -1.875,10.777 -3.756,21.572 -5.632,32.353 -0.158,0.923 0.105,1.398 1.161,1.431 2.633,0.075 4.813,-1.335 5.782,-4.143 3.194,-9.292 8.383,-17.387 14.565,-24.916 0.923,-1.123 1.954,-2.171 2.924,-3.269 0.366,-0.42 0.744,-0.857 1.056,-1.315 0.358,-0.532 0.113,-2.87 -0.366,-3.036 -0.865,-0.283 -1.156,0.616 -1.601,1.065 -5.761,5.798 -10.992,12.054 -15.326,19.009 C 4.326,-7.853 2.67,-4.679 1.223,-1.381 1.002,-0.898 0.915,-0.274 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path526"
+            />
+          </g>
+          <g id="g528" transform="translate(536.2302,611.521)">
+            <path
+              d="m 0,0 c -1.659,3.852 -2.941,7.787 -4.101,11.772 -1.581,5.474 -2.795,11.039 -3.632,16.671 -0.561,3.806 -0.927,7.654 -1.268,11.493 -0.578,6.464 -0.632,12.92 -0.454,19.388 0.088,2.768 0.054,5.555 0.487,8.328 0.22,1.387 1.227,0.647 1.888,0.761 0.575,0.11 1.311,0.183 1.265,-0.813 L -5.819,66.603 C -5.998,61.027 -5.769,55.456 -5.478,49.886 -5.137,43.231 -4.529,36.575 -3.64,29.953 -2.699,23.036 -1.119,16.272 0.208,9.434 0.799,6.339 0.537,3.136 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path530"
+            />
+          </g>
+          <g id="g532" transform="translate(511.4911,543.9194)">
+            <path
+              d="m 0,0 c 1.498,-0.224 2.371,-1.265 3.114,-2.438 3.377,-5.282 6.825,-10.515 10.39,-15.681 1.236,-1.772 2.492,-3.544 3.736,-5.324 0.553,-0.799 0.278,-3.461 -0.4,-4.094 -0.445,-0.424 -0.661,0.092 -0.894,0.308 -1.884,1.785 -3.578,3.76 -5.195,5.782 -3.773,4.725 -7.184,9.692 -9.819,15.154 C 0.171,-4.717 -0.42,-3.07 -0.89,-1.389 -1.082,-0.732 -1.223,0.125 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path534"
+            />
+          </g>
+          <g id="g536" transform="translate(521.5471,542.8213)">
+            <path
+              d="m 0,0 c 1.639,0.041 2.487,-0.957 3.169,-2.03 2.188,-3.469 4.489,-6.855 6.914,-10.166 0.578,-0.79 0.208,-4.401 -0.529,-4.967 -0.391,-0.32 -0.569,0.009 -0.786,0.267 -3.939,4.737 -7.337,9.8 -9.492,15.615 C -1.052,-0.4 -1.098,0.233 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path538"
+            />
+          </g>
+          <g id="g540" transform="translate(463.2484,735.9987)">
+            <path
+              d="m 0,0 c 1.556,-3.569 2.446,-7.337 3.735,-10.971 0.183,-0.491 -0.033,-0.809 -0.399,-1.09 -0.424,-0.333 -0.687,-0.01 -0.969,0.242 -0.641,0.549 -1.294,1.085 -1.926,1.653 -1.236,1.09 -1.672,2.346 -1.269,4.037 0.341,1.445 0.299,2.995 0.4,4.49 C -0.383,-1.081 -0.483,-0.497 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path542"
+            />
+          </g>
+          <g id="g544" transform="translate(503.7087,761.1476)">
+            <path
+              d="m 0,0 c -4.671,0.507 -9.355,1.015 -14.031,1.531 1.96,0.992 4.118,0.948 6.057,1.656 3.611,1.299 5.532,-1.529 8.09,-2.794 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path546"
+            />
+          </g>
+          <g id="g548" transform="translate(536.3716,657.3345)">
+            <path
+              d="m 0,0 c -1.027,5.199 -1.535,10.47 -1.389,15.779 0.054,2.054 0.349,4.11 0.536,6.157 L -0.42,22.552 0,21.927 v -0.282 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path550"
+            />
+          </g>
+          <g id="g552" transform="translate(526.5843,718.9943)">
+            <path
+              d="M 0,0 C 0.528,-1.838 1.069,-3.683 1.581,-5.532 1.942,-6.861 1.464,-7.487 0.1,-7.504 -2.117,-7.552 -2.076,-7.56 -1.651,-5.272 -1.314,-3.475 -0.836,-1.728 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path554"
+            />
+          </g>
+          <g id="g556" transform="translate(461.5468,686.5494)">
+            <path
+              d="m 0,0 c -1.718,2.288 -1.227,4.732 -1.219,7.088 0,0.674 0.491,0.524 0.907,0.26 C 0.807,6.641 1.294,5.248 0.92,3.577 0.661,2.438 0.337,1.317 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path558"
+            />
+          </g>
+          <g id="g560" transform="translate(460.4364,680.5347)">
+            <path
+              d="M 0,0 C 0.978,-5.297 -0.066,-10.58 -0.345,-15.875 V 0.009 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path562"
+            />
+          </g>
+          <g id="g564" transform="translate(534.3586,536.3823)">
+            <path
+              d="m 0,0 c -1.472,1.822 -2.671,3.298 -3.877,4.792 l -0.195,0.599 0.645,0.133 C -1.851,5.174 -0.532,4.347 0.366,3.036 0.973,2.146 0.141,1.281 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path566"
+            />
+          </g>
+          <g id="g568" transform="translate(581.412,566.6889)">
+            <path
+              d="m 0,0 c -0.957,-0.191 -1.464,0.167 -1.639,1.198 -0.229,1.289 -0.512,2.595 -0.978,3.827 -0.453,1.19 0.167,1.364 1.053,1.472 4.438,0.566 8.802,1.481 13.165,2.488 8.502,1.955 16.884,4.334 25.045,7.454 0.877,0.332 1.015,0 0.923,-0.716 C 37.295,13.718 36.983,11.73 36.717,9.717 36.654,9.234 36.371,9.176 35.997,9.026 34.886,8.594 33.934,7.887 33.019,7.155 31.979,6.323 32.328,4.992 32.27,3.96 32.083,0.516 32.199,-2.937 32.191,-6.398 c 0,-0.582 0.233,-1.098 0.811,-1.172 1.235,-0.159 0.491,-0.675 0.133,-0.874 -0.607,-0.35 -1.31,-0.516 -1.971,-0.765 -6.04,-2.33 -12.205,-4.239 -18.473,-5.845 -2.866,-0.736 -5.774,-1.326 -8.64,-2.083 -0.84,-0.217 -1.04,-0.017 -1.206,0.757 -0.458,2.113 -0.994,4.209 -1.527,6.306 -0.203,0.782 0.179,1.497 0.163,2.238 C 1.435,-5.383 1.327,-2.928 1.248,-0.478 1.21,0.665 0.441,-0.125 0,0 m 22.807,-2.729 h 0.008 v 3.823 c 0,4.047 0,4.047 -3.927,2.625 -1.268,-0.458 -2.025,-1.332 -2.025,-2.737 -0.009,-4.018 0.008,-8.02 -0.025,-12.038 -0.004,-0.832 0.112,-1.248 1.081,-0.915 1.02,0.349 2.08,0.582 3.108,0.89 1.252,0.383 1.813,1.239 1.788,2.554 -0.037,1.93 -0.008,3.868 -0.008,5.798 m -7.359,-2.263 v 6.785 c 0,0.553 0,1.152 -0.798,0.977 C 13.423,2.487 12.133,2.446 10.998,1.755 10.445,1.414 10.037,1.04 10.045,0.325 c 0.009,-4.335 0.013,-8.686 -0.016,-13.02 -0.017,-0.89 0.407,-1.082 1.139,-0.907 1.048,0.25 2.089,0.583 3.149,0.791 0.844,0.166 1.165,0.573 1.144,1.447 -0.054,2.122 -0.013,4.251 -0.013,6.372 m 9.077,1.365 v 0 c 0,-1.98 -0.009,-3.96 0.008,-5.949 0.013,-0.349 -0.196,-0.931 0.574,-0.798 2.783,0.499 4.792,2.854 4.8,5.69 0.013,2.92 0.025,5.849 0,8.777 -0.025,2.621 0.574,2.82 -2.562,1.88 C 25.103,5.291 24.579,4.526 24.533,2.047 24.5,0.15 24.525,-1.739 24.525,-3.627 M 8.327,-6.456 v 4.385 c 0,3.585 0,3.585 -3.515,2.886 L 4.268,0.657 C 3.735,0.541 3.494,0.258 3.502,-0.329 c 0.013,-4.629 0.009,-9.255 0,-13.889 0,-0.715 0.25,-0.89 0.957,-0.698 0.815,0.224 1.664,0.316 2.5,0.432 0.973,0.125 1.455,0.504 1.402,1.639 -0.1,2.121 -0.034,4.251 -0.034,6.389"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path570"
+            />
+          </g>
+          <g id="g572" transform="translate(621.7389,690.0021)">
+            <path
+              d="M 0,0 C 1.331,1.947 0.886,4.12 1.922,5.84 2.425,2.585 2.6,-0.655 1.976,-3.877 1.71,-5.227 1.677,-6.605 1.581,-7.934 1.331,-11.755 1.027,-15.58 1.244,-19.411 c 0.241,-4.084 0.183,-8.24 0.923,-12.237 1.152,-6.231 0.009,-12.388 0.096,-18.565 0.062,-3.61 -0.233,-7.254 -0.516,-10.864 -0.362,-4.743 -0.595,-9.493 -1.019,-14.23 -0.316,-3.557 -0.611,-7.13 -0.948,-10.686 -0.441,-4.676 -1.074,-9.334 -1.614,-14.006 -0.058,-0.511 -0.033,-1.035 -0.1,-1.551 -0.075,-0.578 -0.404,-1.048 -0.998,-0.973 -0.591,0.083 -0.4,0.682 -0.379,1.065 0.254,3.901 0.524,7.794 0.799,11.696 0.145,2.063 0.174,4.139 0.249,6.214 0.146,3.819 0.462,7.637 0.387,11.473 -0.141,6.472 0.499,12.936 0.246,19.408 -0.279,6.938 -0.408,13.876 -0.637,20.811 -0.083,2.687 -0.083,5.374 -0.2,8.061 -0.386,8.652 -0.253,17.308 -0.286,25.952 -0.005,0.89 0.191,1.678 0.636,2.427 0.154,0.276 0.233,0.682 0.641,0.665 C -0.944,5.226 -0.969,4.708 -0.903,4.384 -0.587,3.039 -0.337,1.674 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path574"
+            />
+          </g>
+          <g id="g576" transform="translate(589.7391,630.5968)">
+            <path
+              d="m 0,0 c 0,-4.559 0.067,-7.97 -0.008,-11.372 -0.146,-5.79 -0.299,-11.602 -0.587,-17.396 -0.278,-5.307 -0.694,-10.606 -1.135,-15.898 -0.175,-2.162 -0.491,-4.301 -0.558,-6.472 -0.016,-0.432 -0.191,-0.832 -0.482,-1.156 l -1.057,-0.242 c -0.424,0.075 -0.457,0.454 -0.416,0.782 0.533,3.94 0.025,7.92 0.475,11.864 l 0.066,0.848 c 0.1,5.283 0.217,10.57 0.308,15.856 0.033,2.13 0.258,4.26 0.199,6.365 -0.153,5.291 -0.066,10.582 -0.261,15.856 -0.187,5.512 -0.379,11.027 -0.562,16.534 -0.15,4.672 -0.366,9.33 -0.566,13.993 -0.183,4.197 -0.299,8.394 -0.603,12.566 -0.204,2.82 0.021,5.658 -0.432,8.459 -0.363,2.271 0.686,3.494 2.483,3.336 0.586,-0.044 0.832,-0.227 0.873,-0.832 0.275,-3.9 0.554,-7.793 0.857,-11.686 0.466,-5.878 0.682,-11.759 0.92,-17.641 0.112,-2.646 0.024,-5.291 0.236,-7.916 C 0.2,10.183 -0.116,4.517 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path578"
+            />
+          </g>
+          <g id="g580" transform="translate(596.8358,515.5176)">
+            <path
+              d="M 0,0 C 0.915,1.839 1.826,3.677 2.745,5.507 3.253,6.522 3.76,7.537 4.259,8.561 4.426,8.885 4.679,9.251 4.201,9.534 3.814,9.767 3.577,9.459 3.361,9.226 1.098,6.822 -1.153,4.409 -3.411,1.997 -3.686,1.705 -3.893,1.098 -4.355,1.381 c -0.404,0.266 -0.088,0.749 0.137,1.132 3.34,5.69 6.676,11.388 9.975,17.108 0.349,0.611 1.36,1.414 0.416,2.05 C 5.386,22.179 5.091,20.99 4.742,20.494 1.805,16.435 -2.146,13.386 -5.641,9.883 c -0.59,-0.599 -0.827,-0.424 -0.902,0.362 -0.071,0.603 -0.262,1.202 -0.429,1.784 -0.283,0.949 -0.108,1.76 0.591,2.48 4.788,4.792 8.361,10.548 12.45,15.906 1.701,2.23 3.032,4.775 5.378,6.489 0.466,0.325 0.832,0.848 1.481,0.507 0.694,-0.366 0.2,-0.948 0.12,-1.381 C 11.896,29.691 10.382,23.427 8.981,17.146 8.103,13.178 7.075,9.268 5.099,5.674 3.868,3.419 2.167,1.564 0.408,-0.237 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path582"
+            />
+          </g>
+          <g id="g584" transform="translate(596.1368,626.7284)">
+            <path
+              d="m 0,0 c -0.27,0.616 0.195,1.007 0.358,1.464 2.146,6.198 3.86,12.516 4.816,19.009 0.616,4.085 0.828,8.233 0.953,12.384 0.262,9.213 0.67,18.404 0.554,27.621 l 0.199,1.09 c 0.295,0.776 0.965,0.992 1.714,1.04 0.744,0.052 0.923,-0.543 1.131,-1.065 0.766,-1.99 1.169,-4.085 1.423,-6.181 0.332,-2.654 0.636,-5.349 0.582,-8.02 C 11.514,36.754 10.016,26.351 6.955,16.189 5.358,10.898 3.444,5.723 0.665,0.915 0.487,0.599 0.399,0.208 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path586"
+            />
+          </g>
+          <g id="g588" transform="translate(595.0302,605.4479)">
+            <path
+              d="M 0,0 C 13.461,24.176 18.123,50.343 18.157,77.626 20.939,63.974 20.648,50.343 17.553,36.787 14.467,23.227 8.723,10.89 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path590"
+            />
+          </g>
+          <g id="g592" transform="translate(594.2814,588.8179)">
+            <path
+              d="m 0,0 c 0.628,2.138 2.151,3.76 3.29,5.582 5.691,9.135 10.158,18.868 14.01,28.884 1.535,3.989 2.937,8.041 4.488,12.338 C 22.117,43.393 21.597,40.323 20.96,37.286 18.885,27.345 15.095,18.094 9.372,9.671 7.03,6.223 4.318,3.103 0.99,0.557 L 0.008,-0.008 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path594"
+            />
+          </g>
+          <g id="g596" transform="translate(594.344,646.7068)">
+            <path
+              d="m 0,0 c -0.283,1.722 0.125,3.407 0.32,5.054 0.208,1.772 0.2,3.556 0.412,5.337 0.67,5.786 0.129,11.588 0.013,17.389 -0.075,3.367 -0.512,6.747 -0.782,10.114 -0.05,0.541 0.041,1.061 0.374,1.483 0.408,0.532 0.969,0.732 1.63,0.663 0.699,-0.062 0.591,-0.707 0.641,-1.094 0.37,-2.651 0.844,-5.303 0.973,-7.974 C 3.739,27.822 4.085,24.668 3.91,21.501 3.515,14.534 2.674,7.629 0.553,0.961 0.453,0.612 0.462,0.195 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path598"
+            />
+          </g>
+          <g id="g600" transform="translate(598.3994,580.8647)">
+            <path
+              d="M 0,0 C 0.532,1.448 15.948,28.377 16.851,29.442 16.651,26.821 16.156,24.413 15.407,22.071 13.914,17.37 11.705,12.995 8.993,8.885 7.637,6.834 6.206,4.842 4.946,2.737 3.827,0.882 2.163,0.208 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path602"
+            />
+          </g>
+          <g id="g604" transform="translate(575.1226,676.941)">
+            <path
+              d="M 0,0 C 1.277,-13.637 2.554,-27.268 3.839,-40.978 -0.066,-35.113 -2.521,-10.206 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path606"
+            />
+          </g>
+          <g id="g608" transform="translate(587.7594,536.5071)">
+            <path
+              d="m 0,0 c -0.058,0.79 0.316,1.323 0.778,1.822 2.117,2.296 4.022,4.75 5.561,7.479 1.514,2.703 4.043,3.843 6.938,4.367 l 0.766,-0.175 -0.325,-0.707 C 11.048,9.484 8.311,6.248 5.474,3.078 4.243,1.714 3.028,0.341 1.506,-0.716 1.185,-0.94 0.786,-1.348 0.379,-1.099 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path610"
+            />
+          </g>
+          <g id="g612" transform="translate(610.9741,541.4484)">
+            <path
+              d="m 0,0 c 0.803,3.989 1.618,7.995 2.425,11.98 l 0.499,-0.1 C 2.25,7.878 1.26,3.927 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path614"
+            />
+          </g>
+          <g id="g616" transform="translate(586.0871,543.1373)">
+            <path
+              d="M 0,0 C -0.2,0.749 -0.42,1.498 -0.578,2.263 -0.657,2.646 -0.599,3.061 -0.05,3.053 0.508,3.045 0.483,2.704 0.408,2.263 0.291,1.539 0.254,0.79 0.175,0.042 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path618"
+            />
+          </g>
+          <g id="g620" transform="translate(610.8991,540.1757)">
+            <path
+              d="M 0,0 -0.104,0.224 0,0.441 0.104,0.216 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path622"
+            />
+          </g>
+          <g id="g624" transform="translate(610.6248,539.4854)">
+            <path
+              d="m 0,0 0.095,-0.237 -0.12,-0.2 -0.087,0.221 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path626"
+            />
+          </g>
+          <g id="g628" transform="translate(576.6989,593.6595)">
+            <path
+              d="M 0,0 0.271,-0.582 H 0.266 l -0.295,0.549 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path630"
+            />
+          </g>
+          <g id="g632" transform="translate(576.9694,593.0773)">
+            <path
+              d="M 0,0 0.208,-0.308 0.116,-0.374 -0.009,0 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path634"
+            />
+          </g>
+          <g id="g636" transform="translate(594.2899,588.8098)">
+            <path
+              d="m 0,0 -0.133,-0.1 0.025,0.066 0.1,0.042 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path638"
+            />
+          </g>
+          <g id="g640" transform="translate(435.0379,644.5524)">
+            <path
+              d="m 0,0 c -1.023,0.516 -1.123,1.518 -2.013,2.13 0.428,-2.122 0.819,-4.06 1.202,-5.998 0.774,-3.923 1.219,-7.891 1.381,-11.893 0.245,-5.84 0.566,-11.672 0.89,-17.512 0.225,-3.968 0.524,-7.969 1.319,-11.896 0.062,-0.341 0.208,-0.807 -0.192,-1.048 l -0.902,0.257 c -4.256,1.847 -6.572,4.967 -7.192,9.684 -0.62,4.6 -1.518,9.176 -2.122,13.776 -0.416,3.212 -0.549,6.473 -0.948,9.688 -0.524,4.164 -0.333,8.378 -0.807,12.55 v 0.27 c 0.092,0.587 -0.337,1.493 0.358,1.651 0.62,0.138 0.59,-0.831 0.79,-1.31 1.173,-2.766 2.267,-5.569 3.536,-8.718 0.374,2.932 -0.121,5.436 -0.578,7.932 -0.716,3.902 -1.939,7.662 -3.607,11.277 -0.349,0.769 -0.495,1.597 -0.528,2.471 -0.175,4.721 0.212,9.442 0.354,14.155 0.162,5.405 0.594,10.815 1.106,16.203 0.686,7.207 1.339,14.409 2.508,21.557 0.104,0.595 0.246,1.188 0.408,1.964 2.404,-1.589 4.738,-3.072 6.73,-5.019 C 2.334,61.545 2.621,60.582 2.471,59.675 2.03,56.961 2.167,54.22 2.001,51.498 1.576,44.678 1.439,37.838 1.065,31.009 0.869,27.582 0.724,24.134 0.504,20.715 0.054,13.876 -0.133,7.05 0,0 m -1.452,42.515 0.121,-0.069 -0.121,0.069 c -0.099,2.321 -0.902,4.49 -1.368,6.738 -0.325,1.512 -0.499,3.074 -1.186,4.618 -1.726,-3.124 -0.437,-9.428 2.554,-11.356 M -5.453,30.916 c 0.428,-2.752 0.786,-5.158 1.169,-7.56 0.457,-2.924 0.94,-5.832 1.406,-8.744 0.058,-0.403 0.083,-0.786 0.615,-0.752 0.449,0.033 0.47,0.366 0.524,0.707 0.687,4.617 0.075,9.093 -1.585,13.431 -0.391,1.04 -0.952,2.019 -2.129,2.918 m 2.034,-56.776 c -0.283,-1.922 0.2,-3.669 0.94,-5.35 0.578,-1.347 1.306,-2.612 2.404,-3.635 0.358,-0.341 0.662,-0.466 1.115,-0.183 0.42,0.283 0.216,0.574 0.062,0.857 -1.501,2.77 -3.02,5.54 -4.521,8.311"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path642"
+            />
+          </g>
+          <g id="g644" transform="translate(435.0213,569.0516)">
+            <path
+              d="m 0,0 c 2.4,-1.493 4.572,-2.804 6.709,-4.164 0.525,-0.349 0.799,-0.919 0.928,-1.551 1.606,-7.954 3.219,-15.923 4.825,-23.885 l -0.033,-0.274 C 8.544,-26.904 1.801,-10.815 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path646"
+            />
+          </g>
+          <g id="g648" transform="translate(447.4877,561.5559)">
+            <path
+              d="M 0,0 -0.112,0.066 0.012,0.008 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path650"
+            />
+          </g>
+          <g id="g652" transform="translate(647.0875,603.8758)">
+            <path
+              d="M 0,0 C 0.241,2.928 1.235,5.699 1.768,8.56 1.843,8.976 2.304,9.55 1.701,9.766 1.235,9.933 1.136,9.251 0.923,8.914 -1.809,4.7 -3.931,0.158 -6.347,-4.222 c -0.146,-0.262 -0.188,-0.661 -0.604,-0.67 0.25,3.943 0.416,7.887 0.745,11.814 0.507,5.964 0.811,11.933 1.157,17.91 0.681,11.664 0.532,23.323 0.478,34.991 -0.017,5.283 -0.279,10.563 -0.566,15.836 -0.283,5.176 -0.686,10.334 -1.127,15.484 -0.25,2.97 -0.433,5.925 -0.599,8.876 -0.121,2.207 1.514,3.159 2.612,4.476 0.512,0.605 1.09,-0.042 1.136,-0.784 0.195,-3.057 0.399,-6.102 0.565,-9.164 0.042,-0.75 0.067,-1.483 0.508,-2.233 0.927,0.925 0.665,2.117 0.811,3.105 0.437,3.02 0.661,6.073 0.952,9.111 0.163,1.662 0.641,3.135 2.201,4.052 0.649,0.374 1.069,0.314 1.177,-0.475 0.399,-2.98 0.786,-5.967 1.173,-8.943 0.333,-2.662 0.715,-5.307 0.974,-7.98 C 5.803,85.371 6.302,79.554 5.761,73.687 5.458,70.403 5.025,67.159 4.339,63.929 4.264,63.563 4.197,63.138 4.746,63.063 c 0.52,-0.062 0.574,0.312 0.691,0.699 0.349,1.194 0.749,2.373 1.21,3.815 C 7.641,60.855 7.695,54.37 7.317,47.947 6.709,37.644 4.372,27.661 0.408,18.094 0.245,17.703 -0.299,17.212 0.271,16.854 c 0.507,-0.324 0.84,0.267 1.152,0.599 1.568,1.614 2.72,3.553 4.217,5.699 C 5.873,20.116 5.774,17.487 5.404,14.858 4.813,10.59 3.914,6.406 1.988,2.516 1.498,1.564 1.003,0.57 0.021,-0.025 Z m 0.137,69.773 c 0.741,6.364 1.477,12.72 2.213,19.074 L 1.997,88.89 C -0.799,82.749 -1.76,76.409 0.137,69.773 M 4.584,48.563 C 3.378,47.411 2.542,46.101 1.959,44.603 1.011,42.141 0.845,39.574 0.612,36.999 0.483,35.544 0.578,34.075 0.587,32.619 c 0,-0.324 -0.05,-0.724 0.428,-0.748 l 0.474,0.599 0.2,0.661 c 0.47,2.496 0.936,4.979 1.393,7.466 0.504,2.654 1.003,5.312 1.502,7.966"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path654"
+            />
+          </g>
+          <g id="g656" transform="translate(643.7891,568.5605)">
+            <path
+              d="m 0,0 c -2.679,-11.252 -6.002,-21.796 -13.344,-31.055 -0.033,1.439 0.533,2.321 0.761,3.269 1.681,7.088 3.424,14.159 5.071,21.255 0.453,1.956 1.547,3.249 3.278,4.148 C -2.903,-1.697 -1.626,-0.923 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path658"
+            />
+          </g>
+          <g id="g660" transform="translate(647.1084,603.8592)">
+            <path
+              d="m 0,0 -0.137,-0.117 0.116,0.134 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path662"
+            />
+          </g>
+          <g id="g664" transform="translate(572.9886,516.9734)">
+            <path
+              d="m 0,0 c -2.192,1.814 -3.864,4.101 -5.586,6.339 -3.274,4.255 -5.72,8.952 -7.08,14.172 -0.037,0.179 -0.054,0.358 -0.133,0.882 1.46,-1.248 2.171,-2.7 3.049,-3.964 C -6.427,12.62 -3.249,7.716 -0.778,2.392 -0.424,1.639 0,0.882 0.004,0 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path666"
+            />
+          </g>
+          <g id="g668" transform="translate(576.3036,527.2228)">
+            <path
+              d="M 0,0 C -3.149,4.135 -6.593,8.082 -8.194,13.177 -3.643,9.941 -0.94,5.524 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path670"
+            />
+          </g>
+          <g id="g672" transform="translate(579.9144,521.5991)">
+            <path
+              d="m 0,0 c 0.428,-1.818 1.135,-3.602 1.202,-5.416 0.063,-1.389 -1.369,-2.379 -2.171,-3.527 l -0.362,-0.05 -0.179,0.774 c 0.212,1.489 0.47,2.961 0.636,4.458 C -0.74,-2.513 -0.408,-1.281 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path674"
+            />
+          </g>
+          <g id="g676" transform="translate(572.9929,516.9819)">
+            <path
+              d="M 0,0 0.125,-0.125 0.05,-0.108 -0.004,-0.009 Z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path678"
+            />
+          </g>
+          <g id="g680" transform="translate(569.2535,738.5693)">
+            <path
+              d="m 0,0 c 0.146,-2.651 -0.445,-4.74 -1.323,-6.815 -2.208,-5.273 -3.831,-10.73 -4.896,-16.352 -0.133,-0.703 -0.316,-1.401 -0.765,-1.953 -0.3,-0.393 -0.507,-1.075 -1.173,-0.725 -0.541,0.28 -0.287,0.821 -0.183,1.268 0.524,2.015 1.011,4.029 1.585,6.019 1.684,5.796 3.514,11.547 5.973,17.077 C -0.603,-1.098 -0.387,-0.74 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path682"
+            />
+          </g>
+          <g id="g684" transform="translate(559.4326,657.4802)">
+            <path
+              d="M 0,0 C -0.25,5.599 0.104,10.757 0.636,15.898 1.506,10.69 1.057,5.533 0,0"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path686"
+            />
+          </g>
+          <g id="g688" transform="translate(535.7979,737.3217)">
+            <path
+              d="m 0,0 0.046,0.098 0.07,0.027 z"
+              style={{
+                fill: "#c7a92f",
+                fillOpacity: 1,
+                fillRule: "evenodd",
+                stroke: "none",
+              }}
+              id="path690"
+            />
+          </g>
+        </g>
+      </g>
+    </g>
+  </svg>
+);
