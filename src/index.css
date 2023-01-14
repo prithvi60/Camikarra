@@ -160,7 +160,6 @@ main {
   transition: all 6s;
   transform-origin: bottom;
   z-index: 1000;
-
 }
 #secondaryText {
   animation: 3s linear infinite alternate textShow;
@@ -353,3 +352,12 @@ main {
 .quill svg {
   height: 15%;
 }
+
+/* .parallax {
+  mask-image: radial-gradient(
+    white 0%,
+    white 90%,
+    transparent 80%,
+    transparent
+  );
+} */

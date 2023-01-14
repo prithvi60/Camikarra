@@ -48,7 +48,6 @@ const router = createBrowserRouter([
 ]);
 export default function App() {
   const root = useRef();
-  let scene1 = useRef();
   const location = useLocation();
 
   useLayoutEffect(() => {
@@ -64,20 +63,10 @@ export default function App() {
         ease: "power4",
         stagger: 0.1,
       });
-
-      // tl.current = gsap
-      //   .timeline()
-      //   .fromTo(
-      //     "#cloud",
-      //     1,
-      //     { x: -200 },
-      //     { x: 400, duration: "4s", repeat: -1 }
-      //   );
     }, root); // <- scopes all selector text to the root element
 
     return () => ctx.revert();
   }, [location]);
-  console.log("loc", location);
   const currentOutlet = useOutlet();
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};

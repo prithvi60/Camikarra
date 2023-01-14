@@ -6,8 +6,6 @@ import ReactTypingEffect from "react-typing-effect";
 export default function Captions({ lineCount }) {
   return (
     <>
-      {/* {lineCount === 1 ? ( */}
-
       <div
         className="scroll-container"
         style={{
@@ -18,7 +16,6 @@ export default function Captions({ lineCount }) {
           minWidth: "35%",
           display: "flex",
           justifyContent: "center",
-          // height:"50px",
         }}
       >
         <ScrollRod />
@@ -35,7 +32,7 @@ export default function Captions({ lineCount }) {
           }}
         >
           <ReactTypingEffect
-            speed={50}  
+            speed={50}
             typingDelay={2000}
             eraseSpeed={50000}
             eraseDelay={100000}
@@ -51,33 +48,6 @@ export default function Captions({ lineCount }) {
         </Card>
         <ScrollRod />
       </div>
-      {/* ) : lineCount === 2 ? (
-        <div
-          style={{
-            position: "absolute",
-            top: "20px",
-            left: "20px",
-          }}
-        >
-          <Card body>
-            The distillers wanted to create a spirit that would pack the
-            richness and diversity of Indian botanicals in each sip...
-          </Card>
-        </div>
-      ) : (
-        <div
-          style={{
-            position: "absolute",
-            top: "40px",
-            right: "20px",
-          }}
-        >
-          <Card body>
-            The design for the label was inspired by the intricate motifs and
-            flavourful botanicals found in this magical country...
-          </Card>
-        </div>
-      )} */}
     </>
   );
 }

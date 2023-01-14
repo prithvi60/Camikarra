@@ -25047,17 +25047,17 @@ export const Quill = (props) => (
 );
 export const BrandLogo = (props) => (
   <svg
-    xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
-    xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
+    // xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape"
+    // xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    // xmlnsXlink="http://www.w3.org/1999/xlink"
     xmlns="http://www.w3.org/2000/svg"
-    xmlnsSvg="http://www.w3.org/2000/svg"
+    // xmlnsSvg="http://www.w3.org/2000/svg"
     id="svg2"
     xmlSpace="preserve"
     width={300}
     height={300}
     viewBox="0 0 1440 1440"
-    sodipodiDocname="72aaf650b7fe6f0c9209b484dda038ff.ai"
+    // sodipodiDocname="72aaf650b7fe6f0c9209b484dda038ff.ai"
     {...props}
   >
     <defs id="defs6">
@@ -25118,14 +25118,14 @@ export const BrandLogo = (props) => (
       pagecolor="#dcca95"
       bordercolor="#666666"
       borderopacity={1}
-      inkscapePageshadow={2}
-      inkscapePageopacity={0}
-      inkscapePagecheckerboard={0}
+      // inkscapePageshadow={2}
+      // inkscapePageopacity={0}
+      // inkscapePagecheckerboard={0}
     />
     <g
       id="g8"
-      inkscapeGroupmode="layer"
-      inkscapeLabel="72aaf650b7fe6f0c9209b484dda038ff"
+      // inkscapeGroupmode="layer"
+      // inkscapeLabel="72aaf650b7fe6f0c9209b484dda038ff"
       transform="matrix(1.3333333,0,0,-1.3333333,0,1440)"
     >
       <path

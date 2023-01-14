@@ -15,93 +15,48 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
-// import { BackLayer, MidLayer, TopLayer } from "./vectors";
 
-export default function SceneOne({ setactivepage, ref }) {
-  const tl = React.useRef();
+export default function SceneOne({ ref }) {
+  // const timeLine = React.useRef();
 
-  // const [playline1, { stop: stopline1, duration: durationline1 }] =
-  //   useSound(line1);
-  // const [playline2, { stop: stopline2, duration: durationline2 }] =
-  //   useSound(line2);
-
-  // const [playline3, { stop: stopline3, duration: durationline3 }] =
-  //   useSound(line3);
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
   });
 
   const [on, setOn] = React.useState(false);
-  const [next, setNext] = React.useState(false);
-  // const [lineCount, setLineCount] = React.useState(1);
-  // const el = useRef();
-  // const tl = useRef();
-  // useLayoutEffect(() => {
-  //   let ctx = gsap.context(() => {
-  //     // all your animations go in here...
-  //     console.log("scnene ani")
-  //     tl.current = gsap
-  //       .timeline()
-  //       .to("#sun", {
-  //         rotate: 360,
-  //       })
-  //       .to("#cloud", {
-  //         x: 100,
-  //       });
-  //   }, el);
-
-  //   return () => ctx.revert();
-  // }, []);
-  // const PlayScene = () => {
-  //   setLineCount(1);
-  //   playmusic();
-  //   // playline1();
-  //   setTimeout(() => {
-  //     playline1();
-  //   }, 1000);
-  //   setTimeout(() => {
-  //     setLineCount((a) => a + 1);
-  //     playline2();
-  //   }, durationline1 + 2000);
-  //   setTimeout(() => {
-  //     setLineCount((a) => a + 1);
-
-  //     playline3();
-  //   }, durationline1 + durationline2 + 3000);
-  //   setTimeout(() => {
-  //     setLineCount((a) => a + 1);
-  //   }, durationline1 + durationline2 + durationline3 + 3000);
-  // };
-  //TODO: Try spirites method
-  // const StopScene = () => {
-  //   stopline1();
-  //   stopline2();
-  //   stopline3();
-  // };
-  const eventRef = React.useRef(null);
 
   React.useLayoutEffect(() => {
-    console.log("scene one ani");
-    const q = gsap.utils.selector(eventRef.current);
-    gsap.fromTo(
-      "#cloud",
-      1,
-      { x: -200 },
-      { x: 400, duration: "4s", repeat: -1 }
-    );
-    gsap.to(q("button"), {
+    gsap.to("#cloud", {
+      keyframes: {
+        "0%": { x: 0 },
+        "50%": {
+          x: 100,
+        },
+        "100%": {
+          x: 0,
+        },
+      },
+      repeat: -1,
+      duration: 8,
+    });
+    gsap.from(".play", {
       duration: 2,
-      xPercent: -300,
+      xPercent: 300,
       ease: "power4",
-      stagger: 0.1,
+      // stagger: 0.1,
+    });
+    gsap.from(".next", {
+      duration: 2,
+      yPercent: 300,
+      ease: "power4",
+      delay: 6,
+      // stagger: 0.1,
     });
   }, []);
   React.useEffect(() => {
     if (on) {
-      // PlayScene();
       playmusic();
     } else {
-      // StopScene();
       stop();
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -111,14 +66,7 @@ export default function SceneOne({ setactivepage, ref }) {
       setOn(true);
     }, 1500);
   }, []);
-  React.useEffect(() => {
-    setTimeout(() => {
-      setNext(true);
-    }, 5000);
-    // if (lineCount === 4) {
-    // setNext(true);
-    // }
-  }, []);
+
   return (
     <MouseParallaxContainer
       className="parallax"
@@ -130,11 +78,8 @@ export default function SceneOne({ setactivepage, ref }) {
       globalFactorX={0.3}
       globalFactorY={0.3}
       resetOnLeave
-      ref={eventRef}
     >
       <MouseParallaxChild
-        // factorX={0.05}
-        // factorY={0.1}
         factorX={0}
         factorY={0.2}
         containerStyle={{
@@ -144,9 +89,6 @@ export default function SceneOne({ setactivepage, ref }) {
         }}
       >
         <FirstScene />
-        {/* <BackLayer /> */}
-        {/* <MidLayer /> */}
-        {/* <TopLayer /> */}
       </MouseParallaxChild>
       <Captions />
       <div
@@ -180,24 +122,18 @@ export default function SceneOne({ setactivepage, ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
-        {next && (
-          <Link to="/two">
-            <button
-              className="btn btn-three"
-              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-              onClick={() => {
-                setactivepage((count) => count + 1);
-                // setLineCount(1);
-                // StopScene();
-                stop();
-              }}
-            >
-              Next...
-            </button>
-          </Link>
-        )}
+        <Link to="/two">
+          <button
+            className="btn btn-three next"
+            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            onClick={() => {
+              stop();
+            }}
+          >
+            Next...
+          </button>
+        </Link>
       </div>
-      {/* </MouseParallaxChild> */}
     </MouseParallaxContainer>
   );
 }
