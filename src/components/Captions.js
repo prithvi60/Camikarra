@@ -10,7 +10,8 @@ export default function Captions({ lineCount }) {
         className="scroll-container"
         style={{
           position: "absolute",
-          top: "180px",
+          // top: "180px",
+          top: "15%",
           right: "20px",
           maxWidth: "35%",
           minWidth: "35%",

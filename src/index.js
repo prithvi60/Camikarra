@@ -110,14 +110,16 @@ export default function App() {
         </SwitchTransition>
       </div>
       {/* eslint-disable-next-line */}
-      <CustomCursor
-        component={svg}
-        isDisabled={false}
-        width={50}
-        height={50}
-        zIndex={420}
-        transform="translate(-30%, -10%) rotateZ(-22deg)"
-      />
+      {!isMobile && (
+        <CustomCursor
+          component={svg}
+          isDisabled={false}
+          width={50}
+          height={50}
+          zIndex={420}
+          transform="translate(-30%, -10%) rotateZ(-22deg)"
+        />
+      )}
     </>
   );
 }
