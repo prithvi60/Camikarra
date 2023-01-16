@@ -19,6 +19,10 @@ import SceneTwo from "./components/SceneTwo";
 import { FcRotateToLandscape } from "react-icons/fc";
 
 import LandingPage from "./components/LandingPage";
+import ContactUs from "./components/Contact";
+import SceneThree from "./components/SceneThree";
+import SceneFour from "./components/SceneFour";
+import SceneFive from "./components/SceneFive";
 const routes = [
   { path: "/", name: "Home", element: <LandingPage />, nodeRef: createRef() },
   {
@@ -31,6 +35,30 @@ const routes = [
     path: "/two",
     name: "SceneTwo",
     element: <SceneTwo />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/three",
+    name: "SceneTwo",
+    element: <SceneThree />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/four",
+    name: "SceneTwo",
+    element: <SceneFour />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/five",
+    name: "SceneTwo",
+    element: <SceneFive />,
+    nodeRef: createRef(),
+  },
+  {
+    path: "/contact",
+    name: "SceneTwo",
+    element: <ContactUs />,
     nodeRef: createRef(),
   },
 ];
