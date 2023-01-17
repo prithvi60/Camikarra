@@ -25132,7 +25132,7 @@ export const BrandLogo = (props) => (
         d="M 0,0 H 1080 V 1080 H 0 Z"
         style={{
           fill: "#e0c98e",
-          fillOpacity: 1,
+          fillOpacity: 0.8,
           fillRule: "nonzero",
           stroke: "none",
         }}
