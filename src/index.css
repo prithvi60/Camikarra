@@ -317,3 +317,16 @@ main {
 .quill svg {
   height: 15%;
 }
+#texture,#liquid,#liquor-gobule{
+  display: none;
+}
+
+#angel{
+  display: none;
+  opacity: 0;
+  scale: 0.4;
+}
+#angel:hover{
+  opacity: 1;
+  scale: 1;
+}
