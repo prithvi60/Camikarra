@@ -55,12 +55,12 @@ const routes = [
     element: <SceneFive />,
     nodeRef: createRef(),
   },
-  {
-    path: "/contact",
-    name: "SceneTwo",
-    element: <ContactUs />,
-    nodeRef: createRef(),
-  },
+  // {
+  //   path: "/contact",
+  //   name: "SceneTwo",
+  //   element: <ContactUs />,
+  //   nodeRef: createRef(),
+  // },
 ];
 
 const router = createBrowserRouter([
@@ -144,7 +144,7 @@ export default function App() {
           isDisabled={false}
           width={50}
           height={50}
-          zIndex={420}
+          zIndex={9999}
           transform="translate(-30%, -10%) rotateZ(-22deg)"
         />
       )}

@@ -330,3 +330,7 @@ main {
   opacity: 1;
   scale: 1;
 }
+.ReactModal__Overlay--after-open{
+  z-index: 1000;
+  background-color: #100d07b0 !important;
+}

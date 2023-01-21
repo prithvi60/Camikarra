@@ -16,6 +16,7 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
+import { CustomModal } from "./Modal";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -43,6 +44,7 @@ const settings = {
 };
 export default function SceneOne({ ref }) {
   // const timeLine = React.useRef();
+  const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
@@ -221,83 +223,105 @@ export default function SceneOne({ ref }) {
   }, []);
 
   return (
-    <MouseParallaxContainer
-      className="parallax"
-      containerStyle={{
-        height: "100vh",
-        width: "100vw",
-        zIndex: "2",
-      }}
-      globalFactorX={0.3}
-      globalFactorY={0.3}
-      resetOnLeave
-    >
-      <MouseParallaxChild
-        factorX={0}
-        factorY={0.2}
+    <>
+      <MouseParallaxContainer
+        className="parallax"
         containerStyle={{
           height: "100vh",
           width: "100vw",
-          zIndex: "3",
+          zIndex: "2",
         }}
+        globalFactorX={0.3}
+        globalFactorY={0.3}
+        resetOnLeave
       >
+        <MouseParallaxChild
+          factorX={0}
+          factorY={0.2}
+          containerStyle={{
+            height: "100vh",
+            width: "100vw",
+            zIndex: "3",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              width: "100%",
+              height: "100%",
+            }}
+          >
+            <ParticleBackground settings={settings} />
+          </div>
+          <FifthScene />
+        </MouseParallaxChild>
+        <Captions />
         <div
           style={{
             position: "absolute",
-            width: "100%",
-            height: "100%",
-          }}
-        >
-          <ParticleBackground settings={settings} />
-        </div>
-        <FifthScene />
-      </MouseParallaxChild>
-      <Captions />
-      <div
-        style={{
-          position: "absolute",
-          bottom: "12px",
-          display: "flex",
-          justifyContent: "center",
-          width: "100%",
-        }}
-      
-      >
-        <button
-          onClick={() => {
-            setOn((o) => !o);
-            playClick();
-          }}
-          className={"play"}
-          style={{
-            position: "absolute",
-            bottom: "0px",
-            right: "32px",
-            borderRadius: "50%",
-            borderColor: "transparent",
-            background: "#44391f",
-            textAlign: "center",
-            color: "white",
+            top: "12px",
             display: "flex",
-            padding: "0.8em",
-            fontWeight: "bold",
+            justifyContent: "flex-end",
+            marginRight: "12px",
+            width: "100%",
           }}
         >
-          {on ? <BsSoundwave /> : <BsPlay />}
-        </button>
-        <Link to="/contact">
           <button
+            onClick={() => {
+              setIsOpen(true);
+            }}
             className="btn btn-three next"
             style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+          >
+            Contact
+          </button>
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: "12px",
+            display: "flex",
+            justifyContent: "center",
+            width: "100%",
+          }}
+        >
+          <button
             onClick={() => {
+              setOn((o) => !o);
               playClick();
-              stop();
+            }}
+            className={"play"}
+            style={{
+              position: "absolute",
+              bottom: "0px",
+              right: "32px",
+              borderRadius: "50%",
+              borderColor: "transparent",
+              background: "#44391f",
+              textAlign: "center",
+              color: "white",
+              display: "flex",
+              padding: "0.8em",
+              fontWeight: "bold",
             }}
           >
-            Next...
+            {on ? <BsSoundwave /> : <BsPlay />}
           </button>
-        </Link>
-      </div>
-    </MouseParallaxContainer>
+          {/* <Link to="/contact">
+            <button
+              className="btn btn-three next"
+              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+              onClick={() => {
+                playClick();
+                stop();
+              }}
+            >
+              Next...
+            </button>
+          </Link> */}
+        </div>
+      </MouseParallaxContainer>
+      <CustomModal setIsOpen={setIsOpen} modalIsOpen={modalIsOpen} />
+    </>
   );
 }
