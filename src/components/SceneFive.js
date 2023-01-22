@@ -49,6 +49,65 @@ export default function SceneOne({ ref }) {
   const [on, setOn] = React.useState(false);
 
   React.useLayoutEffect(() => {
+    gsap.to("#cloud", {
+      keyframes: {
+        "0%": { x: 0 },
+        "50%": {
+          x: 100,
+        },
+        "100%": {
+          x: 0,
+        },
+      },
+      repeat: -1,
+      duration: 8,
+    });
+    gsap.to("#whisp-lower", {
+      keyframes: {
+        "0%": { xPercent: 10 },
+        "100%": {
+          xPercent: 150,
+        },
+      },
+      repeat: -1,
+      yoyo: true,
+      duration: 30,
+    });
+    gsap.from("#river", {
+      delay: 2,
+      opacity: 0,
+      scaleY: 0.8,
+      duration: 4,
+      ease: "power2",
+    });
+    gsap.from("#greens1", {
+      keyframes: {
+        "0%": { x: -520 },
+        "50%": {
+          x: -500,
+        },
+        "100%": {
+          x: -500,
+        },
+      },
+      yoyo: true,
+      repeat: -1,
+      duration: 4,
+    });
+    gsap.from("#greens2", {
+      keyframes: {
+        "0%": { x: -100 },
+        "50%": {
+          x: -90,
+        },
+        "100%": {
+          x: -100,
+        },
+      },
+      yoyo: true,
+      repeat: -1,
+      duration: 4,
+    });
     gsap.from(".play", {
       duration: 2,
       xPercent: 300,
@@ -58,19 +117,25 @@ export default function SceneOne({ ref }) {
       duration: 2,
       yPercent: 300,
       ease: "power4",
-      delay: 6,
+      delay: 10,
     });
     gsap.from(".next", {
-      duration: 2,
+      duration: 4,
       yPercent: 300,
       ease: "power4",
-      delay: 8,
+      delay: 12,
     });
 
     gsap.to(".overlay", {
-      duration: 1,
-      filter: "brightness(50%)",
-      delay: 5,
+      keyframes: {
+        "0%": { filter: "brightness(100%)" },
+
+        "100%": {
+          filter: "brightness(50%)",
+        },
+      },
+      duration: 4,
+      delay: 6,
     });
   }, []);
   React.useEffect(() => {
@@ -97,12 +162,12 @@ export default function SceneOne({ ref }) {
           zIndex: "2",
         }}
         globalFactorX={0.3}
-        globalFactorY={0.3}
+        globalFactorY={0.1}
         resetOnLeave
       >
         <MouseParallaxChild
           factorX={0}
-          factorY={0.2}
+          factorY={0.1}
           containerStyle={{
             height: "100vh",
             width: "100vw",
@@ -168,14 +233,11 @@ export default function SceneOne({ ref }) {
               setOn((o) => !o);
               playClick();
             }}
-            className={"play"}
+            className={"btn btn-three"}
             style={{
               position: "absolute",
               bottom: "0px",
               right: "32px",
-              borderRadius: "50%",
-              borderColor: "transparent",
-              background: "#44391f",
               textAlign: "center",
               color: "white",
               display: "flex",

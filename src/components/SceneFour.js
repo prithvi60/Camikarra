@@ -42,7 +42,7 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
-  // const timeLine = React.useRef();
+  const timeLine = React.useRef();
 
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
@@ -76,7 +76,17 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       duration: 30,
     });
-
+    gsap.to("#whisp-lower", {
+      keyframes: {
+        "0%": { xPercent: 10 },
+        "100%": {
+          xPercent: 150,
+        },
+      },
+      repeat: -1,
+      yoyo: true,
+      duration: 30,
+    });
     gsap.from(".play", {
       duration: 2,
       xPercent: 300,
@@ -129,82 +139,126 @@ export default function SceneOne({ ref }) {
       repeat: -1,
       ease: "power2",
     });
-    gsap.from("#old-man-right", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -100, translateY: -60 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
+    gsap.from("#owner", {
+      delay: 7,
+      opacity: 0,
+      duration: 6,
       ease: "power2",
     });
-    gsap.from("#jug", {
+    gsap.from("#greens", {
       keyframes: {
-        "0%": { rotateZ: -30, translateX: -100, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-left", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 10 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-glass", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#sugarcane", {
-      keyframes: {
-        "0%": { x: 0 },
+        "0%": { xPercent: 0 },
         "50%": {
-          x: -20,
+          xPercent: 0.2,
         },
         "100%": {
-          x: 0,
+          xPercent: 0,
         },
       },
       yoyo: true,
       repeat: -1,
-      duration: 8,
+      duration: 4,
     });
+    gsap.from("#walkman", {
+      keyframes: {
+        "0%": {
+          xPercent: 0,
+          yPercent: 0,
+          opacity: 1,
+        },
+        "40%": {
+          xPercent: -20,
+          yPercent: 0,
+          opacity: 1,
+        },
+        "41%": {
+          opacity: 0,
+        },
+        "50%": {
+          yPercent: 14,
+          xPercent: 0,
+        },
+        "80%": {
+          yPercent: 14,
+          opacity: 1,
+        },
+        "98%": {
+          xPercent: -20,
+          yPercent: 14,
+          opacity: 1,
+        },
+        "100%": {
+          opacity: 0,
+        },
+      },
+
+      duration: 6,
+    });
+
+    timeLine.current = gsap
+      .timeline()
+      .from("#grp1", {
+        delay: 7,
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp2", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp3", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+
+      .from("#grp4", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp5", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp6", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp7", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp8", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp9", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      })
+      .from("#grp10", {
+        duration: 2,
+        opacity: 0,
+        y: 10,
+        ease: "power3.inOut",
+      });
   }, []);
   React.useEffect(() => {
     if (on) {
@@ -261,21 +315,17 @@ export default function SceneOne({ ref }) {
           justifyContent: "center",
           width: "100%",
         }}
-      
       >
         <button
           onClick={() => {
             setOn((o) => !o);
             playClick();
           }}
-          className={"play"}
+          className={"btn btn-three"}
           style={{
             position: "absolute",
             bottom: "0px",
             right: "32px",
-            borderRadius: "50%",
-            borderColor: "transparent",
-            background: "#44391f",
             textAlign: "center",
             color: "white",
             display: "flex",

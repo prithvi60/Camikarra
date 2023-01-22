@@ -1,11 +1,11 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import "./index.css";
-import { isMobile } from "react-device-detect";
 import { createRoot } from "react-dom/client";
 import { createRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CustomCursor } from "react-svg-cursor";
+import Rotate from "./assets/rotate.gif";
 import svg from "./assets/cursor.svg";
 import {
   createBrowserRouter,
@@ -16,13 +16,11 @@ import {
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import SceneOne from "./components/SceneOne";
 import SceneTwo from "./components/SceneTwo";
-import { FcRotateToLandscape } from "react-icons/fc";
-
 import LandingPage from "./components/LandingPage";
-import ContactUs from "./components/Contact";
 import SceneThree from "./components/SceneThree";
 import SceneFour from "./components/SceneFour";
 import SceneFive from "./components/SceneFive";
+import { useEffect } from "react";
 const routes = [
   { path: "/", name: "Home", element: <LandingPage />, nodeRef: createRef() },
   {
@@ -53,12 +51,6 @@ const routes = [
     path: "/five",
     name: "SceneTwo",
     element: <SceneFive />,
-    nodeRef: createRef(),
-  },
-  {
-    path: "/contact",
-    name: "SceneTwo",
-    element: <ContactUs />,
     nodeRef: createRef(),
   },
 ];
@@ -98,6 +90,18 @@ export default function App() {
   const currentOutlet = useOutlet();
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};
+  const [width, setWidth] = React.useState(window.innerWidth);
+  function handleWindowSizeChange() {
+    setWidth(window.innerWidth);
+  }
+  useEffect(() => {
+    window.addEventListener("resize", handleWindowSizeChange);
+    return () => {
+      window.removeEventListener("resize", handleWindowSizeChange);
+    };
+  }, []);
+
+  const isMobile = width <= 768;
   if (isMobile && window.matchMedia("(orientation: portrait)").matches) {
     return (
       <div
@@ -111,13 +115,21 @@ export default function App() {
         }}
       >
         {" "}
-        <div className="scrolled">
-          <FcRotateToLandscape />
+        <img
+          src={Rotate}
+          alt="logo"
+          width={"40%"}
+          style={{
+            borderRadius: "20%",
+          }}
+        />
+        <div style={{ fontWeight: "bold", color: "white", marginTop: "8px" }}>
+          Rotate to Landscape!
         </div>
-        Rotate to Landscape!
       </div>
     );
   }
+
   return (
     <>
       <div ref={root} className="app">

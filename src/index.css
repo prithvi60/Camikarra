@@ -233,6 +233,9 @@ main {
   opacity: 0;
   transform: scale(0.5, 0.5);
 }
+.btn-three:active {
+  border: transparent;
+}
 .btn-three::after {
   content: "";
   position: absolute;
@@ -317,20 +320,62 @@ main {
 .quill svg {
   height: 15%;
 }
-#texture,#liquid,#liquor-gobule{
+#texture,
+#liquid,
+#liquor-gobule {
   display: none;
 }
 
-#angel{
-  display: none;
-  opacity: 0;
-  scale: 0.4;
-}
-#angel:hover{
-  opacity: 1;
-  scale: 1;
-}
-.ReactModal__Overlay--after-open{
+.ReactModal__Overlay--after-open {
   z-index: 1000;
   background-color: #100d07b0 !important;
+}
+#dots {
+  display: none;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-1deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-1deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-1deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
+#pot3 :hover {
+  display: none;
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }

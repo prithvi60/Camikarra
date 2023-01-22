@@ -7,7 +7,7 @@ export default function Captions({ lineCount }) {
   return (
     <>
       <div
-        className="scroll-container"
+        className="scroll-container prevent-select"
         style={{
           position: "absolute",
           top: "15%",
@@ -36,7 +36,7 @@ export default function Captions({ lineCount }) {
             typingDelay={2000}
             eraseSpeed={50000}
             eraseDelay={100000}
-            cursorRenderer={() => <h6 className="quill">{<Quill />}</h6>}
+            cursorRenderer={() => <h6 className="quill">{null}</h6>}
             text={[
               `Jin JiJi is a dry gin specially designed and crafted in India.
             The distillers wanted to create a spirit that would pack the richness

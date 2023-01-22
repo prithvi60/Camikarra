@@ -264,24 +264,21 @@ export default function SceneOne({ ref }) {
       
       >
         <button
-          onClick={() => {
-            setOn((o) => !o);
-            playClick();
-          }}
-          className={"play"}
-          style={{
-            position: "absolute",
-            bottom: "0px",
-            right: "32px",
-            borderRadius: "50%",
-            borderColor: "transparent",
-            background: "#44391f",
-            textAlign: "center",
-            color: "white",
-            display: "flex",
-            padding: "0.8em",
-            fontWeight: "bold",
-          }}
+            onClick={() => {
+              setOn((o) => !o);
+              playClick();
+            }}
+            className={"btn btn-three"}
+            style={{
+              position: "absolute",
+              bottom: "0px",
+              right: "32px",
+              textAlign: "center",
+              color: "white",
+              display: "flex",
+              padding: "0.8em",
+              fontWeight: "bold",
+            }}
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>

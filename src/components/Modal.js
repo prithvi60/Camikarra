@@ -10,6 +10,7 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    background: "#dfcea2",
   },
 };
 
@@ -37,33 +38,53 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
-          <h2>Contact details</h2>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            position: "relative",
+            padding: "8px",
+          }}
+        >
+          <h4 style={{ textAlign: "center" }}>Contact Us:</h4>
           <button
             onClick={() => {
               closeModal();
               playClick();
             }}
-            className={"play"}
+            className={"play "}
             style={{
-              // position: "absolute",
-              bottom: "0px",
-              right: "32px",
-              // borderRadius: "50%",
+              position: "absolute",
+              top: "-16px",
+              right: "-4px",
               borderColor: "transparent",
-              background: "#44391f",
+              background: "transparent",
               textAlign: "center",
-              color: "white",
+              color: "black",
               display: "flex",
-              //   padding: "0.8em",
+              padding: "0",
               fontWeight: "bold",
             }}
           >
             X
           </button>
         </div>
-        <div>Address : long address</div>
-        <div>number: 12344556789</div>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
+            gap: "24px",
+          }}
+        >
+          <div style={{ textAlign: "center", color: "brown" }}>
+            Suzy Queue
+            <br /> 4455 Landing Lange, APT 4<br />
+            Louisville, KY 40018-1234
+          </div>
+          <div>+91-12344556789</div>
+        </div>
       </Modal>
     </div>
   );
