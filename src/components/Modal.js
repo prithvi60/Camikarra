@@ -1,7 +1,7 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Modal from "react-modal";
-
+import useSound from "use-sound";
+import click from "../assets/click.wav";
 const customStyles = {
   content: {
     top: "50%",
@@ -27,7 +27,7 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
   function closeModal() {
     setIsOpen(false);
   }
-
+  const [playClick] = useSound(click);
   return (
     <div>
       <Modal
@@ -40,7 +40,10 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
         <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
           <h2>Contact details</h2>
           <button
-            onClick={closeModal}
+            onClick={() => {
+              closeModal();
+              playClick();
+            }}
             className={"play"}
             style={{
               // position: "absolute",

@@ -55,12 +55,12 @@ const routes = [
     element: <SceneFive />,
     nodeRef: createRef(),
   },
-  // {
-  //   path: "/contact",
-  //   name: "SceneTwo",
-  //   element: <ContactUs />,
-  //   nodeRef: createRef(),
-  // },
+  {
+    path: "/contact",
+    name: "SceneTwo",
+    element: <ContactUs />,
+    nodeRef: createRef(),
+  },
 ];
 
 const router = createBrowserRouter([

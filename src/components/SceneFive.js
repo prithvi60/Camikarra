@@ -3,13 +3,8 @@ import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as FifthScene } from "../assets/scene5/five.svg";
 import useSound from "use-sound";
-// import line1 from "../assets/scene1line1.mp3";
-// import line2 from "../assets/scene1line2.mp3";
-// import line3 from "../assets/scene1line3.mp3";
 import music from "../assets/music.mp3";
 import click from "../assets/click.wav";
-import { Link } from "react-router-dom";
-
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
@@ -17,6 +12,7 @@ import {
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
 import { CustomModal } from "./Modal";
+import CamikarraBottle from "./Contact";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -43,7 +39,6 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
-  // const timeLine = React.useRef();
   const [modalIsOpen, setIsOpen] = React.useState(false);
 
   const [playmusic, { stop }] = useSound(music, {
@@ -54,158 +49,28 @@ export default function SceneOne({ ref }) {
   const [on, setOn] = React.useState(false);
 
   React.useLayoutEffect(() => {
-    gsap.to("#cloud", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
-        },
-        "100%": {
-          x: 0,
-        },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#whisp-lower1", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
-        },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-
     gsap.from(".play", {
       duration: 2,
       xPercent: 300,
       ease: "power4",
     });
-    gsap.from(".next", {
+    gsap.from(".bottle", {
       duration: 2,
       yPercent: 300,
       ease: "power4",
       delay: 6,
     });
-    gsap.from("#owner-head", {
-      keyframes: {
-        "0%": { x: -30, y: 5, rotate: -10 },
-        "100%": {
-          rotate: 0,
-        },
-      },
-      duration: 4,
-      yoyo: true,
-      repeat: -1,
-      ease: "power2",
+    gsap.from(".next", {
+      duration: 2,
+      yPercent: 300,
+      ease: "power4",
+      delay: 8,
     });
-    gsap.from("#owner-hand", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -300, translateY: -20 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      duration: 4,
-      repeat: -1,
-      yoyo: true,
-      ease: "power2",
-    });
-    gsap.from("#owner-glass", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -320, translateY: -100 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
 
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-right", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -100, translateY: -60 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#jug", {
-      keyframes: {
-        "0%": { rotateZ: -30, translateX: -100, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-left", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 10 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-glass", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#sugarcane", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: -20,
-        },
-        "100%": {
-          x: 0,
-        },
-      },
-      yoyo: true,
-      repeat: -1,
-      duration: 8,
+    gsap.to(".overlay", {
+      duration: 1,
+      filter: "brightness(50%)",
+      delay: 5,
     });
   }, []);
   React.useEffect(() => {
@@ -244,24 +109,36 @@ export default function SceneOne({ ref }) {
             zIndex: "3",
           }}
         >
-          <div
-            style={{
-              position: "absolute",
-              width: "100%",
-              height: "100%",
-            }}
-          >
-            <ParticleBackground settings={settings} />
+          <div className="overlay">
+            <div
+              style={{
+                position: "absolute",
+                width: "100%",
+                height: "100%",
+              }}
+            >
+              <ParticleBackground settings={settings} />
+            </div>
+            <FifthScene />
+            <Captions />
           </div>
-          <FifthScene />
         </MouseParallaxChild>
-        <Captions />
+        <div
+          className="bottle"
+          style={{
+            position: "absolute",
+            bottom: "20%",
+            right: "30%",
+          }}
+        >
+          <CamikarraBottle />
+        </div>
         <div
           style={{
             position: "absolute",
-            top: "12px",
+            bottom: "12px",
             display: "flex",
-            justifyContent: "flex-end",
+            justifyContent: "center",
             marginRight: "12px",
             width: "100%",
           }}
@@ -269,6 +146,7 @@ export default function SceneOne({ ref }) {
           <button
             onClick={() => {
               setIsOpen(true);
+              playClick();
             }}
             className="btn btn-three next"
             style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
@@ -307,18 +185,6 @@ export default function SceneOne({ ref }) {
           >
             {on ? <BsSoundwave /> : <BsPlay />}
           </button>
-          {/* <Link to="/contact">
-            <button
-              className="btn btn-three next"
-              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-              onClick={() => {
-                playClick();
-                stop();
-              }}
-            >
-              Next...
-            </button>
-          </Link> */}
         </div>
       </MouseParallaxContainer>
       <CustomModal setIsOpen={setIsOpen} modalIsOpen={modalIsOpen} />
