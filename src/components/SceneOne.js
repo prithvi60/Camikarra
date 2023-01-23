@@ -195,7 +195,7 @@ export default function SceneOne({ ref }) {
       keyframes: {
         "0%": { x: 0 },
         "50%": {
-          x: -20,
+          x: -5,
         },
         "100%": {
           x: 0,
@@ -246,6 +246,7 @@ export default function SceneOne({ ref }) {
             position: "absolute",
             width: "100%",
             height: "100%",
+            pointerEvents: "none",
           }}
         >
           <ParticleBackground settings={settings} />
@@ -261,24 +262,23 @@ export default function SceneOne({ ref }) {
           justifyContent: "center",
           width: "100%",
         }}
-      
       >
         <button
-            onClick={() => {
-              setOn((o) => !o);
-              playClick();
-            }}
-            className={"btn btn-three"}
-            style={{
-              position: "absolute",
-              bottom: "0px",
-              right: "32px",
-              textAlign: "center",
-              color: "white",
-              display: "flex",
-              padding: "0.8em",
-              fontWeight: "bold",
-            }}
+          onClick={() => {
+            setOn((o) => !o);
+            playClick();
+          }}
+          className={"btn btn-three"}
+          style={{
+            position: "absolute",
+            bottom: "0px",
+            right: "32px",
+            textAlign: "center",
+            color: "white",
+            display: "flex",
+            padding: "0.8em",
+            fontWeight: "bold",
+          }}
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>

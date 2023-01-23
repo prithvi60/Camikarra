@@ -140,7 +140,7 @@ export default function SceneOne({ ref }) {
       ease: "power2",
     });
     gsap.from("#owner", {
-      delay: 7,
+      delay: 6,
       opacity: 0,
       duration: 6,
       ease: "power2",
@@ -260,6 +260,220 @@ export default function SceneOne({ ref }) {
         ease: "power3.inOut",
       });
   }, []);
+  // Interactions
+  React.useLayoutEffect(() => {
+    const bottle1 = document.querySelector("#grp1");
+    const bottle2 = document.querySelector("#grp2");
+    const bottle3 = document.querySelector("#grp3");
+    const bottle4 = document.querySelector("#grp4");
+    const bottle5 = document.querySelector("#grp5");
+    const bottle6 = document.querySelector("#grp6");
+    const bottle7 = document.querySelector("#grp7");
+    const bottle8 = document.querySelector("#grp8");
+    const bottle9 = document.querySelector("#grp9");
+    const bottle10 = document.querySelector("#grp10");
+
+    // 1
+    let bottle1hover1 = gsap.to("#grp1", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle1hover2 = gsap.to("#grp1", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle1.addEventListener("mouseenter", () => {
+      bottle1hover1.play();
+      bottle1hover2.play();
+    });
+    bottle1.addEventListener("mouseout", () => {
+      bottle1hover1.reverse();
+      bottle1hover2.reverse();
+    });
+    // 2
+    let bottle2hover1 = gsap.to("#grp2", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle2hover2 = gsap.to("#grp2", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle2.addEventListener("mouseenter", () => {
+      bottle2hover1.play();
+      bottle2hover2.play();
+    });
+    bottle2.addEventListener("mouseout", () => {
+      bottle2hover1.reverse();
+      bottle2hover2.reverse();
+    });
+    // 3
+    let bottle3hover1 = gsap.to("#grp3", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle3hover2 = gsap.to("#grp3", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle3.addEventListener("mouseenter", () => {
+      bottle3hover1.play();
+      bottle3hover2.play();
+    });
+    bottle3.addEventListener("mouseout", () => {
+      bottle3hover1.reverse();
+      bottle3hover2.reverse();
+    });
+    // 4
+    let bottle4hover1 = gsap.to("#grp4", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle4hover2 = gsap.to("#grp4", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle4.addEventListener("mouseenter", () => {
+      bottle4hover1.play();
+      bottle4hover2.play();
+    });
+    bottle4.addEventListener("mouseout", () => {
+      bottle4hover1.reverse();
+      bottle4hover2.reverse();
+    });
+    // 5
+    let bottle5hover1 = gsap.to("#grp5", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle5hover2 = gsap.to("#grp5", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle5.addEventListener("mouseenter", () => {
+      bottle5hover1.play();
+      bottle5hover2.play();
+    });
+    bottle5.addEventListener("mouseout", () => {
+      bottle5hover1.reverse();
+      bottle5hover2.reverse();
+    });
+    // 6
+    let bottle6hover1 = gsap.to("#grp6", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle6hover2 = gsap.to("#grp6", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle6.addEventListener("mouseenter", () => {
+      bottle6hover1.play();
+      bottle6hover2.play();
+    });
+    bottle6.addEventListener("mouseout", () => {
+      bottle6hover1.reverse();
+      bottle6hover2.reverse();
+    });
+    // 3
+    let bottle7hover1 = gsap.to("#grp7", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle7hover2 = gsap.to("#grp7", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle7.addEventListener("mouseenter", () => {
+      bottle7hover1.play();
+      bottle7hover2.play();
+    });
+    bottle7.addEventListener("mouseout", () => {
+      bottle7hover1.reverse();
+      bottle7hover2.reverse();
+    });
+    // 8
+    let bottle8hover1 = gsap.to("#grp8", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle8hover2 = gsap.to("#grp8", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle8.addEventListener("mouseenter", () => {
+      bottle8hover1.play();
+      bottle8hover2.play();
+    });
+    bottle8.addEventListener("mouseout", () => {
+      bottle8hover1.reverse();
+      bottle8hover2.reverse();
+    });
+    // 9
+    let bottle9hover1 = gsap.to("#grp9", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle9hover2 = gsap.to("#grp9", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle9.addEventListener("mouseenter", () => {
+      bottle9hover1.play();
+      bottle9hover2.play();
+    });
+    bottle9.addEventListener("mouseout", () => {
+      bottle9hover1.reverse();
+      bottle9hover2.reverse();
+    });
+    // 10
+    let bottle10hover1 = gsap.to("#grp10", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let bottle10hover2 = gsap.to("#grp10", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    bottle10.addEventListener("mouseenter", () => {
+      bottle10hover1.play();
+      bottle10hover2.play();
+    });
+    bottle10.addEventListener("mouseout", () => {
+      bottle10hover1.reverse();
+      bottle10hover2.reverse();
+    });
+  }, []);
   React.useEffect(() => {
     if (on) {
       playmusic();
@@ -283,12 +497,12 @@ export default function SceneOne({ ref }) {
         zIndex: "2",
       }}
       globalFactorX={0.3}
-      globalFactorY={0.3}
+      globalFactorY={0.1}
       resetOnLeave
     >
       <MouseParallaxChild
         factorX={0}
-        factorY={0.2}
+        factorY={0.05}
         containerStyle={{
           height: "100vh",
           width: "100vw",
@@ -300,6 +514,7 @@ export default function SceneOne({ ref }) {
             position: "absolute",
             width: "100%",
             height: "100%",
+            pointerEvents: "none",
           }}
         >
           <ParticleBackground settings={settings} />

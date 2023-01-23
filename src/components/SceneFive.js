@@ -167,7 +167,7 @@ export default function SceneOne({ ref }) {
       >
         <MouseParallaxChild
           factorX={0}
-          factorY={0.1}
+          factorY={0.05}
           containerStyle={{
             height: "100vh",
             width: "100vw",
@@ -180,6 +180,7 @@ export default function SceneOne({ ref }) {
                 position: "absolute",
                 width: "100%",
                 height: "100%",
+                pointerEvents: "none",
               }}
             >
               <ParticleBackground settings={settings} />
