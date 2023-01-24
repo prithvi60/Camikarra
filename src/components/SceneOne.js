@@ -76,6 +76,17 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       duration: 30,
     });
+    gsap.to("#whisp-lower", {
+      keyframes: {
+        "0%": { xPercent: 10 },
+        "100%": {
+          xPercent: 150,
+        },
+      },
+      repeat: -1,
+      yoyo: true,
+      duration: 30,
+    });
 
     gsap.from(".play", {
       duration: 2,
@@ -191,19 +202,76 @@ export default function SceneOne({ ref }) {
       repeat: -1,
       ease: "power2",
     });
-    gsap.from("#sugarcane", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: -5,
-        },
-        "100%": {
-          x: 0,
-        },
-      },
+    // gsap.from("#sugarcane", {
+    //   keyframes: {
+    //     "0%": { x: 0 },
+    //     "50%": {
+    //       x: -5,
+    //     },
+    //     "100%": {
+    //       x: 0,
+    //     },
+    //   },
+    //   yoyo: true,
+    //   repeat: -1,
+    //   duration: 8,
+    // });
+  }, []);
+  // Interactions
+  React.useLayoutEffect(() => {
+    const cane = document.querySelector("#sugarcane");
+    const peacock = document.querySelector("#peacock");
+    const jug = document.querySelector("#jug");
+
+    let canehover1 = gsap.to("#sugarcane", 0.1, {
+      x: "+=20",
       yoyo: true,
-      repeat: -1,
-      duration: 8,
+      repeat: 5,
+    });
+    let canehover2 = gsap.to("#sugarcane", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let birdhover = gsap.from("#peacock", {
+      scale: 1.2,
+      duration: 0.6,
+      stagger: 0.1,
+      ease: "back.out(1.7)",
+    });
+    let jughover1 = gsap.to("#jug", 0.1, {
+      x: "+=20",
+      yoyo: true,
+      repeat: 5,
+    });
+    let jughover2 = gsap.to("#jug", 0.1, {
+      x: "-=20",
+      yoyo: true,
+      repeat: 5,
+    });
+
+    cane.addEventListener("mousemove", () => {
+      canehover1.play();
+      canehover2.play();
+    });
+    cane.addEventListener("mouseout", () => {
+      canehover1.reverse();
+      canehover2.reverse();
+    });
+
+    peacock.addEventListener("mousemove", () => {
+      birdhover.play();
+    });
+    peacock.addEventListener("mouseout", () => {
+      birdhover.reverse();
+    });
+    jug.addEventListener("mousemove", () => {
+      jughover1.play();
+      jughover2.play();
+    });
+    jug.addEventListener("mouseout", () => {
+      jughover1.reverse();
+      jughover2.reverse();
     });
   }, []);
   React.useEffect(() => {

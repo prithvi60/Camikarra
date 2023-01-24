@@ -154,7 +154,7 @@ main {
 /* 
 
 */
-#sugarcane {
+/* #sugarcane {
   transition: all 6s;
   transform-origin: bottom;
   z-index: 1000;
@@ -162,7 +162,7 @@ main {
 #sugarcane:hover {
   transition: all 3s;
   transform: scaleY(1.4) translateY(240px);
-}
+} */
 #secondaryText {
   animation: 3s linear infinite alternate textShow;
 }
@@ -181,10 +181,10 @@ main {
 #green-terrain {
   animation: 1.2s ease-in-out infinite alternate 1s subtleMovement;
 }
-#peacock:hover {
+/* #peacock:hover {
   opacity: 0;
   transition: opacity 0.4s ease;
-}
+} */
 #old-man-layer {
   display: none;
 }
