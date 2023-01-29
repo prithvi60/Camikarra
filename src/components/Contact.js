@@ -9,10 +9,10 @@ export default function CamikarraBottle() {
       <Canvas
         shadows
         camera={{ position: [4, 0, -12], fov: 35 }}
-        style={{ height: "40vh", width: "40vw" }}
+        style={{ height: "60vh", width: "60vw" }}
       >
         <Suspense fallback={null}>
-          <Stage intensity={1.5} adjustCamera={1.2}>
+          <Stage intensity={0} adjustCamera={1.2}>
             <ambientLight />
             <pointLight position={[10, 10, 10]} />
             <Model />

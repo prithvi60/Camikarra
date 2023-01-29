@@ -3,12 +3,15 @@ import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as FirstScene } from "../assets/scene1/first.svg";
 import useSound from "use-sound";
-// import line1 from "../assets/scene1line1.mp3";
-// import line2 from "../assets/scene1line2.mp3";
-// import line3 from "../assets/scene1line3.mp3";
+import "react-tooltip/dist/react-tooltip.css";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+
 import music from "../assets/music.mp3";
 import click from "../assets/click.wav";
 import { Link } from "react-router-dom";
+import Lottie from "lottie-react";
+import oldmanAni from "../assets/scene1/oldmans1.json";
+import ownerAni from "../assets/scene1/owner.json";
 
 import {
   MouseParallaxChild,
@@ -48,9 +51,16 @@ export default function SceneOne({ ref }) {
     volume: 0.4,
   });
   const [playClick] = useSound(click);
-
+  const [isOpen, setIsOpen] = React.useState(true);
   const [on, setOn] = React.useState(false);
-
+  const oldmanRef = React.useRef();
+  const ownerRef = React.useRef();
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 8000);
+  }, []);
+  // console.log("default set", isOpen);
   React.useLayoutEffect(() => {
     gsap.to("#cloud", {
       keyframes: {
@@ -99,164 +109,115 @@ export default function SceneOne({ ref }) {
       ease: "power4",
       delay: 6,
     });
-    gsap.from("#owner-head", {
-      keyframes: {
-        "0%": { x: -30, y: 5, rotate: -10 },
-        "100%": {
-          rotate: 0,
-        },
-      },
-      duration: 4,
-      yoyo: true,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#owner-hand", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -300, translateY: -20 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      duration: 4,
-      repeat: -1,
-      yoyo: true,
-      ease: "power2",
-    });
-    gsap.from("#owner-glass", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -320, translateY: -100 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-right", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -100, translateY: -60 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#jug", {
-      keyframes: {
-        "0%": { rotateZ: -30, translateX: -100, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
-      delay: 2,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-left", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 10 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#old-man-glass", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 120, translateY: 200 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
+    
+    gsap.to("#greens", {
+      opacity:0
+      });
     // gsap.from("#sugarcane", {
     //   keyframes: {
-    //     "0%": { x: 0 },
-    //     "50%": {
-    //       x: -5,
-    //     },
+    //     "0%": { transform: "skew(1deg)" },
+
     //     "100%": {
-    //       x: 0,
+    //       transform: "skew(-1deg)",
     //     },
     //   },
     //   yoyo: true,
     //   repeat: -1,
-    //   duration: 8,
+    //   duration: 1,
+    //   ease: "elastic",
     // });
+
+    gsap.to("#owner", {
+      opacity: 0,
+    });
+    gsap.to("#old-man", {
+      opacity: 0,
+    });
   }, []);
   // Interactions
   React.useLayoutEffect(() => {
     const cane = document.querySelector("#sugarcane");
     const peacock = document.querySelector("#peacock");
-    const jug = document.querySelector("#jug");
 
-    let canehover1 = gsap.to("#sugarcane", 0.1, {
-      x: "+=20",
-      yoyo: true,
-      repeat: 5,
-    });
-    let canehover2 = gsap.to("#sugarcane", 0.1, {
-      x: "-=20",
-      yoyo: true,
-      repeat: 5,
-    });
     let birdhover = gsap.from("#peacock", {
       scale: 1.2,
       duration: 0.6,
       stagger: 0.1,
       ease: "back.out(1.7)",
     });
-    let jughover1 = gsap.to("#jug", 0.1, {
-      x: "+=20",
-      yoyo: true,
-      repeat: 5,
-    });
-    let jughover2 = gsap.to("#jug", 0.1, {
-      x: "-=20",
-      yoyo: true,
-      repeat: 5,
-    });
 
-    cane.addEventListener("mousemove", () => {
-      canehover1.play();
-      canehover2.play();
+    cane.addEventListener("mousedown", () => {
+      document.getElementById("sugarcane").style.animationDuration = "1s";
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { xPercent: -100 },
+          "100%": {
+            xPercent: 400,
+          },
+        },
+        repeat: -1,
+        duration: 6,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "100%": {
+            xPercent: 130,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 10,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "100%": {
+            xPercent: 130,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 10,
+      });
     });
-    cane.addEventListener("mouseout", () => {
-      canehover1.reverse();
-      canehover2.reverse();
+    cane.addEventListener("mouseup", () => {
+      document.getElementById("sugarcane").style.animationDuration = "2.5s";
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "50%": {
+            xPercent: 100,
+          },
+          "100%": {
+            xPercent: 0,
+          },
+        },
+        repeat: -1,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 12,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 12,
+      });
     });
 
     peacock.addEventListener("mousemove", () => {
@@ -264,14 +225,6 @@ export default function SceneOne({ ref }) {
     });
     peacock.addEventListener("mouseout", () => {
       birdhover.reverse();
-    });
-    jug.addEventListener("mousemove", () => {
-      jughover1.play();
-      jughover2.play();
-    });
-    jug.addEventListener("mouseout", () => {
-      jughover1.reverse();
-      jughover2.reverse();
     });
   }, []);
   React.useEffect(() => {
@@ -319,9 +272,48 @@ export default function SceneOne({ ref }) {
         >
           <ParticleBackground settings={settings} />
         </div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: "-28%",
+            right: "5%",
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+            scale: "1.1",
+          }}
+        >
+          <Lottie
+            animationData={ownerAni}
+            loop={true}
+            lottieRef={ownerRef}
+            onLoopComplete={() => {
+              ownerRef.current.goToAndPlay(1750, false);
+            }}
+          />
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            bottom: "-28%",
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+            scale: "1.1",
+          }}
+        >
+          <Lottie
+            animationData={oldmanAni}
+            loop={true}
+            lottieRef={oldmanRef}
+            onLoopComplete={() => {
+              oldmanRef.current.goToAndPlay(1750, false);
+            }}
+          />
+        </div>
         <FirstScene />
       </MouseParallaxChild>
-      <Captions />
+      <Captions scene={0} />
       <div
         style={{
           position: "absolute",
@@ -329,6 +321,7 @@ export default function SceneOne({ ref }) {
           display: "flex",
           justifyContent: "center",
           width: "100%",
+          gap: ".8em",
         }}
       >
         <button
@@ -350,6 +343,18 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
+        <Link to="/">
+          <button
+            className="btn btn-three next"
+            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            onClick={() => {
+              playClick();
+              stop();
+            }}
+          >
+            prev
+          </button>
+        </Link>
         <Link to="/two">
           <button
             className="btn btn-three next"
@@ -363,6 +368,24 @@ export default function SceneOne({ ref }) {
           </button>
         </Link>
       </div>
+      <ReactTooltip
+        isOpen={isOpen}
+        className="tooltip-container move-tip"
+        anchorId="green-terrain"
+        place="top"
+        offset={20}
+        content="Click to interact"
+      />
+      {!isOpen && (
+        <ReactTooltip
+          className="tooltip-container "
+          anchorId="sugarcane"
+          place="right"
+          content="Click to interact"
+          offset={5}
+          float={true}
+        />
+      )}
     </MouseParallaxContainer>
   );
 }

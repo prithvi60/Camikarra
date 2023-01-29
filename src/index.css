@@ -5,9 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #e0c98e !important;
+  background: #f5e9ca !important;
   /* background: rgba(0, 0, 0, 0.443) !important; */
-
 }
 
 code {
@@ -170,10 +169,10 @@ main {
   animation: 7s linear infinite alternate textShow;
 }
 
-#haystack-3 {
+/* #haystack-3 {
   transform-origin: top right;
   animation: 1.2s ease-in-out infinite alternate plantMovement;
-}
+} */
 
 #owner-cane {
   animation: 1.2s ease-in-out infinite alternate subtleMovement;
@@ -309,26 +308,50 @@ main {
   transform: scale(0.9);
   transition: opacity 400ms, transform 300ms;
 }
-.scroll-container {
+/* .scroll-container {
   max-height: 70vh;
-}
+} */
 .card-body {
-  overflow: hidden;
+  overflow: auto;
   color: #715a28 !important;
   font-style: oblique;
+  padding: 30px 16px !important ;
+}
+.card-body::-webkit-scrollbar {
+  width: 0.1em;
+}
+
+.card-body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px transparent;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+  background-color: #85692e;
+  outline: 1px solid #85692e;
+}
+.card-body::-webkit-scrollbar-thumb {
+  height: 50px;
+  background-clip: content-box;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 1px 2px;
+  background-color: #aaa;
+  background-image: linear-gradient(360deg, #fff 60%, #aaa 60%);
 }
 /* Scroll Rod */
 .scroll-container svg:first-child {
-  width: 100%;
+  width: 58%;
   position: absolute;
   z-index: 100;
-  top: -20px;
+  top: -70px;
+  transform: translateX(-3%);
 }
 .scroll-container svg:last-child {
-  width: 100%;
+  width: 58%;
   position: absolute;
   z-index: 100;
-  bottom: -20px;
+  bottom: -70px;
+  transform: translateX(-3%);
 }
 .quill svg {
   height: 15%;
@@ -395,4 +418,89 @@ main {
 }
 canvas {
   pointer-events: none;
+}
+.tooltip-container {
+  background-color: #85692e !important;
+  font-weight: bold !important;
+  border-radius: 0;
+}
+/* .tooltip-container :focus-visible,:active,:focus {
+border-color: #28a92b !important;
+} */
+/* Hide scene elements */
+#frame-scene,
+#window-frame {
+  display: none;
+}
+/*  auto Scroll */
+/* #scroller * {
+  overflow-anchor: none;
+}
+#anchor {
+  overflow-anchor: auto;
+  /* height: 1px; */
+/* } */
+.parallax {
+  border-radius: 0;
+  border-color: transparent;
+}
+svg :focus {
+  outline: none !important;
+}
+.move-tip {
+  transform: translateX(100px) translateY(-50px);
+}
+.move-tip-top {
+  transform: translateY(-250px);
+}
+.move-right {
+  transform: translateX(400px);
+}
+.move-tip-left {
+  transform: translateX(80px);
+}
+.move-tip-right {
+  transform: translateX(-80px);
+}
+.move-tip-river {
+  transform: translateX(20%) translateX(50%);
+}
+
+#sugarcane {
+  animation: swing ease-in-out 2.8s infinite alternate;
+  transform-origin: bottom right -10px;
+}
+#greens {
+  position: relative;
+
+  animation: swing ease-in-out 2.8s infinite alternate;
+  transform-origin: bottom right -10px;
+  z-index: 20;
+}
+#cloud {
+  position: relative;
+  z-index: 19;
+}
+/* #greens1 {
+  position: absolute;
+  left: 0;
+  animation: swing ease-in-out 2.8s infinite alternate;
+  transform-origin: bottom right -10px;
+}
+#greens2 {
+  animation: swing ease-in-out 2.8s infinite alternate;
+  transform-origin: bottom right -10px;
+/* } */
+#Greens {
+  animation: swing ease-in-out 2.8s infinite alternate;
+  transform-origin: bottom right -10px;
+}
+
+@keyframes swing {
+  0% {
+    transform: skew(1.4deg) translateX(0px);
+  }
+  100% {
+    transform: skew(-1.4deg) translateX(-16px);
+  }
 }

@@ -44,7 +44,7 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
             alignItems: "center",
             justifyContent: "center",
             position: "relative",
-            padding: "8px",
+            padding: "16px",
           }}
         >
           <h4 style={{ textAlign: "center" }}>Contact Us:</h4>

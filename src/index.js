@@ -6,7 +6,8 @@ import { createRef } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { CustomCursor } from "react-svg-cursor";
 import Rotate from "./assets/rotate.gif";
-import svg from "./assets/cursor.svg";
+import Barrel from "./assets/barrel.svg";
+
 import {
   createBrowserRouter,
   RouterProvider,
@@ -16,13 +17,13 @@ import {
 import { CSSTransition, SwitchTransition } from "react-transition-group";
 import SceneOne from "./components/SceneOne";
 import SceneTwo from "./components/SceneTwo";
-import LandingPage from "./components/LandingPage";
 import SceneThree from "./components/SceneThree";
 import SceneFour from "./components/SceneFour";
 import SceneFive from "./components/SceneFive";
 import { useEffect } from "react";
+import KeyLanding from "./components/KeyLanding";
 const routes = [
-  { path: "/", name: "Home", element: <LandingPage />, nodeRef: createRef() },
+  { path: "/", name: "Home", element: <KeyLanding />, nodeRef: createRef() },
   {
     path: "/one",
     name: "SceneOne",
@@ -152,10 +153,10 @@ export default function App() {
       {/* eslint-disable-next-line */}
       {!isMobile && (
         <CustomCursor
-          component={svg}
+          component={Barrel}
           isDisabled={false}
-          width={50}
-          height={50}
+          width={35}
+          height={35}
           zIndex={9999}
           transform="translate(-30%, -10%) rotateZ(-22deg)"
         />

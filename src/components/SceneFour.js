@@ -3,12 +3,14 @@ import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as FourthScene } from "../assets/scene4/four.svg";
 import useSound from "use-sound";
-// import line1 from "../assets/scene1line1.mp3";
-// import line2 from "../assets/scene1line2.mp3";
-// import line3 from "../assets/scene1line3.mp3";
+import { Tooltip as ReactTooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 import music from "../assets/music.mp3";
 import click from "../assets/click.wav";
 import { Link } from "react-router-dom";
+import Lottie from "lottie-react";
+import windowAni from "../assets/scene4/window.json";
+import mans4Ani from "../assets/scene4/mans4.json";
 
 import {
   MouseParallaxChild,
@@ -42,16 +44,25 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
-  const timeLine = React.useRef();
-
+  const seasonsRef = React.useRef();
+  const manRef = React.useRef();
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
   });
   const [playClick] = useSound(click);
 
   const [on, setOn] = React.useState(false);
-
+  const [isOpen, setIsOpen] = React.useState(true);
+  React.useEffect(() => {
+    setTimeout(() => {
+      setIsOpen(false);
+    }, 8000);
+  }, []);
   React.useLayoutEffect(() => {
+    gsap.from("#owner", {
+      opacity: 1,
+      delay: 20,
+    });
     gsap.to("#cloud", {
       keyframes: {
         "0%": { x: 0 },
@@ -159,106 +170,45 @@ export default function SceneOne({ ref }) {
       repeat: -1,
       duration: 4,
     });
-    gsap.from("#walkman", {
-      keyframes: {
-        "0%": {
-          xPercent: 0,
-          yPercent: 0,
-          opacity: 1,
-        },
-        "40%": {
-          xPercent: -20,
-          yPercent: 0,
-          opacity: 1,
-        },
-        "41%": {
-          opacity: 0,
-        },
-        "50%": {
-          yPercent: 14,
-          xPercent: 0,
-        },
-        "80%": {
-          yPercent: 14,
-          opacity: 1,
-        },
-        "98%": {
-          xPercent: -20,
-          yPercent: 14,
-          opacity: 1,
-        },
-        "100%": {
-          opacity: 0,
-        },
-      },
 
-      duration: 6,
+    gsap.from("#grp1", {
+      delay: 22,
+      opacity: 0,
+      y: 10,
+      ease: "power3.inOut",
+    });
+    gsap.to("#grp2", {
+      opacity: 0,
+    });
+    gsap.to("#grp3", {
+      opacity: 0,
     });
 
-    timeLine.current = gsap
-      .timeline()
-      .from("#grp1", {
-        delay: 7,
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp2", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp3", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
+    gsap.to("#grp4", {
+      opacity: 0,
+    });
+    gsap.to("#grp5", {
+      opacity: 0,
+    });
+    gsap.to("#grp6", {
+      opacity: 0,
+    });
+    gsap.to("#grp7", {
+      opacity: 0,
+    });
+    gsap.to("#grp8", {
+      opacity: 0,
+    });
+    gsap.to("#grp9", {
+      opacity: 0,
+    });
+    gsap.from("#grp10", {
+      delay: 22,
 
-      .from("#grp4", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp5", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp6", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp7", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp8", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp9", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      })
-      .from("#grp10", {
-        duration: 2,
-        opacity: 0,
-        y: 10,
-        ease: "power3.inOut",
-      });
+      opacity: 0,
+      y: 10,
+      ease: "power3.inOut",
+    });
   }, []);
   // Interactions
   React.useLayoutEffect(() => {
@@ -304,7 +254,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle2.addEventListener("click", () => {
+      gsap.to("#grp2", {
+        opacity: 1,
+        duration: 0,
+      });
+    });
     bottle2.addEventListener("mouseenter", () => {
       bottle2hover1.play();
       bottle2hover2.play();
@@ -324,7 +279,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle3.addEventListener("click", () => {
+      gsap.to("#grp3", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle3.addEventListener("mouseenter", () => {
       bottle3hover1.play();
       bottle3hover2.play();
@@ -344,7 +304,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle4.addEventListener("click", () => {
+      gsap.to("#grp4", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle4.addEventListener("mouseenter", () => {
       bottle4hover1.play();
       bottle4hover2.play();
@@ -364,7 +329,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle5.addEventListener("click", () => {
+      gsap.to("#grp5", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle5.addEventListener("mouseenter", () => {
       bottle5hover1.play();
       bottle5hover2.play();
@@ -384,7 +354,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle6.addEventListener("click", () => {
+      gsap.to("#grp6", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle6.addEventListener("mouseenter", () => {
       bottle6hover1.play();
       bottle6hover2.play();
@@ -404,7 +379,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle7.addEventListener("click", () => {
+      gsap.to("#grp7", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle7.addEventListener("mouseenter", () => {
       bottle7hover1.play();
       bottle7hover2.play();
@@ -424,7 +404,12 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle8.addEventListener("click", () => {
+      gsap.to("#grp8", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle8.addEventListener("mouseenter", () => {
       bottle8hover1.play();
       bottle8hover2.play();
@@ -445,6 +430,12 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
 
+    bottle9.addEventListener("click", () => {
+      gsap.to("#grp9", {
+        opacity: 1,
+        duration: 2,
+      });
+    });
     bottle9.addEventListener("mouseenter", () => {
       bottle9hover1.play();
       bottle9hover2.play();
@@ -487,6 +478,10 @@ export default function SceneOne({ ref }) {
       setOn(true);
     }, 1500);
   }, []);
+  // React.useEffect(() => {
+  //   // seasonsRef.current.goToAndPlay(200, false)
+  //   seasonsRef.current.stop();
+  // }, []);
 
   return (
     <MouseParallaxContainer
@@ -519,9 +514,49 @@ export default function SceneOne({ ref }) {
         >
           <ParticleBackground settings={settings} />
         </div>
+        <div
+          id={"season1"}
+          style={{
+            position: "absolute",
+            // bottom: "-28%",
+            // right: "5%",
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+          }}
+        >
+          <Lottie
+            animationData={windowAni}
+            loop={false}
+            lottieRef={seasonsRef}
+            onComplete={() => {
+              seasonsRef.current.goToAndStop(15000, false);
+            }}
+          />
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            // bottom: "-28%",
+            // right: "5%",
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+            scale: "1.1",
+          }}
+        >
+          <Lottie
+            animationData={mans4Ani}
+            loop={false}
+            lottieRef={manRef}
+            onLoopComplete={() => {
+              manRef.current.setDirection(1);
+            }}
+          />
+        </div>
         <FourthScene />
       </MouseParallaxChild>
-      <Captions />
+      <Captions scene={3} />
       <div
         style={{
           position: "absolute",
@@ -529,6 +564,7 @@ export default function SceneOne({ ref }) {
           display: "flex",
           justifyContent: "center",
           width: "100%",
+          gap: ".8em",
         }}
       >
         <button
@@ -550,6 +586,43 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
+        <button
+          className="btn btn-three next"
+          style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+          onClick={() => {
+            playClick();
+            // seasonsRef.current.play();
+            seasonsRef.current.goToAndPlay(200, false);
+            gsap.to("#owner", {
+              keyframes: {
+                "0%": {
+                  opacity: 0,
+
+                  duration: 0,
+                },
+
+                "100%": {
+                  opacity: 1,
+                  duration: 20,
+                },
+              },
+            });
+          }}
+        >
+          replay seasons
+        </button>
+        <Link to="/three">
+          <button
+            className="btn btn-three next"
+            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            onClick={() => {
+              playClick();
+              stop();
+            }}
+          >
+            prev
+          </button>
+        </Link>
         <Link to="/five">
           <button
             className="btn btn-three next"
@@ -563,6 +636,48 @@ export default function SceneOne({ ref }) {
           </button>
         </Link>
       </div>
+      <ReactTooltip
+        isOpen={isOpen}
+        content="Click any barrel"
+        anchorId="bar1"
+        className="tooltip-container"
+        place="right"
+        offset={5}
+        effect="solid"
+      />
+      {/* <ReactTooltip
+        isOpen={isOpen}
+        content="Click to interact"
+        anchorId="seasons1"
+        className="tooltip-container move-right"
+        place="top"
+        offset={5}
+        effect="solid"
+      /> */}
+      {!isOpen && (
+        <>
+          <ReactTooltip
+            // isOpen={isOpen}
+            content="Click to interact"
+            anchorId="barrels"
+            className="tooltip-container"
+            place="right"
+            offset={5}
+            float={true}
+            effect="solid"
+          />
+          <ReactTooltip
+            // isOpen={isOpen}
+            content="Click to interact"
+            anchorId="seasons"
+            className="tooltip-container"
+            place="right"
+            offset={5}
+            float={true}
+            effect="solid"
+          />
+        </>
+      )}
     </MouseParallaxContainer>
   );
 }
