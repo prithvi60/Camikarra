@@ -393,13 +393,16 @@ export default function SceneOne({ ref }) {
       document.getElementById("greens").style.animationDuration = "1s";
       gsap.to("#cloud", {
         keyframes: {
-          "0%": { xPercent: -100 },
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
           "100%": {
-            xPercent: 400,
+            xPercent: 85,
           },
         },
         repeat: -1,
-        duration: 2,
+        duration: 4.5,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -437,7 +440,7 @@ export default function SceneOne({ ref }) {
           },
         },
         repeat: -1,
-        duration:30,
+        duration: 30,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -582,7 +585,7 @@ export default function SceneOne({ ref }) {
             });
           }}
         >
-          click here
+          Click here
         </button>
         <Link to="/one">
           <button
@@ -593,7 +596,8 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            prev
+            {" "}
+            Prev act
           </button>
         </Link>
         <Link to="/three">
@@ -605,7 +609,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            Next...
+            Next act
           </button>
         </Link>
       </div>
@@ -614,7 +618,7 @@ export default function SceneOne({ ref }) {
         className="tooltip-container"
         anchorId="pot1"
         place="right"
-        content="Click to interact"
+        content="Click & hold"
         offset={5}
       />
       <ReactTooltip
@@ -622,7 +626,7 @@ export default function SceneOne({ ref }) {
         className="tooltip-container move-tip-top"
         anchorId="greens1"
         place="right"
-        content="Click to interact"
+        content="Click & hold"
         offset={5}
       />
       {!isOpen && (
@@ -632,7 +636,7 @@ export default function SceneOne({ ref }) {
             className="tooltip-container"
             anchorId="pots"
             place="right"
-            content="Click to interact"
+            content="Click & hold"
             offset={5}
             float={true}
           />
@@ -641,7 +645,7 @@ export default function SceneOne({ ref }) {
             className="tooltip-container"
             anchorId="greens"
             place="right"
-            content="Click to interact"
+            content="Click & hold"
             offset={5}
             float={true}
           />

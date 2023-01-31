@@ -1,6 +1,10 @@
 import React from "react";
 import { gsap } from "gsap";
 import { ReactComponent as KeyIlustration } from "../assets/scene5/five.svg";
+import HindiLogo from "../assets/hindilogo.png";
+import EnglishLogo from "../assets/englishlogo.png";
+
+// import BottleRum from "../assets/bottlerum.png";
 
 import useSound from "use-sound";
 // import line1 from "../assets/scene1line1.mp3";
@@ -24,19 +28,6 @@ export default function KeyLanding({ ref }) {
   const [on, setOn] = React.useState(false);
 
   React.useLayoutEffect(() => {
-    // gsap.to("#cloud", {
-    //   keyframes: {
-    //     "0%": { x: 0 },
-    //     "50%": {
-    //       x: 100,
-    //     },
-    //     "100%": {
-    //       x: 0,
-    //     },
-    //   },
-    //   repeat: -1,
-    //   duration: 8,
-    // });
     gsap.to("#whisp-lower1", {
       opacity: 0,
     });
@@ -104,49 +95,87 @@ export default function KeyLanding({ ref }) {
           zIndex: "2",
         }}
       > */}
-        <KeyIlustration />
+      <KeyIlustration />
 
+      <div
+        style={{
+          position: "absolute",
+          bottom: "12px",
+          display: "flex",
+          justifyContent: "center",
+          width: "100%",
+        }}
+      >
+        <button
+          onClick={() => {
+            setOn((o) => !o);
+            playClick();
+          }}
+          className={"btn btn-three"}
+          style={{
+            position: "absolute",
+            bottom: "0px",
+            right: "32px",
+            textAlign: "center",
+            color: "white",
+            display: "flex",
+            padding: "0.8em",
+            fontWeight: "bold",
+          }}
+        >
+          {on ? <BsSoundwave /> : <BsPlay />}
+        </button>
+        <Link to="/one">
+          <button
+            className="btn btn-three next"
+            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            onClick={() => {
+              playClick();
+              stop();
+            }}
+          >
+            Begin journey...
+          </button>
+        </Link>
         <div
           style={{
             position: "absolute",
-            bottom: "12px",
+            // top: "30%",
+            right: "10%",
+            textAlign: "center",
+            color: "white",
             display: "flex",
-            justifyContent: "center",
-            width: "100%",
+            // padding: "0.8em",
+            fontWeight: "bold",
+            transform:"translateY(-48vh)"
           }}
         >
-          <button
-            onClick={() => {
-              setOn((o) => !o);
-              playClick();
-            }}
-            className={"btn btn-three"}
-            style={{
-              position: "absolute",
-              bottom: "0px",
-              right: "32px",
-              textAlign: "center",
-              color: "white",
-              display: "flex",
-              padding: "0.8em",
-              fontWeight: "bold",
-            }}
-          >
-            {on ? <BsSoundwave /> : <BsPlay />}
-          </button>
-          <Link to="/one">
-            <button
-              className="btn btn-three next"
-              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-              onClick={() => {
-                playClick();
-                stop();
-              }}
-            >
-              Click to start the journey...
-            </button>
-          </Link>
+          <img
+            src={HindiLogo}
+            alt="logo"
+            style={{ width: "260px", height: "140px" }}
+          />
         </div>
+        <div
+          style={{
+            position: "absolute",
+            // top: "0%",
+            left: "10%",
+            textAlign: "center",
+            color: "white",
+            display: "flex",
+            // padding: "0.8em",
+            fontWeight: "bold",
+            transform:"translateY(-64vh)"
+          }}
+        >
+          <img
+            src={EnglishLogo}
+            alt="englishlogo"
+            style={{ width: "350px", height: "350px" }}
+          />
+        </div>
+      </div>
       {/* </div> */}
     </MouseParallaxContainer>
   );

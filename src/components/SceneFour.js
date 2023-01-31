@@ -53,6 +53,8 @@ export default function SceneOne({ ref }) {
 
   const [on, setOn] = React.useState(false);
   const [isOpen, setIsOpen] = React.useState(true);
+  const [count, setCount] = React.useState(0);
+
   React.useEffect(() => {
     setTimeout(() => {
       setIsOpen(false);
@@ -171,11 +173,8 @@ export default function SceneOne({ ref }) {
       duration: 4,
     });
 
-    gsap.from("#grp1", {
-      delay: 22,
+    gsap.to("#grp1", {
       opacity: 0,
-      y: 10,
-      ease: "power3.inOut",
     });
     gsap.to("#grp2", {
       opacity: 0,
@@ -202,14 +201,11 @@ export default function SceneOne({ ref }) {
     gsap.to("#grp9", {
       opacity: 0,
     });
-    gsap.from("#grp10", {
-      delay: 22,
-
+    gsap.to("#grp10", {
       opacity: 0,
-      y: 10,
-      ease: "power3.inOut",
     });
   }, []);
+
   // Interactions
   React.useLayoutEffect(() => {
     const bottle1 = document.querySelector("#grp1");
@@ -234,7 +230,13 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle1.addEventListener("click", () => {
+      setCount((o) => o + 1);
+      gsap.to("#grp1", {
+        opacity: 1,
+        duration: 0,
+      });
+    });
     bottle1.addEventListener("mouseenter", () => {
       bottle1hover1.play();
       bottle1hover2.play();
@@ -255,6 +257,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle2.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp2", {
         opacity: 1,
         duration: 0,
@@ -280,6 +283,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle3.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp3", {
         opacity: 1,
         duration: 2,
@@ -305,6 +309,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle4.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp4", {
         opacity: 1,
         duration: 2,
@@ -330,6 +335,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle5.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp5", {
         opacity: 1,
         duration: 2,
@@ -355,6 +361,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle6.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp6", {
         opacity: 1,
         duration: 2,
@@ -380,6 +387,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle7.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp7", {
         opacity: 1,
         duration: 2,
@@ -405,6 +413,7 @@ export default function SceneOne({ ref }) {
       repeat: 5,
     });
     bottle8.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp8", {
         opacity: 1,
         duration: 2,
@@ -431,6 +440,7 @@ export default function SceneOne({ ref }) {
     });
 
     bottle9.addEventListener("click", () => {
+      setCount((o) => o + 1);
       gsap.to("#grp9", {
         opacity: 1,
         duration: 2,
@@ -455,7 +465,13 @@ export default function SceneOne({ ref }) {
       yoyo: true,
       repeat: 5,
     });
-
+    bottle10.addEventListener("click", () => {
+      setCount((o) => o + 1);
+      gsap.to("#grp10", {
+        opacity: 1,
+        duration: 0,
+      });
+    });
     bottle10.addEventListener("mouseenter", () => {
       bottle10hover1.play();
       bottle10hover2.play();
@@ -478,10 +494,84 @@ export default function SceneOne({ ref }) {
       setOn(true);
     }, 1500);
   }, []);
-  // React.useEffect(() => {
-  //   // seasonsRef.current.goToAndPlay(200, false)
-  //   seasonsRef.current.stop();
-  // }, []);
+  React.useEffect(() => {
+    if (count === 1) {
+      gsap.to("#grp2", {
+        opacity: 1,
+        duration: 0,
+      });
+
+      gsap.to("#grp4", {
+        opacity: 1,
+        duration: 0,
+      });
+
+      gsap.to("#grp6", {
+        opacity: 1,
+        duration: 0,
+      });
+
+      gsap.to("#grp8", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp1", {
+        opacity: 1,
+        duration: 0,
+      });
+
+      gsap.to("#grp10", {
+        opacity: 1,
+        duration: 0,
+      });
+    }
+    if (count >= 2) {
+      gsap.to("#grp1", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp2", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp3", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp4", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp5", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp6", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp7", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp8", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp1", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp9", {
+        opacity: 1,
+        duration: 0,
+      });
+      gsap.to("#grp10", {
+        opacity: 1,
+        duration: 0,
+      });
+    }
+  }, [count]);
 
   return (
     <MouseParallaxContainer
@@ -586,7 +676,7 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
-        <button
+        {/* <button
           className="btn btn-three next"
           style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
           onClick={() => {
@@ -610,7 +700,7 @@ export default function SceneOne({ ref }) {
           }}
         >
           replay seasons
-        </button>
+        </button> */}
         <Link to="/three">
           <button
             className="btn btn-three next"
@@ -620,7 +710,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            prev
+            Prev act{" "}
           </button>
         </Link>
         <Link to="/five">
@@ -632,7 +722,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            Next...
+            Next act
           </button>
         </Link>
       </div>
@@ -647,7 +737,7 @@ export default function SceneOne({ ref }) {
       />
       {/* <ReactTooltip
         isOpen={isOpen}
-        content="Click to interact"
+        content="Click & hold"
         anchorId="seasons1"
         className="tooltip-container move-right"
         place="top"
@@ -658,7 +748,7 @@ export default function SceneOne({ ref }) {
         <>
           <ReactTooltip
             // isOpen={isOpen}
-            content="Click to interact"
+            content="Click & hold"
             anchorId="barrels"
             className="tooltip-container"
             place="right"
@@ -668,7 +758,7 @@ export default function SceneOne({ ref }) {
           />
           <ReactTooltip
             // isOpen={isOpen}
-            content="Click to interact"
+            content="Click & hold"
             anchorId="seasons"
             className="tooltip-container"
             place="right"

@@ -1,7 +1,7 @@
 import React from "react";
 import { useGLTF } from "@react-three/drei";
 import Bottle from "../assets/scene5/bottle_3d.glb";
-export function Model(props) {
+function Model(props) {
   const { nodes, materials } = useGLTF(Bottle);
   return (
     <group {...props} dispose={null}>
@@ -58,3 +58,5 @@ export function Model(props) {
 }
 
 useGLTF.preload(Bottle);
+
+export default React.memo(Model);

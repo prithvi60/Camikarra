@@ -2,9 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import { ScrollRod } from "./vectors";
 import ReactTypingEffect from "react-typing-effect";
-// import TypeWriterEffect from "react-typewriter-effect";
-import AutoScroll from "@brianmcallister/react-auto-scroll";
-// import ScrollToBottom from "react-scroll-to-bottom";
+// import AutoScroll from "@brianmcallister/react-auto-scroll";
 const captions = [
   "\nAs he sat down in his cane rocking chair, on the balcony of his ancestral home in Punjab, the Juice Maker pondered over a great many things. He thought about his land and its bounty. He dreamt about the future and what it held in store. He even drifted off into a daydream, letting his thoughts roam - boundless and untethered. Many musings flooded his mind, but none more pertinent than this, “How could he capture the essence and spirit of his land in one sip?”\n\nThe Juice Maker had built a thriving sugarcane business over the decades, and naturally spent his evenings treating himself to a glass of the coldest freshest juice there was. But today was different. Today, his palate demanded a change. He had heard so much about the local liquor known as lahan, but had never had the pleasure of tasting it himself. And so, he beckoned to his most trusted ally. \n\nThe Caretaker was a wise man. As wise as he was old, yet his features bore no sign of age. Burly and broad, the Caretaker stood tall - like the ancestral home he had been watching over for the past 50 years, just as his father, and his father’s father had done. His family was born to this land, cultivating and caring for it for centuries. Learning its secrets and passing them down from generation to generation. \n\nThe Juice Maker looked up to his friend and asked, “Can you tell me all there is to know about this famous laahan? Or better yet, can you show me?.” The Caretaker’s face lit up ever so brightly, almost as bright as the stars that very evening, and without hesitation ushered the Juice Maker out of his chair. Off they rode to the Caretaker’s family home on the periphery of the estate. \n\nOn the dining table of the quaint stone structure sat a large jug of liquid that called to them like a siren that lures weary sailors. The Caretaker obliged and emptied the contents of the jug into two steel tumblers.\n\nThe Juice Maker took a long refreshing sip, and immediately demanded, “You must show me how this is made!”\n\nThe Caretaker smiled confidently, as if he had already predicted this reaction and simply nodded in assurance.\n\nThis is where our story begins…\n",
   "\nThe Caretaker explained that for thousands of years, alcohol was a privilege enjoyed only by the upper echelon of society. Permission to brew and distill its forms were only granted to royalty and close allies of those in power. And so, the masses - an enterprising people - had to get creative.\n\nHis ancestors and early inhabitants of this land knew its bounty better than most and, as expected, knew what riches it could provide. And so, hundreds of villages scattered around the subcontinent installed their very own homemade distilleries and began a burgeoning cottage industry. An industry that brewed alcohol in various forms.\n\nWhile each village, and household had their own unique way of distilling their alcohol, the most popular by far was the one they called lahan. This spirit was produced by fermenting various ingredients such as jaggery, dry fruits and water, and once distilled in clay pots, resulted in a spirit that was strong, sweet and refreshing. \n\nThis pehle tod ki daru - or ‘first batch’, if you will - was often consumed between friends and family, at special occasions and local events - rarely being revealed to the outside world. \n\nHowever, as the years rolled on, these amateur distillers became just as bold as the flavour of their brews - discovering new ingredients and distilling techniques. Honing their skills and perfecting their craft. There was revelry in the air. But this brought with it some unwanted attention…\n\nThe angels wanted their share too.\n",
@@ -14,39 +12,6 @@ const captions = [
 ];
 
 export default function Captions({ scene }) {
-  // const myRef = React.useRef(null);
-  // const messageEl = React.useRef(null);
-
-  // const [change, setChange] = React.useState(1);
-  // var messageBody = document.querySelector("#messageBody");
-  // if (messageBody) {
-  //   messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
-  // }
-  // React.useEffect(() => {
-  //   if (messageEl) {
-  //     messageEl.current.addEventListener("DOMNodeInserted", (event) => {
-  //       const { currentTarget: target } = event;
-  //       target.scroll({ top: target.scrollHeight, behavior: "smooth" });
-  //     });
-  //   }
-  // }, []);
-
-  // React.useEffect(() => {
-  //   if (myRef.current) {
-  //     myRef.current.scrollIntoView({
-  //       behavior: "smooth",
-  //       block: "end",
-  //       inline: "nearest",
-  //     });
-  //   }
-  // }, [change]);
-  // const scrollToBottom = () => {
-  //   console.log("Stet");
-  //   window.scrollTo({
-  //     top: messageEl.documentElement.current.offsetTop,
-  //     behavior: "smooth",
-  //   });
-  // };
   return (
     <>
       <div
@@ -59,11 +24,11 @@ export default function Captions({ scene }) {
               : scene === 1
               ? "40%"
               : scene === 2
-              ? "30%"
+              ? "10%"
               : scene === 3
               ? "4%"
-              : "15%",
-          right: scene === 2 ? "52%" : scene === 3 ? "69%" : "20px",
+              : scene === 4 ? "4%": "15%",
+          right: scene === 2 ? "54%" : scene === 3 ? "69%" :scene === 4 ? "-12px" :"20px",
           maxWidth: "36%",
           minWidth: "36%",
           // limit card height
@@ -76,11 +41,6 @@ export default function Captions({ scene }) {
         <ScrollRod />
         <Card
           body
-          // ref={scrollRef}
-          // ref={messageEl}
-
-          // ref={myRef}
-          // id={"messageBody"}
           style={{
             fontSize: "small",
             maxWidth: "54%",

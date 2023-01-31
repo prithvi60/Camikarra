@@ -71,23 +71,6 @@ export default function App() {
   const root = useRef();
   const location = useLocation();
 
-  useLayoutEffect(() => {
-    let ctx = gsap.context(() => {
-      // all your animations go in here...
-      gsap.from(".scrolled", {
-        duration: 1.5,
-        rotation: "+=90",
-      });
-      gsap.from(".scrollText", {
-        duration: 2,
-        xPercent: -300,
-        ease: "power4",
-        stagger: 0.1,
-      });
-    }, root); // <- scopes all selector text to the root element
-
-    return () => ctx.revert();
-  }, [location]);
   const currentOutlet = useOutlet();
   const { nodeRef } =
     routes.find((route) => route.path === location.pathname) ?? {};

@@ -2,9 +2,10 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as FifthScene } from "../assets/scene5/five.svg";
-import Product from "../assets/scene5/productdetail.png";
-import TastingNote from "../assets/scene5/tastingnote.png";
 
+import BottleRum from "../assets/bottlerum.png";
+import HindiLogo from "../assets/hindilogo.png";
+import EnglishLogo from "../assets/englishlogo.png";
 import Card from "react-bootstrap/Card";
 
 import { Tooltip as ReactTooltip } from "react-tooltip";
@@ -19,11 +20,14 @@ import {
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
 import { CustomModal } from "./Modal";
-import CamikarraBottle from "./Contact";
+// import CamikarraBottle from "./Camikkara";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
 import riverAni from "../assets/scene5/river.json";
+import outlineAni from "../assets/scene5/outlineman.json";
+
 import { Liquor } from "./vectors";
+import { KeyImages } from "./KeyImages";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -68,6 +72,9 @@ export default function SceneOne({ ref }) {
     }, 8000);
   }, []);
   const lottieRef = useRef();
+
+  const outlineRef = useRef();
+
   useEffect(() => {
     lottieRef.current.stop();
   }, []);
@@ -185,20 +192,20 @@ export default function SceneOne({ ref }) {
     if (overlay) {
       setTimeout(() => {
         setLiquid(true);
-      }, 1500);
+      }, 2500);
     } else {
       setLiquid(false);
     }
   }, [overlay]);
   React.useEffect(() => {
     const greens1 = document.querySelector("#greens1");
-    const river = document.querySelector("#river");
+    const river = document.querySelector("#hour-glass");
 
     const greens2 = document.querySelector("#greens1");
     river.addEventListener("click", () => {
       setTimeout(() => {
         lottieRef.current.play();
-      }, 500);
+      }, 20);
     });
     greens1.addEventListener("mousedown", () => {
       gsap.from("#greens1", {
@@ -231,13 +238,16 @@ export default function SceneOne({ ref }) {
       });
       gsap.to("#cloud", {
         keyframes: {
-          "0%": { xPercent: -100 },
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
           "100%": {
-            xPercent: 400,
+            xPercent: 85,
           },
         },
         repeat: -1,
-        duration: 6,
+        duration: 4.5,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -361,13 +371,16 @@ export default function SceneOne({ ref }) {
 
       gsap.to("#cloud", {
         keyframes: {
-          "0%": { xPercent: -100 },
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
           "100%": {
-            xPercent: 400,
+            xPercent: 85,
           },
         },
         repeat: -1,
-        duration: 6,
+        duration: 4.5,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -526,6 +539,25 @@ export default function SceneOne({ ref }) {
                 animationData={riverAni}
                 loop={false}
                 lottieRef={lottieRef}
+                onComplete={() => lottieRef.current.goToAndStop(10000, false)}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                top: "0%",
+                left: "-8px",
+                scale: "1.3",
+                width: "100%",
+                height: "100%",
+                pointerEvents: "none",
+              }}
+            >
+              <Lottie
+                animationData={outlineAni}
+                loop={false}
+                lottieRef={outlineRef}
+                onComplete={() => outlineRef.current.goToAndStop(11500, false)}
               />
             </div>
             <FifthScene />
@@ -535,6 +567,25 @@ export default function SceneOne({ ref }) {
         {overlay && (
           <>
             <div
+              style={{
+                position: "absolute",
+                bottom: "20%",
+                right: "42%",
+                // zIndex: "3",
+              }}
+              onClick={() => {
+                // console.log("irem");
+                setNote((o) => !o);
+              }}
+            >
+              <img
+                src={BottleRum}
+                alt="logo"
+                style={{ width: "220px", height: "400px" }}
+              />
+            </div>
+
+            {/* <div
               className="bottle"
               id={"model"}
               style={{
@@ -549,27 +600,28 @@ export default function SceneOne({ ref }) {
               }}
             >
               <CamikarraBottle />
-            </div>
-            {liquid && (
+            </div> */}
+            {/* {liquid && (
               <div
                 id={"liquor"}
                 style={{
                   position: "absolute",
                   bottom: "25%",
                   right: "45.2%",
-                  borderRadius: "20px",
+                  borderRadius: "18px",
                   zIndex: "2",
-                  maxWidth: "121px",
-                  maxHeight: "200px",
+                  maxWidth: "9.3vw",
+                  maxHeight: "30vh",
+                  // height: "60vh", width: "60vw",
                   overflow: "hidden",
                 }}
               >
                 <Liquor />
               </div>
-            )}
+            )} */}
           </>
         )}
-        {note && (
+        {overlay && (
           <>
             <div
               style={{
@@ -589,14 +641,7 @@ export default function SceneOne({ ref }) {
                   borderColor: "transparent",
                 }}
               >
-                <img
-                  src={Product}
-                  alt="Product"
-                  style={{
-                    width: "100%",
-                    maxHeight: "70vh",
-                  }}
-                />
+                <KeyImages image={0} />
               </Card>
             </div>
             <div
@@ -604,7 +649,6 @@ export default function SceneOne({ ref }) {
               style={{
                 position: "absolute",
                 top: "10%",
-
                 right: "4%",
               }}
             >
@@ -619,15 +663,7 @@ export default function SceneOne({ ref }) {
                   position: "relative",
                 }}
               >
-                <img
-                  src={TastingNote}
-                  alt="TastingNote"
-                  style={{
-                    width: "100%",
-
-                    maxHeight: "70vh",
-                  }}
-                />
+                <KeyImages image={1} />
               </Card>
             </div>
           </>
@@ -651,10 +687,7 @@ export default function SceneOne({ ref }) {
               onClick={() => {
                 setTimeout(() => {
                   lottieRef.current.play();
-                }, 500);
-                // setTimeout(() => {
-                //   lottieRef.current.pause();
-                // },1000);
+                }, 20);
               }}
             >
               Click here
@@ -671,7 +704,7 @@ export default function SceneOne({ ref }) {
                 setOverlay(false);
               }}
             >
-              prev
+              Prev act
             </button>
           </Link>
           {overlay && (
@@ -687,20 +720,20 @@ export default function SceneOne({ ref }) {
             </button>
           )}
 
-          {/* {!overlay && ( */}
-          <button
-            onClick={() => {
-              setOverlay(true);
-              playClick();
-              setCaption(5);
-            }}
-            className="btn btn-three next"
-            id={"mainlogo"}
-            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-          >
-            Next
-          </button>
-          {/* )} */}
+          {!overlay && (
+            <button
+              onClick={() => {
+                setOverlay(true);
+                playClick();
+                setCaption(5);
+              }}
+              className="btn btn-three next"
+              id={"mainlogo"}
+              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            >
+              Next act
+            </button>
+          )}
           {overlay && (
             <Link to="/">
               <button
@@ -715,7 +748,7 @@ export default function SceneOne({ ref }) {
                   stop();
                 }}
               >
-                Start the journey again..
+                Restart journey{" "}
               </button>
             </Link>
           )}
@@ -744,6 +777,7 @@ export default function SceneOne({ ref }) {
               display: "flex",
               padding: "0.8em",
               fontWeight: "bold",
+              zIndex:1
             }}
           >
             {on ? <BsSoundwave /> : <BsPlay />}
@@ -752,7 +786,7 @@ export default function SceneOne({ ref }) {
 
         <ReactTooltip
           isOpen={isOpen}
-          content="Click to interact"
+          content="Click & hold"
           anchorId="greens11"
           className="tooltip-container move-tip-right "
           place="right"
@@ -761,7 +795,7 @@ export default function SceneOne({ ref }) {
         />
         <ReactTooltip
           isOpen={isOpen}
-          content="Click to interact"
+          content="Click & hold"
           anchorId="greens21"
           className="tooltip-container move-tip-river"
           place="left"
@@ -770,7 +804,7 @@ export default function SceneOne({ ref }) {
         />
         <ReactTooltip
           // isOpen={isOpen}
-          content="Click to interact"
+          content="Click & hold"
           anchorId="model"
           className="tooltip-container"
           place="right"
@@ -780,7 +814,7 @@ export default function SceneOne({ ref }) {
         />
         <ReactTooltip
           isOpen={isOpen}
-          content="Click to interact"
+          content="Click & hold"
           anchorId="hour-glass-outline1"
           className="tooltip-container "
           place="right"
@@ -790,7 +824,7 @@ export default function SceneOne({ ref }) {
           <>
             <ReactTooltip
               // isOpen={isOpen}
-              content="Click to interact"
+              content="Click & hold"
               anchorId="greens1"
               className="tooltip-container"
               place="right"
@@ -800,7 +834,7 @@ export default function SceneOne({ ref }) {
             />
             <ReactTooltip
               // isOpen={isOpen}
-              content="Click to interact"
+              content="Click & hold"
               anchorId="greens2"
               className="tooltip-container"
               place="right"
@@ -808,6 +842,52 @@ export default function SceneOne({ ref }) {
               float={true}
               effect="solid"
             />
+          </>
+        )}
+        {!overlay && (
+          <>
+            {" "}
+            <div
+              style={{
+                position: "absolute",
+                // top: "30%",
+                right: "18%",
+                textAlign: "center",
+                color: "white",
+                display: "flex",
+                // padding: "0.8em",
+                fontWeight: "bold",
+                transform: "translateY(-63vh)",
+              }}
+            >
+              <img
+                src={HindiLogo}
+                alt="logo"
+                style={{ width: "260px", height: "140px" }}
+              />
+            </div>
+            <div
+              style={{
+                position: "absolute",
+                // top: "0%",
+                left: "12%",
+                textAlign: "center",
+                color: "white",
+                display: "flex",
+                // padding: "0.8em",
+                fontWeight: "bold",
+                transform: "translateY(-78vh)",
+              }}
+            >
+              <img
+                src={EnglishLogo}
+                alt="englishlogo"
+                style={{
+                  width: "350px",
+                  height: "350px",
+                }}
+              />
+            </div>
           </>
         )}
       </MouseParallaxContainer>

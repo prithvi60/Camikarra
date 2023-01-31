@@ -75,6 +75,26 @@ export default function SceneOne({ ref }) {
       repeat: -1,
       duration: 8,
     });
+    gsap.to("#old-man", {
+      opacity: 0,
+    });
+    gsap.to("#owner", {
+      opacity: 0,
+    });
+    // gsap.to("#cloud", {
+    //   keyframes: {
+    //     "0%": { xPercent: 0 },
+    //     "50%": {
+    //       xPercent: 100,
+    //     },
+    //     "100%": {
+    //       xPercent: 0,
+    //     },
+    //   },
+    //   repeat: -1,
+    //   yoyo:true,
+    //   duration: 60,
+    // });
     gsap.to("#whisp-lower1", {
       keyframes: {
         "0%": { xPercent: 10 },
@@ -109,10 +129,10 @@ export default function SceneOne({ ref }) {
       ease: "power4",
       delay: 6,
     });
-    
+
     gsap.to("#greens", {
-      opacity:0
-      });
+      opacity: 0,
+    });
     // gsap.from("#sugarcane", {
     //   keyframes: {
     //     "0%": { transform: "skew(1deg)" },
@@ -137,6 +157,8 @@ export default function SceneOne({ ref }) {
   // Interactions
   React.useLayoutEffect(() => {
     const cane = document.querySelector("#sugarcane");
+    const sky = document.querySelector("#sky");
+
     const peacock = document.querySelector("#peacock");
 
     let birdhover = gsap.from("#peacock", {
@@ -145,18 +167,114 @@ export default function SceneOne({ ref }) {
       stagger: 0.1,
       ease: "back.out(1.7)",
     });
+    sky.addEventListener("mousedown", () => {
+      console.log("dn");
+
+      document.getElementById("sugarcane").style.animationDuration = "1s";
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
+          "100%": {
+            xPercent: 85,
+          },
+        },
+        repeat: -1,
+        duration: 4.5,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "100%": {
+            xPercent: 130,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 10,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "100%": {
+            xPercent: 130,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 10,
+      });
+    });
+    sky.addEventListener("mouseup", () => {
+      console.log("up");
+
+      document.getElementById("sugarcane").style.animationDuration = "2.5s";
+      // gsap.to("#cloud", {
+      //   keyframes: {
+      //     "0%": { xPercent: 0 },
+      //     "50%": {
+      //       xPercent: 100,
+      //     },
+      //     "100%": {
+      //       xPercent: 0,
+      //     },
+      //   },
+      //   repeat: -1,
+      //   duration: 30,
+      // });
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "50%": {
+            xPercent: 100,
+          },
+          "100%": {
+            xPercent: 0,
+          },
+        },
+        repeat: -1,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 12,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 12,
+      });
+    });
 
     cane.addEventListener("mousedown", () => {
       document.getElementById("sugarcane").style.animationDuration = "1s";
       gsap.to("#cloud", {
         keyframes: {
-          "0%": { xPercent: -100 },
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
           "100%": {
-            xPercent: 400,
+            xPercent: 85,
           },
         },
         repeat: -1,
-        duration: 6,
+        duration: 4.5,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -183,6 +301,7 @@ export default function SceneOne({ ref }) {
     });
     cane.addEventListener("mouseup", () => {
       document.getElementById("sugarcane").style.animationDuration = "2.5s";
+
       gsap.to("#cloud", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -275,12 +394,10 @@ export default function SceneOne({ ref }) {
         <div
           style={{
             position: "absolute",
-            bottom: "-28%",
+            bottom: "-2%",
             right: "5%",
-            width: "100%",
-            height: "100%",
             pointerEvents: "none",
-            scale: "1.1",
+            transform: "scale(1.1)",
           }}
         >
           <Lottie
@@ -295,11 +412,10 @@ export default function SceneOne({ ref }) {
         <div
           style={{
             position: "absolute",
-            bottom: "-28%",
-            width: "100%",
-            height: "100%",
+            bottom: "-2%",
+
             pointerEvents: "none",
-            scale: "1.1",
+            transform: "scale(1.1)",
           }}
         >
           <Lottie
@@ -352,7 +468,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            prev
+            Prev act
           </button>
         </Link>
         <Link to="/two">
@@ -364,7 +480,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            Next...
+            Next act
           </button>
         </Link>
       </div>
@@ -374,14 +490,14 @@ export default function SceneOne({ ref }) {
         anchorId="green-terrain"
         place="top"
         offset={20}
-        content="Click to interact"
+        content="Click & hold"
       />
       {!isOpen && (
         <ReactTooltip
           className="tooltip-container "
           anchorId="sugarcane"
           place="right"
-          content="Click to interact"
+          content="Click & hold"
           offset={5}
           float={true}
         />

@@ -3,10 +3,6 @@ import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as ThirdScene } from "../assets/scene3/three.svg";
 import useSound from "use-sound";
-
-// import line1 from "../assets/scene1line1.mp3";
-// import line2 from "../assets/scene1line2.mp3";
-// import line3 from "../assets/scene1line3.mp3";
 import music from "../assets/music.mp3";
 import click from "../assets/click.wav";
 import { Link } from "react-router-dom";
@@ -14,6 +10,8 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import Lottie from "lottie-react";
 import shareAni from "../assets/scene2/angelshare.json";
+import angelsAni from "../assets/scene3/angels.json";
+
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
@@ -48,6 +46,8 @@ const settings = {
 export default function SceneOne({ ref }) {
   // const timeLine = React.useRef();
   const lottieRef = React.useRef();
+  const angelRef = React.useRef();
+
 
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
@@ -209,7 +209,73 @@ export default function SceneOne({ ref }) {
     const pots = document.querySelector("#pot");
     const man = document.querySelector("#man-2");
     const man2 = document.querySelector("#man");
+    const man3 = document.querySelector("#man-with-photo");
+    const woman = document.querySelector("#woman-in-saree");
 
+    woman.addEventListener("click", () => {
+      gsap.to("#share", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man-2", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#old-woman", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#woman-in-saree", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man-with-photo", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+    });
+    man3.addEventListener("click", () => {
+      gsap.to("#share", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man-2", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#old-woman", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#woman-in-saree", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+      gsap.to("#man-with-photo", {
+        opacity: 1,
+        duration: 2,
+        ease: "power2",
+      });
+    });
     man.addEventListener("click", () => {
       gsap.to("#share", {
         opacity: 1,
@@ -286,13 +352,16 @@ export default function SceneOne({ ref }) {
       document.getElementById("Greens").style.animationDuration = "1s";
       gsap.to("#clouds", {
         keyframes: {
-          "0%": { xPercent: -100 },
+          "0%": { xPercent: -85 },
+          // "50%": {
+          //   xPercent: 10,
+          // },
           "100%": {
-            xPercent: 400,
+            xPercent: 85,
           },
         },
         repeat: -1,
-        duration:6,
+        duration: 4.5,
       });
       gsap.to("#whisp-lower1", {
         keyframes: {
@@ -366,6 +435,7 @@ export default function SceneOne({ ref }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [on]);
   React.useEffect(() => {
+    // angelRef.current.stop();
     setTimeout(() => {
       setOn(true);
     }, 1500);
@@ -416,6 +486,20 @@ export default function SceneOne({ ref }) {
         >
           <Lottie animationData={shareAni} loop={true} lottieRef={lottieRef} />
         </div>
+        <div
+          id="angel"
+          style={{
+            position: "absolute",
+            top: "15%",
+            right: "-2%",
+            width: "100%",
+            height: "100%",
+            scaleX: "0.8",
+            pointerEvents: "none",
+          }}
+        >
+          <Lottie animationData={angelsAni} loop={true} lottieRef={angelRef} />
+        </div>
         <ThirdScene />
       </MouseParallaxChild>
       <Captions scene={2} />
@@ -448,7 +532,7 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
-        <button
+        {/* <button
           className="btn btn-three next"
           style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
           onClick={() => {
@@ -485,7 +569,7 @@ export default function SceneOne({ ref }) {
           }}
         >
           click here
-        </button>
+        </button> */}
         <Link to="/two">
           <button
             className="btn btn-three next"
@@ -495,7 +579,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            prev
+            Prev act
           </button>
         </Link>
         <Link to="/four">
@@ -507,7 +591,7 @@ export default function SceneOne({ ref }) {
               stop();
             }}
           >
-            Next...
+            Next act
           </button>
         </Link>
       </div>
@@ -516,12 +600,12 @@ export default function SceneOne({ ref }) {
         className="tooltip-container"
         anchorId="pot1"
         place="right"
-        content="Click to interact"
+        content="Click & hold"
         offset={5}
       /> */}
       <ReactTooltip
         isOpen={isOpen}
-        content="Click to interact"
+        content="Click & hold"
         anchorId="Greens1"
         className="tooltip-container move-tip-top"
         place="right"
@@ -530,7 +614,7 @@ export default function SceneOne({ ref }) {
       />
       <ReactTooltip
         isOpen={isOpen}
-        content="Click to interact"
+        content="Click & hold"
         anchorId="man-2"
         className="tooltip-container"
         place="right"
@@ -544,13 +628,13 @@ export default function SceneOne({ ref }) {
             className="tooltip-container"
             anchorId="pot"
             place="right"
-            content="Click to interact"
+            content="Click & hold"
             offset={5}
             float={true}
           />
           <ReactTooltip
             // isOpen={isOpen}
-            content="Click to interact"
+            content="Click & hold"
             anchorId="Greens"
             className="tooltip-container"
             place="right"

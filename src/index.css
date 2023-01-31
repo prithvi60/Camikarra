@@ -54,7 +54,7 @@ body {
 }
 
 /* Setting the animation */
-@keyframes manMovement {
+/* @keyframes manMovement {
   from {
     transform: translateX(0);
   }
@@ -71,7 +71,7 @@ body {
     transform: translateX(0);
     transform: rotate(1.2deg);
   }
-}
+} */
 
 @keyframes textShow {
   from {
@@ -92,36 +92,6 @@ body {
   }
 }
 
-@keyframes plantMovement {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(5%);
-    transform: translateY(10%);
-    transform: rotateY(19deg);
-  }
-}
-
-@keyframes caneScale {
-  from {
-    transform: scaleY(1);
-    transform-origin: top;
-  }
-  to {
-    transform: scaleY(1.25);
-  }
-}
-@keyframes glide {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(5%);
-    transform: translateY(40%);
-    transform: rotateY(19deg);
-  }
-}
 @keyframes subtleMovement {
   from {
     transform: translateX(0);
@@ -139,40 +109,21 @@ main {
   align-items: center;
 }
 
-#owner {
+/* #owner {
   transform-origin: 85% 11%;
   animation: 1.5s ease-in-out infinite alternate running manMovement;
 }
 #old-man {
   transform-origin: 85% 11%;
   animation: 1.5s ease-in-out infinite alternate running oldmanMovement;
-}
-/* #sugarcane {
-  animation: 1.2s ease-in-out infinite alternate plantMovement;
 } */
-/* 
 
-*/
-/* #sugarcane {
-  transition: all 6s;
-  transform-origin: bottom;
-  z-index: 1000;
-}
-#sugarcane:hover {
-  transition: all 3s;
-  transform: scaleY(1.4) translateY(240px);
-} */
 #secondaryText {
   animation: 3s linear infinite alternate textShow;
 }
 #tertiaryText {
   animation: 7s linear infinite alternate textShow;
 }
-
-/* #haystack-3 {
-  transform-origin: top right;
-  animation: 1.2s ease-in-out infinite alternate plantMovement;
-} */
 
 #owner-cane {
   animation: 1.2s ease-in-out infinite alternate subtleMovement;
@@ -187,34 +138,7 @@ main {
 #old-man-layer {
   display: none;
 }
-@keyframes handMovement {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-15%);
-    transform: translateY(40px);
-    transform: rotate(-10deg);
-  }
-}
-@keyframes headMovement {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    /* transform: translateX(-15%); */
-    /* transform: translateY(40px); */
-    transform: rotate(-2deg);
-  }
-}
-/* #owner-head{
-  transform-origin: top left;
-  animation: 3s ease-in-out infinite alternate headMovement;
-} */
-/* #owner-hand,#owner-glass{
-  transform-origin: bottom left;
-  animation: 3s ease-in-out infinite alternate handMovement;
-} */
+
 .btn-three {
   color: white;
   transition: all 0.5s;
@@ -276,7 +200,7 @@ main {
   right: 15px;
 } */
 
-@keyframes animate-pop {
+/* @keyframes animate-pop {
   0% {
     transform: translateX(-300px);
   }
@@ -284,7 +208,7 @@ main {
   100% {
     transform: translateX(0px);
   }
-}
+} */
 .page-enter {
   opacity: 0;
   transform: scale(1);
@@ -353,9 +277,9 @@ main {
   bottom: -70px;
   transform: translateX(-3%);
 }
-.quill svg {
+/* .quill svg {
   height: 15%;
-}
+} */
 #texture,
 #liquid,
 #liquor-gobule {
@@ -370,47 +294,6 @@ main {
   display: none;
 }
 
-@keyframes shake {
-  0% {
-    transform: translateY(1px) rotate(0deg);
-  }
-  10% {
-    transform: translateY(-2px) rotate(-1deg);
-  }
-  20% {
-    transform: translateY(100px) rotate(1deg);
-  }
-  30% {
-    transform: translateY(2px) rotate(0deg);
-  }
-  40% {
-    transform: translateY(-1px) rotate(1deg);
-  }
-  50% {
-    transform: translateY(2px) rotate(-1deg);
-  }
-  60% {
-    transform: translateY(1px) rotate(0deg);
-  }
-  70% {
-    transform: translateY(1px) rotate(-1deg);
-  }
-  80% {
-    transform: translateY(-1px) rotate(1deg);
-  }
-  90% {
-    transform: translateY(2px) rotate(0deg);
-  }
-  100% {
-    transform: translateY(-2px) rotate(-1deg);
-  }
-}
-/* #pots:hover {
-  cursor: pointer;
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-} */
-
 .prevent-select {
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
@@ -424,22 +307,11 @@ canvas {
   font-weight: bold !important;
   border-radius: 0;
 }
-/* .tooltip-container :focus-visible,:active,:focus {
-border-color: #28a92b !important;
-} */
-/* Hide scene elements */
+
 #frame-scene,
 #window-frame {
   display: none;
 }
-/*  auto Scroll */
-/* #scroller * {
-  overflow-anchor: none;
-}
-#anchor {
-  overflow-anchor: auto;
-  /* height: 1px; */
-/* } */
 .parallax {
   border-radius: 0;
   border-color: transparent;
@@ -503,4 +375,12 @@ svg :focus {
   100% {
     transform: skew(-1.4deg) translateX(-16px);
   }
+}
+#outline-man {
+  display: none;
+}
+#angel,
+#angel-wings,
+#angel-wings1 {
+display: none;
 }
