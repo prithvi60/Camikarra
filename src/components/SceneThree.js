@@ -18,6 +18,7 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
+import Socials from "./Socials";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -44,10 +45,10 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
-  // const timeLine = React.useRef();
+  const sceneRef = React.useRef();
+
   const lottieRef = React.useRef();
   const angelRef = React.useRef();
-
 
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
@@ -62,24 +63,9 @@ export default function SceneOne({ ref }) {
     }, 8000);
   }, []);
   React.useLayoutEffect(() => {
-    gsap.to("#share", {
-      opacity: 0,
-    });
-    gsap.to("#man", {
-      opacity: 0,
-    });
-    gsap.to("#man-2", {
-      opacity: 0,
-    });
-    gsap.to("#old-woman", {
-      opacity: 0,
-    });
-    gsap.to("#woman-in-saree", {
-      opacity: 0,
-    });
-    gsap.to("#man-with-photo", {
-      opacity: 0,
-    });
+    let ctx = gsap.context(() => {
+
+
     gsap.to("#clouds", {
       keyframes: {
         "0%": { x: 0 },
@@ -140,9 +126,29 @@ export default function SceneOne({ ref }) {
     //   repeat: -1,
     //   ease: "power2",
     // });
+  }, sceneRef);
+  return () => ctx.revert();
   }, []);
   // Interactions
   React.useLayoutEffect(() => {
+    gsap.to("#share", {
+      opacity: 0,
+    });
+    gsap.to("#man", {
+      opacity: 0,
+    });
+    gsap.to("#man-2", {
+      opacity: 0,
+    });
+    gsap.to("#old-woman", {
+      opacity: 0,
+    });
+    gsap.to("#woman-in-saree", {
+      opacity: 0,
+    });
+    gsap.to("#man-with-photo", {
+      opacity: 0,
+    });
     const pots = document.querySelector("#pot");
     const angel = document.querySelector("#angel");
     // const angelwings1 = document.querySelector("#angel-wings1");
@@ -435,7 +441,7 @@ export default function SceneOne({ ref }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [on]);
   React.useEffect(() => {
-    // angelRef.current.stop();
+    angelRef.current.stop();
     setTimeout(() => {
       setOn(true);
     }, 1500);
@@ -443,6 +449,7 @@ export default function SceneOne({ ref }) {
 
   return (
     <MouseParallaxContainer
+    ref={sceneRef}
       className="parallax"
       containerStyle={{
         height: "100vh",
@@ -484,10 +491,9 @@ export default function SceneOne({ ref }) {
             pointerEvents: "none",
           }}
         >
-          <Lottie animationData={shareAni} loop={true} lottieRef={lottieRef} />
+          <Lottie animationData={shareAni} lottieRef={lottieRef} />
         </div>
         <div
-          id="angel"
           style={{
             position: "absolute",
             top: "15%",
@@ -570,6 +576,7 @@ export default function SceneOne({ ref }) {
         >
           click here
         </button> */}
+        <Socials />
         <Link to="/two">
           <button
             className="btn btn-three next"

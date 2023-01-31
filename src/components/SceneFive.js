@@ -2,12 +2,10 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import ParticleBackground from "react-particle-backgrounds";
 import { ReactComponent as FifthScene } from "../assets/scene5/five.svg";
-
 import BottleRum from "../assets/bottlerum.png";
 import HindiLogo from "../assets/hindilogo.png";
 import EnglishLogo from "../assets/englishlogo.png";
 import Card from "react-bootstrap/Card";
-
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import useSound from "use-sound";
@@ -20,14 +18,12 @@ import {
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
 import { CustomModal } from "./Modal";
-// import CamikarraBottle from "./Camikkara";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
 import riverAni from "../assets/scene5/river.json";
 import outlineAni from "../assets/scene5/outlineman.json";
-
-import { Liquor } from "./vectors";
 import { KeyImages } from "./KeyImages";
+import Socials from "./Socials";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -54,9 +50,11 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
+  const sceneRef = React.useRef();
+
   const [modalIsOpen, setIsOpen] = React.useState(false);
   const [overlay, setOverlay] = React.useState(false);
-  const [note, setNote] = React.useState(false);
+  // const [note, setNote] = React.useState(false);
   const [caption, setCaption] = React.useState(4);
 
   const [playmusic, { stop }] = useSound(music, {
@@ -80,46 +78,67 @@ export default function SceneOne({ ref }) {
   }, []);
 
   React.useLayoutEffect(() => {
+    let ctx = gsap.context(() => {
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { x: 0 },
+          "50%": {
+            x: 100,
+          },
+          "100%": {
+            x: 0,
+          },
+        },
+        repeat: -1,
+        duration: 8,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.to("#river", {
+        opacity: 0,
+      });
+
+      gsap.from(".play", {
+        duration: 2,
+        xPercent: 300,
+        ease: "power4",
+      });
+
+      gsap.from(".next", {
+        duration: 4,
+        yPercent: 300,
+        ease: "power4",
+        delay: 4,
+      });
+    }, sceneRef);
+    return () => ctx.revert();
+  }, []);
+  // const [liquid, setLiquid] = React.useState(false);
+  // React.useEffect(() => {
+  //   if (overlay) {
+  //     setTimeout(() => {
+  //       setLiquid(true);
+  //     }, 2500);
+  //   } else {
+  //     setLiquid(false);
+  //   }
+  // }, [overlay]);
+  React.useLayoutEffect(() => {
     gsap.to("#liquor", {
       opacity: 0,
-    });
-    gsap.to("#cloud", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
-        },
-        "100%": {
-          x: 0,
-        },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#whisp-lower", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
-        },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
     });
     gsap.to("#river", {
       opacity: 0,
     });
-
-    gsap.from(".play", {
-      duration: 2,
-      xPercent: 300,
-      ease: "power4",
-    });
-    // gsap.from("#greens1", {
-    //   xPercent: 1400,
-    //   transform: "scale(-1)",
-    // });
     gsap.from("#greens1", {
       keyframes: {
         "0%": { x: -520 },
@@ -148,17 +167,6 @@ export default function SceneOne({ ref }) {
       repeat: -1,
       duration: 4,
     });
-    // document.getElementById("greens1").style.animationDuration = "1s";
-
-    gsap.from(".next", {
-      duration: 4,
-      yPercent: 300,
-      ease: "power4",
-      delay: 4,
-    });
-    // gsap.from(".bottle", {
-    //   opacity: 0,
-    // });
     const scene = document.querySelector("#mainlogo");
     scene.addEventListener("click", () => {
       gsap.from("#liquor", {
@@ -186,18 +194,6 @@ export default function SceneOne({ ref }) {
         duration: 1,
       });
     });
-  }, []);
-  const [liquid, setLiquid] = React.useState(false);
-  React.useEffect(() => {
-    if (overlay) {
-      setTimeout(() => {
-        setLiquid(true);
-      }, 2500);
-    } else {
-      setLiquid(false);
-    }
-  }, [overlay]);
-  React.useEffect(() => {
     const greens1 = document.querySelector("#greens1");
     const river = document.querySelector("#hour-glass");
 
@@ -496,6 +492,7 @@ export default function SceneOne({ ref }) {
   return (
     <>
       <MouseParallaxContainer
+        ref={sceneRef}
         className="parallax"
         containerStyle={{
           height: "100vh",
@@ -573,10 +570,10 @@ export default function SceneOne({ ref }) {
                 right: "42%",
                 // zIndex: "3",
               }}
-              onClick={() => {
-                // console.log("irem");
-                setNote((o) => !o);
-              }}
+              // onClick={() => {
+              //   // console.log("irem");
+              //   setNote((o) => !o);
+              // }}
             >
               <img
                 src={BottleRum}
@@ -707,7 +704,7 @@ export default function SceneOne({ ref }) {
               Prev act
             </button>
           </Link>
-          {overlay && (
+          {/* {overlay && (
             <button
               onClick={() => {
                 setIsOpen(true);
@@ -718,7 +715,7 @@ export default function SceneOne({ ref }) {
             >
               Contact
             </button>
-          )}
+          )} */}
 
           {!overlay && (
             <button
@@ -753,6 +750,7 @@ export default function SceneOne({ ref }) {
             </Link>
           )}
         </div>
+        <Socials />
         <div
           style={{
             position: "absolute",
@@ -777,7 +775,7 @@ export default function SceneOne({ ref }) {
               display: "flex",
               padding: "0.8em",
               fontWeight: "bold",
-              zIndex:1
+              zIndex: 1,
             }}
           >
             {on ? <BsSoundwave /> : <BsPlay />}

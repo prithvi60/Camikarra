@@ -240,6 +240,7 @@ main {
   color: #715a28 !important;
   font-style: oblique;
   padding: 30px 16px !important ;
+  margin-top: 34px;
 }
 .card-body::-webkit-scrollbar {
   width: 0.1em;
@@ -383,4 +384,12 @@ svg :focus {
 #angel-wings,
 #angel-wings1 {
 display: none;
+}
+#body_1 {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+#owner,#old-man{
+  display: none;
 }

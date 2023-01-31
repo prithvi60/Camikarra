@@ -19,6 +19,7 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
+import Socials from "./Socials";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -55,281 +56,283 @@ export default function SceneOne({ ref }) {
 
   const [on, setOn] = React.useState(false);
   const lottieRef = React.useRef();
-  // React.useEffect(() => {
-  //   lottieRef.current.stop();
-  // }, []);
+  const sceneRef = React.useRef();
+
   React.useLayoutEffect(() => {
-    gsap.from("#group-of-men", {
-      delay: 2,
-      opacity: 0,
-      duration: 4,
-      ease: "power2",
-    });
-    // gsap.from("#angel", {
-    //   delay: 6,
-    //   opacity: 0,
-    //   yPercent: 50,
-    //   duration: 4,
-    //   ease: "power2",
-    // });
-    // gsap.from("#wings", {
-    //   delay: 6,
-    //   opacity: 0,
-    //   yPercent: 20,
-    //   duration: 4,
-    //   ease: "power2",
-    // });
-    gsap.to("#cloud", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
+    let ctx = gsap.context(() => {
+      gsap.from("#group-of-men", {
+        delay: 2,
+        opacity: 0,
+        duration: 4,
+        ease: "power2",
+      });
+      // gsap.from("#angel", {
+      //   delay: 6,
+      //   opacity: 0,
+      //   yPercent: 50,
+      //   duration: 4,
+      //   ease: "power2",
+      // });
+      // gsap.from("#wings", {
+      //   delay: 6,
+      //   opacity: 0,
+      //   yPercent: 20,
+      //   duration: 4,
+      //   ease: "power2",
+      // });
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { x: 0 },
+          "50%": {
+            x: 100,
+          },
+          "100%": {
+            x: 0,
+          },
         },
-        "100%": {
-          x: 0,
+        repeat: -1,
+        duration: 8,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 50,
+          },
         },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#whisp-lower1", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 50,
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 150 },
+          "100%": {
+            xPercent: 10,
+          },
         },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.to("#whisp-lower", {
-      keyframes: {
-        "0%": { xPercent: 150 },
-        "100%": {
-          xPercent: 10,
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.from(".play", {
+        duration: 2,
+        xPercent: 300,
+        ease: "power4",
+      });
+      gsap.from(".next", {
+        duration: 2,
+        yPercent: 300,
+        ease: "power4",
+        delay: 6,
+      });
+
+      gsap.to("#angel", {
+        opacity: 0,
+      });
+      gsap.to("#wings", {
+        opacity: 0,
+      });
+
+      gsap.from("#men1-hand", {
+        keyframes: {
+          "0%": { rotateZ: -20, translateX: -20, translateY: -10 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.from(".play", {
-      duration: 2,
-      xPercent: 300,
-      ease: "power4",
-    });
-    gsap.from(".next", {
-      duration: 2,
-      yPercent: 300,
-      ease: "power4",
-      delay: 6,
-    });
+        delay: 2,
 
-    gsap.to("#angel", {
-      opacity: 0,
-    });
-    gsap.to("#wings", {
-      opacity: 0,
-    });
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
 
-    gsap.from("#men1-hand", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -20, translateY: -10 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+      gsap.from("#men1-fist", {
+        keyframes: {
+          "0%": { rotateZ: -20, translateX: -40, translateY: -80 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-
-    gsap.from("#men1-fist", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -40, translateY: -80 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men1-cup", {
+        keyframes: {
+          "0%": { rotateZ: -20, translateX: -40, translateY: -80 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men1-cup", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -40, translateY: -80 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      // men 2
+      gsap.from("#men2-hand", {
+        keyframes: {
+          "0%": { rotateZ: 10, translateX: 20, translateY: -30 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    // men 2
-    gsap.from("#men2-hand", {
-      keyframes: {
-        "0%": { rotateZ: 10, translateX: 20, translateY: -30 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men2-handline", {
+        keyframes: {
+          "0%": { rotateZ: 10, translateX: 20, translateY: -30 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men2-handline", {
-      keyframes: {
-        "0%": { rotateZ: 10, translateX: 20, translateY: -30 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+
+      gsap.from("#men2-fist", {
+        keyframes: {
+          "0%": { rotateZ: 30, translateX: -30, translateY: -80 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-
-    gsap.from("#men2-fist", {
-      keyframes: {
-        "0%": { rotateZ: 30, translateX: -30, translateY: -80 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men2-cup", {
+        keyframes: {
+          "0%": { rotateZ: 5, translateX: 20, translateY: -30 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men2-cup", {
-      keyframes: {
-        "0%": { rotateZ: 5, translateX: 20, translateY: -30 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men2-lid", {
+        keyframes: {
+          "0%": { rotateZ: 5, translateX: 20, translateY: -30 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men2-lid", {
-      keyframes: {
-        "0%": { rotateZ: 5, translateX: 20, translateY: -30 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      // men 3
+      gsap.from("#men3-hand", {
+        keyframes: {
+          "0%": { rotateZ: 20, translateX: 20, translateY: -60 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    // men 3
-    gsap.from("#men3-hand", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 20, translateY: -60 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men3-handline", {
+        keyframes: {
+          "0%": { rotateZ: 16, translateX: 20, translateY: -60 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men3-handline", {
-      keyframes: {
-        "0%": { rotateZ: 16, translateX: 20, translateY: -60 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+
+      gsap.from("#men3-fist", {
+        keyframes: {
+          "0%": { rotateZ: 20, translateX: 40, translateY: -80 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-
-    gsap.from("#men3-fist", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 40, translateY: -80 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#men3-cup", {
+        keyframes: {
+          "0%": { rotateZ: 20, translateX: 40, translateY: -80 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      delay: 2,
+        delay: 2,
 
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#men3-cup", {
-      keyframes: {
-        "0%": { rotateZ: 20, translateX: 40, translateY: -80 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      delay: 2,
-
-      yoyo: true,
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
+        yoyo: true,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+    }, sceneRef);
+    return () => ctx.revert();
   }, []);
   const [speed, setSpeed] = React.useState(1);
   React.useEffect(() => {
@@ -471,14 +474,6 @@ export default function SceneOne({ ref }) {
       lottieRef.current.setSpeed(speed);
     }
   }, [speed]);
-  // React.useEffect(() => {
-  //   const pots = document.querySelector("#pots");
-
-  //   pots.addEventListener("click", () => {
-  //     setSpeed((a) => a + 1);
-  //   });
-  // }, []);
-
   React.useEffect(() => {
     if (on) {
       playmusic();
@@ -496,6 +491,7 @@ export default function SceneOne({ ref }) {
   return (
     <MouseParallaxContainer
       className="parallax"
+      ref={sceneRef}
       containerStyle={{
         height: "100vh",
         width: "100vw",
@@ -569,6 +565,7 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
+        <Socials />
         <button
           className="btn btn-three next"
           style={{ fontWeight: "bold", fontSize: "large", color: "white" }}

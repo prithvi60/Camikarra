@@ -19,6 +19,7 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
+import Socials from "./Socials";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -46,7 +47,7 @@ const settings = {
 };
 export default function SceneOne({ ref }) {
   // const timeLine = React.useRef();
-
+  const sceneRef = React.useRef();
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
   });
@@ -62,97 +63,74 @@ export default function SceneOne({ ref }) {
   }, []);
   // console.log("default set", isOpen);
   React.useLayoutEffect(() => {
-    gsap.to("#cloud", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
+    let ctx = gsap.context(() => {
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { x: 0 },
+          "50%": {
+            x: 100,
+          },
+          "100%": {
+            x: 0,
+          },
         },
-        "100%": {
-          x: 0,
+        repeat: -1,
+        duration: 8,
+      });
+      gsap.to("#old-man", {
+        opacity: 0,
+      });
+      gsap.to("#owner", {
+        opacity: 0,
+      });
+
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
         },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#old-man", {
-      opacity: 0,
-    });
-    gsap.to("#owner", {
-      opacity: 0,
-    });
-    // gsap.to("#cloud", {
-    //   keyframes: {
-    //     "0%": { xPercent: 0 },
-    //     "50%": {
-    //       xPercent: 100,
-    //     },
-    //     "100%": {
-    //       xPercent: 0,
-    //     },
-    //   },
-    //   repeat: -1,
-    //   yoyo:true,
-    //   duration: 60,
-    // });
-    gsap.to("#whisp-lower1", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
         },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.to("#whisp-lower", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
-        },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
 
-    gsap.from(".play", {
-      duration: 2,
-      xPercent: 300,
-      ease: "power4",
-    });
-    gsap.from(".next", {
-      duration: 2,
-      yPercent: 300,
-      ease: "power4",
-      delay: 6,
-    });
+      gsap.from(".play", {
+        duration: 2,
+        xPercent: 300,
+        ease: "power4",
+      });
+      gsap.from(".next", {
+        duration: 2,
+        yPercent: 300,
+        ease: "power4",
+        delay: 6,
+      });
 
-    gsap.to("#greens", {
-      opacity: 0,
-    });
-    // gsap.from("#sugarcane", {
-    //   keyframes: {
-    //     "0%": { transform: "skew(1deg)" },
+      gsap.to("#greens", {
+        opacity: 0,
+      });
 
-    //     "100%": {
-    //       transform: "skew(-1deg)",
-    //     },
-    //   },
-    //   yoyo: true,
-    //   repeat: -1,
-    //   duration: 1,
-    //   ease: "elastic",
-    // });
-
-    gsap.to("#owner", {
-      opacity: 0,
-    });
-    gsap.to("#old-man", {
-      opacity: 0,
-    });
+      gsap.to("#owner", {
+        opacity: 0,
+      });
+      gsap.to("#old-man", {
+        opacity: 0,
+      });
+    }, sceneRef);
+    return () => ctx.revert();
   }, []);
   // Interactions
   React.useLayoutEffect(() => {
@@ -168,8 +146,6 @@ export default function SceneOne({ ref }) {
       ease: "back.out(1.7)",
     });
     sky.addEventListener("mousedown", () => {
-      console.log("dn");
-
       document.getElementById("sugarcane").style.animationDuration = "1s";
       gsap.to("#cloud", {
         keyframes: {
@@ -359,9 +335,15 @@ export default function SceneOne({ ref }) {
       setOn(true);
     }, 1500);
   }, []);
+  React.useEffect(() => {
+    gsap.to("#greens", {
+      opacity: 0,
+    });
+  }, []);
 
   return (
     <MouseParallaxContainer
+      ref={sceneRef}
       className="parallax"
       containerStyle={{
         height: "100vh",
@@ -459,6 +441,7 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
+        <Socials />
         <Link to="/">
           <button
             className="btn btn-three next"

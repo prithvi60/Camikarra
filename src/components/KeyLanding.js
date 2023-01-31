@@ -1,6 +1,8 @@
 import React from "react";
 import { gsap } from "gsap";
 import { ReactComponent as KeyIlustration } from "../assets/scene5/five.svg";
+// import { ReactComponent as KeyIlustration } from "../assets/scene5/scene5.svg";
+
 import HindiLogo from "../assets/hindilogo.png";
 import EnglishLogo from "../assets/englishlogo.png";
 
@@ -16,6 +18,7 @@ import { Link } from "react-router-dom";
 
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import { MouseParallaxContainer } from "react-parallax-mouse";
+import Socials from "./Socials";
 
 export default function KeyLanding({ ref }) {
   // const timeLine = React.useRef();
@@ -95,7 +98,9 @@ export default function KeyLanding({ ref }) {
           zIndex: "2",
         }}
       > */}
+      <div id={"illus"}>
       <KeyIlustration />
+      </div>
 
       <div
         style={{
@@ -125,6 +130,7 @@ export default function KeyLanding({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
+        <Socials />
         <Link to="/one">
           <button
             className="btn btn-three next"

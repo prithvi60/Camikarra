@@ -18,6 +18,7 @@ import {
 } from "react-parallax-mouse";
 import { BsSoundwave, BsPlay } from "react-icons/bs";
 import Captions from "./Captions";
+import Socials from "./Socials";
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -44,6 +45,8 @@ const settings = {
   },
 };
 export default function SceneOne({ ref }) {
+  const sceneRef = React.useRef();
+
   const seasonsRef = React.useRef();
   const manRef = React.useRef();
   const [playmusic, { stop }] = useSound(music, {
@@ -61,118 +64,124 @@ export default function SceneOne({ ref }) {
     }, 8000);
   }, []);
   React.useLayoutEffect(() => {
-    gsap.from("#owner", {
-      opacity: 1,
-      delay: 20,
-    });
-    gsap.to("#cloud", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
+    let ctx = gsap.context(() => {
+      gsap.from("#owner", {
+        opacity: 1,
+        delay: 20,
+      });
+      gsap.to("#cloud", {
+        keyframes: {
+          "0%": { x: 0 },
+          "50%": {
+            x: 100,
+          },
+          "100%": {
+            x: 0,
+          },
         },
-        "100%": {
-          x: 0,
+        repeat: -1,
+        duration: 8,
+      });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
         },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#whisp-lower1", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
         },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.to("#whisp-lower", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.from(".play", {
+        duration: 2,
+        xPercent: 300,
+        ease: "power4",
+      });
+      gsap.from(".next", {
+        duration: 2,
+        yPercent: 300,
+        ease: "power4",
+        delay: 6,
+      });
+      gsap.from("#owner-head", {
+        keyframes: {
+          "0%": { x: -30, y: 5, rotate: -10 },
+          "100%": {
+            rotate: 0,
+          },
         },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.from(".play", {
-      duration: 2,
-      xPercent: 300,
-      ease: "power4",
-    });
-    gsap.from(".next", {
-      duration: 2,
-      yPercent: 300,
-      ease: "power4",
-      delay: 6,
-    });
-    gsap.from("#owner-head", {
-      keyframes: {
-        "0%": { x: -30, y: 5, rotate: -10 },
-        "100%": {
-          rotate: 0,
+        duration: 4,
+        yoyo: true,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#owner-hand", {
+        keyframes: {
+          "0%": { rotateZ: -20, translateX: -300, translateY: -20 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      duration: 4,
-      yoyo: true,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#owner-hand", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -300, translateY: -20 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
+        duration: 4,
+        repeat: -1,
+        yoyo: true,
+        ease: "power2",
+      });
+      gsap.from("#owner-glass", {
+        keyframes: {
+          "0%": { rotateZ: -20, translateX: -320, translateY: -100 },
+          "100%": {
+            x: 0,
+            rotateZ: 0,
+            translateY: 0,
+          },
         },
-      },
-      duration: 4,
-      repeat: -1,
-      yoyo: true,
-      ease: "power2",
-    });
-    gsap.from("#owner-glass", {
-      keyframes: {
-        "0%": { rotateZ: -20, translateX: -320, translateY: -100 },
-        "100%": {
-          x: 0,
-          rotateZ: 0,
-          translateY: 0,
-        },
-      },
-      yoyo: true,
+        yoyo: true,
 
-      duration: 4,
-      repeat: -1,
-      ease: "power2",
-    });
-    gsap.from("#owner", {
-      delay: 6,
-      opacity: 0,
-      duration: 6,
-      ease: "power2",
-    });
-    gsap.from("#greens", {
-      keyframes: {
-        "0%": { xPercent: 0 },
-        "50%": {
-          xPercent: 0.2,
+        duration: 4,
+        repeat: -1,
+        ease: "power2",
+      });
+      gsap.from("#owner", {
+        delay: 6,
+        opacity: 0,
+        duration: 6,
+        ease: "power2",
+      });
+      gsap.from("#greens", {
+        keyframes: {
+          "0%": { xPercent: 0 },
+          "50%": {
+            xPercent: 0.2,
+          },
+          "100%": {
+            xPercent: 0,
+          },
         },
-        "100%": {
-          xPercent: 0,
-        },
-      },
-      yoyo: true,
-      repeat: -1,
-      duration: 4,
-    });
+        yoyo: true,
+        repeat: -1,
+        duration: 4,
+      });
+    }, sceneRef);
+    return () => ctx.revert();
+  }, []);
 
+  // Interactions
+  React.useLayoutEffect(() => {
     gsap.to("#grp1", {
       opacity: 0,
     });
@@ -190,7 +199,7 @@ export default function SceneOne({ ref }) {
       opacity: 0,
     });
     gsap.to("#grp6", {
-      opacity: 0,
+      opacity: 0, 
     });
     gsap.to("#grp7", {
       opacity: 0,
@@ -204,10 +213,6 @@ export default function SceneOne({ ref }) {
     gsap.to("#grp10", {
       opacity: 0,
     });
-  }, []);
-
-  // Interactions
-  React.useLayoutEffect(() => {
     const bottle1 = document.querySelector("#grp1");
     const bottle2 = document.querySelector("#grp2");
     const bottle3 = document.querySelector("#grp3");
@@ -588,6 +593,7 @@ export default function SceneOne({ ref }) {
       <MouseParallaxChild
         factorX={0}
         factorY={0.05}
+        ref={sceneRef}
         containerStyle={{
           height: "100vh",
           width: "100vw",
@@ -701,6 +707,7 @@ export default function SceneOne({ ref }) {
         >
           replay seasons
         </button> */}
+        <Socials />
         <Link to="/three">
           <button
             className="btn btn-three next"
