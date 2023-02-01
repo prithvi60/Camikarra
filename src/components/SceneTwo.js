@@ -12,7 +12,10 @@ import music from "../assets/music.mp3";
 import click from "../assets/click.wav";
 import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
-import shareAni from "../assets/scene2/angelshare.json";
+import shareAni from "../assets/scene3/liquiddrops.json";
+import angel2Ani from "../assets/angels2.json";
+// import cloudAni from "../assets/cloud2.json";
+
 import {
   MouseParallaxChild,
   MouseParallaxContainer,
@@ -56,6 +59,10 @@ export default function SceneOne({ ref }) {
 
   const [on, setOn] = React.useState(false);
   const lottieRef = React.useRef();
+  const angelRef = React.useRef();
+  // const cloudRef = React.useRef();
+
+
   const sceneRef = React.useRef();
 
   React.useLayoutEffect(() => {
@@ -80,19 +87,19 @@ export default function SceneOne({ ref }) {
       //   duration: 4,
       //   ease: "power2",
       // });
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { x: 0 },
-          "50%": {
-            x: 100,
-          },
-          "100%": {
-            x: 0,
-          },
-        },
-        repeat: -1,
-        duration: 8,
-      });
+      // gsap.to("#cloud", {
+      //   keyframes: {
+      //     "0%": { x: 0 },
+      //     "50%": {
+      //       x: 100,
+      //     },
+      //     "100%": {
+      //       x: 0,
+      //     },
+      //   },
+      //   repeat: -1,
+      //   duration: 8,
+      // });
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -345,7 +352,29 @@ export default function SceneOne({ ref }) {
     const pots = document.querySelector("#pots");
     const angel = document.querySelector("#angel");
     const greens = document.querySelector("#greens");
-
+    let shareHover = gsap.to(lottieRef.current, {
+      keyframes: {
+        "0%": { y: 0 },
+        "100%": {
+          y: 20,
+        },
+      },
+      repeat: -1,
+      duration: 2,
+    });
+    let cloudHover = gsap
+      .from("#cloud", {
+        keyframes: {
+          "0%": { xPercent: -80 },
+          "100%": {
+            xPercent: 84,
+          },
+        },
+        repeat: -1,
+        duration: 20,
+        ease: "power0",
+      })
+      .progress(0.5);
     let potshover1 = gsap.to("#pots", 0.1, {
       x: "+=20",
       yoyo: true,
@@ -366,6 +395,7 @@ export default function SceneOne({ ref }) {
       scale: 1.2,
       duration: 0.6,
       stagger: 0.1,
+      zIndex:2,
       ease: "back.out(1.7)",
     });
 
@@ -378,10 +408,12 @@ export default function SceneOne({ ref }) {
       potshover2.reverse();
     });
     pots.addEventListener("mousedown", () => {
-      setSpeed(8);
+      setSpeed(4);
+      shareHover.play();
     });
     pots.addEventListener("mouseup", () => {
       setSpeed(1);
+      shareHover.reverse();
     });
     angel.addEventListener("mousemove", () => {
       angelhover.play();
@@ -394,19 +426,8 @@ export default function SceneOne({ ref }) {
 
     greens.addEventListener("mousedown", () => {
       document.getElementById("greens").style.animationDuration = "1s";
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
-          "100%": {
-            xPercent: 85,
-          },
-        },
-        repeat: -1,
-        duration: 4.5,
-      });
+      cloudHover.totalDuration(4.5);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -432,19 +453,8 @@ export default function SceneOne({ ref }) {
     });
     greens.addEventListener("mouseup", () => {
       document.getElementById("greens").style.animationDuration = "2.5s";
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: 0 },
-          "50%": {
-            xPercent: 100,
-          },
-          "100%": {
-            xPercent: 0,
-          },
-        },
-        repeat: -1,
-        duration: 30,
-      });
+      cloudHover.totalDuration(20);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -520,19 +530,7 @@ export default function SceneOne({ ref }) {
         >
           <ParticleBackground settings={settings} />
         </div>
-        <div
-          style={{
-            position: "absolute",
-            top: "5%",
-            right: "10%",
-            width: "100%",
-            height: "100%",
-            scaleX: "0.8",
-            pointerEvents: "none",
-          }}
-        >
-          <Lottie animationData={shareAni} loop={true} lottieRef={lottieRef} />
-        </div>
+
         <SecondScene />
       </MouseParallaxChild>
       <Captions scene={1} />
@@ -648,6 +646,45 @@ export default function SceneOne({ ref }) {
           />
         </>
       )}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "25%",
+          left: "0%",
+          width: "100%",
+          height: "100%",
+          scale: "0.4",
+          pointerEvents: "none",
+        }}
+      >
+        <Lottie animationData={shareAni} loop={true} lottieRef={lottieRef} />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: "1%",
+          left: "0%",
+          width: "100%",
+          height: "100%",
+          pointerEvents: "none",
+          scale:"1.2"
+        }}
+      >
+        <Lottie animationData={angel2Ani} loop={true} lottieRef={angelRef} />
+      </div>
+      {/* <div
+        style={{
+          position: "absolute",
+          bottom: "1%",
+          left: "0%",
+          width: "100%",
+          height: "100%",
+          pointerEvents: "none",
+          zIndex:1
+        }}
+      >
+        <Lottie animationData={cloudAni} loop={true} lottieRef={cloudRef} />
+      </div> */}
     </MouseParallaxContainer>
   );
 }

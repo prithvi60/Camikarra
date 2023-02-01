@@ -64,19 +64,19 @@ export default function SceneOne({ ref }) {
   // console.log("default set", isOpen);
   React.useLayoutEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { x: 0 },
-          "50%": {
-            x: 100,
-          },
-          "100%": {
-            x: 0,
-          },
-        },
-        repeat: -1,
-        duration: 8,
-      });
+      // gsap.to("#cloud", {
+      //   keyframes: {
+      //     "0%": { x: 0 },
+      //     "50%": {
+      //       x: 100,
+      //     },
+      //     "100%": {
+      //       x: 0,
+      //     },
+      //   },
+      //   repeat: -1,
+      //   duration: 8,
+      // });
       gsap.to("#old-man", {
         opacity: 0,
       });
@@ -136,7 +136,6 @@ export default function SceneOne({ ref }) {
   React.useLayoutEffect(() => {
     const cane = document.querySelector("#sugarcane");
     const sky = document.querySelector("#sky");
-
     const peacock = document.querySelector("#peacock");
 
     let birdhover = gsap.from("#peacock", {
@@ -145,21 +144,22 @@ export default function SceneOne({ ref }) {
       stagger: 0.1,
       ease: "back.out(1.7)",
     });
-    sky.addEventListener("mousedown", () => {
-      document.getElementById("sugarcane").style.animationDuration = "1s";
-      gsap.to("#cloud", {
+    let cloudHover = gsap
+      .from("#cloud", {
         keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
+          "0%": { xPercent: -80 },
           "100%": {
-            xPercent: 85,
+            xPercent: 84,
           },
         },
         repeat: -1,
-        duration: 4.5,
-      });
+        duration: 30,
+        ease: "power0",
+      })
+      .progress(0.5);
+    sky.addEventListener("mousedown", () => {
+      document.getElementById("sugarcane").style.animationDuration = "1s";
+      cloudHover.totalDuration(4.5).play();
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -187,32 +187,9 @@ export default function SceneOne({ ref }) {
       console.log("up");
 
       document.getElementById("sugarcane").style.animationDuration = "2.5s";
-      // gsap.to("#cloud", {
-      //   keyframes: {
-      //     "0%": { xPercent: 0 },
-      //     "50%": {
-      //       xPercent: 100,
-      //     },
-      //     "100%": {
-      //       xPercent: 0,
-      //     },
-      //   },
-      //   repeat: -1,
-      //   duration: 30,
-      // });
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: 0 },
-          "50%": {
-            xPercent: 100,
-          },
-          "100%": {
-            xPercent: 0,
-          },
-        },
-        repeat: -1,
-        duration: 30,
-      });
+
+      cloudHover.totalDuration(30).play();
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -239,19 +216,8 @@ export default function SceneOne({ ref }) {
 
     cane.addEventListener("mousedown", () => {
       document.getElementById("sugarcane").style.animationDuration = "1s";
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
-          "100%": {
-            xPercent: 85,
-          },
-        },
-        repeat: -1,
-        duration: 4.5,
-      });
+      cloudHover.totalDuration(4.5).play();
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -277,20 +243,8 @@ export default function SceneOne({ ref }) {
     });
     cane.addEventListener("mouseup", () => {
       document.getElementById("sugarcane").style.animationDuration = "2.5s";
+      cloudHover.totalDuration(30).play();
 
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: 0 },
-          "50%": {
-            xPercent: 100,
-          },
-          "100%": {
-            xPercent: 0,
-          },
-        },
-        repeat: -1,
-        duration: 30,
-      });
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -373,42 +327,7 @@ export default function SceneOne({ ref }) {
         >
           <ParticleBackground settings={settings} />
         </div>
-        <div
-          style={{
-            position: "absolute",
-            bottom: "-2%",
-            right: "5%",
-            pointerEvents: "none",
-            transform: "scale(1.1)",
-          }}
-        >
-          <Lottie
-            animationData={ownerAni}
-            loop={true}
-            lottieRef={ownerRef}
-            onLoopComplete={() => {
-              ownerRef.current.goToAndPlay(1750, false);
-            }}
-          />
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            bottom: "-2%",
 
-            pointerEvents: "none",
-            transform: "scale(1.1)",
-          }}
-        >
-          <Lottie
-            animationData={oldmanAni}
-            loop={true}
-            lottieRef={oldmanRef}
-            onLoopComplete={() => {
-              oldmanRef.current.goToAndPlay(1750, false);
-            }}
-          />
-        </div>
         <FirstScene />
       </MouseParallaxChild>
       <Captions scene={0} />
@@ -445,7 +364,12 @@ export default function SceneOne({ ref }) {
         <Link to="/">
           <button
             className="btn btn-three next"
-            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            style={{
+              fontWeight: "bold",
+              fontSize: "la rge",
+              color: "white",
+              zIndex: 5,
+            }}
             onClick={() => {
               playClick();
               stop();
@@ -457,7 +381,12 @@ export default function SceneOne({ ref }) {
         <Link to="/two">
           <button
             className="btn btn-three next"
-            style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
+            style={{
+              fontWeight: "bold",
+              fontSize: "large",
+              color: "white",
+              zIndex: 5,
+            }}
             onClick={() => {
               playClick();
               stop();
@@ -485,6 +414,42 @@ export default function SceneOne({ ref }) {
           float={true}
         />
       )}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "-2.5%",
+          right: "5%",
+          pointerEvents: "none",
+          transform: "scale(1.1)",
+        }}
+      >
+        <Lottie
+          animationData={ownerAni}
+          loop={true}
+          lottieRef={ownerRef}
+          onLoopComplete={() => {
+            ownerRef.current.goToAndPlay(1750, false);
+          }}
+        />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: "-2.5%",
+
+          pointerEvents: "none",
+          transform: "scale(1.1)",
+        }}
+      >
+        <Lottie
+          animationData={oldmanAni}
+          loop={true}
+          lottieRef={oldmanRef}
+          onLoopComplete={() => {
+            oldmanRef.current.goToAndPlay(1750, false);
+          }}
+        />
+      </div>
     </MouseParallaxContainer>
   );
 }

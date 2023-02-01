@@ -79,19 +79,6 @@ export default function SceneOne({ ref }) {
 
   React.useLayoutEffect(() => {
     let ctx = gsap.context(() => {
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { x: 0 },
-          "50%": {
-            x: 100,
-          },
-          "100%": {
-            x: 0,
-          },
-        },
-        repeat: -1,
-        duration: 8,
-      });
       gsap.to("#whisp-lower", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -133,6 +120,19 @@ export default function SceneOne({ ref }) {
   //   }
   // }, [overlay]);
   React.useLayoutEffect(() => {
+    let cloudHover = gsap
+      .from("#cloud", {
+        keyframes: {
+          "0%": { xPercent: -80 },
+          "100%": {
+            xPercent: 84,
+          },
+        },
+        repeat: -1,
+        duration: 20,
+        ease: "power0",
+      })
+      .progress(0.5);
     gsap.to("#liquor", {
       opacity: 0,
     });
@@ -232,19 +232,8 @@ export default function SceneOne({ ref }) {
         repeat: -1,
         duration: 2,
       });
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
-          "100%": {
-            xPercent: 85,
-          },
-        },
-        repeat: -1,
-        duration: 4.5,
-      });
+      cloudHover.totalDuration(4.5);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -298,19 +287,8 @@ export default function SceneOne({ ref }) {
         duration: 4,
       });
 
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { x: 0 },
-          "50%": {
-            x: 140,
-          },
-          "100%": {
-            x: 0,
-          },
-        },
-        repeat: -1,
-        duration: 3,
-      });
+      cloudHover.totalDuration(20);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -365,19 +343,8 @@ export default function SceneOne({ ref }) {
         duration: 2,
       });
 
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
-          "100%": {
-            xPercent: 85,
-          },
-        },
-        repeat: -1,
-        duration: 4.5,
-      });
+      cloudHover.totalDuration(4.5);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -430,19 +397,8 @@ export default function SceneOne({ ref }) {
         repeat: -1,
         duration: 4,
       });
-      gsap.to("#cloud", {
-        keyframes: {
-          "0%": { xPercent: 0 },
-          "50%": {
-            xPercent: 100,
-          },
-          "100%": {
-            xPercent: 0,
-          },
-        },
-        repeat: -1,
-        duration: 30,
-      });
+      cloudHover.totalDuration(20);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 10 },
@@ -561,110 +517,6 @@ export default function SceneOne({ ref }) {
             <Captions scene={caption} />
           </div>
         </MouseParallaxChild>
-        {overlay && (
-          <>
-            <div
-              style={{
-                position: "absolute",
-                bottom: "20%",
-                right: "42%",
-                // zIndex: "3",
-              }}
-              // onClick={() => {
-              //   // console.log("irem");
-              //   setNote((o) => !o);
-              // }}
-            >
-              <img
-                src={BottleRum}
-                alt="logo"
-                style={{ width: "220px", height: "400px" }}
-              />
-            </div>
-
-            {/* <div
-              className="bottle"
-              id={"model"}
-              style={{
-                position: "absolute",
-                bottom: "20%",
-                right: "20%",
-                zIndex: "3",
-              }}
-              onClick={() => {
-                // console.log("irem");
-                setNote((o) => !o);
-              }}
-            >
-              <CamikarraBottle />
-            </div> */}
-            {/* {liquid && (
-              <div
-                id={"liquor"}
-                style={{
-                  position: "absolute",
-                  bottom: "25%",
-                  right: "45.2%",
-                  borderRadius: "18px",
-                  zIndex: "2",
-                  maxWidth: "9.3vw",
-                  maxHeight: "30vh",
-                  // height: "60vh", width: "60vw",
-                  overflow: "hidden",
-                }}
-              >
-                <Liquor />
-              </div>
-            )} */}
-          </>
-        )}
-        {overlay && (
-          <>
-            <div
-              style={{
-                position: "absolute",
-                top: "10%",
-                left: "4%",
-              }}
-            >
-              <Card
-                body
-                style={{
-                  maxWidth: "30vw",
-                  minWidth: "60%",
-                  marginLeft: "6px",
-                  position: "relative",
-                  background: "transparent",
-                  borderColor: "transparent",
-                }}
-              >
-                <KeyImages image={0} />
-              </Card>
-            </div>
-            <div
-              className="bottle"
-              style={{
-                position: "absolute",
-                top: "10%",
-                right: "4%",
-              }}
-            >
-              <Card
-                body
-                style={{
-                  maxWidth: "30vw",
-                  minWidth: "60%",
-                  background: "transparent",
-                  borderColor: "transparent",
-                  marginLeft: "6px",
-                  position: "relative",
-                }}
-              >
-                <KeyImages image={1} />
-              </Card>
-            </div>
-          </>
-        )}
 
         <div
           style={{
@@ -704,18 +556,6 @@ export default function SceneOne({ ref }) {
               Prev act
             </button>
           </Link>
-          {/* {overlay && (
-            <button
-              onClick={() => {
-                setIsOpen(true);
-                playClick();
-              }}
-              className="btn btn-three next"
-              style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-            >
-              Contact
-            </button>
-          )} */}
 
           {!overlay && (
             <button
@@ -848,42 +688,108 @@ export default function SceneOne({ ref }) {
             <div
               style={{
                 position: "absolute",
-                // top: "30%",
-                right: "18%",
-                textAlign: "center",
-                color: "white",
+                width: "100%",
+                height: "100vh",
+                top: "8%",
                 display: "flex",
-                // padding: "0.8em",
-                fontWeight: "bold",
-                transform: "translateY(-63vh)",
+                justifyContent: "center",
+                gap: "12%",
+                alignItems: "center",
+                pointerEvents: "none",
               }}
             >
-              <img
-                src={HindiLogo}
-                alt="logo"
-                style={{ width: "260px", height: "140px" }}
-              />
+              <div
+                className="prevent-select "
+                style={{
+                  position: "absolute",
+                  left: "8%",
+                }}
+              >
+                <img
+                  src={EnglishLogo}
+                  alt="englishlogo"
+                  style={{ maxWidth: "350px", maxHeight: "350px" }}
+                />
+              </div>
+              <div
+                className="prevent-select "
+                style={{
+                  position: "absolute",
+                  right: "10%",
+                }}
+              >
+                <img
+                  src={HindiLogo}
+                  alt="logo"
+                  style={{ maxWidth: "260px", maxHeight: "140px" }}
+                />
+              </div>
             </div>
+          </>
+        )}
+        {overlay && (
+          <>
             <div
               style={{
                 position: "absolute",
-                // top: "0%",
-                left: "12%",
-                textAlign: "center",
-                color: "white",
+                top: "-5%",
+                left: "4%",
+              }}
+            >
+              <Card
+                body
+                style={{
+                  maxWidth: "30vw",
+                  minWidth: "60%",
+                  marginLeft: "6px",
+                  position: "relative",
+                  background: "transparent",
+                  borderColor: "transparent",
+                }}
+              >
+                <KeyImages image={0} />
+              </Card>
+            </div>
+            <div
+              className="bottle"
+              style={{
+                position: "absolute",
+                top: "-5%",
+
+                right: "4%",
+              }}
+            >
+              <Card
+                body
+                style={{
+                  maxWidth: "30vw",
+                  minWidth: "60%",
+                  background: "transparent",
+                  borderColor: "transparent",
+                  marginLeft: "6px",
+                  position: "relative",
+                }}
+              >
+                <KeyImages image={1} />
+              </Card>
+            </div>
+          </>
+        )}
+        {overlay && (
+          <>
+            <div
+              style={{
+                position: "absolute",
+                bottom: "20%",
                 display: "flex",
-                // padding: "0.8em",
-                fontWeight: "bold",
-                transform: "translateY(-78vh)",
+                justifyContent: "center",
+                width:"100%"
               }}
             >
               <img
-                src={EnglishLogo}
-                alt="englishlogo"
-                style={{
-                  width: "350px",
-                  height: "350px",
-                }}
+                src={BottleRum}
+                alt="logo"
+                style={{ width: "220px", height: "400px" }}
               />
             </div>
           </>

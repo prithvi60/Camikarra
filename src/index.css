@@ -240,7 +240,8 @@ main {
   color: #715a28 !important;
   font-style: oblique;
   padding: 30px 16px !important ;
-  margin-top: 34px;
+  margin-top: 26%;
+  margin-bottom: 25%;
 }
 .card-body::-webkit-scrollbar {
   width: 0.1em;
@@ -251,8 +252,8 @@ main {
 }
 
 .card-body::-webkit-scrollbar-thumb {
-  background-color: #85692e;
-  outline: 1px solid #85692e;
+  background-color: transparent;
+  outline: 1px solid transparent;
 }
 .card-body::-webkit-scrollbar-thumb {
   height: 50px;
@@ -260,8 +261,8 @@ main {
   border-color: transparent;
   border-style: solid;
   border-width: 1px 2px;
-  background-color: #aaa;
-  background-image: linear-gradient(360deg, #fff 60%, #aaa 60%);
+  background-color: transparent;
+  /* background-image: linear-gradient(360deg, #fff 60%, #aaa 60%); */
 }
 /* Scroll Rod */
 .scroll-container svg:first-child {
@@ -380,16 +381,20 @@ svg :focus {
 #outline-man {
   display: none;
 }
-#angel,
-#angel-wings,
-#angel-wings1 {
-display: none;
-}
+
 #body_1 {
   display: block;
   width: 100vw;
   height: 100vh;
 }
-#owner,#old-man{
+#owner,
+#old-man {
   display: none;
 }
+#wings,
+#angel {
+  display: none;
+}
+/* #clouded {
+  display: none;
+} */

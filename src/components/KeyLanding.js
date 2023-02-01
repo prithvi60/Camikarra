@@ -99,7 +99,7 @@ export default function KeyLanding({ ref }) {
         }}
       > */}
       <div id={"illus"}>
-      <KeyIlustration />
+        <KeyIlustration />
       </div>
 
       <div
@@ -143,46 +143,44 @@ export default function KeyLanding({ ref }) {
             Begin journey...
           </button>
         </Link>
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          width: "100%",
+          height: "100vh",
+          top: "8%",
+          display: "flex",
+          justifyContent: "center",
+          gap: "12%",
+          alignItems: "center",
+        }}
+      >
         <div
           style={{
             position: "absolute",
-            // top: "30%",
-            right: "10%",
-            textAlign: "center",
-            color: "white",
-            display: "flex",
-            // padding: "0.8em",
-            fontWeight: "bold",
-            transform:"translateY(-48vh)"
-          }}
-        >
-          <img
-            src={HindiLogo}
-            alt="logo"
-            style={{ width: "260px", height: "140px" }}
-          />
-        </div>
-        <div
-          style={{
-            position: "absolute",
-            // top: "0%",
-            left: "10%",
-            textAlign: "center",
-            color: "white",
-            display: "flex",
-            // padding: "0.8em",
-            fontWeight: "bold",
-            transform:"translateY(-64vh)"
+            left: "8%",
           }}
         >
           <img
             src={EnglishLogo}
             alt="englishlogo"
-            style={{ width: "350px", height: "350px" }}
+            style={{ maxWidth: "350px", maxHeight: "350px" }}
+          />
+        </div>
+        <div
+          style={{
+            position: "absolute",
+            right: "10%",
+          }}
+        >
+          <img
+            src={HindiLogo}
+            alt="logo"
+            style={{ maxWidth: "260px", maxHeight: "140px" }}
           />
         </div>
       </div>
-      {/* </div> */}
     </MouseParallaxContainer>
   );
 }

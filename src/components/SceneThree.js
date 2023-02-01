@@ -9,7 +9,8 @@ import { Link } from "react-router-dom";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import Lottie from "lottie-react";
-import shareAni from "../assets/scene2/angelshare.json";
+import shareAni from "../assets/scene3/liquiddrops.json";
+
 import angelsAni from "../assets/scene3/angels.json";
 
 import {
@@ -64,73 +65,77 @@ export default function SceneOne({ ref }) {
   }, []);
   React.useLayoutEffect(() => {
     let ctx = gsap.context(() => {
+      // gsap.to("#clouds", {
+      //   keyframes: {
+      //     "0%": { x: 0 },
+      //     "50%": {
+      //       x: 100,
+      //     },
+      //     "100%": {
+      //       x: 0,
+      //     },
+      //   },
+      //   repeat: -1,
+      //   duration: 8,
+      // });
+      gsap.to("#whisp-lower1", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
+      gsap.to("#whisp-lower", {
+        keyframes: {
+          "0%": { xPercent: 10 },
+          "100%": {
+            xPercent: 150,
+          },
+        },
+        repeat: -1,
+        yoyo: true,
+        duration: 30,
+      });
 
 
-    gsap.to("#clouds", {
-      keyframes: {
-        "0%": { x: 0 },
-        "50%": {
-          x: 100,
-        },
-        "100%": {
-          x: 0,
-        },
-      },
-      repeat: -1,
-      duration: 8,
-    });
-    gsap.to("#whisp-lower1", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
-        },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
-    gsap.to("#whisp-lower", {
-      keyframes: {
-        "0%": { xPercent: 10 },
-        "100%": {
-          xPercent: 150,
-        },
-      },
-      repeat: -1,
-      yoyo: true,
-      duration: 30,
-    });
 
-    gsap.from(".play", {
-      duration: 2,
-      xPercent: 300,
-      ease: "power4",
-    });
-    gsap.from(".next", {
-      duration: 2,
-      yPercent: 300,
-      ease: "power4",
-      delay: 6,
-    });
+      gsap.from(".play", {
+        duration: 2,
+        xPercent: 300,
+        ease: "power4",
+      });
+      gsap.from(".next", {
+        duration: 2,
+        yPercent: 300,
+        ease: "power4",
+        delay: 6,
+      });
 
-    // gsap.from("#pot", {
-    //   keyframes: {
-    //     "0%": { rotateZ: 20 },
-    //     "100%": {
-    //       rotateZ: 15,
-    //     },
-    //   },
-    //   yoyo: true,
-    //   duration: 2,
-    //   repeat: -1,
-    //   ease: "power2",
-    // });
-  }, sceneRef);
-  return () => ctx.revert();
+      // gsap.from("#pot", {
+      //   keyframes: {
+      //     "0%": { rotateZ: 20 },
+      //     "100%": {
+      //       rotateZ: 15,
+      //     },
+      //   },
+      //   yoyo: true,
+      //   duration: 2,
+      //   repeat: -1,
+      //   ease: "power2",
+      // });
+    }, sceneRef);
+    return () => ctx.revert();
   }, []);
   // Interactions
   React.useLayoutEffect(() => {
+    gsap.to("#sun", {
+      duration: 0,
+      xPercent: 1400,
+    });
     gsap.to("#share", {
       opacity: 0,
     });
@@ -155,6 +160,7 @@ export default function SceneOne({ ref }) {
     // const angelwings = document.querySelector("#angel-wings");
 
     // const wings = document.querySelector("#wings");
+
     let potshover1 = gsap.to("#pot", 0.1, {
       x: "+=20",
       yoyo: true,
@@ -212,12 +218,33 @@ export default function SceneOne({ ref }) {
     }
   }, [speed]);
   React.useEffect(() => {
+    gsap.to("#angel", {
+      opacity: 0,
+    });
+    gsap.to("#angel-wings", {
+      opacity: 0,
+    });
+    gsap.to("#angel-wings1", {
+      opacity: 0,
+    });
     const pots = document.querySelector("#pot");
     const man = document.querySelector("#man-2");
     const man2 = document.querySelector("#man");
     const man3 = document.querySelector("#man-with-photo");
     const woman = document.querySelector("#woman-in-saree");
-
+    let cloudHover = gsap
+      .from("#clouds", {
+        keyframes: {
+          "0%": { xPercent: -80 },
+          "100%": {
+            xPercent: 84,
+          },
+        },
+        repeat: -1,
+        duration: 20,
+        ease: "power0",
+      })
+      .progress(0.5);
     woman.addEventListener("click", () => {
       gsap.to("#share", {
         opacity: 1,
@@ -347,7 +374,7 @@ export default function SceneOne({ ref }) {
       });
     });
     pots.addEventListener("mousedown", () => {
-      setSpeed(8);
+      setSpeed(4);
     });
     pots.addEventListener("mouseup", () => {
       setSpeed(1);
@@ -356,19 +383,8 @@ export default function SceneOne({ ref }) {
 
     greens.addEventListener("mousedown", () => {
       document.getElementById("Greens").style.animationDuration = "1s";
-      gsap.to("#clouds", {
-        keyframes: {
-          "0%": { xPercent: -85 },
-          // "50%": {
-          //   xPercent: 10,
-          // },
-          "100%": {
-            xPercent: 85,
-          },
-        },
-        repeat: -1,
-        duration: 4.5,
-      });
+      cloudHover.totalDuration(4.5);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -395,19 +411,8 @@ export default function SceneOne({ ref }) {
     greens.addEventListener("mouseup", () => {
       document.getElementById("Greens").style.animationDuration = "2.5s";
 
-      gsap.to("#clouds", {
-        keyframes: {
-          "0%": { xPercent: 0 },
-          "50%": {
-            xPercent: 100,
-          },
-          "100%": {
-            xPercent: 0,
-          },
-        },
-        repeat: -1,
-        duration: 30,
-      });
+      cloudHover.totalDuration(20);
+
       gsap.to("#whisp-lower1", {
         keyframes: {
           "0%": { xPercent: 0 },
@@ -449,7 +454,7 @@ export default function SceneOne({ ref }) {
 
   return (
     <MouseParallaxContainer
-    ref={sceneRef}
+      ref={sceneRef}
       className="parallax"
       containerStyle={{
         height: "100vh",
@@ -479,28 +484,15 @@ export default function SceneOne({ ref }) {
         >
           <ParticleBackground settings={settings} />
         </div>
-        <div
-          id="share"
-          style={{
-            position: "absolute",
-            top: "15%",
-            right: "-2%",
-            width: "100%",
-            height: "100%",
-            scaleX: "0.8",
-            pointerEvents: "none",
-          }}
-        >
-          <Lottie animationData={shareAni} lottieRef={lottieRef} />
-        </div>
+
         <div
           style={{
             position: "absolute",
-            top: "15%",
-            right: "-2%",
-            width: "100%",
-            height: "100%",
-            scaleX: "0.8",
+            top: "-10%",
+            right: "-20%",
+            // width: "100%",
+            // height: "100%",
+            // scaleX: "0.8",
             pointerEvents: "none",
           }}
         >
@@ -651,6 +643,20 @@ export default function SceneOne({ ref }) {
           />
         </>
       )}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "20%",
+          left: "12%",
+          width: "100%",
+          height: "100%",
+          scale: "0.4",
+          pointerEvents: "none",
+        }}
+        id={"share"}
+      >
+        <Lottie animationData={shareAni} loop={true} lottieRef={lottieRef} />
+      </div>
     </MouseParallaxContainer>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import ReactTypingEffect from "react-typing-effect";
-import Burnt from "../assets/burnt6.png";
+import Burnt from "../assets/burntpaper.png";
 
 // import AutoScroll from "@brianmcallister/react-auto-scroll";
 const captions = [
@@ -28,22 +28,22 @@ export default function Captions({ scene }) {
               ? "10%"
               : scene === 3
               ? "4%"
-              : scene === 4
-              ? "4%"
+              : scene === 4 || scene === 5
+              ? "0%"
               : "15%",
           right:
             scene === 2
               ? "54%"
               : scene === 3
               ? "69%"
-              : scene === 4
-              ? "-12px"
+              : scene === 4 || scene === 5
+              ? "-16px"
               : "20px",
           maxWidth: "36%",
           minWidth: "36%",
           // limit card height
-          minHeight: "40%",
-          maxHeight: "40%",
+          minHeight: "45%",
+          maxHeight: "45%",
           display: "flex",
           justifyContent: "center",
         }}
@@ -59,11 +59,19 @@ export default function Captions({ scene }) {
             position: "relative",
             background: "transparent",
             backgroundImage: `url(${Burnt})`,
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover",
             borderColor: "transparent",
             overflow: "hidden",
           }}
         >
-          <div style={{ padding: "12px",paddingTop:"24px", overflow: "hidden" }}>
+          <div
+            style={{
+              paddingLeft: "4px",
+              paddingRight: "4px",
+              overflow: "hidden",
+            }}
+          >
             {scene === 5 ? (
               captions[4]
             ) : (
