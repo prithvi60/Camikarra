@@ -24,6 +24,8 @@ import riverAni from "../assets/scene5/river.json";
 import outlineAni from "../assets/scene5/outlineman.json";
 import { KeyImages } from "./KeyImages";
 import Socials from "./Socials";
+import rainAni from "../assets/rain.json";
+
 const settings = {
   canvas: {
     canvasFillSpace: true,
@@ -70,7 +72,7 @@ export default function SceneOne({ ref }) {
     }, 8000);
   }, []);
   const lottieRef = useRef();
-
+  const rainRef = React.useRef();
   const outlineRef = useRef();
 
   useEffect(() => {
@@ -120,6 +122,16 @@ export default function SceneOne({ ref }) {
   //   }
   // }, [overlay]);
   React.useLayoutEffect(() => {
+    gsap.from("#rain", {
+      keyframes: {
+        "0%": { opacity: 1 },
+
+        "100%": {
+          opacity: 0,
+        },
+      },
+      duration: 10,
+    });
     let cloudHover = gsap
       .from("#cloud", {
         keyframes: {
@@ -783,7 +795,7 @@ export default function SceneOne({ ref }) {
                 bottom: "20%",
                 display: "flex",
                 justifyContent: "center",
-                width:"100%"
+                width: "100%",
               }}
             >
               <img
@@ -794,6 +806,27 @@ export default function SceneOne({ ref }) {
             </div>
           </>
         )}
+        <div
+          id={"rain"}
+          style={{
+            position: "absolute",
+            // bottom: "-28%",
+            top: "0%",
+            // left: "22%",
+            width: "100%",
+            height: "100%",
+            pointerEvents: "none",
+          }}
+        >
+          <Lottie
+            animationData={rainAni}
+            loop={true}
+            lottieRef={rainRef}
+            // onLoopComplete={() => {
+            //   manRef.current.setDirection(1);
+            // }}
+          />
+        </div>
       </MouseParallaxContainer>
       <CustomModal setIsOpen={setIsOpen} modalIsOpen={modalIsOpen} />
     </>

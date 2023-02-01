@@ -2,6 +2,7 @@ import React from "react";
 import Modal from "react-modal";
 import useSound from "use-sound";
 import click from "../assets/click.wav";
+
 const customStyles = {
   content: {
     top: "50%",
@@ -10,11 +11,14 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
-    background: "#dfcea2",
+    backgroundColor: "#f5e9ca",
+    // backgroundImage: `url(${RumBg})`,
+    backgroundSize: "cover",
+    // backgroundRepeat: "no-repeat",
+    borderColor: "transparent",
   },
 };
 
-// Make sure to bind modal to your appElement (https://reactcommunity.org/react-modal/accessibility/)
 Modal.setAppElement("#root");
 
 export function CustomModal({ setIsOpen, modalIsOpen }) {
@@ -38,6 +42,7 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
         style={customStyles}
         contentLabel="Example Modal"
       >
+        <div class="bg-image"></div>
         <div
           style={{
             display: "flex",
@@ -47,7 +52,16 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
             padding: "16px",
           }}
         >
-          <h4 style={{ textAlign: "center" }}>Contact Us:</h4>
+          <h4
+            style={{
+              textAlign: "center",
+              padding: 0,
+              margin: 0,
+              fontWeight: "bold",
+            }}
+          >
+            Contact Us:
+          </h4>
           <button
             onClick={() => {
               closeModal();
@@ -78,12 +92,20 @@ export function CustomModal({ setIsOpen, modalIsOpen }) {
             gap: "24px",
           }}
         >
-          <div style={{ textAlign: "center", color: "brown" }}>
+          <div style={{ textAlign: "center", color: "#5c543e" }}>
             Suzy Queue
             <br /> 4455 Landing Lange, APT 4<br />
             Louisville, KY 40018-1234
           </div>
-          <div>+91-12344556789</div>
+          <div
+            style={{
+              textAlign: "center",
+              color: "#5c543e",
+              fontWeight: "bold",
+            }}
+          >
+            +91-12344556789
+          </div>
         </div>
       </Modal>
     </div>

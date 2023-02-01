@@ -11,6 +11,7 @@ import { Link } from "react-router-dom";
 import Lottie from "lottie-react";
 import windowAni from "../assets/scene4/window.json";
 import mans4Ani from "../assets/scene4/mans4.json";
+import rainAni from "../assets/rain.json";
 
 import {
   MouseParallaxChild,
@@ -48,6 +49,8 @@ export default function SceneOne({ ref }) {
   const sceneRef = React.useRef();
 
   const seasonsRef = React.useRef();
+  const rainRef = React.useRef();
+
   const manRef = React.useRef();
   const [playmusic, { stop }] = useSound(music, {
     volume: 0.4,
@@ -199,7 +202,7 @@ export default function SceneOne({ ref }) {
       opacity: 0,
     });
     gsap.to("#grp6", {
-      opacity: 0, 
+      opacity: 0,
     });
     gsap.to("#grp7", {
       opacity: 0,
@@ -212,6 +215,17 @@ export default function SceneOne({ ref }) {
     });
     gsap.to("#grp10", {
       opacity: 0,
+    });
+    gsap.from("#rain", {
+      keyframes: {
+        "0%": { opacity: 1 },
+
+        "100%": {
+          opacity: 0,
+        },
+      },
+      delay: 4,
+      duration: 10,
     });
     const bottle1 = document.querySelector("#grp1");
     const bottle2 = document.querySelector("#grp2");
@@ -682,31 +696,7 @@ export default function SceneOne({ ref }) {
         >
           {on ? <BsSoundwave /> : <BsPlay />}
         </button>
-        {/* <button
-          className="btn btn-three next"
-          style={{ fontWeight: "bold", fontSize: "large", color: "white" }}
-          onClick={() => {
-            playClick();
-            // seasonsRef.current.play();
-            seasonsRef.current.goToAndPlay(200, false);
-            gsap.to("#owner", {
-              keyframes: {
-                "0%": {
-                  opacity: 0,
 
-                  duration: 0,
-                },
-
-                "100%": {
-                  opacity: 1,
-                  duration: 20,
-                },
-              },
-            });
-          }}
-        >
-          replay seasons
-        </button> */}
         <Socials />
         <Link to="/three">
           <button
@@ -742,15 +732,7 @@ export default function SceneOne({ ref }) {
         offset={5}
         effect="solid"
       />
-      {/* <ReactTooltip
-        isOpen={isOpen}
-        content="Click & hold"
-        anchorId="seasons1"
-        className="tooltip-container move-right"
-        place="top"
-        offset={5}
-        effect="solid"
-      /> */}
+
       {!isOpen && (
         <>
           <ReactTooltip
@@ -775,6 +757,28 @@ export default function SceneOne({ ref }) {
           />
         </>
       )}
+      <div
+        id={"rain"}
+        style={{
+          position: "absolute",
+          // bottom: "-28%",
+          top: "14%",
+          left: "22%",
+          width: "30%",
+          height: "30%",
+          pointerEvents: "none",
+          scale: "0.9",
+        }}
+      >
+        <Lottie
+          animationData={rainAni}
+          loop={true}
+          lottieRef={rainRef}
+          // onLoopComplete={() => {
+          //   manRef.current.setDirection(1);
+          // }}
+        />
+      </div>
     </MouseParallaxContainer>
   );
 }
