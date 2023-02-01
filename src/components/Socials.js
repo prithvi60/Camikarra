@@ -28,7 +28,7 @@ export default function Socials() {
           <FiInstagram />
         </a>
         <a
-          href="https://www.instagram.com/camikararum/"
+          href="https://mobile.twitter.com/CamikaraRum"
           target={"_blank"}
           rel="noreferrer"
           style={{
@@ -41,7 +41,7 @@ export default function Socials() {
           <FiTwitter />
         </a>
         <a
-          href="https://www.instagram.com/camikararum/"
+          href="https://www.facebook.com/profile.php?id=100088181454112"
           target={"_blank"}
           rel="noreferrer"
           style={{

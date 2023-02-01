@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react";
 import ImageViewer from "react-simple-image-viewer";
 import Product from "../assets/scene5/productdetail.png";
 import TastingNote from "../assets/scene5/tastingnote.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 export function KeyImages({image}) {
   const [currentImage, setCurrentImage] = useState(0);
   const [isViewerOpen, setIsViewerOpen] = useState(false);
@@ -19,7 +20,7 @@ export function KeyImages({image}) {
 
   return (
     <div>
-      <img
+      <LazyLoadImage
         src={images[image]}
         onClick={() => openImageViewer(image)}
         style={{

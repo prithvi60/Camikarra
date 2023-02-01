@@ -14,13 +14,24 @@ import {
   useOutlet,
 } from "react-router-dom";
 import { CSSTransition, SwitchTransition } from "react-transition-group";
-import SceneOne from "./components/SceneOne";
-import SceneTwo from "./components/SceneTwo";
-import SceneThree from "./components/SceneThree";
-import SceneFour from "./components/SceneFour";
-import SceneFive from "./components/SceneFive";
-import { useEffect } from "react";
-import KeyLanding from "./components/KeyLanding";
+import { useEffect, Suspense, lazy } from "react";
+
+const SceneOne = lazy(() => import("./components/SceneOne"));
+const SceneTwo = lazy(() => import("./components/SceneTwo"));
+
+const SceneThree = lazy(() => import("./components/SceneThree"));
+const SceneFour = lazy(() => import("./components/SceneFour"));
+
+const SceneFive = lazy(() => import("./components/SceneFive"));
+const KeyLanding = lazy(() => import("./components/KeyLanding"));
+
+// import SceneOne from "./components/SceneOne";
+// import SceneTwo from "./components/SceneTwo";
+// import SceneThree from "./components/SceneThree";
+// import SceneFour from "./components/SceneFour";
+// import SceneFive from "./components/SceneFive";
+
+// import KeyLanding from "./components/KeyLanding";
 const routes = [
   { path: "/", name: "Home", element: <KeyLanding />, nodeRef: createRef() },
   {
@@ -116,21 +127,23 @@ export default function App() {
   return (
     <>
       <div ref={root} className="app">
-        <SwitchTransition>
-          <CSSTransition
-            key={location.pathname}
-            nodeRef={nodeRef}
-            timeout={300}
-            classNames="page"
-            unmountOnExit
-          >
-            {(state) => (
-              <div ref={nodeRef} className="page">
-                {currentOutlet}
-              </div>
-            )}
-          </CSSTransition>
-        </SwitchTransition>
+        <Suspense fallback={<div>Loading...</div>}>
+          <SwitchTransition>
+            <CSSTransition
+              key={location.pathname}
+              nodeRef={nodeRef}
+              timeout={300}
+              classNames="page"
+              unmountOnExit
+            >
+              {(state) => (
+                <div ref={nodeRef} className="page">
+                  {currentOutlet}
+                </div>
+              )}
+            </CSSTransition>
+          </SwitchTransition>
+        </Suspense>
       </div>
       {/* eslint-disable-next-line */}
       {!isMobile && (

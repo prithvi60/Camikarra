@@ -10,6 +10,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
 import useSound from "use-sound";
 import music from "../assets/music.mp3";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 import click from "../assets/click.wav";
 import {
   MouseParallaxChild,
@@ -796,9 +797,10 @@ export default function SceneOne({ ref }) {
                 display: "flex",
                 justifyContent: "center",
                 width: "100%",
+                pointerEvents: "none",
               }}
             >
-              <img
+              <LazyLoadImage
                 src={BottleRum}
                 alt="logo"
                 style={{ width: "220px", height: "400px" }}

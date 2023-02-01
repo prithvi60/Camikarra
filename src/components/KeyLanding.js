@@ -154,6 +154,7 @@ export default function KeyLanding({ ref }) {
           justifyContent: "center",
           gap: "12%",
           alignItems: "center",
+          pointerEvents: "none",
         }}
       >
         <div
